@@ -1,0 +1,6 @@
+name = Divine Redirect
+description = Redirect users to localized site based on IP address
+package = Divine
+core = 7.x
+dependencies[] = geoip
+dependencies[] = locale

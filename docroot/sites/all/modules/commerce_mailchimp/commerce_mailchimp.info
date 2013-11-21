@@ -1,0 +1,16 @@
+name = Commerce MailChimp
+description = Implements MailChimp Ecommerce API for use with Drupal Commerce.
+package = Commerce (contrib)
+dependencies[] = commerce_product
+dependencies[] = commerce_order
+dependencies[] = mailchimp
+dependencies[] = addressfield_tokens
+configure = admin/commerce/config/mailchimp
+core = 7.x
+
+; Information added by drupal.org packaging script on 2013-03-15
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "commerce_mailchimp"
+datestamp = "1363308586"
+

@@ -1,0 +1,6 @@
+name = divine commerce
+description = divine commerce.
+core = 7.x
+package = divine
+dependencies[] = commerce
+dependencies[] = rules

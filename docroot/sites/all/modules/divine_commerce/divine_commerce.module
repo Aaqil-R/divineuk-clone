@@ -1,0 +1,51 @@
+<?php
+/**
+ * @file divine_commerce.module
+ * Developed for divine by guy_schneerson blue-bag ltd.
+ */
+
+
+/**
+ * Implements hook_commerce_checkout_pane_info().
+ */
+function divine_commerce_commerce_checkout_pane_info() {
+  $checkout_panes = array();
+
+
+  $checkout_panes['google_analytics_send_order_pane'] = array(
+      'title' => t('google analytics send order pane'),
+      'base' => 'divine_commerce_pane',
+      'page' => 'checkout',
+      'fieldset' => FALSE,
+      'weight' => 7,
+  );
+
+  return $checkout_panes;
+}
+
+
+
+function divine_commerce_pane_checkout_form($form, &$form_state, $checkout_pane, $order) {
+  $pane_form = array();
+
+  // Get th order number.
+  $or = entity_metadata_wrapper('commerce_order', $order);
+  $order_no = $or->order_id->value();
+
+  // If already called for this order number then dont do it again.
+  if (!empty($_SESSION['dc_pushed_order']) && $_SESSION['dc_pushed_order'] == $order_no) {
+    return $pane_form;
+  }
+
+ // Get the script.
+  $script = commerce_google_analytics_ecommerce_js($order);
+  $scope = variable_get('googleanalytics_js_scope', 'footer');
+  drupal_add_js($script, array(
+      'type' => 'inline',
+      'scope' => $scope, 'preprocess' => FALSE,
+      'weight' => 10));
+
+  $_SESSION['dc_pushed_order'] =  $order_no;
+
+  return $pane_form;
+}
