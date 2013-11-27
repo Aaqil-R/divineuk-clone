@@ -329,6 +329,10 @@ ini_set('session.cookie_lifetime', 2000000);
  */
 #$cookie_domain = 'divineukdev.devcloud.acquia-sites.com';
 
+if (isset($_ENV['AH_SITE_ENVIRONMENT']) && $_ENV['AH_SITE_ENVIRONMENT'] === 'prod') {
+$cookie_domain = '.thesmallaxe.com';
+}
+
 /**
  * Variable overrides:
  *
