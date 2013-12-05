@@ -269,7 +269,7 @@ $drupal_hash_salt = 'IBvCuwJJF8flbW9T4EF7mc9wRlDVvejn_pqWfowe63g';
  */
 # $base_url = 'http://www.example.com';  // NO trailing slash!
 if (isset($_ENV['AH_SITE_ENVIRONMENT']) && $_ENV['AH_SITE_ENVIRONMENT'] === 'prod') {
-$base_url = 'http://proxy.thesmallaxe.com/uk';
+GLOBAL $base_url = 'http://proxy.thesmallaxe.com/uk';
 }
 
 
