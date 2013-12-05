@@ -733,7 +733,7 @@ function drupal_settings_initialize() {
     // $_SERVER['SCRIPT_NAME'] can, in contrast to $_SERVER['PHP_SELF'], not
     // be modified by a visitor.
     if ($dir = rtrim(dirname($_SERVER['SCRIPT_NAME']), '\/')) {
-      $base_path = $dir;
+      $base_path = '/uk';
       $base_url .= $base_path;
       $base_path .= '/';
     }
