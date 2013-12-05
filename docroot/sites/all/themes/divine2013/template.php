@@ -341,6 +341,21 @@ if (module_exists('path')) {
 // Rewrite the Form #action 
 
 function divine2013_form_builder($form_id, &$element, &$form_state) {
+    // Initialize as unprocessed.
+  $element['#processed'] = FALSE;
+
+  // Use element defaults.
+  if (isset($element['#type']) && empty($element['#defaults_loaded']) && ($info = element_info($element['#type']))) {
+    // Overlay $info onto $element, retaining preexisting keys in $element.
+    $element += $info;
+    $element['#defaults_loaded'] = TRUE;
+  }
+  // Assign basic defaults common for all form elements.
+  $element += array(
+    '#required' => FALSE,
+    '#attributes' => array(),
+    '#title_display' => 'before',
+  );
   
   // Special handling if we're on the top level form element.
   if (isset($element['#type']) && $element['#type'] == 'form') {
@@ -350,6 +365,6 @@ function divine2013_form_builder($form_id, &$element, &$form_state) {
 
       // Not an external URL so ensure that it is secure.
       $element['#action'] = str_replace('http://', 'https://', $base_root, 'uk/') . $element['#action'];
-    }
-}
+		}
+	}
 }
