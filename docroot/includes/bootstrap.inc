@@ -738,7 +738,7 @@ function drupal_settings_initialize() {
       $base_path .= '/';
     }
     else {
-      $base_path = '/uk/';
+      $base_path = '/';
     }
   }
   $base_secure_url = str_replace('http://', 'https://', $base_url);
