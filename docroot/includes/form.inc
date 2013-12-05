@@ -1765,7 +1765,7 @@ function form_builder($form_id, &$element, &$form_state) {
       global $base_root;
 
       // Not an external URL so ensure that it is secure.
-      $element['#action'] = str_replace('http://', 'https://', $base_root) . '/uk' . $element['#action'];
+      $element['#action'] = str_replace('http://', 'https://', $base_root) . $element['#action'];
     }
 
     // Store a reference to the complete form in $form_state prior to building
