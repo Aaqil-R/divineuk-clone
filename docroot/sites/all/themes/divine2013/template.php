@@ -336,3 +336,20 @@ if (module_exists('path')) {
     }
   }
 }
+
+
+// Rewrite the Form #action 
+
+function divine2013_form_builder($form_id, &$element, &$form_state) {
+  
+  // Special handling if we're on the top level form element.
+  if (isset($element['#type']) && $element['#type'] == 'form') {
+    if (!empty($element['#https']) && variable_get('https', FALSE) &&
+        !url_is_external($element['#action'])) {
+      global $base_root;
+
+      // Not an external URL so ensure that it is secure.
+      $element['#action'] = str_replace('http://', 'https://', $base_root, 'uk/') . $element['#action'];
+    }
+}
+}
