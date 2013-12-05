@@ -719,7 +719,7 @@ function drupal_settings_initialize() {
     if (!isset($parts['path'])) {
       $parts['path'] = '';
     }
-    $base_path = $parts['path'] . '/';
+    $base_path = $parts['path'] . '/uk/';
     // Build $base_root (everything until first slash after "scheme://").
     $base_root = substr($base_url, 0, strlen($base_url) - strlen($parts['path']));
   }
