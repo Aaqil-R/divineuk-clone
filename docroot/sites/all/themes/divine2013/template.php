@@ -336,7 +336,3 @@ if (module_exists('path')) {
     }
   }
 }
-
-	function divine2013_form_alter (&$form, &$form_state, $form_id) {
- $form['#action'] []= 'uk';
-  }
