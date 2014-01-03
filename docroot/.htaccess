@@ -100,7 +100,7 @@ DirectoryIndex index.php index.html index.htm
   # VirtualDocumentRoot and the rewrite rules are not working properly.
   # For example if your site is at http://example.com/drupal uncomment and
   # modify the following line:
-  # RewriteBase /uk
+  #RewriteBase /us
   
   # Some custom redirects to do with the blog
   #RewriteRule ^snippet/20[0-9]{2}-[a-z]{3}-[0-9]{2}/(.*)$ snippets/$1 [L,R=301]
