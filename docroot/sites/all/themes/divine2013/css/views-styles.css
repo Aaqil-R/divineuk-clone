@@ -62,12 +62,3 @@
   -o-border-radius: 0 0 7px 7px;
   border-radius: 0 0 7px 7px;
 }
-
-/* line 48, ../sass/views-styles.scss */
-#google-store-locator-map-container .feature-filter label {
-  font-weight: normal;
-}
-/* line 50, ../sass/views-styles.scss */
-#google-store-locator-map-container .feature-filter label input {
-  padding-right: 0.4em;
-}

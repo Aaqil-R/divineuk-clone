@@ -356,7 +356,7 @@
 /*
  * Recipe taxonomy list styles
  */
-.page-taxonomy-term.section-recipes, .section-recipes.recipes-feed-layout {
+.page-taxonomy-term.section-recipes {
   .views-field-field-recipe-image {
     line-height: 0;
     a {display: block;}
@@ -617,8 +617,9 @@
   
 }
 
-.blog-feed-layout, .section-good-stuff.page-views {
+.section-good-stuff.page-views {
   @extend .page-node-348;
+  
 }
 
 
@@ -826,74 +827,50 @@
 }
 
 /*
- * Offer tagging
- */
-
-.views-field-field-offers, .field-offers, .views-field-field-shipping-offer, .views-field-field-out-of-stock, .field-out-of-stock, .views-field-field-new-addition {
-  
-  position: relative;
-  top: -12.85em;
-  margin-bottom: -10em;
-  height: 10em;
-  text-indent: -200%;
-  overflow: hidden;
-  margin-right: -0.8em;
-  div, a {
-    width: 100%;
-    height: 100%;
-    display: block;
-    background-repeat: no-repeat;
-    background-position: top left;
-  }
-  .product-offer-13 {
-    background-image: url('../images/symbols/shop/10-per-cent-off.png');
-  }
-  .product-offer-15 {
-    background-image: url('../images/symbols/shop/new.png');
-    background-position: right top;
-    background-size: 6em;
-  }
-  .product-offer-17 {
-    background-image: url('../images/symbols/shop/bogof.png');
-  }
-  .product-offer-16 {
-    background-image: url('../images/symbols/shop/free-delivery.png');
-  }
-  .product-offer-18 {
-    background-image: url('../images/symbols/shop/divine-loves.png');
-  }
-  .product-offer-19 {
-    background-image: url('../images/symbols/shop/bestseller.png');
-  }
-  .product-offer-20 {
-    background-image: url('../images/symbols/shop/sold-out.png');
-  }
-  .product-offer-21 {
-    background-image: url('../images/symbols/shop/seasonal.png');
-  }
-  .product-offer-26 {
-    background-image: url('../images/symbols/shop/30-percent-off.png');
-  }
-  
-  .product-offer {background-size: contain;}
-}
-
-/*
- * Exclude seasonal sash repetition by hiding from seasonal category pages (set in context)
- */
-.seasonal-category .views-field-field-out-of-stock {
-  
-  .product-offer-21 {
-    background-image: none;
-  }
-}
-
-/*
  * Product lists
  */
 .section-checkout,
 .section-cart,
 .section-shop {
+  .views-field-field-offers, .field-offers, .views-field-field-shipping-offer, .views-field-field-out-of-stock, .field-out-of-stock, .views-field-field-new-addition {
+    
+    position: relative;
+    top: -12.85em;
+    margin-bottom: -10em;
+    height: 10em;
+    text-indent: -200%;
+    overflow: hidden;
+    margin-right: -0.8em;
+    div, a {
+      width: 100%;
+      height: 100%;
+      display: block;
+      background-repeat: no-repeat;
+      background-position: top left;
+    }
+    .product-offer-13 {
+      background-image: url('../images/symbols/shop/10-per-cent-off.png');
+    }
+    .product-offer-15 {
+      background-image: url('../images/symbols/shop/new.png');
+    }
+    .product-offer-17 {
+      background-image: url('../images/symbols/shop/bogof.png');
+    }
+    .product-offer-16 {
+     // background-image: url('../images/symbols/shop/free-delivery.png');
+    }
+    .product-offer-18 {
+      background-image: url('../images/symbols/shop/divine-loves.png');
+    }
+    
+    .product-offer-19 {
+      background-image: url('../images/symbols/shop/bestseller.png');
+    }
+    .product-offer-20 {
+      background-image: url('../images/symbols/shop/sold-out.png');
+    }
+  }
   
   
   .view-product-catalog, .product-list {
@@ -930,7 +907,7 @@
           }
           
           .views-field-add-to-cart-form {
-            &.Out-of-stock, &.Out-of-season {padding-top: 2.2em;}  
+            &.Out-of-stock, &.Out-of-season {padding-top: 3.2em;}  
           }
           .form-item-quantity {
             @include adjust-font-size-to(1 * $base-font-size);
@@ -987,7 +964,6 @@
     font-family: $avenir-bold;
     color: $brown;
     @include adjust-font-size-to(1.45 * $base-font-size);line-height: 1em;
-    margin-bottom: 0.25em;
   }
   .field-name-field-description p {margin: 0;} 
   .views-field-field-offers, .field-out-of-stock, .field-offers, .views-field-field-shipping-offer, .views-field-field-new-addition {
@@ -1092,23 +1068,6 @@
       @include span-columns(3,6);
       & .views-row-even {@include omega;}
       border-bottom: none;
-      .views-field-field-offers, .views-field-field-shipping-offer, .views-field-field-out-of-stock, .views-field-field-new-addition {
-        top: -7.9em;
-        margin-bottom: 0;
-        height: 4.5em;
-        margin-left: -0.5em;
-      }
-      &.highlight {
-        .views-field-field-offers, .views-field-field-shipping-offer, .views-field-field-out-of-stock, .views-field-field-new-addition {
-          top: -10.35em;
-          margin-bottom: -6em;
-          height: 6em;
-          margin-left: 0.5em;
-        }
-      }
-      
-      
-      
     }
   }  
   @include breakpoint(desktop) {
@@ -1185,17 +1144,10 @@
   .field-name-field-standfirst img {
     border-bottom: 1px dashed $gold;
   }
-  #block-views-sidebar-blocks-block-4 {
-      .views-row {
-        @include span-columns(5,10);
-      }
-      .views-row-even {@include omega;}
-  }
   @include breakpoint(tablet) {
     #block-views-sidebar-blocks-block-4 {
       .views-row {
         @include span-columns(2,8);
-        @include remove-omega;
       }
       .views-row-last {@include omega;}
     }
@@ -1218,7 +1170,7 @@
       padding-top: 1em;
       &.views-row-first{border-top: none;}
       .views-field-field-image {
-        @include span-columns(1,8);  
+        @include span-columns(1,8); 
       }
       .line-item-detail {
         @include span-columns(5,8);
@@ -1423,11 +1375,3 @@
     }
   }
 }
-
-/*
- * Free Gift Cart hack - hide quantity widget
- */
-.FREE-GIFT-40g-Caramel-Milk-Chocolate {
-    display:none;
-  }
-

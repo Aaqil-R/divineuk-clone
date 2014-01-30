@@ -81,7 +81,8 @@ body {
 
 //front page banner
 .front {
-  #block-block-40 {
+  
+  #block-block-14 {
     display: none;
   }
   @include breakpoint(tablet) {
@@ -99,19 +100,19 @@ body {
   }
   @include breakpoint(desktop) {
     #header {
-      background-image: url('../images/homepage-banner/C3a_Christmas2013Web_UK.jpg');
+      background-image: url('../images/homepage-banner/love-chocolate.jpg');
       background-repeat: no-repeat;
-      background-position: top 131px;
-      background-size: 100%;
-      min-height: 457px;
-      #block-block-40 {
+      background-position: center 109px;
+      min-height: 400px;
+      #block-block-14 {
         display: block;
         width:515px;
         height: 115px;
         position: absolute;
         top: 175px;
         margin-left: -348px;
-                
+        background: transparent;
+        p {display: block; height: 100%;}
         a {
           text-indent: 100%;
           overflow: hidden;
@@ -122,14 +123,11 @@ body {
       }
       #swoosh, .region-nav {
         position: relative;
-        top: 296px;
+        top: 239px;
       }
     }
   }
   
-  @include breakpoint(desktop-wide) {
-    //#header {background-size: auto;}
-  }
 }
 
 
@@ -137,6 +135,7 @@ body {
   @include span-columns(3 omega,5);
   margin-top: 0.5em; 
   .block {
+    background: $black;
     height: 1.6em;
     margin: 0.5em 0 0 0.5em;
     clear: both;
@@ -359,11 +358,5 @@ span.field-label { /* The inline field label used by the Fences module */
 
 
 /*
- * Store locator
+ * Page bottom
  */
-
-.page-store-finder {
-  .feature-filter {
-     display:none;
-   }
-} 

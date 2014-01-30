@@ -153,7 +153,8 @@
   }
   
 }
-.front #logo h1 {background: none;}
+
+.front #logo h1 {}
 .js {
   #block-search-form, 
   #block-block-9,
@@ -202,7 +203,6 @@
   @include border-radius(4px);
   border: 1px $gold-on-black solid;
   color: $gold-on-black;
-  background: $black;
   margin-bottom: 0.5em;
   form {margin-top: 0;}
   p {
@@ -278,7 +278,6 @@
   @include border-radius(4px);
   border: 1px $gold-on-black solid;
   color: $gold-on-black;
-  background: $black;
   text-align: center;
   cursor: pointer;
   &:hover {
@@ -322,9 +321,6 @@
   top: 6.3em;
 }
 #block-commerce-cart-cart {
-  .block-title {
-    visibility: hidden;
-  }
   top: 4.8em;
   padding: 0;
   max-width: 22em;
@@ -594,14 +590,7 @@
   }
 }
 
-.region-content-bottom .view-sidebar-blocks {
-  .views-row {
-    @include span-columns (2,8);
-    &.views-row-last {
-      @include omega;
-    }
-  }
-}
+
 
 .view-author-block {
   //quotes

@@ -94,22 +94,22 @@ body {
   margin-bottom: -1px;
 }
 
-/* line 84, ../sass/pages.scss */
-.front #block-block-40 {
+/* line 85, ../sass/pages.scss */
+.front #block-block-14 {
   display: none;
 }
 @media (min-width: 32em) {
-  /* line 89, ../sass/pages.scss */
+  /* line 90, ../sass/pages.scss */
   .front.sidebar-first #content {
     width: 59.18367%;
     float: left;
     margin-right: 2.04082%;
   }
-  /* line 92, ../sass/pages.scss */
+  /* line 93, ../sass/pages.scss */
   .front.sidebar-first #content #block-views-frontpage-shop-window-block img {
     border-bottom: 1px dashed #b39f69;
   }
-  /* line 95, ../sass/pages.scss */
+  /* line 96, ../sass/pages.scss */
   .front.sidebar-first .sidebars {
     width: 38.77551%;
     float: right;
@@ -117,39 +117,44 @@ body {
   }
 }
 @media (min-width: 49em) {
-  /* line 101, ../sass/pages.scss */
+  /* line 102, ../sass/pages.scss */
   .front #header {
-    background-image: url("../images/homepage-banner/C3a_Christmas2013Web_UK.jpg");
+    background-image: url("../images/homepage-banner/love-chocolate.jpg");
     background-repeat: no-repeat;
-    background-position: top 131px;
-    background-size: 100%;
-    min-height: 457px;
+    background-position: center 109px;
+    min-height: 400px;
   }
   /* line 107, ../sass/pages.scss */
-  .front #header #block-block-40 {
+  .front #header #block-block-14 {
     display: block;
     width: 515px;
     height: 115px;
     position: absolute;
     top: 175px;
     margin-left: -348px;
+    background: transparent;
   }
   /* line 115, ../sass/pages.scss */
-  .front #header #block-block-40 a {
+  .front #header #block-block-14 p {
+    display: block;
+    height: 100%;
+  }
+  /* line 116, ../sass/pages.scss */
+  .front #header #block-block-14 a {
     text-indent: 100%;
     overflow: hidden;
     white-space: nowrap;
     display: block;
     height: 100%;
   }
-  /* line 123, ../sass/pages.scss */
+  /* line 124, ../sass/pages.scss */
   .front #header #swoosh, .front #header .region-nav {
     position: relative;
-    top: 296px;
+    top: 239px;
   }
 }
 
-/* line 136, ../sass/pages.scss */
+/* line 134, ../sass/pages.scss */
 .region-header {
   /* Wrapper for any blocks placed in the header region */
   width: 58.33333%;
@@ -157,8 +162,9 @@ body {
   margin-right: 0;
   margin-top: 0.5em;
 }
-/* line 139, ../sass/pages.scss */
+/* line 137, ../sass/pages.scss */
 .region-header .block {
+  background: black;
   height: 1.6em;
   margin: 0.5em 0 0 0.5em;
   clear: both;
@@ -169,14 +175,14 @@ body {
   line-height: 1.66667em;
 }
 @media (min-width: 32em) {
-  /* line 136, ../sass/pages.scss */
+  /* line 134, ../sass/pages.scss */
   .region-header {
     width: 59.18367%;
     float: right;
     margin-right: 0;
     margin-top: 1em;
   }
-  /* line 152, ../sass/pages.scss */
+  /* line 151, ../sass/pages.scss */
   .region-header .block {
     clear: none;
     width: 8em;
@@ -192,7 +198,7 @@ body {
 /*
  * Main (container for everything else)
  */
-/* line 170, ../sass/pages.scss */
+/* line 169, ../sass/pages.scss */
 #main {
   background: white;
 }
@@ -200,16 +206,16 @@ body {
 /*
  * Content
  */
-/* line 182, ../sass/pages.scss */
+/* line 181, ../sass/pages.scss */
 .breadcrumb {
   /* The path to the current page in the form of a list of links */
 }
-/* line 183, ../sass/pages.scss */
+/* line 182, ../sass/pages.scss */
 .breadcrumb ol {
   margin: 0;
   padding: 0;
 }
-/* line 187, ../sass/pages.scss */
+/* line 186, ../sass/pages.scss */
 .breadcrumb li {
   display: inline;
   list-style-type: none;
@@ -217,14 +223,14 @@ body {
   padding: 0;
 }
 
-/* line 196, ../sass/pages.scss */
+/* line 195, ../sass/pages.scss */
 .view-recipes a:hover img, .view-sidebar-blocks a:hover img {
   -webkit-box-shadow: 0px 0px 5px #58595b;
   -moz-box-shadow: 0px 0px 5px #58595b;
   box-shadow: 0px 0px 5px #58595b;
 }
 
-/* line 210, ../sass/pages.scss */
+/* line 209, ../sass/pages.scss */
 h1.title,
 h2.node-title,
 h2.block-title,
@@ -235,37 +241,37 @@ h3.title {
   margin: 0;
 }
 
-/* line 214, ../sass/pages.scss */
+/* line 213, ../sass/pages.scss */
 tr.even {
   /* Some tables have rows marked even or odd. */
   /* background-color: #eee; */
   /* Drupal core uses a #eee background */
 }
 
-/* line 218, ../sass/pages.scss */
+/* line 217, ../sass/pages.scss */
 tr.odd {
   /* background-color: #eee; */
   /* Drupal core uses a #eee background */
 }
 
-/* line 222, ../sass/pages.scss */
+/* line 221, ../sass/pages.scss */
 div.messages {
   /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */
   margin: 0;
   /* Drupal core uses "6px 0" margin */
 }
-/* line 225, ../sass/pages.scss */
+/* line 224, ../sass/pages.scss */
 div.messages ul {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-/* line 231, ../sass/pages.scss */
+/* line 230, ../sass/pages.scss */
 div.status {
   /* Normal priority messages */
 }
 
-/* line 235, ../sass/pages.scss */
+/* line 234, ../sass/pages.scss */
 div.warning,
 tr.warning {
   /* Medium priority messages */
@@ -273,53 +279,53 @@ tr.warning {
   /* Drupal core uses: 1px solid #f0c020 */
 }
 
-/* line 240, ../sass/pages.scss */
+/* line 239, ../sass/pages.scss */
 div.error,
 tr.error {
   /* High priority messages. See also the .error declaration below. */
 }
 
-/* line 243, ../sass/pages.scss */
+/* line 242, ../sass/pages.scss */
 .error {
   /* Errors that are separate from div.messages status messages. */
   /* color: #e55; */
   /* Drupal core uses a #e55 background */
 }
 
-/* line 247, ../sass/pages.scss */
+/* line 246, ../sass/pages.scss */
 .warning {
   /* Warnings that are separate from div.messages status messages. */
   /* color: #e09010; */
   /* Drupal core uses a #e09010 background */
 }
 
-/* line 251, ../sass/pages.scss */
+/* line 250, ../sass/pages.scss */
 .tabs {
   /* See also the tabs.css file. */
 }
 
-/* line 254, ../sass/pages.scss */
+/* line 253, ../sass/pages.scss */
 .region-help {
   /* Help text on a page */
 }
 
-/* line 257, ../sass/pages.scss */
+/* line 256, ../sass/pages.scss */
 .more-help-link {
   /* Link to more help */
 }
 
-/* line 260, ../sass/pages.scss */
+/* line 259, ../sass/pages.scss */
 #content {
   /* Wrapper for the actual page content */
 }
 
-/* line 264, ../sass/pages.scss */
+/* line 263, ../sass/pages.scss */
 ul.inline {
   /* List of links generated by theme_links() */
   display: inline;
   padding: 0;
 }
-/* line 268, ../sass/pages.scss */
+/* line 267, ../sass/pages.scss */
 ul.inline li {
   display: inline;
   list-style-type: none;
@@ -327,30 +333,30 @@ ul.inline li {
   /* LTR */
 }
 
-/* line 274, ../sass/pages.scss */
+/* line 273, ../sass/pages.scss */
 span.field-label {
   /* The inline field label used by the Fences module */
   padding: 0 1em 0 0;
   /* LTR */
 }
 
-/* line 278, ../sass/pages.scss */
+/* line 277, ../sass/pages.scss */
 .item-list .pager {
   /* A list of page numbers when more than 1 page of content is available */
   padding: 0;
 }
-/* line 281, ../sass/pages.scss */
+/* line 280, ../sass/pages.scss */
 .item-list .pager li {
   /* Each page number in the pager list */
   padding: 0 0.5em;
 }
 
-/* line 286, ../sass/pages.scss */
+/* line 285, ../sass/pages.scss */
 .feed-icon {
   /* The link to the RSS or Atom feed for the current list of content */
 }
 
-/* line 289, ../sass/pages.scss */
+/* line 288, ../sass/pages.scss */
 .more-link {
   /* Aggregator, blog, and forum more link */
 }
@@ -361,7 +367,7 @@ span.field-label {
  * Remember to NOT add padding or margin to your .region-sidebar-first
  * (see the layout.css file.)
  */
-/* line 298, ../sass/pages.scss */
+/* line 297, ../sass/pages.scss */
 .sidebars {
   width: 100%;
   float: right;
@@ -369,14 +375,14 @@ span.field-label {
 }
 
 @media (min-width: 32em) {
-  /* line 302, ../sass/pages.scss */
+  /* line 301, ../sass/pages.scss */
   .sidebar-first #content {
     width: 69.38776%;
     float: left;
     margin-right: 2.04082%;
   }
 
-  /* line 307, ../sass/pages.scss */
+  /* line 306, ../sass/pages.scss */
   .sidebars {
     width: 28.57143%;
     float: right;
@@ -384,27 +390,27 @@ span.field-label {
   }
 }
 @media (min-width: 49em) {
-  /* line 314, ../sass/pages.scss */
+  /* line 313, ../sass/pages.scss */
   .sidebar-first #content {
     width: 79.59184%;
     float: left;
     margin-right: 2.04082%;
   }
 
-  /* line 319, ../sass/pages.scss */
+  /* line 318, ../sass/pages.scss */
   .sidebars {
     width: 18.36735%;
     float: right;
     margin-right: 0;
   }
 
-  /* line 323, ../sass/pages.scss */
+  /* line 322, ../sass/pages.scss */
   .adinkra-sidebar .sidebars {
     background: url("../images/symbols/adinkra-large.png") no-repeat;
     padding-bottom: 220px;
     background-position: left bottom;
   }
-  /* line 328, ../sass/pages.scss */
+  /* line 327, ../sass/pages.scss */
   .adinkra-sidebar.good-stuff .sidebars {
     background-position: -200px bottom;
   }
@@ -412,13 +418,13 @@ span.field-label {
 /*
  * Footer
  */
-/* line 339, ../sass/pages.scss */
+/* line 338, ../sass/pages.scss */
 #footer {
   background: url("../images/wrapper/swoosh-bottom.png") black no-repeat top right;
   padding-top: 6em;
 }
 @media (min-width: 32em) {
-  /* line 339, ../sass/pages.scss */
+  /* line 338, ../sass/pages.scss */
   #footer {
     background-position-x: center;
   }
@@ -427,14 +433,14 @@ span.field-label {
 /*
  * Page bottom
  */
-/* line 352, ../sass/pages.scss */
+/* line 351, ../sass/pages.scss */
 .region-content-bottom {
   /* Wrapper for any blocks placed in the content bottom region */
   clear: both;
   padding: 2em 0;
 }
 @media (min-width: 32em) {
-  /* line 352, ../sass/pages.scss */
+  /* line 351, ../sass/pages.scss */
   .region-content-bottom {
     width: 79.59184%;
     float: left;
@@ -443,9 +449,5 @@ span.field-label {
 }
 
 /*
- * Store locator
+ * Page bottom
  */
-/* line 366, ../sass/pages.scss */
-.page-store-finder .feature-filter {
-  display: none;
-}
