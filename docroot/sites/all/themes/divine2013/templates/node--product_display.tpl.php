@@ -108,12 +108,12 @@
 <div class="product-display-image">
     <div class="field-offers">
        
-		<?php if(!empty($content['product:field_offers'])){ ?>
+		<?php if(!empty($content['product:field_offers']['#items'])){ ?>
             <div class="product-offer-<?php print render($content['product:field_offers']['#items'][0]['tid']); ?>"></div>
-        <?php } elseif(!empty($content['product:field_new_addition'])) { ?>
-            <div class="product-offer1-<?php print render($content['product:field_new_addition']['#items'][0]['tid']); ?>"></div> 
-        <?php } elseif(!empty($content['product:field_shipping_offer'])) { ?>
-            <div class="product-offer2-<?php print render($content['product:field_shipping_offer']['#items'][0]['tid']); ?>"></div> 
+        <?php } elseif(!empty($content['product:field_new_addition']['#items'])) { ?>
+            <div class="product-offer-<?php print render($content['product:field_new_addition']['#items'][0]['tid']); ?>"></div> 
+        <?php } elseif(!empty($content['product:field_shipping_offer']['#items'])) { ?>
+            <div class="product-offer-<?php print render($content['product:field_shipping_offer']['#items'][0]['tid']); ?>"></div> 
 	    <?php } ?>  
  
     </div>
