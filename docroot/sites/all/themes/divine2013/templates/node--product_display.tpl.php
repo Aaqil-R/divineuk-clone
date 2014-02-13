@@ -110,9 +110,9 @@
        
 	 <?php if (!empty($content['product:field_offers'])): ?>
             <div class="product-offer-<?php print render($content['product:field_offers']['#items'][0]['tid']); ?>"></div>
-        <?php elseif (!empty($content['product:field_new_addition'])): ?>
+        <?php else (!empty($content['product:field_new_addition'])): ?>
             <div class="product-offer-<?php print render($content['product:field_new_addition']['#items'][0]['tid']); ?>"></div> 
-        <?php elseif (!empty($content['product:field_shipping_offer'])): ?>
+        <?php else (!empty($content['product:field_shipping_offer'])): ?>
             <div class="product-offer-<?php print render($content['product:field_shipping_offer']['#items'][0]['tid']); ?>"></div> 
         <?php endif; ?>  
  
