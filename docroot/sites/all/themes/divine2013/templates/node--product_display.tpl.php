@@ -114,6 +114,8 @@
             <div class="product-offer-<?php print render($content['product:field_new_addition']['#items'][0]['tid']); ?>"></div> 
         <?php elseif(!empty($content['product:field_shipping_offer'])): ?>
             <div class="product-offer-<?php print render($content['product:field_shipping_offer']['#items'][0]['tid']); ?>"></div> 
+			<?php else: ?>
+			<div class="product-offer-no-offer"></div>
         <?php endif; ?>  
  
     </div>
