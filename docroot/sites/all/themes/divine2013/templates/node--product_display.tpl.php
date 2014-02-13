@@ -107,11 +107,13 @@
   <?php endif; ?>
 <div class="product-display-image">
     <div class="field-offers">
-        
-        <?php if ($content['product:field_shipping_offer']): ?>
-            <div class="product-offer-<?php print render($content['product:field_shipping_offer']['#items'][0]['tid']); ?>"></div> 
+        <?php if ($content['product:field_offers']): ?>
+            <div class="product-offer-<?php print render($content['product:field_offers']['#items'][0]['tid']); ?>"><?php print render($content['product:field_offers'][0]['#markup']); ?></div>
+        <?php elseif ($content['product:field_new_addition']): ?>
+            <div class="product-offer-<?php print render($content['product:field_new_addition']['#items'][0]['tid']); ?>"><?php print render($content['product:field_new_addition'][0]['#markup']); ?></div> 
+        <?php elseif ($content['product:field_shipping_offer']): ?>
+            <div class="product-offer-<?php print render($content['product:field_shipping_offer']['#items'][0]['tid']); ?>"><?php print render($content['product:field_shipping_offer'][0]['#markup']); ?></div> 
         <?php endif; ?>
-	
     </div>
 
     <div class="field-out-of-stock">
