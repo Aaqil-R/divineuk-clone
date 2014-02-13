@@ -108,8 +108,8 @@
 <div class="product-display-image">
     <div class="field-offers">
        
-        <?php if ($content['product:field_offers']): ?>
-            <div class="product-offer-<?php print render($content['product:field_offers']['#items'][0]['tid']); ?>"></div>
+        <?php if ($content['product:field_new_addition']): ?>
+            <div class="product-offer-<?php print render($content['product:field_new_addition']['#items'][0]['tid']); ?>"></div> 
 			<?php endif; ?>
     </div>
 
