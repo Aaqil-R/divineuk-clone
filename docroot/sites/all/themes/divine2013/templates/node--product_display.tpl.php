@@ -109,11 +109,11 @@
     <div class="field-offers">
        
 	 <?php if(!empty($content['product:field_offers'])): ?>
-            <div class="product-offer-<?php print render($content['product:field_offers']['#items'][0]['tid']); ?>"></div>
+            <?php print render($content['product:field_offers']['#items'][0]['tid']); ?>
         <?php elseif(!empty($content['product:field_new_addition'])): ?>
-            <div class="product-offer-<?php print render($content['product:field_new_addition']['#items'][0]['tid']); ?>"></div> 
+            <?php print render($content['product:field_new_addition']['#items'][0]['tid']); ?>
         <?php elseif(!empty($content['product:field_shipping_offer'])): ?>
-            <div class="product-offer-<?php print render($content['product:field_shipping_offer']['#items'][0]['tid']); ?>"></div> 
+            <?php print render($content['product:field_shipping_offer']['#items'][0]['tid']); ?>
 			<?php else: ?>
 			<div class="product-offer-no-offer"></div>
         <?php endif; ?>  
