@@ -119,7 +119,7 @@
     </div>
 
     <div class="field-out-of-stock">
-        <?php if ($content['product:field_out_of_stock']): ?>
+        <?php if ($content['product:field_out_of_stock']['#items']): ?>
             <div class="product-offer-<?php print render($content['product:field_out_of_stock']['#items'][0]['tid']); ?>"><?php print render($content['product:field_out_of_stock'][0]['#markup']); ?></div>   
         <?php endif; ?>
     </div>
