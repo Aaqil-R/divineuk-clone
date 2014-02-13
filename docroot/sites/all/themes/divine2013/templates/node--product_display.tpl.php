@@ -111,6 +111,9 @@
         <?php if ($content['product:field_shipping_offer']): ?>
             <div class="product-offer-free-shipping"></div> 
         <?php endif; ?>
+		<?php
+    print render($content['product:field_shipping_offer']);
+  ?>
     </div>
 
     <div class="field-out-of-stock">
