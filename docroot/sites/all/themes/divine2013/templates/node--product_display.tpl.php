@@ -112,7 +112,7 @@
             <div class="product-offer-free-shipping"></div> 
         <?php endif; ?>
 		<?php
-    print render($content['product:field_shipping_offer']);
+    print render($content['product:field_shipping_offer']['#items'][0]['tid']);
   ?>
     </div>
 
