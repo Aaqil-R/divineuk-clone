@@ -1368,6 +1368,22 @@
 .section-shop .views-field-field-new-addition .product-offer-17 {
   background-image: url("../images/symbols/shop/bogof.png");
 }
+/* line 860, ../sass/nodes.scss */
+.section-checkout .views-field-field-offers .product-offer-16, .section-checkout .field-offers .product-offer-16, .section-checkout .views-field-field-shipping-offer .product-offer-16, .section-checkout .views-field-field-out-of-stock .product-offer-16, .section-checkout .field-out-of-stock .product-offer-16, .section-checkout .views-field-field-new-addition .product-offer-16,
+.section-cart .views-field-field-offers .product-offer-16,
+.section-cart .field-offers .product-offer-16,
+.section-cart .views-field-field-shipping-offer .product-offer-16,
+.section-cart .views-field-field-out-of-stock .product-offer-16,
+.section-cart .field-out-of-stock .product-offer-16,
+.section-cart .views-field-field-new-addition .product-offer-16,
+.section-shop .views-field-field-offers .product-offer-16,
+.section-shop .field-offers .product-offer-16,
+.section-shop .views-field-field-shipping-offer .product-offer-16,
+.section-shop .views-field-field-out-of-stock .product-offer-16,
+.section-shop .field-out-of-stock .product-offer-16,
+.section-shop .views-field-field-new-addition .product-offer-16 {
+  background-image: url("../images/symbols/shop/free-delivery.png");
+}
 /* line 863, ../sass/nodes.scss */
 .section-checkout .views-field-field-offers .product-offer-18, .section-checkout .field-offers .product-offer-18, .section-checkout .views-field-field-shipping-offer .product-offer-18, .section-checkout .views-field-field-out-of-stock .product-offer-18, .section-checkout .field-out-of-stock .product-offer-18, .section-checkout .views-field-field-new-addition .product-offer-18,
 .section-cart .views-field-field-offers .product-offer-18,

@@ -109,7 +109,7 @@
     <div class="field-offers">
         
         <?php if ($content['product:field_shipping_offer']): ?>
-            <div class="product-offer-free-shipping-<?php print render($content['product:field_shipping_offer']['#items'][0]['tid']); ?>"></div> 
+            <div class="product-offer-<?php print render($content['product:field_shipping_offer']['#items'][0]['tid']); ?>"></div> 
         <?php endif; ?>
 	
     </div>
