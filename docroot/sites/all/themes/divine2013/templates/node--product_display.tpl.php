@@ -112,7 +112,7 @@
         <?php elseif ($content['product:field_new_addition']): ?>
             <div class="product-offer-<?php print render($content['product:field_new_addition']['#items'][0]['tid']); ?>"><?php print render($content['product:field_new_addition'][0]['#markup']); ?></div> 
         <?php elseif ($content['product:field_shipping_offer']): ?>
-            <div class="product-offer-<?php print render($content['product:field_shipping_offer']; ?>"></div> 
+            <div class="product-offer-free-shipping"></div> 
         <?php endif; ?>
     </div>
 
