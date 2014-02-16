@@ -121,10 +121,16 @@ body {
   .front #header {
     background-image: url("../images/homepage-banner/Fairtrade-Fortnight-2014.jpg");
     background-repeat: no-repeat;
-    background-position: center 109px;
-    min-height: 400px;
+    background-position: center;
+    background-size: 100%;
+    min-height: 500px;
   }
-  /* line 107, ../sass/pages.scss */
+  /* line 108, ../sass/pages.scss */
+  .front #header #logo h1 {
+    height: 118px;
+    background: transparent;
+  }
+  /* line 109, ../sass/pages.scss */
   .front #header #block-block-14 {
     display: block;
     width: 515px;
@@ -134,12 +140,12 @@ body {
     margin-left: -348px;
     background: transparent;
   }
-  /* line 115, ../sass/pages.scss */
+  /* line 117, ../sass/pages.scss */
   .front #header #block-block-14 p {
     display: block;
     height: 100%;
   }
-  /* line 116, ../sass/pages.scss */
+  /* line 118, ../sass/pages.scss */
   .front #header #block-block-14 a {
     text-indent: 100%;
     overflow: hidden;
@@ -147,14 +153,14 @@ body {
     display: block;
     height: 100%;
   }
-  /* line 124, ../sass/pages.scss */
+  /* line 126, ../sass/pages.scss */
   .front #header #swoosh, .front #header .region-nav {
     position: relative;
-    top: 239px;
+    top: 340px;
   }
 }
 
-/* line 134, ../sass/pages.scss */
+/* line 136, ../sass/pages.scss */
 .region-header {
   /* Wrapper for any blocks placed in the header region */
   width: 58.33333%;
@@ -162,7 +168,7 @@ body {
   margin-right: 0;
   margin-top: 0.5em;
 }
-/* line 137, ../sass/pages.scss */
+/* line 139, ../sass/pages.scss */
 .region-header .block {
   background: black;
   height: 1.6em;
@@ -175,14 +181,14 @@ body {
   line-height: 1.66667em;
 }
 @media (min-width: 32em) {
-  /* line 134, ../sass/pages.scss */
+  /* line 136, ../sass/pages.scss */
   .region-header {
     width: 59.18367%;
     float: right;
     margin-right: 0;
     margin-top: 1em;
   }
-  /* line 151, ../sass/pages.scss */
+  /* line 153, ../sass/pages.scss */
   .region-header .block {
     clear: none;
     width: 8em;
@@ -198,7 +204,7 @@ body {
 /*
  * Main (container for everything else)
  */
-/* line 169, ../sass/pages.scss */
+/* line 171, ../sass/pages.scss */
 #main {
   background: white;
 }
@@ -206,16 +212,16 @@ body {
 /*
  * Content
  */
-/* line 181, ../sass/pages.scss */
+/* line 183, ../sass/pages.scss */
 .breadcrumb {
   /* The path to the current page in the form of a list of links */
 }
-/* line 182, ../sass/pages.scss */
+/* line 184, ../sass/pages.scss */
 .breadcrumb ol {
   margin: 0;
   padding: 0;
 }
-/* line 186, ../sass/pages.scss */
+/* line 188, ../sass/pages.scss */
 .breadcrumb li {
   display: inline;
   list-style-type: none;
@@ -223,14 +229,14 @@ body {
   padding: 0;
 }
 
-/* line 195, ../sass/pages.scss */
+/* line 197, ../sass/pages.scss */
 .view-recipes a:hover img, .view-sidebar-blocks a:hover img {
   -webkit-box-shadow: 0px 0px 5px #58595b;
   -moz-box-shadow: 0px 0px 5px #58595b;
   box-shadow: 0px 0px 5px #58595b;
 }
 
-/* line 209, ../sass/pages.scss */
+/* line 211, ../sass/pages.scss */
 h1.title,
 h2.node-title,
 h2.block-title,
@@ -241,37 +247,37 @@ h3.title {
   margin: 0;
 }
 
-/* line 213, ../sass/pages.scss */
+/* line 215, ../sass/pages.scss */
 tr.even {
   /* Some tables have rows marked even or odd. */
   /* background-color: #eee; */
   /* Drupal core uses a #eee background */
 }
 
-/* line 217, ../sass/pages.scss */
+/* line 219, ../sass/pages.scss */
 tr.odd {
   /* background-color: #eee; */
   /* Drupal core uses a #eee background */
 }
 
-/* line 221, ../sass/pages.scss */
+/* line 223, ../sass/pages.scss */
 div.messages {
   /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */
   margin: 0;
   /* Drupal core uses "6px 0" margin */
 }
-/* line 224, ../sass/pages.scss */
+/* line 226, ../sass/pages.scss */
 div.messages ul {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-/* line 230, ../sass/pages.scss */
+/* line 232, ../sass/pages.scss */
 div.status {
   /* Normal priority messages */
 }
 
-/* line 234, ../sass/pages.scss */
+/* line 236, ../sass/pages.scss */
 div.warning,
 tr.warning {
   /* Medium priority messages */
@@ -279,53 +285,53 @@ tr.warning {
   /* Drupal core uses: 1px solid #f0c020 */
 }
 
-/* line 239, ../sass/pages.scss */
+/* line 241, ../sass/pages.scss */
 div.error,
 tr.error {
   /* High priority messages. See also the .error declaration below. */
 }
 
-/* line 242, ../sass/pages.scss */
+/* line 244, ../sass/pages.scss */
 .error {
   /* Errors that are separate from div.messages status messages. */
   /* color: #e55; */
   /* Drupal core uses a #e55 background */
 }
 
-/* line 246, ../sass/pages.scss */
+/* line 248, ../sass/pages.scss */
 .warning {
   /* Warnings that are separate from div.messages status messages. */
   /* color: #e09010; */
   /* Drupal core uses a #e09010 background */
 }
 
-/* line 250, ../sass/pages.scss */
+/* line 252, ../sass/pages.scss */
 .tabs {
   /* See also the tabs.css file. */
 }
 
-/* line 253, ../sass/pages.scss */
+/* line 255, ../sass/pages.scss */
 .region-help {
   /* Help text on a page */
 }
 
-/* line 256, ../sass/pages.scss */
+/* line 258, ../sass/pages.scss */
 .more-help-link {
   /* Link to more help */
 }
 
-/* line 259, ../sass/pages.scss */
+/* line 261, ../sass/pages.scss */
 #content {
   /* Wrapper for the actual page content */
 }
 
-/* line 263, ../sass/pages.scss */
+/* line 265, ../sass/pages.scss */
 ul.inline {
   /* List of links generated by theme_links() */
   display: inline;
   padding: 0;
 }
-/* line 267, ../sass/pages.scss */
+/* line 269, ../sass/pages.scss */
 ul.inline li {
   display: inline;
   list-style-type: none;
@@ -333,30 +339,30 @@ ul.inline li {
   /* LTR */
 }
 
-/* line 273, ../sass/pages.scss */
+/* line 275, ../sass/pages.scss */
 span.field-label {
   /* The inline field label used by the Fences module */
   padding: 0 1em 0 0;
   /* LTR */
 }
 
-/* line 277, ../sass/pages.scss */
+/* line 279, ../sass/pages.scss */
 .item-list .pager {
   /* A list of page numbers when more than 1 page of content is available */
   padding: 0;
 }
-/* line 280, ../sass/pages.scss */
+/* line 282, ../sass/pages.scss */
 .item-list .pager li {
   /* Each page number in the pager list */
   padding: 0 0.5em;
 }
 
-/* line 285, ../sass/pages.scss */
+/* line 287, ../sass/pages.scss */
 .feed-icon {
   /* The link to the RSS or Atom feed for the current list of content */
 }
 
-/* line 288, ../sass/pages.scss */
+/* line 290, ../sass/pages.scss */
 .more-link {
   /* Aggregator, blog, and forum more link */
 }
@@ -367,7 +373,7 @@ span.field-label {
  * Remember to NOT add padding or margin to your .region-sidebar-first
  * (see the layout.css file.)
  */
-/* line 297, ../sass/pages.scss */
+/* line 299, ../sass/pages.scss */
 .sidebars {
   width: 100%;
   float: right;
@@ -375,14 +381,14 @@ span.field-label {
 }
 
 @media (min-width: 32em) {
-  /* line 301, ../sass/pages.scss */
+  /* line 303, ../sass/pages.scss */
   .sidebar-first #content {
     width: 69.38776%;
     float: left;
     margin-right: 2.04082%;
   }
 
-  /* line 306, ../sass/pages.scss */
+  /* line 308, ../sass/pages.scss */
   .sidebars {
     width: 28.57143%;
     float: right;
@@ -390,27 +396,27 @@ span.field-label {
   }
 }
 @media (min-width: 49em) {
-  /* line 313, ../sass/pages.scss */
+  /* line 315, ../sass/pages.scss */
   .sidebar-first #content {
     width: 79.59184%;
     float: left;
     margin-right: 2.04082%;
   }
 
-  /* line 318, ../sass/pages.scss */
+  /* line 320, ../sass/pages.scss */
   .sidebars {
     width: 18.36735%;
     float: right;
     margin-right: 0;
   }
 
-  /* line 322, ../sass/pages.scss */
+  /* line 324, ../sass/pages.scss */
   .adinkra-sidebar .sidebars {
     background: url("../images/symbols/adinkra-large.png") no-repeat;
     padding-bottom: 220px;
     background-position: left bottom;
   }
-  /* line 327, ../sass/pages.scss */
+  /* line 329, ../sass/pages.scss */
   .adinkra-sidebar.good-stuff .sidebars {
     background-position: -200px bottom;
   }
@@ -418,13 +424,13 @@ span.field-label {
 /*
  * Footer
  */
-/* line 338, ../sass/pages.scss */
+/* line 340, ../sass/pages.scss */
 #footer {
   background: url("../images/wrapper/swoosh-bottom.png") black no-repeat top right;
   padding-top: 6em;
 }
 @media (min-width: 32em) {
-  /* line 338, ../sass/pages.scss */
+  /* line 340, ../sass/pages.scss */
   #footer {
     background-position-x: center;
   }
@@ -433,14 +439,14 @@ span.field-label {
 /*
  * Page bottom
  */
-/* line 351, ../sass/pages.scss */
+/* line 353, ../sass/pages.scss */
 .region-content-bottom {
   /* Wrapper for any blocks placed in the content bottom region */
   clear: both;
   padding: 2em 0;
 }
 @media (min-width: 32em) {
-  /* line 351, ../sass/pages.scss */
+  /* line 353, ../sass/pages.scss */
   .region-content-bottom {
     width: 79.59184%;
     float: left;

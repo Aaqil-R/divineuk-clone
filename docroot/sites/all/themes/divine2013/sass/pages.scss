@@ -102,8 +102,10 @@ body {
     #header {
       background-image: url('../images/homepage-banner/Fairtrade-Fortnight-2014.jpg');
       background-repeat: no-repeat;
-      background-position: center 109px;
-      min-height: 400px;
+      background-position: center;
+      background-size: 100%;
+      min-height: 500px;
+      #logo h1 {height: 118px; background: transparent;}
       #block-block-14 {
         display: block;
         width:515px;
@@ -123,7 +125,7 @@ body {
       }
       #swoosh, .region-nav {
         position: relative;
-        top: 239px;
+        top: 340px;
       }
     }
   }
