@@ -1351,8 +1351,9 @@
 .section-shop .field-out-of-stock .product-offer-15,
 .section-shop .views-field-field-new-addition .product-offer-15 {
   background-image: url("../images/symbols/shop/new.png");
+  background-size: 50%;
 }
-/* line 857, ../sass/nodes.scss */
+/* line 858, ../sass/nodes.scss */
 .section-checkout .views-field-field-offers .product-offer-17, .section-checkout .field-offers .product-offer-17, .section-checkout .views-field-field-shipping-offer .product-offer-17, .section-checkout .views-field-field-out-of-stock .product-offer-17, .section-checkout .field-out-of-stock .product-offer-17, .section-checkout .views-field-field-new-addition .product-offer-17,
 .section-cart .views-field-field-offers .product-offer-17,
 .section-cart .field-offers .product-offer-17,
@@ -1368,7 +1369,7 @@
 .section-shop .views-field-field-new-addition .product-offer-17 {
   background-image: url("../images/symbols/shop/bogof.png");
 }
-/* line 860, ../sass/nodes.scss */
+/* line 861, ../sass/nodes.scss */
 .section-checkout .views-field-field-offers .product-offer-16, .section-checkout .field-offers .product-offer-16, .section-checkout .views-field-field-shipping-offer .product-offer-16, .section-checkout .views-field-field-out-of-stock .product-offer-16, .section-checkout .field-out-of-stock .product-offer-16, .section-checkout .views-field-field-new-addition .product-offer-16,
 .section-cart .views-field-field-offers .product-offer-16,
 .section-cart .field-offers .product-offer-16,
@@ -1384,7 +1385,7 @@
 .section-shop .views-field-field-new-addition .product-offer-16 {
   background-image: url("../images/symbols/shop/free-delivery.png");
 }
-/* line 863, ../sass/nodes.scss */
+/* line 864, ../sass/nodes.scss */
 .section-checkout .views-field-field-offers .product-offer-18, .section-checkout .field-offers .product-offer-18, .section-checkout .views-field-field-shipping-offer .product-offer-18, .section-checkout .views-field-field-out-of-stock .product-offer-18, .section-checkout .field-out-of-stock .product-offer-18, .section-checkout .views-field-field-new-addition .product-offer-18,
 .section-cart .views-field-field-offers .product-offer-18,
 .section-cart .field-offers .product-offer-18,
@@ -1400,7 +1401,7 @@
 .section-shop .views-field-field-new-addition .product-offer-18 {
   background-image: url("../images/symbols/shop/divine-loves.png");
 }
-/* line 867, ../sass/nodes.scss */
+/* line 868, ../sass/nodes.scss */
 .section-checkout .views-field-field-offers .product-offer-19, .section-checkout .field-offers .product-offer-19, .section-checkout .views-field-field-shipping-offer .product-offer-19, .section-checkout .views-field-field-out-of-stock .product-offer-19, .section-checkout .field-out-of-stock .product-offer-19, .section-checkout .views-field-field-new-addition .product-offer-19,
 .section-cart .views-field-field-offers .product-offer-19,
 .section-cart .field-offers .product-offer-19,
@@ -1416,7 +1417,7 @@
 .section-shop .views-field-field-new-addition .product-offer-19 {
   background-image: url("../images/symbols/shop/bestseller.png");
 }
-/* line 870, ../sass/nodes.scss */
+/* line 871, ../sass/nodes.scss */
 .section-checkout .views-field-field-offers .product-offer-20, .section-checkout .field-offers .product-offer-20, .section-checkout .views-field-field-shipping-offer .product-offer-20, .section-checkout .views-field-field-out-of-stock .product-offer-20, .section-checkout .field-out-of-stock .product-offer-20, .section-checkout .views-field-field-new-addition .product-offer-20,
 .section-cart .views-field-field-offers .product-offer-20,
 .section-cart .field-offers .product-offer-20,
@@ -1432,7 +1433,7 @@
 .section-shop .views-field-field-new-addition .product-offer-20 {
   background-image: url("../images/symbols/shop/sold-out.png");
 }
-/* line 878, ../sass/nodes.scss */
+/* line 879, ../sass/nodes.scss */
 .section-checkout .view-product-catalog table.views-view-grid, .section-checkout .product-list table.views-view-grid,
 .section-cart .view-product-catalog table.views-view-grid,
 .section-cart .product-list table.views-view-grid,
@@ -1440,7 +1441,7 @@
 .section-shop .product-list table.views-view-grid {
   width: 100%;
 }
-/* line 880, ../sass/nodes.scss */
+/* line 881, ../sass/nodes.scss */
 .section-checkout .view-product-catalog table.views-view-grid > tbody > tr, .section-checkout .product-list table.views-view-grid > tbody > tr,
 .section-cart .view-product-catalog table.views-view-grid > tbody > tr,
 .section-cart .product-list table.views-view-grid > tbody > tr,
@@ -1448,7 +1449,7 @@
 .section-shop .product-list table.views-view-grid > tbody > tr {
   display: block;
 }
-/* line 882, ../sass/nodes.scss */
+/* line 883, ../sass/nodes.scss */
 .section-checkout .view-product-catalog table.views-view-grid > tbody > tr > td, .section-checkout .product-list table.views-view-grid > tbody > tr > td,
 .section-cart .view-product-catalog table.views-view-grid > tbody > tr > td,
 .section-cart .product-list table.views-view-grid > tbody > tr > td,
@@ -1462,7 +1463,7 @@
   float: left;
   margin-right: 3.44828%;
 }
-/* line 888, ../sass/nodes.scss */
+/* line 889, ../sass/nodes.scss */
 .section-checkout .view-product-catalog table.views-view-grid > tbody > tr > td .views-field-title, .section-checkout .product-list table.views-view-grid > tbody > tr > td .views-field-title,
 .section-cart .view-product-catalog table.views-view-grid > tbody > tr > td .views-field-title,
 .section-cart .product-list table.views-view-grid > tbody > tr > td .views-field-title,
@@ -1470,7 +1471,7 @@
 .section-shop .product-list table.views-view-grid > tbody > tr > td .views-field-title {
   margin-bottom: 0.3em;
 }
-/* line 893, ../sass/nodes.scss */
+/* line 894, ../sass/nodes.scss */
 .section-checkout .view-product-catalog table.views-view-grid > tbody > tr > td .views-field-field-image.No, .section-checkout .product-list table.views-view-grid > tbody > tr > td .views-field-field-image.No,
 .section-cart .view-product-catalog table.views-view-grid > tbody > tr > td .views-field-field-image.No,
 .section-cart .product-list table.views-view-grid > tbody > tr > td .views-field-field-image.No,
@@ -1478,7 +1479,7 @@
 .section-shop .product-list table.views-view-grid > tbody > tr > td .views-field-field-image.No {
   opacity: 0.5;
 }
-/* line 897, ../sass/nodes.scss */
+/* line 898, ../sass/nodes.scss */
 .section-checkout .view-product-catalog table.views-view-grid > tbody > tr > td .views-field-commerce-price table, .section-checkout .product-list table.views-view-grid > tbody > tr > td .views-field-commerce-price table,
 .section-cart .view-product-catalog table.views-view-grid > tbody > tr > td .views-field-commerce-price table,
 .section-cart .product-list table.views-view-grid > tbody > tr > td .views-field-commerce-price table,
@@ -1486,7 +1487,7 @@
 .section-shop .product-list table.views-view-grid > tbody > tr > td .views-field-commerce-price table {
   display: block;
 }
-/* line 899, ../sass/nodes.scss */
+/* line 900, ../sass/nodes.scss */
 .section-checkout .view-product-catalog table.views-view-grid > tbody > tr > td .views-field-commerce-price table tbody, .section-checkout .view-product-catalog table.views-view-grid > tbody > tr > td .views-field-commerce-price table tr, .section-checkout .product-list table.views-view-grid > tbody > tr > td .views-field-commerce-price table tbody, .section-checkout .product-list table.views-view-grid > tbody > tr > td .views-field-commerce-price table tr,
 .section-cart .view-product-catalog table.views-view-grid > tbody > tr > td .views-field-commerce-price table tbody,
 .section-cart .view-product-catalog table.views-view-grid > tbody > tr > td .views-field-commerce-price table tr,
@@ -1498,7 +1499,7 @@
 .section-shop .product-list table.views-view-grid > tbody > tr > td .views-field-commerce-price table tr {
   display: block;
 }
-/* line 901, ../sass/nodes.scss */
+/* line 902, ../sass/nodes.scss */
 .section-checkout .view-product-catalog table.views-view-grid > tbody > tr > td .views-field-commerce-price table tbody td, .section-checkout .view-product-catalog table.views-view-grid > tbody > tr > td .views-field-commerce-price table tr td, .section-checkout .product-list table.views-view-grid > tbody > tr > td .views-field-commerce-price table tbody td, .section-checkout .product-list table.views-view-grid > tbody > tr > td .views-field-commerce-price table tr td,
 .section-cart .view-product-catalog table.views-view-grid > tbody > tr > td .views-field-commerce-price table tbody td,
 .section-cart .view-product-catalog table.views-view-grid > tbody > tr > td .views-field-commerce-price table tr td,
@@ -1510,7 +1511,7 @@
 .section-shop .product-list table.views-view-grid > tbody > tr > td .views-field-commerce-price table tr td {
   display: inline-block;
 }
-/* line 910, ../sass/nodes.scss */
+/* line 911, ../sass/nodes.scss */
 .section-checkout .view-product-catalog table.views-view-grid > tbody > tr > td .views-field-add-to-cart-form.Out-of-stock, .section-checkout .view-product-catalog table.views-view-grid > tbody > tr > td .views-field-add-to-cart-form.Out-of-season, .section-checkout .product-list table.views-view-grid > tbody > tr > td .views-field-add-to-cart-form.Out-of-stock, .section-checkout .product-list table.views-view-grid > tbody > tr > td .views-field-add-to-cart-form.Out-of-season,
 .section-cart .view-product-catalog table.views-view-grid > tbody > tr > td .views-field-add-to-cart-form.Out-of-stock,
 .section-cart .view-product-catalog table.views-view-grid > tbody > tr > td .views-field-add-to-cart-form.Out-of-season,
@@ -1522,7 +1523,7 @@
 .section-shop .product-list table.views-view-grid > tbody > tr > td .views-field-add-to-cart-form.Out-of-season {
   padding-top: 3.2em;
 }
-/* line 912, ../sass/nodes.scss */
+/* line 913, ../sass/nodes.scss */
 .section-checkout .view-product-catalog table.views-view-grid > tbody > tr > td .form-item-quantity, .section-checkout .product-list table.views-view-grid > tbody > tr > td .form-item-quantity,
 .section-cart .view-product-catalog table.views-view-grid > tbody > tr > td .form-item-quantity,
 .section-cart .product-list table.views-view-grid > tbody > tr > td .form-item-quantity,
@@ -1531,7 +1532,7 @@
   font-size: 1em;
   line-height: 1.25em;
 }
-/* line 916, ../sass/nodes.scss */
+/* line 917, ../sass/nodes.scss */
 .section-checkout .view-product-catalog table.views-view-grid > tbody > tr > td.views-row-even, .section-checkout .product-list table.views-view-grid > tbody > tr > td.views-row-even,
 .section-cart .view-product-catalog table.views-view-grid > tbody > tr > td.views-row-even,
 .section-cart .product-list table.views-view-grid > tbody > tr > td.views-row-even,
@@ -1541,7 +1542,7 @@
   margin-right: 0;
 }
 @media (min-width: 32em) {
-  /* line 923, ../sass/nodes.scss */
+  /* line 924, ../sass/nodes.scss */
   .section-checkout .view-product-catalog table.views-view-grid > tbody > tr, .section-checkout .product-list table.views-view-grid > tbody > tr,
   .section-cart .view-product-catalog table.views-view-grid > tbody > tr,
   .section-cart .product-list table.views-view-grid > tbody > tr,
@@ -1550,7 +1551,7 @@
     clear: both;
     border-bottom: 1px dashed #a39161;
   }
-  /* line 926, ../sass/nodes.scss */
+  /* line 927, ../sass/nodes.scss */
   .section-checkout .view-product-catalog table.views-view-grid > tbody > tr > td, .section-checkout .product-list table.views-view-grid > tbody > tr > td,
   .section-cart .view-product-catalog table.views-view-grid > tbody > tr > td,
   .section-cart .product-list table.views-view-grid > tbody > tr > td,
@@ -1565,7 +1566,7 @@
     margin: 1.5em 0;
     padding: 0 1.69492%;
   }
-  /* line 927, ../sass/nodes.scss */
+  /* line 928, ../sass/nodes.scss */
   .section-checkout .view-product-catalog table.views-view-grid > tbody > tr > td.views-row-even, .section-checkout .product-list table.views-view-grid > tbody > tr > td.views-row-even,
   .section-cart .view-product-catalog table.views-view-grid > tbody > tr > td.views-row-even,
   .section-cart .product-list table.views-view-grid > tbody > tr > td.views-row-even,
@@ -1573,7 +1574,7 @@
   .section-shop .product-list table.views-view-grid > tbody > tr > td.views-row-even {
     float: left;
   }
-  /* line 934, ../sass/nodes.scss */
+  /* line 935, ../sass/nodes.scss */
   .section-checkout .view-product-catalog table.views-view-grid > tbody > tr > td .views-field-title, .section-checkout .product-list table.views-view-grid > tbody > tr > td .views-field-title,
   .section-cart .view-product-catalog table.views-view-grid > tbody > tr > td .views-field-title,
   .section-cart .product-list table.views-view-grid > tbody > tr > td .views-field-title,
@@ -1583,7 +1584,7 @@
     overflow: hidden;
     line-height: 1em;
   }
-  /* line 940, ../sass/nodes.scss */
+  /* line 941, ../sass/nodes.scss */
   .section-checkout .view-product-catalog table.views-view-grid > tbody > tr > td.views-row-first, .section-checkout .view-product-catalog table.views-view-grid > tbody > tr > td:first-child, .section-checkout .product-list table.views-view-grid > tbody > tr > td.views-row-first, .section-checkout .product-list table.views-view-grid > tbody > tr > td:first-child,
   .section-cart .view-product-catalog table.views-view-grid > tbody > tr > td.views-row-first,
   .section-cart .view-product-catalog table.views-view-grid > tbody > tr > td:first-child,
@@ -1601,15 +1602,15 @@
 /*
  * Product display
  */
-/* line 956, ../sass/nodes.scss */
+/* line 957, ../sass/nodes.scss */
 .node-type-product-display #main {
   padding-top: 0.75em;
 }
-/* line 959, ../sass/nodes.scss */
+/* line 960, ../sass/nodes.scss */
 .node-type-product-display .sidebars {
   padding-top: 25px;
 }
-/* line 962, ../sass/nodes.scss */
+/* line 963, ../sass/nodes.scss */
 .node-type-product-display h1#page-title {
   text-transform: uppercase;
   font-family: "Avenir LT W01 95 Black", Helvetica, Arial, "Nimbus Sans L", sans-serif;
@@ -1618,32 +1619,32 @@
   line-height: 1.2069em;
   line-height: 1em;
 }
-/* line 968, ../sass/nodes.scss */
+/* line 969, ../sass/nodes.scss */
 .node-type-product-display .field-name-field-description p {
   margin: 0;
 }
-/* line 969, ../sass/nodes.scss */
+/* line 970, ../sass/nodes.scss */
 .node-type-product-display .views-field-field-offers, .node-type-product-display .field-out-of-stock, .node-type-product-display .field-offers, .node-type-product-display .views-field-field-shipping-offer, .node-type-product-display .views-field-field-new-addition {
   margin-right: 2em;
   margin-bottom: -11em;
   height: 11em;
   top: 0;
 }
-/* line 974, ../sass/nodes.scss */
+/* line 975, ../sass/nodes.scss */
 .node-type-product-display .views-field-field-offers > div, .node-type-product-display .field-out-of-stock > div, .node-type-product-display .field-offers > div, .node-type-product-display .views-field-field-shipping-offer > div, .node-type-product-display .views-field-field-new-addition > div {
   background-size: 38%;
 }
-/* line 976, ../sass/nodes.scss */
+/* line 977, ../sass/nodes.scss */
 .node-type-product-display .field-name-commerce-price {
   font-size: 1.35em;
   line-height: 1.2963em;
 }
-/* line 979, ../sass/nodes.scss */
+/* line 980, ../sass/nodes.scss */
 .node-type-product-display .field-name-commerce-price td {
   display: block;
   float: right;
 }
-/* line 981, ../sass/nodes.scss */
+/* line 982, ../sass/nodes.scss */
 .node-type-product-display .field-name-field-product-quote {
   background: #a39161;
   padding: 1em;
@@ -1655,45 +1656,45 @@
   -o-border-radius: 6px;
   border-radius: 6px;
 }
-/* line 987, ../sass/nodes.scss */
+/* line 988, ../sass/nodes.scss */
 .node-type-product-display .field-name-field-product-quote .node-title {
   display: none;
 }
-/* line 988, ../sass/nodes.scss */
+/* line 989, ../sass/nodes.scss */
 .node-type-product-display .field-name-field-product-quote .field-name-field-quote-text {
   font-family: "Georgia W01 Italic", Georgia, "Times New Roman", "DejaVu Serif", serif;
 }
 @media (min-width: 49em) {
-  /* line 996, ../sass/nodes.scss */
+  /* line 997, ../sass/nodes.scss */
   .node-type-product-display .product-display-image {
     width: 48.71795%;
     float: left;
     margin-right: 2.5641%;
   }
-  /* line 1000, ../sass/nodes.scss */
+  /* line 1001, ../sass/nodes.scss */
   .node-type-product-display .wrapper {
     width: 48.71795%;
     float: right;
     margin-right: 0;
     padding-top: 25px;
   }
-  /* line 1004, ../sass/nodes.scss */
+  /* line 1005, ../sass/nodes.scss */
   .node-type-product-display .wrapper .field-name-commerce-price, .node-type-product-display .wrapper .form-item-quantity {
     clear: both;
   }
-  /* line 1007, ../sass/nodes.scss */
+  /* line 1008, ../sass/nodes.scss */
   .node-type-product-display .wrapper .form-item-quantity {
     clear: left;
     margin: 0.5em 0;
   }
-  /* line 1011, ../sass/nodes.scss */
+  /* line 1012, ../sass/nodes.scss */
   .node-type-product-display .wrapper .buy-now {
     clear: both;
     position: relative;
     margin: 0.5em 0;
     max-width: 8em;
   }
-  /* line 1017, ../sass/nodes.scss */
+  /* line 1018, ../sass/nodes.scss */
   .node-type-product-display .wrapper.disabled .buy-now {
     top: 0;
     margin-top: 0.5em;
@@ -1703,12 +1704,12 @@
 /*
  * Front page product carousel
  */
-/* line 1030, ../sass/nodes.scss */
+/* line 1031, ../sass/nodes.scss */
 .front .view-product-catalog {
   font-family: "Avenir LT W01 95 Black", Helvetica, Arial, "Nimbus Sans L", sans-serif;
   text-align: center;
 }
-/* line 1036, ../sass/nodes.scss */
+/* line 1037, ../sass/nodes.scss */
 .front .view-product-catalog .views-field-title a {
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -1718,13 +1719,13 @@
   line-height: 1.25em;
   line-height: 1.1em;
 }
-/* line 1045, ../sass/nodes.scss */
+/* line 1046, ../sass/nodes.scss */
 .front .view-product-catalog .views-field-field-price,
 .front .view-product-catalog .views-field-commerce-price {
   font-size: 0.8em;
   line-height: 1.5625em;
 }
-/* line 1050, ../sass/nodes.scss */
+/* line 1051, ../sass/nodes.scss */
 .front .view-product-catalog .views-field-field-product-link-1 a,
 .front .view-product-catalog .views-field-view-node a {
   position: relative;
@@ -1749,7 +1750,7 @@
   margin-left: 0.25em;
   bottom: 0.4em;
 }
-/* line 1063, ../sass/nodes.scss */
+/* line 1064, ../sass/nodes.scss */
 .front .view-product-catalog .views-field-field-product-link-1,
 .front .view-product-catalog .views-field-field-price,
 .front .view-product-catalog .views-field-commerce-price,
@@ -1757,33 +1758,33 @@
   display: inline-block;
 }
 @media (min-width: 32em) {
-  /* line 1067, ../sass/nodes.scss */
+  /* line 1068, ../sass/nodes.scss */
   .front .view-product-catalog .views-row {
     width: 48.27586%;
     float: left;
     margin-right: 3.44828%;
     border-bottom: none;
   }
-  /* line 1069, ../sass/nodes.scss */
+  /* line 1070, ../sass/nodes.scss */
   .front .view-product-catalog .views-row .views-row-even {
     float: right;
     margin-right: 0;
   }
 }
 @media (min-width: 49em) {
-  /* line 1074, ../sass/nodes.scss */
+  /* line 1075, ../sass/nodes.scss */
   .front .view-product-catalog .view-content {
     font-size: 0.6em;
     line-height: 1.66667em;
   }
-  /* line 1076, ../sass/nodes.scss */
+  /* line 1077, ../sass/nodes.scss */
   .front .view-product-catalog .views-row {
     width: 16.66667%;
     float: left;
     margin-right: 4.16667%;
     @inlclude remove-omega;
   }
-  /* line 1077, ../sass/nodes.scss */
+  /* line 1078, ../sass/nodes.scss */
   .front .view-product-catalog .views-row-last {
     float: right;
     margin-right: 0;
@@ -1791,61 +1792,61 @@
 }
 
 @media (min-width: 49em) {
-  /* line 1083, ../sass/nodes.scss */
+  /* line 1084, ../sass/nodes.scss */
   .js .front #block-views-94f03c568041a24aa980b8a94d416d69 {
     border-bottom: 1px #a39161 dashed;
   }
 
-  /* line 1086, ../sass/nodes.scss */
+  /* line 1087, ../sass/nodes.scss */
   .js .front .view-product-catalog {
     padding-top: 0.8em;
     min-height: 13em;
   }
-  /* line 1089, ../sass/nodes.scss */
+  /* line 1090, ../sass/nodes.scss */
   .js .front .view-product-catalog .view-content {
     font-size: 1em;
     line-height: 1.25em;
     line-height: 1em;
   }
-  /* line 1096, ../sass/nodes.scss */
+  /* line 1097, ../sass/nodes.scss */
   .js .front .view-product-catalog .view-content .views-field-field-product-image img,
   .js .front .view-product-catalog .view-content .views-field-field-image img {
     width: 85%;
     position: relative;
   }
-  /* line 1101, ../sass/nodes.scss */
+  /* line 1102, ../sass/nodes.scss */
   .js .front .view-product-catalog .view-content .wrapper {
     position: inherit;
     top: 0;
     left: 0;
     width: 100%;
   }
-  /* line 1106, ../sass/nodes.scss */
+  /* line 1107, ../sass/nodes.scss */
   .js .front .view-product-catalog .view-content .highlight .wrapper {
     position: relative;
     top: -1.5em;
     left: -2.25em;
     width: 10em;
   }
-  /* line 1112, ../sass/nodes.scss */
+  /* line 1113, ../sass/nodes.scss */
   .js .front .view-product-catalog .view-content .highlight .wrapper .views-field-title {
     display: block;
     max-height: 2em;
     overflow: hidden;
   }
-  /* line 1119, ../sass/nodes.scss */
+  /* line 1120, ../sass/nodes.scss */
   .js .front .view-product-catalog .view-content .highlight .wrapper .views-field-field-product-image img,
   .js .front .view-product-catalog .view-content .highlight .wrapper .views-field-field-image img {
     margin-left: 12px;
   }
-  /* line 1124, ../sass/nodes.scss */
+  /* line 1125, ../sass/nodes.scss */
   .js .front .view-product-catalog .view-content .highlight .wrapper .views-field-field-price,
   .js .front .view-product-catalog .view-content .highlight .wrapper .views-field-field-product-link-1,
   .js .front .view-product-catalog .view-content .highlight .wrapper .views-field-commerce-price,
   .js .front .view-product-catalog .view-content .highlight .wrapper .views-field-view-node {
     display: inline-block;
   }
-  /* line 1133, ../sass/nodes.scss */
+  /* line 1134, ../sass/nodes.scss */
   .js .front .view-product-catalog .view-content .views-field-title,
   .js .front .view-product-catalog .view-content .views-field-commerce-price,
   .js .front .view-product-catalog .view-content .views-field-field-price,
@@ -1857,18 +1858,18 @@
 /*
  * Shop Homepage
  */
-/* line 1144, ../sass/nodes.scss */
+/* line 1145, ../sass/nodes.scss */
 .page-node-423 .field-name-field-standfirst img {
   border-bottom: 1px dashed #a39161;
 }
 @media (min-width: 32em) {
-  /* line 1149, ../sass/nodes.scss */
+  /* line 1150, ../sass/nodes.scss */
   .page-node-423 #block-views-sidebar-blocks-block-4 .views-row {
     width: 23.07692%;
     float: left;
     margin-right: 2.5641%;
   }
-  /* line 1152, ../sass/nodes.scss */
+  /* line 1153, ../sass/nodes.scss */
   .page-node-423 #block-views-sidebar-blocks-block-4 .views-row-last {
     float: right;
     margin-right: 0;
@@ -1878,39 +1879,39 @@
 /*
  * cart
  */
-/* line 1163, ../sass/nodes.scss */
+/* line 1164, ../sass/nodes.scss */
 .cart-summary {
   clear: both;
   padding-top: 1em;
 }
-/* line 1165, ../sass/nodes.scss */
+/* line 1166, ../sass/nodes.scss */
 .cart-summary .views-view-grid {
   width: 100%;
 }
 @media (min-width: 32em) {
-  /* line 1167, ../sass/nodes.scss */
+  /* line 1168, ../sass/nodes.scss */
   .cart-summary .views-row {
     clear: both;
     border-top: 1px dashed #a39161;
     padding-top: 1em;
   }
-  /* line 1171, ../sass/nodes.scss */
+  /* line 1172, ../sass/nodes.scss */
   .cart-summary .views-row.views-row-first {
     border-top: none;
   }
-  /* line 1172, ../sass/nodes.scss */
+  /* line 1173, ../sass/nodes.scss */
   .cart-summary .views-row .views-field-field-image {
     width: 10.25641%;
     float: left;
     margin-right: 2.5641%;
   }
-  /* line 1175, ../sass/nodes.scss */
+  /* line 1176, ../sass/nodes.scss */
   .cart-summary .views-row .line-item-detail {
     width: 61.53846%;
     float: left;
     margin-right: 2.5641%;
   }
-  /* line 1177, ../sass/nodes.scss */
+  /* line 1178, ../sass/nodes.scss */
   .cart-summary .views-row .line-item-detail .delete-line-item {
     background: transparent;
     color: #793f0d;
@@ -1920,49 +1921,49 @@
     padding: 0;
     font-family: "Avenir LT W01 65 Medium", Helvetica, Arial, "Nimbus Sans L", sans-serif;
   }
-  /* line 1186, ../sass/nodes.scss */
+  /* line 1187, ../sass/nodes.scss */
   .cart-summary .views-row .views-field-edit-quantity, .cart-summary .views-row .views-field-quantity {
     width: 10.25641%;
     float: left;
     margin-right: 2.5641%;
   }
-  /* line 1189, ../sass/nodes.scss */
+  /* line 1190, ../sass/nodes.scss */
   .cart-summary .views-row .views-field-commerce-unit-price {
     width: 10.25641%;
     float: right;
     margin-right: 0;
     text-align: right;
   }
-  /* line 1194, ../sass/nodes.scss */
+  /* line 1195, ../sass/nodes.scss */
   .cart-summary .line-item-summary, .cart-summary .view-footer {
     clear: both;
   }
-  /* line 1196, ../sass/nodes.scss */
+  /* line 1197, ../sass/nodes.scss */
   .cart-summary .line-item-summary .commerce-price-formatted-components, .cart-summary .view-footer .commerce-price-formatted-components {
     width: 23.07692%;
     float: right;
     margin-right: 0;
   }
-  /* line 1198, ../sass/nodes.scss */
+  /* line 1199, ../sass/nodes.scss */
   .cart-summary .line-item-summary .commerce-price-formatted-components tbody, .cart-summary .view-footer .commerce-price-formatted-components tbody {
     border: none;
   }
-  /* line 1199, ../sass/nodes.scss */
+  /* line 1200, ../sass/nodes.scss */
   .cart-summary .line-item-summary .commerce-price-formatted-components tr, .cart-summary .view-footer .commerce-price-formatted-components tr {
     border: none;
     color: #a39161;
   }
-  /* line 1202, ../sass/nodes.scss */
+  /* line 1203, ../sass/nodes.scss */
   .cart-summary .line-item-summary .commerce-price-formatted-components tr .component-title, .cart-summary .view-footer .commerce-price-formatted-components tr .component-title {
     font-weight: normal;
     text-transform: uppercase;
     font-family: "Avenir LT W01 95 Black", Helvetica, Arial, "Nimbus Sans L", sans-serif;
   }
-  /* line 1207, ../sass/nodes.scss */
+  /* line 1208, ../sass/nodes.scss */
   .cart-summary .line-item-summary .commerce-price-formatted-components tr .component-total, .cart-summary .view-footer .commerce-price-formatted-components tr .component-total {
     font-weight: normal;
   }
-  /* line 1210, ../sass/nodes.scss */
+  /* line 1211, ../sass/nodes.scss */
   .cart-summary .line-item-summary .commerce-price-formatted-components tr.component-type-commerce-price-formatted-amount, .cart-summary .view-footer .commerce-price-formatted-components tr.component-type-commerce-price-formatted-amount {
     color: #793f0d;
   }
@@ -1971,61 +1972,61 @@
 /*
  * Checkout
  */
-/* line 1226, ../sass/nodes.scss */
+/* line 1227, ../sass/nodes.scss */
 .section-checkout #page-title, .section-cart #page-title {
   display: none;
 }
 
-/* line 1229, ../sass/nodes.scss */
+/* line 1230, ../sass/nodes.scss */
 .section-checkout #content form {
   clear: both;
   padding-top: 1em;
 }
-/* line 1233, ../sass/nodes.scss */
+/* line 1234, ../sass/nodes.scss */
 .section-checkout fieldset {
   border: none;
   margin: 0;
   clear: both;
 }
-/* line 1238, ../sass/nodes.scss */
+/* line 1239, ../sass/nodes.scss */
 .section-checkout legend {
   text-transform: uppercase;
   font-family: "Avenir LT W01 95 Black", Helvetica, Arial, "Nimbus Sans L", sans-serif;
   padding: 1em 0 0 0;
 }
-/* line 1239, ../sass/nodes.scss */
+/* line 1240, ../sass/nodes.scss */
 .section-checkout .form-item {
   margin: 0.5em 0;
 }
-/* line 1241, ../sass/nodes.scss */
+/* line 1242, ../sass/nodes.scss */
 .section-checkout .form-item label {
   font-family: "Avenir LT W01 65 Medium", Helvetica, Arial, "Nimbus Sans L", sans-serif;
   text-transform: none;
 }
-/* line 1243, ../sass/nodes.scss */
+/* line 1244, ../sass/nodes.scss */
 .section-checkout .checkout-continue {
   background: #12ad2b;
   display: block;
 }
-/* line 1247, ../sass/nodes.scss */
+/* line 1248, ../sass/nodes.scss */
 .section-checkout .cart_contents {
   border-bottom: 1px dashed #a39161;
 }
-/* line 1250, ../sass/nodes.scss */
+/* line 1251, ../sass/nodes.scss */
 .section-checkout .checkout-cancel {
   color: #793f0d;
 }
-/* line 1252, ../sass/nodes.scss */
+/* line 1253, ../sass/nodes.scss */
 .section-checkout .customer_profile_billing label, .section-checkout .commerce_mailchimp label {
   font-size: 0.75em;
   line-height: 1.33333em;
 }
-/* line 1255, ../sass/nodes.scss */
+/* line 1256, ../sass/nodes.scss */
 .section-checkout .commerce_mailchimp legend {
   display: none;
 }
 @media (min-width: 32em) {
-  /* line 1259, ../sass/nodes.scss */
+  /* line 1260, ../sass/nodes.scss */
   .section-checkout .commerce_shipping, .section-checkout .commerce_payment {
     clear: none;
     padding: 0;
@@ -2034,7 +2035,7 @@
     float: left;
     margin-right: 2.5641%;
   }
-  /* line 1263, ../sass/nodes.scss */
+  /* line 1264, ../sass/nodes.scss */
   .section-checkout .commerce_shipping {
     float: right;
     margin-right: 0;
@@ -2046,7 +2047,7 @@
  * About section styles
  * - section wide styles
  */
-/* line 1275, ../sass/nodes.scss */
+/* line 1276, ../sass/nodes.scss */
 .section-about-us img, .standard-page img, .section-trade img {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -2058,75 +2059,75 @@
 /*
  * Sitesearch
  */
-/* line 1283, ../sass/nodes.scss */
+/* line 1284, ../sass/nodes.scss */
 .searchhead {
   margin-top: 0.75em;
   font-size: 0.8em;
   line-height: 1.5625em;
   border-bottom: 1px dashed #a39161;
 }
-/* line 1287, ../sass/nodes.scss */
+/* line 1288, ../sass/nodes.scss */
 .searchhead ul, .searchhead li {
   list-style: none;
   display: inline;
   margin: 0;
   padding: 0;
 }
-/* line 1288, ../sass/nodes.scss */
+/* line 1289, ../sass/nodes.scss */
 .searchhead ul a, .searchhead li a {
   padding: 0 0.25em;
   color: #a39161;
 }
 
 @media (min-width: 32em) {
-  /* line 1291, ../sass/nodes.scss */
+  /* line 1292, ../sass/nodes.scss */
   .google-search-results {
     width: 74.35897%;
     float: left;
     margin-right: 2.5641%;
   }
-  /* line 1294, ../sass/nodes.scss */
+  /* line 1295, ../sass/nodes.scss */
   .google-search-results .gss-result {
     clear: both;
   }
-  /* line 1296, ../sass/nodes.scss */
+  /* line 1297, ../sass/nodes.scss */
   .google-search-results .gss-result img {
     float: right;
   }
 }
-/* line 1301, ../sass/nodes.scss */
+/* line 1302, ../sass/nodes.scss */
 .google-search-results .gss-result {
   border-bottom: 1px dashed #a39161;
 }
-/* line 1304, ../sass/nodes.scss */
+/* line 1305, ../sass/nodes.scss */
 .google-search-results h3 {
   font-size: 1.3em;
   line-height: 1.34615em;
   font-weight: normal;
 }
-/* line 1307, ../sass/nodes.scss */
+/* line 1308, ../sass/nodes.scss */
 .google-search-results h3 a {
   color: #793f0d;
 }
-/* line 1309, ../sass/nodes.scss */
+/* line 1310, ../sass/nodes.scss */
 .google-search-results h3 a b {
   color: #f1ab00;
   font-weight: normal;
 }
-/* line 1312, ../sass/nodes.scss */
+/* line 1313, ../sass/nodes.scss */
 .google-search-results .gss-search-snippet {
   font-size: 0.8em;
   line-height: 1.5625em;
 }
-/* line 1315, ../sass/nodes.scss */
+/* line 1316, ../sass/nodes.scss */
 .google-search-results .gss-search-snippet b {
   color: #f1ab00;
 }
-/* line 1318, ../sass/nodes.scss */
+/* line 1319, ../sass/nodes.scss */
 .google-search-results .gss-search-url {
   clear: both;
 }
-/* line 1320, ../sass/nodes.scss */
+/* line 1321, ../sass/nodes.scss */
 .google-search-results .gss-search-url a {
   font-size: 0.75em;
   line-height: 1.33333em;
@@ -2136,7 +2137,7 @@
   font-weight: normal;
 }
 
-/* line 1325, ../sass/nodes.scss */
+/* line 1326, ../sass/nodes.scss */
 .google-search-pager {
   clear: both;
   padding-top: 1em;
@@ -2146,7 +2147,7 @@
  * Press Page styles
  */
 @media (min-width: 49em) {
-  /* line 1335, ../sass/nodes.scss */
+  /* line 1336, ../sass/nodes.scss */
   .page-node-318 #content .field-name-body {
     width: 38.77551%;
     float: left;
@@ -2154,34 +2155,34 @@
     font-size: 1.1em;
     line-height: 1.36364em;
   }
-  /* line 1339, ../sass/nodes.scss */
+  /* line 1340, ../sass/nodes.scss */
   .page-node-318 form {
     width: 38.77551%;
     float: right;
     margin-right: 0;
   }
-  /* line 1343, ../sass/nodes.scss */
+  /* line 1344, ../sass/nodes.scss */
   .page-node-318 .region-content-bottom .block-views, .page-node-318 .region-content-bottom .block-block {
     width: 48.97959%;
     float: left;
     margin-right: 2.04082%;
   }
-  /* line 1345, ../sass/nodes.scss */
+  /* line 1346, ../sass/nodes.scss */
   .page-node-318 .region-content-bottom .block-views h2.block-title, .page-node-318 .region-content-bottom .block-block h2.block-title {
     margin-bottom: 1em;
   }
-  /* line 1346, ../sass/nodes.scss */
+  /* line 1347, ../sass/nodes.scss */
   .page-node-318 .region-content-bottom .block-views .views-row, .page-node-318 .region-content-bottom .block-block .views-row {
     margin-bottom: 0.5em;
   }
-  /* line 1348, ../sass/nodes.scss */
+  /* line 1349, ../sass/nodes.scss */
   .page-node-318 .region-content-bottom #block-views-media-block-1, .page-node-318 .region-content-bottom .last {
     float: right;
     margin-right: 0;
   }
 }
 
-/* line 1354, ../sass/nodes.scss */
+/* line 1355, ../sass/nodes.scss */
 .view-media .views-row {
   margin-bottom: 1em;
 }
@@ -2189,33 +2190,33 @@
 /*
  * Wholesaler styles
  */
-/* line 1362, ../sass/nodes.scss */
+/* line 1363, ../sass/nodes.scss */
 .view-wholesalers .views-exposed-widgets {
   margin-bottom: 1em;
   padding-bottom: 1em;
   border-bottom: 1px #793f0d dotted;
 }
-/* line 1366, ../sass/nodes.scss */
+/* line 1367, ../sass/nodes.scss */
 .view-wholesalers .views-exposed-widgets label, .view-wholesalers .views-exposed-widgets .views-widget {
   display: inline-block;
 }
-/* line 1367, ../sass/nodes.scss */
+/* line 1368, ../sass/nodes.scss */
 .view-wholesalers .views-exposed-widgets label {
   font-weight: normal;
   font-family: "Avenir LT W01 95 Black", Helvetica, Arial, "Nimbus Sans L", sans-serif;
   text-transform: uppercase;
 }
-/* line 1369, ../sass/nodes.scss */
+/* line 1370, ../sass/nodes.scss */
 .view-wholesalers .views-row {
   margin: 0 1em;
   border-bottom: 1px #793f0d dotted;
 }
-/* line 1372, ../sass/nodes.scss */
+/* line 1373, ../sass/nodes.scss */
 .view-wholesalers .views-row .views-field-title {
   font-size: 1.2em;
   line-height: 1.25em;
 }
-/* line 1374, ../sass/nodes.scss */
+/* line 1375, ../sass/nodes.scss */
 .view-wholesalers .views-row .views-field-title h3 {
   margin: 0;
 }
