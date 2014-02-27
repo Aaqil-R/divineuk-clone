@@ -15,11 +15,11 @@
 /*Custom Mixins*/
 @media print {
   /* line 13, ../sass/print.scss */
-  header {
+  #header {
     background: white;
   }
   /* line 15, ../sass/print.scss */
-  header #logo h1 {
+  #header #logo h1 {
     background: url(/uk/sites/default/files/img/divine-chocolate-print.png) no-repeat;
     height: 164px;
     padding: 20px 0;
