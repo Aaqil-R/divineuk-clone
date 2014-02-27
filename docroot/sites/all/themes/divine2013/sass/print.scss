@@ -10,10 +10,14 @@
 
 @media print {
 
-#logo h1 {
-background: url(/uk/sites/default/files/img/divine-chocolate-print.png) no-repeat;
+header {
+background:white;
+	#logo h1 {
+	background: url(/uk/sites/default/files/img/divine-chocolate-print.png) no-repeat;
+	height:164px;
+	padding: 20px 0;
+	}
 }
-
 
   a:link,
   a:visited { /* underline all links */
@@ -56,7 +60,7 @@ background: url(/uk/sites/default/files/img/divine-chocolate-print.png) no-repea
     background-color: transparent !important;
     background-image: none !important;
   }
-
+  #swoosh,
   #skip-link,
   #toolbar,
   #navigation,

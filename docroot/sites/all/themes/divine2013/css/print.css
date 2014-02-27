@@ -15,43 +15,49 @@
 /*Custom Mixins*/
 @media print {
   /* line 13, ../sass/print.scss */
-  #logo h1 {
+  header {
+    background: white;
+  }
+  /* line 15, ../sass/print.scss */
+  header #logo h1 {
     background: url(/uk/sites/default/files/img/divine-chocolate-print.png) no-repeat;
+    height: 164px;
+    padding: 20px 0;
   }
 
-  /* line 19, ../sass/print.scss */
+  /* line 23, ../sass/print.scss */
   a:link,
   a:visited {
     /* underline all links */
     text-decoration: underline !important;
   }
-  /* line 22, ../sass/print.scss */
+  /* line 26, ../sass/print.scss */
   #site-name a:link, #site-name
   a:visited {
     /* Don't underline header */
     text-decoration: none !important;
   }
 
-  /* line 28, ../sass/print.scss */
+  /* line 32, ../sass/print.scss */
   #content a[href]:after {
     /* Add visible URL after links. */
     content: none !important;
     font-weight: normal;
     font-size: 16px;
   }
-  /* line 35, ../sass/print.scss */
+  /* line 39, ../sass/print.scss */
   #content a[href^="javascript:"]:after,
   #content a[href^="#"]:after {
     /* Only display useful links. */
     content: "";
   }
-  /* line 39, ../sass/print.scss */
+  /* line 43, ../sass/print.scss */
   #content abbr[title]:after {
     /* Add visible title after abbreviations. */
     content: " (" attr(title) ")";
   }
 
-  /* line 44, ../sass/print.scss */
+  /* line 48, ../sass/print.scss */
   #content {
     /* Un-float the content */
     float: none !important;
@@ -60,7 +66,7 @@
     padding: 0 !important;
   }
 
-  /* line 54, ../sass/print.scss */
+  /* line 58, ../sass/print.scss */
   body,
   #page,
   #main,
@@ -71,7 +77,8 @@
     background-image: none !important;
   }
 
-  /* line 79, ../sass/print.scss */
+  /* line 83, ../sass/print.scss */
+  #swoosh,
   #skip-link,
   #toolbar,
   #navigation,
