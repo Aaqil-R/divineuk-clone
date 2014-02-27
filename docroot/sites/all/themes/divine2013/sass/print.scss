@@ -10,6 +10,11 @@
 
 @media print {
 
+#logo h1 {
+background: url(/uk/sites/default/files/img/divine-chocolate-print.png) no-repeat;
+}
+
+
   a:link,
   a:visited { /* underline all links */
     text-decoration: underline !important;
@@ -65,7 +70,13 @@
   .book-navigation,
   .forum-topic-navigation,
   .pager,
-  .feed-icons { /* Hide sidebars and nav elements */
+  .feed-icons,
+  .region.region-header,
+  .region.region-nav,
+  .view-shop-items-on-recipe, 
+  #block-block-31,
+  .region.region-content-bottom
+  { /* Hide sidebars and nav elements */
     visibility: hidden;
     display: none;
   }

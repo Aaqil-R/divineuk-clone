@@ -14,39 +14,44 @@
 
 /*Custom Mixins*/
 @media print {
-  /* line 14, ../sass/print.scss */
+  /* line 13, ../sass/print.scss */
+  #logo h1 {
+    background: url(/uk/sites/default/files/img/divine-chocolate-print.png) no-repeat;
+  }
+
+  /* line 19, ../sass/print.scss */
   a:link,
   a:visited {
     /* underline all links */
     text-decoration: underline !important;
   }
-  /* line 17, ../sass/print.scss */
+  /* line 22, ../sass/print.scss */
   #site-name a:link, #site-name
   a:visited {
     /* Don't underline header */
     text-decoration: none !important;
   }
 
-  /* line 23, ../sass/print.scss */
+  /* line 28, ../sass/print.scss */
   #content a[href]:after {
     /* Add visible URL after links. */
     content: " (" attr(href) ")";
     font-weight: normal;
     font-size: 16px;
   }
-  /* line 30, ../sass/print.scss */
+  /* line 35, ../sass/print.scss */
   #content a[href^="javascript:"]:after,
   #content a[href^="#"]:after {
     /* Only display useful links. */
     content: "";
   }
-  /* line 34, ../sass/print.scss */
+  /* line 39, ../sass/print.scss */
   #content abbr[title]:after {
     /* Add visible title after abbreviations. */
     content: " (" attr(title) ")";
   }
 
-  /* line 39, ../sass/print.scss */
+  /* line 44, ../sass/print.scss */
   #content {
     /* Un-float the content */
     float: none !important;
@@ -55,7 +60,7 @@
     padding: 0 !important;
   }
 
-  /* line 49, ../sass/print.scss */
+  /* line 54, ../sass/print.scss */
   body,
   #page,
   #main,
@@ -66,7 +71,7 @@
     background-image: none !important;
   }
 
-  /* line 68, ../sass/print.scss */
+  /* line 79, ../sass/print.scss */
   #skip-link,
   #toolbar,
   #navigation,
@@ -80,7 +85,12 @@
   .book-navigation,
   .forum-topic-navigation,
   .pager,
-  .feed-icons {
+  .feed-icons,
+  .region.region-header,
+  .region.region-nav,
+  .view-shop-items-on-recipe,
+  #block-block-31,
+  .region.region-content-bottom {
     /* Hide sidebars and nav elements */
     visibility: hidden;
     display: none;
