@@ -78,7 +78,7 @@
 <head profile="<?php print $grddl_profile; ?>">
 	<?php print $head; ?>
   <title><?php print $head_title; ?></title>
-
+  <link rel="alternate" type="application/rss+xml" title="Divine Chocolate - Good Stuff" href="http://www.divinechocolate.com/uk/good-stuff/rss">
   <?php if ($default_mobile_metatags): ?>
     <meta name="MobileOptimized" content="width">
     <meta name="HandheldFriendly" content="true">
