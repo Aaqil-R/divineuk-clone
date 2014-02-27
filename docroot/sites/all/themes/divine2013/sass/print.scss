@@ -26,7 +26,7 @@ background: url(/uk/sites/default/files/img/divine-chocolate-print.png) no-repea
 
   #content {
     a[href]:after { /* Add visible URL after links. */
-      content: " (" attr(href) ")";
+      content:none !important;
       font-weight: normal;
       font-size: $base-font-size;
     }
