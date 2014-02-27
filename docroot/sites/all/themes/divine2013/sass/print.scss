@@ -13,9 +13,11 @@
 #header {
 background:white;
 	#logo h1 {
+	display:block-inline;
+	color:black;
+	position:relative;
 	background: image-url('wrapper/divine-chocolate-print.png') no-repeat;
-	height:164px;
-	padding: 20px 0;
+	padding: 10px 0;
 	}
 }
 
