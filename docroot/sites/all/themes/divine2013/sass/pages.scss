@@ -100,7 +100,7 @@ body {
   }
   @include breakpoint(desktop) {
     #header {
-      background-image: url('../images/homepage-banner/Fairtrade-Fortnight-2014.jpg');
+      background-image: image-url('homepage-banner/Fairtrade-Fortnight-2014.jpg');
       background-repeat: no-repeat;
       background-position: center;
       background-size: 100%;

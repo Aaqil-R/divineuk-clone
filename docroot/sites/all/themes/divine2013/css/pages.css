@@ -119,7 +119,7 @@ body {
 @media (min-width: 49em) {
   /* line 102, ../sass/pages.scss */
   .front #header {
-    background-image: url("../images/homepage-banner/Fairtrade-Fortnight-2014.jpg");
+    background-image: url('../images/homepage-banner/Fairtrade-Fortnight-2014.jpg?1393001658');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
