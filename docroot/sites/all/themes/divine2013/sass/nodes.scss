@@ -26,6 +26,12 @@
     }
   }
   
+  @include breakpoint(tablet) {
+    .form-right {
+      @include span-columns(3 omega,8);
+    }
+  }
+ 
   /* Node Styles */
   p {margin: 1em 0;}
   h2 {text-transform: uppercase; @include adjust-font-size-to(1.1 * $base-font-size);margin: 1em 0 0 0;
