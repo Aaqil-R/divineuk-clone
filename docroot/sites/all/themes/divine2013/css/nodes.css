@@ -2232,3 +2232,11 @@
 .view-wholesalers .views-row .views-field-title h3 {
   margin: 0;
 }
+
+/*
+* Page not found 
+*/
+/* line 1391, ../sass/nodes.scss */
+.page-node-785 .title {
+  text-indent: -10000px;
+}
