@@ -2243,5 +2243,5 @@
 
 /* line 1395, ../sass/nodes.scss */
 label[for=edit-search-block-form--2] {
-  display: none;
+  display: none !important;
 }
