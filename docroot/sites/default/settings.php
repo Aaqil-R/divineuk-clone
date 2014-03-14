@@ -273,10 +273,6 @@ if (isset($_ENV['AH_SITE_ENVIRONMENT']) && $_ENV['AH_SITE_ENVIRONMENT'] === 'pro
     $_SERVER['REQUEST_URI'] = str_replace("//", "/uk/", $_SERVER['REQUEST_URI']);
 }
 
-if (isset($_ENV['AH_SITE_ENVIRONMENT']) && $_ENV['AH_SITE_ENVIRONMENT'] === 'prod') {
-    $base_path = '/uk/';
-}
-
 
 /**
  * PHP settings:
