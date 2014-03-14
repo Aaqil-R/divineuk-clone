@@ -104,22 +104,6 @@ function globalredirect_settings() {
     '#default_value' => $settings['ignore_admin_path'],
   );
 
-  $form['settings']['base_path'] = array(
-    '#type' => 'textfield',
-    '#title' => t('Drupal Base Path'),
-    '#description' => t('If Drupal is installed in a subdirectory beneath the web server document root, specify that directory here.  Value should start and end with a forward slash, e.g /drupal/, except in the default installation / (a single slash)'),
-    '#default_value' => $settings['base_path'],
-    '#size' => 30,
-  );
-
-  $form['settings']['comment_to_node'] = array(
-    '#type' => 'checkbox',
-    '#title' => t('Redirect Comments To Node'),
-    '#description' => t('If enabled, any request to a comment URL will redirect to the associate node.'),
-    '#default_value' => $settings['comment_to_node'],
-  );
-
-
   $form['buttons']['submit'] = array(
     '#type' => 'submit',
     '#submit' => array('globalredirect_settings_submit_save'),
@@ -147,20 +131,11 @@ function globalredirect_settings_submit_save($form_id, &$form_state) {
   // Copy out the settings
   $settings = $form_state['values']['settings'];
 
-  // Compare each setting to the default. 
-
-  // If the values are equal, remove it from the array.
+  // Compare each setting to the default. If equal, remove. If not, cast to an int (FormAPI converts keys to string).
   foreach ($settings as $key => $value) {
     if ($value == $defaults[$key]) {
       unset($settings[$key]);
     }
-
-    // If the values are not equal, and the setting is 'base_path', save it.
-    elseif ($key == 'base_path') {
-      $settings[$key] = $value;
-    }
-
-    // If the values are not equal, cast the value to an int (FormAPI converts keys to string).
     else {
       $settings[$key] = (int)$value;
     }
