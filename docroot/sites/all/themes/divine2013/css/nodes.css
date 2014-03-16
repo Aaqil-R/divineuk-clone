@@ -1667,7 +1667,7 @@
   border-radius: 6px;
 }
 /* line 993, ../sass/nodes.scss */
-.node-type-product-display .field-name-field-product-quote .field-items, .node-type-product-landing-pages .field-name-field-product-quote .field-items {
+.node-type-product-display .field-name-field-product-quote .node-quote, .node-type-product-landing-pages .field-name-field-product-quote .node-quote {
   padding: 1em;
   margin: 1em 0;
 }
