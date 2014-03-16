@@ -1010,25 +1010,28 @@
     .wrapper {
       @include span-columns(4 omega, 8);
       padding-top: 25px;
-    }
     
-    .field-name-commerce-price, .form-item-quantity {
-      clear: both;
-    }
-    .form-item-quantity {
-      clear: left;
-      margin: 0.5em 0; 
+      .field-name-commerce-price, .form-item-quantity {
+        clear: both;
+      }
+      .form-item-quantity {
+        clear: left;
+        margin: 0.5em 0; 
+      }
+      .buy-now {
+        clear: both;
+        position: relative;
+        margin:0.5em 0; 
+      }
+      &.disabled .buy-now {
+        top: 0;
+        margin-top: 0.5em;
+      }
     }
     .buy-now {
-      clear: both;
-      position: relative;
-      margin:0.5em 0; 
-      max-width: 8em;
+        max-width: 8em;
     }
-    &.disabled .buy-now {
-      top: 0;
-      margin-top: 0.5em;
-    }
+    
     
   }
 }
