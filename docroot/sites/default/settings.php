@@ -274,8 +274,6 @@ if (isset($_ENV['AH_SITE_ENVIRONMENT']) && $_ENV['AH_SITE_ENVIRONMENT'] === 'pro
 }
 
 
-
-
 /**
  * PHP settings:
  *
