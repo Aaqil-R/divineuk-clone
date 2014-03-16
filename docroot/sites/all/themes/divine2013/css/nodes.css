@@ -1108,19 +1108,19 @@
  * - homepage
  */
 /* line 738, ../sass/nodes.scss */
-.product-list .views-row, .view-product-catalog .views-row, .node-type-product-display .views-row, .view-shop-items-on-recipe .views-row {
+.node-type-product-landing-pages .views-row, .product-list .views-row, .view-product-catalog .views-row, .node-type-product-display .views-row, .view-shop-items-on-recipe .views-row {
   border-bottom: 1px dotted #a39161;
 }
 /* line 740, ../sass/nodes.scss */
-.product-list .views-row.views-row-last, .view-product-catalog .views-row.views-row-last, .node-type-product-display .views-row.views-row-last, .view-shop-items-on-recipe .views-row.views-row-last {
+.node-type-product-landing-pages .views-row.views-row-last, .product-list .views-row.views-row-last, .view-product-catalog .views-row.views-row-last, .node-type-product-display .views-row.views-row-last, .view-shop-items-on-recipe .views-row.views-row-last {
   border-bottom: none;
 }
 /* line 742, ../sass/nodes.scss */
-.product-list .views-field-field-image-1, .view-product-catalog .views-field-field-image-1, .node-type-product-display .views-field-field-image-1, .view-shop-items-on-recipe .views-field-field-image-1 {
+.node-type-product-landing-pages .views-field-field-image-1, .product-list .views-field-field-image-1, .view-product-catalog .views-field-field-image-1, .node-type-product-display .views-field-field-image-1, .view-shop-items-on-recipe .views-field-field-image-1 {
   text-align: center;
 }
 /* line 745, ../sass/nodes.scss */
-.product-list .views-field-title, .product-list .views-field-line-item-title, .view-product-catalog .views-field-title, .view-product-catalog .views-field-line-item-title, .node-type-product-display .views-field-title, .node-type-product-display .views-field-line-item-title, .view-shop-items-on-recipe .views-field-title, .view-shop-items-on-recipe .views-field-line-item-title {
+.node-type-product-landing-pages .views-field-title, .node-type-product-landing-pages .views-field-line-item-title, .product-list .views-field-title, .product-list .views-field-line-item-title, .view-product-catalog .views-field-title, .view-product-catalog .views-field-line-item-title, .node-type-product-display .views-field-title, .node-type-product-display .views-field-line-item-title, .view-shop-items-on-recipe .views-field-title, .view-shop-items-on-recipe .views-field-line-item-title {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-family: "Avenir LT W01 95 Black", Helvetica, Arial, "Nimbus Sans L", sans-serif;
@@ -1129,24 +1129,24 @@
   line-height: 1em;
 }
 /* line 751, ../sass/nodes.scss */
-.product-list .field-name-field-description, .view-product-catalog .field-name-field-description, .node-type-product-display .field-name-field-description, .view-shop-items-on-recipe .field-name-field-description {
+.node-type-product-landing-pages .field-name-field-description, .product-list .field-name-field-description, .view-product-catalog .field-name-field-description, .node-type-product-display .field-name-field-description, .view-shop-items-on-recipe .field-name-field-description {
   line-height: 1em;
 }
 /* line 754, ../sass/nodes.scss */
-.product-list .views-field-commerce-unit-price, .view-product-catalog .views-field-commerce-unit-price, .node-type-product-display .views-field-commerce-unit-price, .view-shop-items-on-recipe .views-field-commerce-unit-price {
+.node-type-product-landing-pages .views-field-commerce-unit-price, .product-list .views-field-commerce-unit-price, .view-product-catalog .views-field-commerce-unit-price, .node-type-product-display .views-field-commerce-unit-price, .view-shop-items-on-recipe .views-field-commerce-unit-price {
   color: #793f0d;
   font-family: "Avenir LT W01 95 Black", Helvetica, Arial, "Nimbus Sans L", sans-serif;
   line-height: 1.25em;
 }
 /* line 757, ../sass/nodes.scss */
-.product-list .views-field-quantity, .view-product-catalog .views-field-quantity, .node-type-product-display .views-field-quantity, .view-shop-items-on-recipe .views-field-quantity {
+.node-type-product-landing-pages .views-field-quantity, .product-list .views-field-quantity, .view-product-catalog .views-field-quantity, .node-type-product-display .views-field-quantity, .view-shop-items-on-recipe .views-field-quantity {
   font-size: 1em;
   line-height: 1.25em;
   color: #a39161;
   font-family: "Avenir LT W01 95 Black", Helvetica, Arial, "Nimbus Sans L", sans-serif;
 }
 /* line 762, ../sass/nodes.scss */
-.product-list .views-field-commerce-total, .view-product-catalog .views-field-commerce-total, .node-type-product-display .views-field-commerce-total, .view-shop-items-on-recipe .views-field-commerce-total {
+.node-type-product-landing-pages .views-field-commerce-total, .product-list .views-field-commerce-total, .view-product-catalog .views-field-commerce-total, .node-type-product-display .views-field-commerce-total, .view-shop-items-on-recipe .views-field-commerce-total {
   font-size: 0.8em;
   line-height: 1.5625em;
   color: #58595b;
@@ -1154,34 +1154,34 @@
   margin-bottom: 0.5em;
 }
 /* line 767, ../sass/nodes.scss */
-.product-list .views-field-commerce-total .field-content, .view-product-catalog .views-field-commerce-total .field-content, .node-type-product-display .views-field-commerce-total .field-content, .view-shop-items-on-recipe .views-field-commerce-total .field-content {
+.node-type-product-landing-pages .views-field-commerce-total .field-content, .product-list .views-field-commerce-total .field-content, .view-product-catalog .views-field-commerce-total .field-content, .node-type-product-display .views-field-commerce-total .field-content, .view-shop-items-on-recipe .views-field-commerce-total .field-content {
   display: inline;
 }
 /* line 769, ../sass/nodes.scss */
-.product-list .field-type-commerce-price, .product-list .views-field-commerce-price, .view-product-catalog .field-type-commerce-price, .view-product-catalog .views-field-commerce-price, .node-type-product-display .field-type-commerce-price, .node-type-product-display .views-field-commerce-price, .view-shop-items-on-recipe .field-type-commerce-price, .view-shop-items-on-recipe .views-field-commerce-price {
+.node-type-product-landing-pages .field-type-commerce-price, .node-type-product-landing-pages .views-field-commerce-price, .product-list .field-type-commerce-price, .product-list .views-field-commerce-price, .view-product-catalog .field-type-commerce-price, .view-product-catalog .views-field-commerce-price, .node-type-product-display .field-type-commerce-price, .node-type-product-display .views-field-commerce-price, .view-shop-items-on-recipe .field-type-commerce-price, .view-shop-items-on-recipe .views-field-commerce-price {
   font-family: "Avenir LT W01 95 Black", Helvetica, Arial, "Nimbus Sans L", sans-serif;
   color: #262626;
   font-size: 1em;
   line-height: 1.25em;
 }
 /* line 770, ../sass/nodes.scss */
-.product-list .field-type-commerce-price td, .product-list .views-field-commerce-price td, .view-product-catalog .field-type-commerce-price td, .view-product-catalog .views-field-commerce-price td, .node-type-product-display .field-type-commerce-price td, .node-type-product-display .views-field-commerce-price td, .view-shop-items-on-recipe .field-type-commerce-price td, .view-shop-items-on-recipe .views-field-commerce-price td {
+.node-type-product-landing-pages .field-type-commerce-price td, .node-type-product-landing-pages .views-field-commerce-price td, .product-list .field-type-commerce-price td, .product-list .views-field-commerce-price td, .view-product-catalog .field-type-commerce-price td, .view-product-catalog .views-field-commerce-price td, .node-type-product-display .field-type-commerce-price td, .node-type-product-display .views-field-commerce-price td, .view-shop-items-on-recipe .field-type-commerce-price td, .view-shop-items-on-recipe .views-field-commerce-price td {
   display: inline-block;
 }
 /* line 771, ../sass/nodes.scss */
-.product-list .field-type-commerce-price .commerce-price-savings-formatter-price .price-amount, .product-list .views-field-commerce-price .commerce-price-savings-formatter-price .price-amount, .view-product-catalog .field-type-commerce-price .commerce-price-savings-formatter-price .price-amount, .view-product-catalog .views-field-commerce-price .commerce-price-savings-formatter-price .price-amount, .node-type-product-display .field-type-commerce-price .commerce-price-savings-formatter-price .price-amount, .node-type-product-display .views-field-commerce-price .commerce-price-savings-formatter-price .price-amount, .view-shop-items-on-recipe .field-type-commerce-price .commerce-price-savings-formatter-price .price-amount, .view-shop-items-on-recipe .views-field-commerce-price .commerce-price-savings-formatter-price .price-amount {
+.node-type-product-landing-pages .field-type-commerce-price .commerce-price-savings-formatter-price .price-amount, .node-type-product-landing-pages .views-field-commerce-price .commerce-price-savings-formatter-price .price-amount, .product-list .field-type-commerce-price .commerce-price-savings-formatter-price .price-amount, .product-list .views-field-commerce-price .commerce-price-savings-formatter-price .price-amount, .view-product-catalog .field-type-commerce-price .commerce-price-savings-formatter-price .price-amount, .view-product-catalog .views-field-commerce-price .commerce-price-savings-formatter-price .price-amount, .node-type-product-display .field-type-commerce-price .commerce-price-savings-formatter-price .price-amount, .node-type-product-display .views-field-commerce-price .commerce-price-savings-formatter-price .price-amount, .view-shop-items-on-recipe .field-type-commerce-price .commerce-price-savings-formatter-price .price-amount, .view-shop-items-on-recipe .views-field-commerce-price .commerce-price-savings-formatter-price .price-amount {
   color: #793f0d;
 }
 /* line 776, ../sass/nodes.scss */
-.product-list .field-type-commerce-price .commerce-price-savings-formatter-list, .product-list .views-field-commerce-price .commerce-price-savings-formatter-list, .view-product-catalog .field-type-commerce-price .commerce-price-savings-formatter-list, .view-product-catalog .views-field-commerce-price .commerce-price-savings-formatter-list, .node-type-product-display .field-type-commerce-price .commerce-price-savings-formatter-list, .node-type-product-display .views-field-commerce-price .commerce-price-savings-formatter-list, .view-shop-items-on-recipe .field-type-commerce-price .commerce-price-savings-formatter-list, .view-shop-items-on-recipe .views-field-commerce-price .commerce-price-savings-formatter-list {
+.node-type-product-landing-pages .field-type-commerce-price .commerce-price-savings-formatter-list, .node-type-product-landing-pages .views-field-commerce-price .commerce-price-savings-formatter-list, .product-list .field-type-commerce-price .commerce-price-savings-formatter-list, .product-list .views-field-commerce-price .commerce-price-savings-formatter-list, .view-product-catalog .field-type-commerce-price .commerce-price-savings-formatter-list, .view-product-catalog .views-field-commerce-price .commerce-price-savings-formatter-list, .node-type-product-display .field-type-commerce-price .commerce-price-savings-formatter-list, .node-type-product-display .views-field-commerce-price .commerce-price-savings-formatter-list, .view-shop-items-on-recipe .field-type-commerce-price .commerce-price-savings-formatter-list, .view-shop-items-on-recipe .views-field-commerce-price .commerce-price-savings-formatter-list {
   color: #58595b;
 }
 /* line 781, ../sass/nodes.scss */
-.product-list .views-field-view-node, .view-product-catalog .views-field-view-node, .node-type-product-display .views-field-view-node, .view-shop-items-on-recipe .views-field-view-node {
+.node-type-product-landing-pages .views-field-view-node, .product-list .views-field-view-node, .view-product-catalog .views-field-view-node, .node-type-product-display .views-field-view-node, .view-shop-items-on-recipe .views-field-view-node {
   display: inline;
 }
 /* line 783, ../sass/nodes.scss */
-.product-list .views-field-view-node a, .view-product-catalog .views-field-view-node a, .node-type-product-display .views-field-view-node a, .view-shop-items-on-recipe .views-field-view-node a {
+.node-type-product-landing-pages .views-field-view-node a, .product-list .views-field-view-node a, .view-product-catalog .views-field-view-node a, .node-type-product-display .views-field-view-node a, .view-shop-items-on-recipe .views-field-view-node a {
   position: relative;
   font-size: 1.4em;
   line-height: 1.25em;
@@ -1190,7 +1190,7 @@
   text-decoration: none;
 }
 /* line 65, ../sass/_custom.scss */
-.product-list .views-field-view-node a:after, .view-product-catalog .views-field-view-node a:after, .node-type-product-display .views-field-view-node a:after, .view-shop-items-on-recipe .views-field-view-node a:after {
+.node-type-product-landing-pages .views-field-view-node a:after, .product-list .views-field-view-node a:after, .view-product-catalog .views-field-view-node a:after, .node-type-product-display .views-field-view-node a:after, .view-shop-items-on-recipe .views-field-view-node a:after {
   width: 0;
   height: 0;
   border-radius: 2px;
@@ -1204,32 +1204,32 @@
   bottom: 0.4em;
 }
 /* line 791, ../sass/nodes.scss */
-.product-list .field-name-field-nutritional-information, .view-product-catalog .field-name-field-nutritional-information, .node-type-product-display .field-name-field-nutritional-information, .view-shop-items-on-recipe .field-name-field-nutritional-information {
+.node-type-product-landing-pages .field-name-field-nutritional-information, .product-list .field-name-field-nutritional-information, .view-product-catalog .field-name-field-nutritional-information, .node-type-product-display .field-name-field-nutritional-information, .view-shop-items-on-recipe .field-name-field-nutritional-information {
   clear: both;
   margin: 0 0 0.75em 0;
 }
 /* line 794, ../sass/nodes.scss */
-.product-list .field-name-field-nutritional-information .field-item, .view-product-catalog .field-name-field-nutritional-information .field-item, .node-type-product-display .field-name-field-nutritional-information .field-item, .view-shop-items-on-recipe .field-name-field-nutritional-information .field-item {
+.node-type-product-landing-pages .field-name-field-nutritional-information .field-item, .product-list .field-name-field-nutritional-information .field-item, .view-product-catalog .field-name-field-nutritional-information .field-item, .node-type-product-display .field-name-field-nutritional-information .field-item, .view-shop-items-on-recipe .field-name-field-nutritional-information .field-item {
   text-indent: -200%;
   overflow: hidden;
   background-repeat: no-repeat;
   height: 2.6em;
 }
 /* line 799, ../sass/nodes.scss */
-.product-list .field-name-field-nutritional-information .field-item.even, .view-product-catalog .field-name-field-nutritional-information .field-item.even, .node-type-product-display .field-name-field-nutritional-information .field-item.even, .view-shop-items-on-recipe .field-name-field-nutritional-information .field-item.even {
+.node-type-product-landing-pages .field-name-field-nutritional-information .field-item.even, .product-list .field-name-field-nutritional-information .field-item.even, .view-product-catalog .field-name-field-nutritional-information .field-item.even, .node-type-product-display .field-name-field-nutritional-information .field-item.even, .view-shop-items-on-recipe .field-name-field-nutritional-information .field-item.even {
   background-image: url("../images/symbols/shop/vegitarian.png");
 }
 /* line 802, ../sass/nodes.scss */
-.product-list .field-name-field-nutritional-information .field-item.odd, .view-product-catalog .field-name-field-nutritional-information .field-item.odd, .node-type-product-display .field-name-field-nutritional-information .field-item.odd, .view-shop-items-on-recipe .field-name-field-nutritional-information .field-item.odd {
+.node-type-product-landing-pages .field-name-field-nutritional-information .field-item.odd, .product-list .field-name-field-nutritional-information .field-item.odd, .view-product-catalog .field-name-field-nutritional-information .field-item.odd, .node-type-product-display .field-name-field-nutritional-information .field-item.odd, .view-shop-items-on-recipe .field-name-field-nutritional-information .field-item.odd {
   background-image: url("../images/symbols/shop/free-from.png");
 }
 /* line 807, ../sass/nodes.scss */
-.product-list .field-name-field-additional-information, .product-list .field-collection-container, .product-list .field-name-field-ingredients, .view-product-catalog .field-name-field-additional-information, .view-product-catalog .field-collection-container, .view-product-catalog .field-name-field-ingredients, .node-type-product-display .field-name-field-additional-information, .node-type-product-display .field-collection-container, .node-type-product-display .field-name-field-ingredients, .view-shop-items-on-recipe .field-name-field-additional-information, .view-shop-items-on-recipe .field-collection-container, .view-shop-items-on-recipe .field-name-field-ingredients {
+.node-type-product-landing-pages .field-name-field-additional-information, .node-type-product-landing-pages .field-collection-container, .node-type-product-landing-pages .field-name-field-ingredients, .product-list .field-name-field-additional-information, .product-list .field-collection-container, .product-list .field-name-field-ingredients, .view-product-catalog .field-name-field-additional-information, .view-product-catalog .field-collection-container, .view-product-catalog .field-name-field-ingredients, .node-type-product-display .field-name-field-additional-information, .node-type-product-display .field-collection-container, .node-type-product-display .field-name-field-ingredients, .view-shop-items-on-recipe .field-name-field-additional-information, .view-shop-items-on-recipe .field-collection-container, .view-shop-items-on-recipe .field-name-field-ingredients {
   border-bottom: none;
   margin: 0;
 }
 /* line 810, ../sass/nodes.scss */
-.product-list .field-name-field-additional-information .field-label, .product-list .field-collection-container .field-label, .product-list .field-name-field-ingredients .field-label, .view-product-catalog .field-name-field-additional-information .field-label, .view-product-catalog .field-collection-container .field-label, .view-product-catalog .field-name-field-ingredients .field-label, .node-type-product-display .field-name-field-additional-information .field-label, .node-type-product-display .field-collection-container .field-label, .node-type-product-display .field-name-field-ingredients .field-label, .view-shop-items-on-recipe .field-name-field-additional-information .field-label, .view-shop-items-on-recipe .field-collection-container .field-label, .view-shop-items-on-recipe .field-name-field-ingredients .field-label {
+.node-type-product-landing-pages .field-name-field-additional-information .field-label, .node-type-product-landing-pages .field-collection-container .field-label, .node-type-product-landing-pages .field-name-field-ingredients .field-label, .product-list .field-name-field-additional-information .field-label, .product-list .field-collection-container .field-label, .product-list .field-name-field-ingredients .field-label, .view-product-catalog .field-name-field-additional-information .field-label, .view-product-catalog .field-collection-container .field-label, .view-product-catalog .field-name-field-ingredients .field-label, .node-type-product-display .field-name-field-additional-information .field-label, .node-type-product-display .field-collection-container .field-label, .node-type-product-display .field-name-field-ingredients .field-label, .view-shop-items-on-recipe .field-name-field-additional-information .field-label, .view-shop-items-on-recipe .field-collection-container .field-label, .view-shop-items-on-recipe .field-name-field-ingredients .field-label {
   width: 100%;
   font-weight: normal;
   font-family: "Avenir LT W01 95 Black", Helvetica, Arial, "Nimbus Sans L", sans-serif;
@@ -1237,31 +1237,31 @@
   color: #a39161;
 }
 /* line 817, ../sass/nodes.scss */
-.product-list .field-name-field-additional-information .field-item, .product-list .field-collection-container .field-item, .product-list .field-name-field-ingredients .field-item, .view-product-catalog .field-name-field-additional-information .field-item, .view-product-catalog .field-collection-container .field-item, .view-product-catalog .field-name-field-ingredients .field-item, .node-type-product-display .field-name-field-additional-information .field-item, .node-type-product-display .field-collection-container .field-item, .node-type-product-display .field-name-field-ingredients .field-item, .view-shop-items-on-recipe .field-name-field-additional-information .field-item, .view-shop-items-on-recipe .field-collection-container .field-item, .view-shop-items-on-recipe .field-name-field-ingredients .field-item {
+.node-type-product-landing-pages .field-name-field-additional-information .field-item, .node-type-product-landing-pages .field-collection-container .field-item, .node-type-product-landing-pages .field-name-field-ingredients .field-item, .product-list .field-name-field-additional-information .field-item, .product-list .field-collection-container .field-item, .product-list .field-name-field-ingredients .field-item, .view-product-catalog .field-name-field-additional-information .field-item, .view-product-catalog .field-collection-container .field-item, .view-product-catalog .field-name-field-ingredients .field-item, .node-type-product-display .field-name-field-additional-information .field-item, .node-type-product-display .field-collection-container .field-item, .node-type-product-display .field-name-field-ingredients .field-item, .view-shop-items-on-recipe .field-name-field-additional-information .field-item, .view-shop-items-on-recipe .field-collection-container .field-item, .view-shop-items-on-recipe .field-name-field-ingredients .field-item {
   margin: 0;
 }
 /* line 819, ../sass/nodes.scss */
-.product-list .field-name-field-additional-information .field-item p, .product-list .field-collection-container .field-item p, .product-list .field-name-field-ingredients .field-item p, .view-product-catalog .field-name-field-additional-information .field-item p, .view-product-catalog .field-collection-container .field-item p, .view-product-catalog .field-name-field-ingredients .field-item p, .node-type-product-display .field-name-field-additional-information .field-item p, .node-type-product-display .field-collection-container .field-item p, .node-type-product-display .field-name-field-ingredients .field-item p, .view-shop-items-on-recipe .field-name-field-additional-information .field-item p, .view-shop-items-on-recipe .field-collection-container .field-item p, .view-shop-items-on-recipe .field-name-field-ingredients .field-item p {
+.node-type-product-landing-pages .field-name-field-additional-information .field-item p, .node-type-product-landing-pages .field-collection-container .field-item p, .node-type-product-landing-pages .field-name-field-ingredients .field-item p, .product-list .field-name-field-additional-information .field-item p, .product-list .field-collection-container .field-item p, .product-list .field-name-field-ingredients .field-item p, .view-product-catalog .field-name-field-additional-information .field-item p, .view-product-catalog .field-collection-container .field-item p, .view-product-catalog .field-name-field-ingredients .field-item p, .node-type-product-display .field-name-field-additional-information .field-item p, .node-type-product-display .field-collection-container .field-item p, .node-type-product-display .field-name-field-ingredients .field-item p, .view-shop-items-on-recipe .field-name-field-additional-information .field-item p, .view-shop-items-on-recipe .field-collection-container .field-item p, .view-shop-items-on-recipe .field-name-field-ingredients .field-item p {
   font-size: 0.9em;
   line-height: 1.38889em;
 }
 /* line 820, ../sass/nodes.scss */
-.product-list .field-name-field-additional-information .field-item p:first-of-type, .product-list .field-collection-container .field-item p:first-of-type, .product-list .field-name-field-ingredients .field-item p:first-of-type, .view-product-catalog .field-name-field-additional-information .field-item p:first-of-type, .view-product-catalog .field-collection-container .field-item p:first-of-type, .view-product-catalog .field-name-field-ingredients .field-item p:first-of-type, .node-type-product-display .field-name-field-additional-information .field-item p:first-of-type, .node-type-product-display .field-collection-container .field-item p:first-of-type, .node-type-product-display .field-name-field-ingredients .field-item p:first-of-type, .view-shop-items-on-recipe .field-name-field-additional-information .field-item p:first-of-type, .view-shop-items-on-recipe .field-collection-container .field-item p:first-of-type, .view-shop-items-on-recipe .field-name-field-ingredients .field-item p:first-of-type {
+.node-type-product-landing-pages .field-name-field-additional-information .field-item p:first-of-type, .node-type-product-landing-pages .field-collection-container .field-item p:first-of-type, .node-type-product-landing-pages .field-name-field-ingredients .field-item p:first-of-type, .product-list .field-name-field-additional-information .field-item p:first-of-type, .product-list .field-collection-container .field-item p:first-of-type, .product-list .field-name-field-ingredients .field-item p:first-of-type, .view-product-catalog .field-name-field-additional-information .field-item p:first-of-type, .view-product-catalog .field-collection-container .field-item p:first-of-type, .view-product-catalog .field-name-field-ingredients .field-item p:first-of-type, .node-type-product-display .field-name-field-additional-information .field-item p:first-of-type, .node-type-product-display .field-collection-container .field-item p:first-of-type, .node-type-product-display .field-name-field-ingredients .field-item p:first-of-type, .view-shop-items-on-recipe .field-name-field-additional-information .field-item p:first-of-type, .view-shop-items-on-recipe .field-collection-container .field-item p:first-of-type, .view-shop-items-on-recipe .field-name-field-ingredients .field-item p:first-of-type {
   margin-top: 0;
 }
 /* line 824, ../sass/nodes.scss */
-.product-list .field-name-field-additional-information .field-collection-view, .product-list .field-collection-container .field-collection-view, .product-list .field-name-field-ingredients .field-collection-view, .view-product-catalog .field-name-field-additional-information .field-collection-view, .view-product-catalog .field-collection-container .field-collection-view, .view-product-catalog .field-name-field-ingredients .field-collection-view, .node-type-product-display .field-name-field-additional-information .field-collection-view, .node-type-product-display .field-collection-container .field-collection-view, .node-type-product-display .field-name-field-ingredients .field-collection-view, .view-shop-items-on-recipe .field-name-field-additional-information .field-collection-view, .view-shop-items-on-recipe .field-collection-container .field-collection-view, .view-shop-items-on-recipe .field-name-field-ingredients .field-collection-view {
+.node-type-product-landing-pages .field-name-field-additional-information .field-collection-view, .node-type-product-landing-pages .field-collection-container .field-collection-view, .node-type-product-landing-pages .field-name-field-ingredients .field-collection-view, .product-list .field-name-field-additional-information .field-collection-view, .product-list .field-collection-container .field-collection-view, .product-list .field-name-field-ingredients .field-collection-view, .view-product-catalog .field-name-field-additional-information .field-collection-view, .view-product-catalog .field-collection-container .field-collection-view, .view-product-catalog .field-name-field-ingredients .field-collection-view, .node-type-product-display .field-name-field-additional-information .field-collection-view, .node-type-product-display .field-collection-container .field-collection-view, .node-type-product-display .field-name-field-ingredients .field-collection-view, .view-shop-items-on-recipe .field-name-field-additional-information .field-collection-view, .view-shop-items-on-recipe .field-collection-container .field-collection-view, .view-shop-items-on-recipe .field-name-field-ingredients .field-collection-view {
   margin: 0;
   padding: 0;
 }
 /* line 829, ../sass/nodes.scss */
-.product-list .field-collection-container .field-label, .product-list .field-name-field-ingredients .field-label, .view-product-catalog .field-collection-container .field-label, .view-product-catalog .field-name-field-ingredients .field-label, .node-type-product-display .field-collection-container .field-label, .node-type-product-display .field-name-field-ingredients .field-label, .view-shop-items-on-recipe .field-collection-container .field-label, .view-shop-items-on-recipe .field-name-field-ingredients .field-label {
+.node-type-product-landing-pages .field-collection-container .field-label, .node-type-product-landing-pages .field-name-field-ingredients .field-label, .product-list .field-collection-container .field-label, .product-list .field-name-field-ingredients .field-label, .view-product-catalog .field-collection-container .field-label, .view-product-catalog .field-name-field-ingredients .field-label, .node-type-product-display .field-collection-container .field-label, .node-type-product-display .field-name-field-ingredients .field-label, .view-shop-items-on-recipe .field-collection-container .field-label, .view-shop-items-on-recipe .field-name-field-ingredients .field-label {
   position: relative;
   cursor: pointer;
   cursor: hand;
 }
 /* line 65, ../sass/_custom.scss */
-.product-list .field-collection-container .field-label:after, .product-list .field-name-field-ingredients .field-label:after, .view-product-catalog .field-collection-container .field-label:after, .view-product-catalog .field-name-field-ingredients .field-label:after, .node-type-product-display .field-collection-container .field-label:after, .node-type-product-display .field-name-field-ingredients .field-label:after, .view-shop-items-on-recipe .field-collection-container .field-label:after, .view-shop-items-on-recipe .field-name-field-ingredients .field-label:after {
+.node-type-product-landing-pages .field-collection-container .field-label:after, .node-type-product-landing-pages .field-name-field-ingredients .field-label:after, .product-list .field-collection-container .field-label:after, .product-list .field-name-field-ingredients .field-label:after, .view-product-catalog .field-collection-container .field-label:after, .view-product-catalog .field-name-field-ingredients .field-label:after, .node-type-product-display .field-collection-container .field-label:after, .node-type-product-display .field-name-field-ingredients .field-label:after, .view-shop-items-on-recipe .field-collection-container .field-label:after, .view-shop-items-on-recipe .field-name-field-ingredients .field-label:after {
   width: 0;
   height: 0;
   border-radius: 2px;
