@@ -988,10 +988,12 @@
   }
   .field-name-field-product-quote {
     background: $gold;
-    padding: 1em;
-    margin: 1em 0;
     color: $white;
     @include border-radius;
+    .field-items {
+      padding: 1em;
+      margin: 1em 0;
+    }
     .node-title {display: none;}
     .field-name-field-quote-text {
       font-family: $georgia;
@@ -1034,7 +1036,7 @@
 
 .node-type-product-landing-pages {
   @include breakpoint(tablet) {
-    .content {
+    .field-name-field-product-landing-image {
       @include span-columns(6, 10);
     }
     h1#page-title,
