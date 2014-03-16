@@ -734,7 +734,7 @@
  * - homepage
  */
 
-.node-type-product-landing-pages, .product-list, .view-product-catalog, .node-type-product-display, .view-shop-items-on-recipe {
+.product-list, .view-product-catalog, .node-type-product-display, .view-shop-items-on-recipe {
   .views-row {
     border-bottom: 1px dotted $gold;
     &.views-row-last {border-bottom: none;}
@@ -960,7 +960,7 @@
  * Product display
  */
 
-.node-type-product-display {
+.node-type-product-display, .node-type-product-landing-pages {
   #main {
     padding-top: 0.75em;
   } 
