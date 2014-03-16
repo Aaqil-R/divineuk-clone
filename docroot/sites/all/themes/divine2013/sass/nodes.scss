@@ -990,9 +990,9 @@
     background: $gold;
     color: $white;
     @include border-radius;
+    margin: 1em 0;
     .node-quote {
       padding: 1em;
-      margin: 1em 0;
     }
     .node-title {display: none;}
     .field-name-field-quote-text {
