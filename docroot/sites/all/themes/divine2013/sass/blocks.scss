@@ -590,6 +590,13 @@
   }
 }
 
+@include breakpoint(tablet) {
+  .region-content-bottom .views-row {
+    @include span-columns (2,10);
+    &.views-row-last {@include omega;}
+  } 
+}
+
 
 
 .view-author-block {
