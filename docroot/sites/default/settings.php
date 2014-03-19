@@ -268,10 +268,10 @@ $drupal_hash_salt = 'IBvCuwJJF8flbW9T4EF7mc9wRlDVvejn_pqWfowe63g';
  * for you.
  */
 # $base_url = 'http://www.example.com';  // NO trailing slash!
-//if (isset($_ENV['AH_SITE_ENVIRONMENT']) && $_ENV['AH_SITE_ENVIRONMENT'] === 'prod') {
- //   $base_url = 'http://www.divinechocolate.com/uk';
- //   $_SERVER['REQUEST_URI'] = str_replace("//", "/uk/", $_SERVER['REQUEST_URI']);
-//}
+if (isset($_ENV['AH_SITE_ENVIRONMENT']) && $_ENV['AH_SITE_ENVIRONMENT'] === 'prod') {
+    $base_url = 'http://www.divinechocolate.com/uk';
+    $_SERVER['REQUEST_URI'] = str_replace("//", "/uk/", $_SERVER['REQUEST_URI']);
+}
 
 
 /**
@@ -331,9 +331,9 @@ ini_set('session.cookie_lifetime', 2000000);
  */
 #$cookie_domain = 'divineukdev.devcloud.acquia-sites.com';
 
-/*if (isset($_ENV['AH_SITE_ENVIRONMENT']) && $_ENV['AH_SITE_ENVIRONMENT'] === 'prod') {
+if (isset($_ENV['AH_SITE_ENVIRONMENT']) && $_ENV['AH_SITE_ENVIRONMENT'] === 'prod') {
 $cookie_domain = '.divinechocolate.com';
-}*/
+}
 
 /**
  * Variable overrides:
@@ -404,11 +404,11 @@ $cookie_domain = '.divinechocolate.com';
  * This setting is required if $conf['reverse_proxy'] is TRUE.
  */
 # $conf['reverse_proxy_addresses'] = array('a.b.c.d', ...);
-/*
+
 if (isset($_ENV['AH_SITE_ENVIRONMENT']) && $_ENV['AH_SITE_ENVIRONMENT'] === 'prod') {
  $conf['reverse_proxy'] = TRUE;
  $conf['reverse_proxy_addresses'] = array('107.20.181.236');
-}*/
+}
 
 /**
  * Set this value if your proxy server sends the client IP in a header
