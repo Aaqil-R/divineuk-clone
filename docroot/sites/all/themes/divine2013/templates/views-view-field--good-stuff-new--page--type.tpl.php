@@ -23,22 +23,13 @@
  */
 ?>
 
-<?php
-/**
- <?php if ($fields['type']->content == 'blog_general'): ?>
- <?php  print 'See all blogs'; ?>
+<?php if $output == 'Blog general'): ?>
+<?php  print 'See all blogs'; ?>
 
-
-<?php elseif ($fields['type']->content == 'blog_competition'): ?>
+<?php elseif $output == 'Blog competition'): ?>
 <?php print 'See all competitions'; ?>
 
-<?php else : ?>
-<?php print 'Doesnt work'; ?>
-
-
 <?php endif; ?> 
-*/
-?>
 
 
 <?php print dsm($variables); ?>
