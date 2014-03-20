@@ -41,4 +41,4 @@
 ?>
 
 
-<?php dpm(); ?>
+<?php dpm($fields); ?>
