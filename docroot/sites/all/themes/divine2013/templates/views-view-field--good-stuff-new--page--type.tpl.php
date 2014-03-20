@@ -24,14 +24,14 @@
 ?>
 
 <?php if ($fields['type']->content == 'Blog - General'): 
-   print '<a href="http://GENERAL">See all blogs</a>'
+   print 'See all blogs'
 
  elseif ($fields['type']->content == 'Blog - Competition'): 
- print '<a href="http://COMPETITION">See all competitions</a>'
+ print 'See all competitions'
 
  elseif ($fields['type']->content == 'Blog - News'): 
-  print '<a href="http://NEWS">See all news</a>'
+  print 'See all news'
 
  else ($fields['type']->content == 'Blog - Event'): 
- print '<a href="http://EVENT">See all events</a>'
+ print 'See all events'
 endif; ?>
