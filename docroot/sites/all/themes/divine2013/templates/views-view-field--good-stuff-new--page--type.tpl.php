@@ -31,5 +31,3 @@
 
 <?php endif; ?> 
 
-
-<?php print dsm($variables); ?>
