@@ -41,4 +41,4 @@
 ?>
 
 
-<?php dpm($fields); ?>
+<?php print dsm($variables); ?>
