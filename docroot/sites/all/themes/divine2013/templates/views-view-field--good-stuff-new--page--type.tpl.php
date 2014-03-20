@@ -23,15 +23,22 @@
  */
 ?>
 
-<?php if ($field['type']->content == 'blog_general'): ?>
+<?php
+/**
+ <?php if ($fields['type']->content == 'blog_general'): ?>
  <?php  print 'See all blogs'; ?>
 
 
-<?php elseif ($field['type']->content == 'blog_competition'): ?>
+<?php elseif ($fields['type']->content == 'blog_competition'): ?>
 <?php print 'See all competitions'; ?>
 
 <?php else : ?>
 <?php print 'Doesnt work'; ?>
 
 
-<?php endif; ?>
+<?php endif; ?> 
+*/
+?>
+
+
+<?php dpm(); ?>
