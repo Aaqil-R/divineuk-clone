@@ -23,11 +23,15 @@
  */
 ?>
 
-<?php if ($fields['type']->content == 'blog_general'): ?>
+<?php if ($field['type']->content == 'blog_general'): ?>
  <?php  print 'See all blogs'; ?>
 
 
-<?php elseif ($fields['type']->content == 'blog_competition'): ?>
+<?php elseif ($field['type']->content == 'blog_competition'): ?>
 <?php print 'See all competitions'; ?>
+
+<?php else : ?>
+<?php print 'Doesnt work'; ?>
+
 
 <?php endif; ?>
