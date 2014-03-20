@@ -24,14 +24,14 @@
 ?>
 
 <?php if ($fields['type']->content == 'Blog - General'): 
-   print 'See all blogs'
+   print 'See all blogs';
 
  elseif ($fields['type']->content == 'Blog - Competition'): 
- print 'See all competitions'
+ print 'See all competitions';
 
  elseif ($fields['type']->content == 'Blog - News'): 
-  print 'See all news'
+  print 'See all news';
 
  else ($fields['type']->content == 'Blog - Event'): 
- print 'See all events'
+ print 'See all events';
 endif; ?>
