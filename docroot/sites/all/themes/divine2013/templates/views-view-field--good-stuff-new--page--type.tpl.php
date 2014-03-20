@@ -23,15 +23,20 @@
  */
 ?>
 
-<?php if ($fields['type']->content == 'Blog - General'): 
+<?php if ($fields['type']->content == 'Blog - General') {
    print 'See all blogs';
+}
 
- elseif ($fields['type']->content == 'Blog - Competition'): 
+ elseif ($fields['type']->content == 'Blog - Competition') {
  print 'See all competitions';
+}
 
- elseif ($fields['type']->content == 'Blog - News'): 
+ elseif ($fields['type']->content == 'Blog - News') {
   print 'See all news';
+}
 
- else ($fields['type']->content == 'Blog - Event'): 
+ else ($fields['type']->content == 'Blog - Event') {
  print 'See all events';
+}
+
 endif; ?>
