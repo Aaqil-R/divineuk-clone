@@ -23,18 +23,15 @@
  */
 ?>
 
-<?php if ($fields['type']->content == 'Blog - General'): ?>
-  <a href="http://GENERAL">See all blogs</a>
-<?php endif; ?>
+<?php if ($fields['type']->content == 'Blog - General'): 
+   print '<a href="http://GENERAL">See all blogs</a>'
 
-<?php if ($fields['type']->content == 'Blog - Competition'): ?>
-  <a href="http://COMPETITION">See all competitions</a>
-<?php endif; ?>
+ elseif ($fields['type']->content == 'Blog - Competition'): 
+ print '<a href="http://COMPETITION">See all competitions</a>'
 
-<?php if ($fields['type']->content == 'Blog - News'): ?>
-  <a href="http://NEWS">See all news</a>
-<?php endif; ?>
+ elseif ($fields['type']->content == 'Blog - News'): 
+  print '<a href="http://NEWS">See all news</a>'
 
-<?php if ($fields['type']->content == 'Blog - Event'): ?>
-  <a href="http://EVENT">See all events</a>
-<?php endif; ?>
+ else ($fields['type']->content == 'Blog - Event'): 
+ print '<a href="http://EVENT">See all events</a>'
+endif; ?>
