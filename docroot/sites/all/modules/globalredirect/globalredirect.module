@@ -299,13 +299,11 @@ function _globalredirect_is_active($settings) {
    *
    * @see http://drupal.org/node/205810
    * @see http://drupal.org/node/278615
-   *
-   *  if ($_SERVER['SCRIPT_NAME'] != $GLOBALS['base_path'] . 'index.php') {
-   *   return FALSE;
-   * }
    */
-   
-   
+  if ($_SERVER['SCRIPT_NAME'] != $GLOBALS['base_path'] . 'index.php') {
+    return FALSE;
+  }
+
   /**
    * If this is a command line request (Drush, etc), skip processing.
    */
