@@ -39,7 +39,7 @@ function webform_mailchimp_webform_submission_insert($node, $submission) {
         // Need to know if we should look for our own email field or another.
         if ($field['extra']['use_existing_email_field'] != 'mailchimp_field') {
           // If using existing field, check if the checkbox was checked
-           if (!empty($submission->data[$key][0])) {
+          if ($submission->data[$key]['value'][0] == 1) {
             // Loop through components again to find our email field
             foreach($node->webform['components'] AS $key2 => $field2) {
               if ($field2['form_key'] == $field['extra']['use_existing_email_field']) {
@@ -95,7 +95,7 @@ function webform_mailchimp_webform_submission_insert($node, $submission) {
       foreach ($node->webform['components'] AS $key => $field) {
         if (!empty($mergefields_key_array[$field['form_key']])) {
           // This is probably a bit to easy... The delta value is not taken into account
-        $mergefields_replacements[$mergefields_key_array[$field['form_key']]] = $submission->data[$key][0];
+          $mergefields_replacements[$mergefields_key_array[$field['form_key']]] = $submission->data[$key]['value'][0];
         }
       }
     }
