@@ -141,8 +141,7 @@
     <span class="_zonecode">36</span>
     <span class="_summary"><?php print $title; ?></span>
     <span class="_description">For more info on the event visit http://www.divinechocolate.com/uk<?php print $node_url; ?></span>
-    <span class="_location"><?php print $node->field_event_location[$node->language][0]['name']; ?>, <?php print $node->field_event_location[$node->language][0]['street']; ?>, <?php print $node->field_event_location[$node->language][0]['city']; ?> <?php print $node->field_event_location[$node->language][0]['postal_code']; ?></span>
-        <span class="_date_format">DD/MM/YYYY</span>
+    <span class="_date_format">DD/MM/YYYY</span>
 </a>
 
 
