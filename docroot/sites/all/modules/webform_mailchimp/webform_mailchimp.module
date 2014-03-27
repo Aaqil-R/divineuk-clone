@@ -95,7 +95,7 @@ function webform_mailchimp_webform_submission_insert($node, $submission) {
       foreach ($node->webform['components'] AS $key => $field) {
         if (!empty($mergefields_key_array[$field['form_key']])) {
           // This is probably a bit to easy... The delta value is not taken into account
-          $mergefields_replacements[$mergefields_key_array[$field['form_key']]] = $submission->data[$key]['value'][0];
+          $mergefields_replacements[$mergefields_key_array[$field['form_key']]] = $submission->data[$key][0];
         }
       }
     }
