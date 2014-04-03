@@ -114,13 +114,11 @@ DirectoryIndex index.php index.html index.htm
   # uncomment the following line:
   # RewriteBase /uk
 
-   RewriteCond %{HTTP_HOST} !^www\. [NC]
-   RewriteCond %{HTTP_HOST} ^divinechocolate\.com$ [NC]
-   RewriteRule ^ http://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+  # RewriteCond %{HTTP_HOST} !^www\. [NC]
+  # RewriteCond %{HTTP_HOST} ^divinechocolate\.com$ [NC]
+  # RewriteRule ^ http://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-  
-  
-  
+    
   
   # Pass all requests not referring directly to files in the filesystem to
   # index.php. Clean URLs are handled in drupal_environment_initialize().
