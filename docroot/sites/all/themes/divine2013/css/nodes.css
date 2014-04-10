@@ -2281,18 +2281,15 @@ label[for=edit-search-block-form--2] {
 /* line 1426, ../sass/nodes.scss */
 .page-node-3361 .views-field-title a {
   color: #00aeef;
-  font-weight: bold;
   text-transform: uppercase;
 }
-/* line 1431, ../sass/nodes.scss */
+/* line 1430, ../sass/nodes.scss */
 .page-node-3361 .views-field-view-node a {
   color: #00aeef;
-  font-weight: bold;
 }
-/* line 1436, ../sass/nodes.scss */
+/* line 1434, ../sass/nodes.scss */
 .page-node-3361 .good-stuff.button {
   background: #00aeef;
-  font-weight: bold;
   text-transform: uppercase;
   padding: 0.5em 1.8em 0.4em 0.4em;
   margin: 0.5em 0;
@@ -2303,7 +2300,7 @@ label[for=edit-search-block-form--2] {
   border-radius: 4px;
   display: inline-block;
 }
-/* line 1445, ../sass/nodes.scss */
+/* line 1442, ../sass/nodes.scss */
 .page-node-3361 .good-stuff.button a {
   color: white;
   position: relative;
@@ -2322,25 +2319,25 @@ label[for=edit-search-block-form--2] {
   margin-left: 0.4em;
   bottom: 0.17em;
 }
-/* line 1450, ../sass/nodes.scss */
+/* line 1447, ../sass/nodes.scss */
 .page-node-3361 .block {
   margin: 0;
 }
-/* line 1454, ../sass/nodes.scss */
+/* line 1451, ../sass/nodes.scss */
 .page-node-3361 .view-good-stuff-new {
   width: 49.8%;
   float: left;
   margin-bottom: 2em;
 }
-/* line 1459, ../sass/nodes.scss */
+/* line 1456, ../sass/nodes.scss */
 .page-node-3361 .view-good-stuff-new .views-row-odd {
   margin-right: 2.5641%;
 }
-/* line 1463, ../sass/nodes.scss */
+/* line 1460, ../sass/nodes.scss */
 .page-node-3361 .view-good-stuff-new .views-field-banner {
   line-height: 0;
 }
-/* line 1467, ../sass/nodes.scss */
+/* line 1464, ../sass/nodes.scss */
 .page-node-3361 .view-good-stuff-new .views-field-field-blog-featured-image img {
   -webkit-border-radius: 0 0 8px 8px;
   -moz-border-radius: 0 0 8px 8px;
