@@ -1414,3 +1414,60 @@
 label[for=edit-search-block-form--2] {
 display:none !important;
 }
+
+/*
+* Good stuff
+*/
+
+.page-node-3361 {
+   .views-field-title {
+   padding-top:0.5em;
+   }
+  .views-field-title a{
+    color: $blue;
+    font-weight:bold;
+	text-transform:uppercase;
+  }
+  .views-field-view-node a {
+    color: $blue;
+	font-weight:bold;
+  }
+  
+  .good-stuff.button {
+	background: $blue;
+	font-weight:bold;
+	text-transform:uppercase;
+    padding: 0.5em 1.8em 0.4em 0.4em;
+    margin: 0.5em 0;
+    @include border-radius(4px); 
+	display:inline-block;
+  }
+  .good-stuff.button a{
+  color: $white;
+  @include arrow($white,0.4em,0.17em);
+  }
+  
+  .block {
+  margin:0;
+  }
+  
+  .view-good-stuff-new {
+      width:49.8%;
+	  float:left;
+	  margin-bottom:2em;
+	  
+	  .views-row-odd {
+	  margin-right: 2.5641%;
+	  }
+	  
+	  .views-field-banner {
+	  line-height:0;
+	  }
+	  
+	  .views-field-field-blog-featured-image img {
+		@include border-radius(0 0 8px 8px);
+		}      
+	 }
+    
+ 
+}

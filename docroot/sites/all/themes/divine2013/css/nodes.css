@@ -2270,3 +2270,81 @@
 label[for=edit-search-block-form--2] {
   display: none !important;
 }
+
+/*
+* Good stuff
+*/
+/* line 1423, ../sass/nodes.scss */
+.page-node-3361 .views-field-title {
+  padding-top: 0.5em;
+}
+/* line 1426, ../sass/nodes.scss */
+.page-node-3361 .views-field-title a {
+  color: #00aeef;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* line 1431, ../sass/nodes.scss */
+.page-node-3361 .views-field-view-node a {
+  color: #00aeef;
+  font-weight: bold;
+}
+/* line 1436, ../sass/nodes.scss */
+.page-node-3361 .good-stuff.button {
+  background: #00aeef;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.5em 1.8em 0.4em 0.4em;
+  margin: 0.5em 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  display: inline-block;
+}
+/* line 1445, ../sass/nodes.scss */
+.page-node-3361 .good-stuff.button a {
+  color: white;
+  position: relative;
+}
+/* line 65, ../sass/_custom.scss */
+.page-node-3361 .good-stuff.button a:after {
+  width: 0;
+  height: 0;
+  border-radius: 2px;
+  border: solid transparent;
+  content: " ";
+  position: absolute;
+  pointer-events: none;
+  border-left-color: white;
+  border-width: 0.4em;
+  margin-left: 0.4em;
+  bottom: 0.17em;
+}
+/* line 1450, ../sass/nodes.scss */
+.page-node-3361 .block {
+  margin: 0;
+}
+/* line 1454, ../sass/nodes.scss */
+.page-node-3361 .view-good-stuff-new {
+  width: 49.8%;
+  float: left;
+  margin-bottom: 2em;
+}
+/* line 1459, ../sass/nodes.scss */
+.page-node-3361 .view-good-stuff-new .views-row-odd {
+  margin-right: 2.5641%;
+}
+/* line 1463, ../sass/nodes.scss */
+.page-node-3361 .view-good-stuff-new .views-field-banner {
+  line-height: 0;
+}
+/* line 1467, ../sass/nodes.scss */
+.page-node-3361 .view-good-stuff-new .views-field-field-blog-featured-image img {
+  -webkit-border-radius: 0 0 8px 8px;
+  -moz-border-radius: 0 0 8px 8px;
+  -ms-border-radius: 0 0 8px 8px;
+  -o-border-radius: 0 0 8px 8px;
+  border-radius: 0 0 8px 8px;
+}
