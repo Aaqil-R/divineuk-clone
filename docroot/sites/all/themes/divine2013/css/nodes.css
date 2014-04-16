@@ -2423,13 +2423,18 @@ label[for=edit-search-block-form--2] {
   -o-border-radius: 0px;
   border-radius: 0px;
 }
-/* line 1523, ../sass/nodes.scss */
+/* line 1522, ../sass/nodes.scss */
+.page-node-3368 .chocolateers.column .profile a {
+  color: #fff;
+  font-weight: normal;
+}
+/* line 1524, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile .name {
   background: #a39161;
   color: white;
   position: relative;
   text-transform: uppercase;
-  padding: 0.3em 0.3em 0.3em 0.6em;
+  padding: 0.4em 0.4em 0.4em 0.7em;
   -webkit-border-radius: 0 0 8px 8px;
   -moz-border-radius: 0 0 8px 8px;
   -ms-border-radius: 0 0 8px 8px;
@@ -2452,7 +2457,7 @@ label[for=edit-search-block-form--2] {
   margin-left: 0.4em;
   bottom: 0.66em;
 }
-/* line 1534, ../sass/nodes.scss */
+/* line 1535, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile .biography {
   font-style: italic;
   line-height: 1.2em;

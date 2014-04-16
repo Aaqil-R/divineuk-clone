@@ -1519,13 +1519,14 @@ display:none !important;
 	img {
 		@include border-radius(0px);
 	}
+	a {color:#fff; font-weight:normal;}
 	
 	.name {
 		background: #a39161;
 		color: $white;
 		@include arrow($white,0.4em,0.66em);
 		text-transform:uppercase;
-		padding:0.3em 0.3em 0.3em 0.6em;
+		padding:0.4em 0.4em 0.4em 0.7em;
 		@include border-radius(0 0 8px 8px);
 		line-height:1.2em;
 		font-weight:bold;
