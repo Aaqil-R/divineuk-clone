@@ -2349,8 +2349,17 @@ label[for=edit-search-block-form--2] {
 /*
 * Chocolateers
 */
-/* line 1474, ../sass/nodes.scss */
-.chocolateers.box {
+/* line 1476, ../sass/nodes.scss */
+.page-node-3368 .chocolateers.column.first {
+  margin-right: 2.5641%;
+}
+/* line 1480, ../sass/nodes.scss */
+.page-node-3368 .chocolateers.column {
+  width: 49.8%;
+  float: left;
+}
+/* line 1485, ../sass/nodes.scss */
+.page-node-3368 .chocolateers.column .box {
   background: #000;
   -webkit-border-radius: 0 0 8px 8px;
   -moz-border-radius: 0 0 8px 8px;
@@ -2358,26 +2367,25 @@ label[for=edit-search-block-form--2] {
   -o-border-radius: 0 0 8px 8px;
   border-radius: 0 0 8px 8px;
 }
-/* line 1478, ../sass/nodes.scss */
-.chocolateers.box .highlight {
+/* line 1489, ../sass/nodes.scss */
+.page-node-3368 .chocolateers.column .box .highlight {
   color: #0f1ab00;
   font-weight: bold;
 }
-
-/* line 1484, ../sass/nodes.scss */
-chocolateers.profile {
-  float: right;
+/* line 1497, ../sass/nodes.scss */
+.page-node-3368 .chocolateers.column .profile {
+  float: left;
 }
-/* line 1486, ../sass/nodes.scss */
-chocolateers.profile img {
+/* line 1499, ../sass/nodes.scss */
+.page-node-3368 .chocolateers.column .profile img {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   -ms-border-radius: 0px;
   -o-border-radius: 0px;
   border-radius: 0px;
 }
-/* line 1490, ../sass/nodes.scss */
-chocolateers.profile .name {
+/* line 1503, ../sass/nodes.scss */
+.page-node-3368 .chocolateers.column .profile .name {
   background: #a39161;
   color: white;
   position: relative;
@@ -2390,7 +2398,7 @@ chocolateers.profile .name {
   border-radius: 0 0 8px 8px;
 }
 /* line 65, ../sass/_custom.scss */
-chocolateers.profile .name:after {
+.page-node-3368 .chocolateers.column .profile .name:after {
   width: 0;
   height: 0;
   border-radius: 2px;
@@ -2403,7 +2411,7 @@ chocolateers.profile .name:after {
   margin-left: 0.4em;
   bottom: 0.17em;
 }
-/* line 1499, ../sass/nodes.scss */
-chocolateers.profile .biography {
+/* line 1512, ../sass/nodes.scss */
+.page-node-3368 .chocolateers.column .profile .biography {
   font-style: italic;
 }

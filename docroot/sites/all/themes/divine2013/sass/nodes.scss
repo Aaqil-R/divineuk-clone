@@ -1471,7 +1471,18 @@ display:none !important;
 * Chocolateers
 */
 
-.chocolateers.box {
+.page-node-3368 {
+
+.chocolateers.column.first {
+	  margin-right: 2.5641%;
+	  }
+
+.chocolateers.column {
+
+	  width:49.8%;
+	  float:left;
+
+.box {
 	background:#000;
 	@include border-radius(0 0 8px 8px);
 
@@ -1481,8 +1492,10 @@ display:none !important;
 	}
 }
 
-chocolateers.profile {
-	float:right;
+
+
+.profile {
+	float:left;
 	img {
 		@include border-radius(0px);
 	}
@@ -1502,4 +1515,5 @@ chocolateers.profile {
 	}
 }
 
-
+}
+}
