@@ -1487,11 +1487,16 @@ display:none !important;
 	@include border-radius(8px);
 	padding:1em;
 	color:#bfbfbf;
-
+    
+	h3 {font-size: 1.1em;
+		margin: 0.7em 0 0 0;
+		padding: 0;
+	}
 	ol {padding:0 2em;}
 	li {padding-bottom: 1.3em;}
 	a {color:#fff;}	
-	a:hover{text-decoration:none;}	
+	a:hover {text-decoration:none;}	
+	p {margin: 0 0 1em 0;}
 	.highlighted {
 		color:#f1ab00;
 		font-weight:bold;

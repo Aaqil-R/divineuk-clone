@@ -2370,42 +2370,52 @@ label[for=edit-search-block-form--2] {
   color: #bfbfbf;
 }
 /* line 1491, ../sass/nodes.scss */
+.page-node-3368 .chocolateers.column .box h3 {
+  font-size: 1.1em;
+  margin: 0.7em 0 0 0;
+  padding: 0;
+}
+/* line 1495, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box ol {
   padding: 0 2em;
 }
-/* line 1492, ../sass/nodes.scss */
+/* line 1496, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box li {
   padding-bottom: 1.3em;
 }
-/* line 1493, ../sass/nodes.scss */
+/* line 1497, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box a {
   color: #fff;
 }
-/* line 1494, ../sass/nodes.scss */
+/* line 1498, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box a:hover {
   text-decoration: none;
 }
-/* line 1495, ../sass/nodes.scss */
+/* line 1499, ../sass/nodes.scss */
+.page-node-3368 .chocolateers.column .box p {
+  margin: 0 0 1em 0;
+}
+/* line 1500, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box .highlighted {
   color: #f1ab00;
   font-weight: bold;
 }
-/* line 1499, ../sass/nodes.scss */
+/* line 1504, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box #indent {
   padding: 0 0 0 2em;
 }
-/* line 1505, ../sass/nodes.scss */
+/* line 1510, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile.odd {
   margin-right: 6%;
 }
-/* line 1509, ../sass/nodes.scss */
+/* line 1514, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile {
   float: left;
   line-height: 0;
   width: 45%;
   clear: none;
 }
-/* line 1514, ../sass/nodes.scss */
+/* line 1519, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile img {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -2413,7 +2423,7 @@ label[for=edit-search-block-form--2] {
   -o-border-radius: 0px;
   border-radius: 0px;
 }
-/* line 1518, ../sass/nodes.scss */
+/* line 1523, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile .name {
   background: #a39161;
   color: white;
@@ -2442,7 +2452,7 @@ label[for=edit-search-block-form--2] {
   margin-left: 0.4em;
   bottom: 0.66em;
 }
-/* line 1529, ../sass/nodes.scss */
+/* line 1534, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile .biography {
   font-style: italic;
   line-height: 1.2em;
