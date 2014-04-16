@@ -2345,3 +2345,65 @@ label[for=edit-search-block-form--2] {
   -o-border-radius: 0 0 8px 8px;
   border-radius: 0 0 8px 8px;
 }
+
+/*
+* Chocolateers
+*/
+/* line 1474, ../sass/nodes.scss */
+.chocolateers.box {
+  background: #000;
+  -webkit-border-radius: 0 0 8px 8px;
+  -moz-border-radius: 0 0 8px 8px;
+  -ms-border-radius: 0 0 8px 8px;
+  -o-border-radius: 0 0 8px 8px;
+  border-radius: 0 0 8px 8px;
+}
+/* line 1478, ../sass/nodes.scss */
+.chocolateers.box .highlight {
+  color: #0f1ab00;
+  font-weight: bold;
+}
+
+/* line 1484, ../sass/nodes.scss */
+chocolateers.profile {
+  float: right;
+}
+/* line 1486, ../sass/nodes.scss */
+chocolateers.profile img {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+}
+/* line 1490, ../sass/nodes.scss */
+chocolateers.profile .name {
+  background: #a39161;
+  color: white;
+  position: relative;
+  text-transform: uppercase;
+  padding: 0.3em;
+  -webkit-border-radius: 0 0 8px 8px;
+  -moz-border-radius: 0 0 8px 8px;
+  -ms-border-radius: 0 0 8px 8px;
+  -o-border-radius: 0 0 8px 8px;
+  border-radius: 0 0 8px 8px;
+}
+/* line 65, ../sass/_custom.scss */
+chocolateers.profile .name:after {
+  width: 0;
+  height: 0;
+  border-radius: 2px;
+  border: solid transparent;
+  content: " ";
+  position: absolute;
+  pointer-events: none;
+  border-left-color: white;
+  border-width: 0.4em;
+  margin-left: 0.4em;
+  bottom: 0.17em;
+}
+/* line 1499, ../sass/nodes.scss */
+chocolateers.profile .biography {
+  font-style: italic;
+}

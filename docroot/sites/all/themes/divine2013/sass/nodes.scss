@@ -1464,7 +1464,42 @@ display:none !important;
 	  .views-field-field-blog-featured-image img {
 		@include border-radius(0 0 8px 8px);
 		}      
-	 }
-    
- 
+	 } 
 }
+
+/*
+* Chocolateers
+*/
+
+.chocolateers.box {
+	background:#000;
+	@include border-radius(0 0 8px 8px);
+
+	.highlight {
+		color:#0f1ab00;
+		font-weight:bold;
+	}
+}
+
+chocolateers.profile {
+	float:right;
+	img {
+		@include border-radius(0px);
+	}
+	
+	.name {
+		background: #a39161;
+		color: $white;
+		@include arrow($white,0.4em,0.17em);
+		text-transform:uppercase;
+		padding:0.3em;
+		@include border-radius(0 0 8px 8px);
+	}
+	
+	.biography {
+		font-style:italic;
+		
+	}
+}
+
+
