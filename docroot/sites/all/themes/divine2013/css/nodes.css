@@ -2355,28 +2355,37 @@ label[for=edit-search-block-form--2] {
 }
 /* line 1480, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column {
-  width: 49.8%;
+  width: 47.8%;
   float: left;
 }
 /* line 1485, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box {
   background: #000;
-  -webkit-border-radius: 0 0 8px 8px;
-  -moz-border-radius: 0 0 8px 8px;
-  -ms-border-radius: 0 0 8px 8px;
-  -o-border-radius: 0 0 8px 8px;
-  border-radius: 0 0 8px 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  padding: 1em;
+  color: #bfbfbf;
 }
-/* line 1489, ../sass/nodes.scss */
-.page-node-3368 .chocolateers.column .box .highlight {
+/* line 1491, ../sass/nodes.scss */
+.page-node-3368 .chocolateers.column .box ol {
+  padding: 1em 2em;
+}
+/* line 1493, ../sass/nodes.scss */
+.page-node-3368 .chocolateers.column .box .highlighted {
   color: #0f1ab00;
   font-weight: bold;
 }
-/* line 1497, ../sass/nodes.scss */
+/* line 1501, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile {
   float: left;
+  line-height: 0;
+  width: 45%;
+  clear: none;
 }
-/* line 1499, ../sass/nodes.scss */
+/* line 1506, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile img {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -2384,13 +2393,13 @@ label[for=edit-search-block-form--2] {
   -o-border-radius: 0px;
   border-radius: 0px;
 }
-/* line 1503, ../sass/nodes.scss */
+/* line 1510, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile .name {
   background: #a39161;
   color: white;
   position: relative;
   text-transform: uppercase;
-  padding: 0.3em;
+  padding: 0.3em 0.3em 0.3em 0.6em;
   -webkit-border-radius: 0 0 8px 8px;
   -moz-border-radius: 0 0 8px 8px;
   -ms-border-radius: 0 0 8px 8px;
@@ -2409,9 +2418,10 @@ label[for=edit-search-block-form--2] {
   border-left-color: white;
   border-width: 0.4em;
   margin-left: 0.4em;
-  bottom: 0.17em;
+  bottom: 0.66em;
 }
-/* line 1512, ../sass/nodes.scss */
+/* line 1519, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile .biography {
   font-style: italic;
+  line-height: 1.2em;
 }

@@ -1479,14 +1479,18 @@ display:none !important;
 
 .chocolateers.column {
 
-	  width:49.8%;
+	  width:47.8%;
 	  float:left;
 
 .box {
 	background:#000;
-	@include border-radius(0 0 8px 8px);
+	@include border-radius(8px);
+	padding:1em;
+	color:#bfbfbf;
 
-	.highlight {
+	ol {padding:1em 2em;}	
+		
+	.highlighted {
 		color:#0f1ab00;
 		font-weight:bold;
 	}
@@ -1496,6 +1500,9 @@ display:none !important;
 
 .profile {
 	float:left;
+	line-height:0;
+	width:45%;
+	clear:none;
 	img {
 		@include border-radius(0px);
 	}
@@ -1503,15 +1510,15 @@ display:none !important;
 	.name {
 		background: #a39161;
 		color: $white;
-		@include arrow($white,0.4em,0.17em);
+		@include arrow($white,0.4em,0.66em);
 		text-transform:uppercase;
-		padding:0.3em;
+		padding:0.3em 0.3em 0.3em 0.6em;
 		@include border-radius(0 0 8px 8px);
 	}
 	
 	.biography {
 		font-style:italic;
-		
+		line-height:1.2em;
 	}
 }
 
