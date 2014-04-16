@@ -1473,6 +1473,10 @@ display:none !important;
 
 .page-node-3368 {
 
+h1.title {
+	text-indent: -10000px;
+} 
+
 .chocolateers.column.first {
 	  margin-right: 2.5641%;
 	  }
@@ -1488,15 +1492,20 @@ display:none !important;
 	padding:1em;
 	color:#bfbfbf;
 
-	ol {padding:1em 2em;}	
+	ol {padding:0.5em 2em;}
+	li {padding-bottom: 1.3em;}
+	a {color:#fff;}	
 		
 	.highlighted {
-		color:#0f1ab00;
+		color:#f1ab00;
 		font-weight:bold;
 	}
 }
 
 
+.profile.odd {
+	margin-right:6%;
+}
 
 .profile {
 	float:left;
@@ -1514,6 +1523,8 @@ display:none !important;
 		text-transform:uppercase;
 		padding:0.3em 0.3em 0.3em 0.6em;
 		@include border-radius(0 0 8px 8px);
+		line-height:1.2em;
+		font-weight:bold;
 	}
 	
 	.biography {
