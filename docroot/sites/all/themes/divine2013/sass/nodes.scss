@@ -1468,7 +1468,13 @@ display:none !important;
     }
   } 
 	@include breakpoint(tablet) {
-    
+    .view-good-stuff-new {
+    margin-bottom:2em;
+    @include span-columns(4,8);
+      .views-row-even {
+        @include omega;
+      }
+    }
   }
 }
 
