@@ -1468,10 +1468,14 @@ display:none !important;
     }
   } 
 	@include breakpoint(tablet) {
-    .block-views {
-      @include span-columns(4,8);
-      &.even {
-        @include omega;
+    .column {
+      .block-views {
+        margin-bottom: 1em;
+        min-height: 538px;
+        @include span-columns(4,8);
+        &.even {
+          @include omega;
+        }
       }
     }
   }
