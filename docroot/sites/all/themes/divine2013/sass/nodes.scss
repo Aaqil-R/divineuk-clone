@@ -1420,51 +1420,62 @@ display:none !important;
 */
 
 .page-node-3361 {
-   .views-field-title {
-   padding-top:0.5em;
-   }
+  .views-field-title {
+    padding-top:0.5em;
+  }
   .views-field-title a{
-    color: $blue;
-	text-transform:uppercase;
+   color: $blue;
+	 text-transform:uppercase;
   }
   .views-field-view-node a {
     color: $blue;
   }
-  
+  .views-field-field-teaser {
+    font-size: 0.8em;
+  }
+  .views-field-view-node {
+    font-size: 0.85em;
+  }
   .good-stuff.button {
-	background: $blue;
-	text-transform:uppercase;
-    padding: 0.5em 1.8em 0.4em 0.4em;
+  	background: $blue;
+  	text-transform:uppercase;
+    padding: 0.5em 1.8em 0.5em 0.85em;
     margin: 0.5em 0;
     @include border-radius(4px); 
-	display:inline-block;
+	  display:inline-block;
   }
   .good-stuff.button a{
   color: $white;
   @include arrow($white,0.4em,0.17em);
   }
   
-  .block {
-  margin:0;
+  .block-views {
+    margin-top:0;
   }
   
   .view-good-stuff-new {
-      width:49.8%;
-	  float:left;
-	  margin-bottom:2em;
+    margin-bottom:2em;
 	  
 	  .views-row-odd {
-	  margin-right: 2.5641%;
+	  
 	  }
 	  
 	  .views-field-banner {
-	  line-height:0;
+	    line-height:0;
 	  }
-	  
-	  .views-field-field-blog-featured-image img {
-		@include border-radius(0 0 8px 8px);
-		}      
-	 } 
+    .views-field-field-blog-featured-image img {
+      @include border-radius(0 0 8px 8px);
+    }
+  } 
+	@include breakpoint(tablet) {
+    .view-good-stuff-new {
+    margin-bottom:2em;
+    @include span-columns(4,8);
+      .views-row-even {
+        @include omega;
+      }
+    }
+  }
 }
 
 /*

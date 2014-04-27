@@ -2287,11 +2287,19 @@ label[for=edit-search-block-form--2] {
 .page-node-3361 .views-field-view-node a {
   color: #00aeef;
 }
-/* line 1434, ../sass/nodes.scss */
+/* line 1433, ../sass/nodes.scss */
+.page-node-3361 .views-field-field-teaser {
+  font-size: 0.8em;
+}
+/* line 1436, ../sass/nodes.scss */
+.page-node-3361 .views-field-view-node {
+  font-size: 0.85em;
+}
+/* line 1439, ../sass/nodes.scss */
 .page-node-3361 .good-stuff.button {
   background: #00aeef;
   text-transform: uppercase;
-  padding: 0.5em 1.8em 0.4em 0.4em;
+  padding: 0.5em 1.8em 0.5em 0.85em;
   margin: 0.5em 0;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -2300,7 +2308,7 @@ label[for=edit-search-block-form--2] {
   border-radius: 4px;
   display: inline-block;
 }
-/* line 1442, ../sass/nodes.scss */
+/* line 1447, ../sass/nodes.scss */
 .page-node-3361 .good-stuff.button a {
   color: white;
   position: relative;
@@ -2319,25 +2327,19 @@ label[for=edit-search-block-form--2] {
   margin-left: 0.4em;
   bottom: 0.17em;
 }
-/* line 1447, ../sass/nodes.scss */
-.page-node-3361 .block {
-  margin: 0;
-}
-/* line 1451, ../sass/nodes.scss */
-.page-node-3361 .view-good-stuff-new {
-  width: 49.8%;
-  float: left;
-  margin-bottom: 2em;
+/* line 1452, ../sass/nodes.scss */
+.page-node-3361 .block-views {
+  margin-top: 0;
 }
 /* line 1456, ../sass/nodes.scss */
-.page-node-3361 .view-good-stuff-new .views-row-odd {
-  margin-right: 2.5641%;
+.page-node-3361 .view-good-stuff-new {
+  margin-bottom: 2em;
 }
-/* line 1460, ../sass/nodes.scss */
+/* line 1463, ../sass/nodes.scss */
 .page-node-3361 .view-good-stuff-new .views-field-banner {
   line-height: 0;
 }
-/* line 1464, ../sass/nodes.scss */
+/* line 1466, ../sass/nodes.scss */
 .page-node-3361 .view-good-stuff-new .views-field-field-blog-featured-image img {
   -webkit-border-radius: 0 0 8px 8px;
   -moz-border-radius: 0 0 8px 8px;
@@ -2345,20 +2347,34 @@ label[for=edit-search-block-form--2] {
   -o-border-radius: 0 0 8px 8px;
   border-radius: 0 0 8px 8px;
 }
+@media (min-width: 32em) {
+  /* line 1471, ../sass/nodes.scss */
+  .page-node-3361 .view-good-stuff-new {
+    margin-bottom: 2em;
+    width: 48.71795%;
+    float: left;
+    margin-right: 2.5641%;
+  }
+  /* line 1474, ../sass/nodes.scss */
+  .page-node-3361 .view-good-stuff-new .views-row-even {
+    float: right;
+    margin-right: 0;
+  }
+}
 
 /*
 * Chocolateers
 */
-/* line 1476, ../sass/nodes.scss */
+/* line 1487, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column.first {
   margin-right: 2.5641%;
 }
-/* line 1480, ../sass/nodes.scss */
+/* line 1491, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column {
   width: 47.8%;
   float: left;
 }
-/* line 1485, ../sass/nodes.scss */
+/* line 1496, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box {
   background: #000;
   -webkit-border-radius: 8px;
@@ -2369,53 +2385,53 @@ label[for=edit-search-block-form--2] {
   padding: 1em;
   color: #bfbfbf;
 }
-/* line 1491, ../sass/nodes.scss */
+/* line 1502, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box h3 {
   font-size: 1.1em;
   margin: 0.7em 0 0 0;
   padding: 0;
 }
-/* line 1495, ../sass/nodes.scss */
+/* line 1506, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box ol {
   padding: 0 2em;
 }
-/* line 1496, ../sass/nodes.scss */
+/* line 1507, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box li {
   padding-bottom: 1.3em;
 }
-/* line 1497, ../sass/nodes.scss */
+/* line 1508, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box a {
   color: #fff;
 }
-/* line 1498, ../sass/nodes.scss */
+/* line 1509, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box a:hover {
   text-decoration: none;
 }
-/* line 1499, ../sass/nodes.scss */
+/* line 1510, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box p {
   margin: 0 0 1em 0;
 }
-/* line 1500, ../sass/nodes.scss */
+/* line 1511, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box .highlighted {
   color: #f1ab00;
   font-weight: bold;
 }
-/* line 1504, ../sass/nodes.scss */
+/* line 1515, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box #indent {
   padding: 0 0 0 2em;
 }
-/* line 1510, ../sass/nodes.scss */
+/* line 1521, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile.odd {
   margin-right: 6%;
 }
-/* line 1514, ../sass/nodes.scss */
+/* line 1525, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile {
   float: left;
   line-height: 0;
   width: 45%;
   clear: none;
 }
-/* line 1519, ../sass/nodes.scss */
+/* line 1530, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile img {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -2423,12 +2439,12 @@ label[for=edit-search-block-form--2] {
   -o-border-radius: 0px;
   border-radius: 0px;
 }
-/* line 1522, ../sass/nodes.scss */
+/* line 1533, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile a {
   color: #fff;
   font-weight: normal;
 }
-/* line 1524, ../sass/nodes.scss */
+/* line 1535, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile .name {
   background: #a39161;
   color: white;
@@ -2457,7 +2473,7 @@ label[for=edit-search-block-form--2] {
   margin-left: 0.4em;
   bottom: 0.66em;
 }
-/* line 1535, ../sass/nodes.scss */
+/* line 1546, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile .biography {
   font-style: italic;
   line-height: 1.2em;
