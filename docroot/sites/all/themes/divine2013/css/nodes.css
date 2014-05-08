@@ -2480,3 +2480,13 @@ label[for=edit-search-block-form--2] {
   line-height: 1.2em;
   padding-top: 1em;
 }
+
+/*
+* Gallery
+*/
+/* line 1563, ../sass/nodes.scss */
+.node-gallery .div.field-item {
+  float: left;
+  padding-right: 20px;
+  height: 290px;
+}
