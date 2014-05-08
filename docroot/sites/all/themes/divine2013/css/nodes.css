@@ -2485,7 +2485,7 @@ label[for=edit-search-block-form--2] {
 * Gallery
 */
 /* line 1563, ../sass/nodes.scss */
-.node-gallery .div.field-item {
+.node-gallery .field-item {
   float: left;
   padding-right: 20px;
   height: 290px;
