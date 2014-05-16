@@ -2351,12 +2351,11 @@ label[for=edit-search-block-form--2] {
   /* line 1472, ../sass/nodes.scss */
   .page-node-3361 #content .block-views {
     margin-bottom: 1em;
-    min-height: 557px;
     width: 48.71795%;
     float: left;
     margin-right: 2.5641%;
   }
-  /* line 1476, ../sass/nodes.scss */
+  /* line 1475, ../sass/nodes.scss */
   .page-node-3361 #content .block-views.even {
     float: right;
     margin-right: 0;
@@ -2366,16 +2365,16 @@ label[for=edit-search-block-form--2] {
 /*
 * Chocolateers
 */
-/* line 1490, ../sass/nodes.scss */
+/* line 1489, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column.first {
   margin-right: 2.5641%;
 }
-/* line 1494, ../sass/nodes.scss */
+/* line 1493, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column {
   width: 47.8%;
   float: left;
 }
-/* line 1499, ../sass/nodes.scss */
+/* line 1498, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box {
   background: #000;
   -webkit-border-radius: 8px;
@@ -2386,53 +2385,53 @@ label[for=edit-search-block-form--2] {
   padding: 1em;
   color: #bfbfbf;
 }
-/* line 1505, ../sass/nodes.scss */
+/* line 1504, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box h3 {
   font-size: 1.1em;
   margin: 0.7em 0 0 0;
   padding: 0;
 }
-/* line 1509, ../sass/nodes.scss */
+/* line 1508, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box ol {
   padding: 0 2em;
 }
-/* line 1510, ../sass/nodes.scss */
+/* line 1509, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box li {
   padding-bottom: 1.3em;
 }
-/* line 1511, ../sass/nodes.scss */
+/* line 1510, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box a {
   color: #fff;
 }
-/* line 1512, ../sass/nodes.scss */
+/* line 1511, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box a:hover {
   text-decoration: none;
 }
-/* line 1513, ../sass/nodes.scss */
+/* line 1512, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box p {
   margin: 0 0 1em 0;
 }
-/* line 1514, ../sass/nodes.scss */
+/* line 1513, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box .highlighted {
   color: #f1ab00;
   font-weight: bold;
 }
-/* line 1518, ../sass/nodes.scss */
+/* line 1517, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box #indent {
   padding: 0 0 0 2em;
 }
-/* line 1524, ../sass/nodes.scss */
+/* line 1523, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile.odd {
   margin-right: 6%;
 }
-/* line 1528, ../sass/nodes.scss */
+/* line 1527, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile {
   float: left;
   line-height: 0;
   width: 45%;
   clear: none;
 }
-/* line 1533, ../sass/nodes.scss */
+/* line 1532, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile img {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -2440,12 +2439,12 @@ label[for=edit-search-block-form--2] {
   -o-border-radius: 0px;
   border-radius: 0px;
 }
-/* line 1536, ../sass/nodes.scss */
+/* line 1535, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile a {
   color: #fff;
   font-weight: normal;
 }
-/* line 1538, ../sass/nodes.scss */
+/* line 1537, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile .name {
   background: #a39161;
   color: white;
@@ -2474,7 +2473,7 @@ label[for=edit-search-block-form--2] {
   margin-left: 0.4em;
   bottom: 0.66em;
 }
-/* line 1549, ../sass/nodes.scss */
+/* line 1548, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile .biography {
   font-style: italic;
   line-height: 1.2em;
@@ -2484,7 +2483,7 @@ label[for=edit-search-block-form--2] {
 /*
 * Gallery
 */
-/* line 1563, ../sass/nodes.scss */
+/* line 1562, ../sass/nodes.scss */
 .node-gallery .field-item {
   float: left;
   padding-right: 20px;
