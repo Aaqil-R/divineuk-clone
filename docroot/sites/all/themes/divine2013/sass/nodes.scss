@@ -1564,3 +1564,46 @@ display:none !important;
 	padding-right: 20px;
 	height: 290px;
 }
+
+/*
+* Caramel Page
+*/
+
+
+.page-node-3393 {
+   
+    button#show-button-1 {
+		color: $white !important;
+		font-size:1.3em;
+		@include border-radius(6px);
+		background: $gold;
+		margin: 0.5em 0;
+		padding: 0.3em;
+		width: 210px;
+		}
+    
+	.show-button {
+		width: 210px;
+		margin: 0 auto;
+	}
+	
+    h1#page-title {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+		}
+	   
+    h3 {
+		text-transform:none;
+		font-size:2.3em;
+		}
+   
+    p {
+		font-size: 1.2em;
+		}
+   
+    .webform-client-form .form-item {
+		 margin:0;
+		}
+   
+}
