@@ -2394,11 +2394,14 @@ label[for=edit-search-block-form--2] {
     width: 48.71795%;
     float: left;
     margin-right: 2.5641%;
+    display: inline;
   }
   /* line 1475, ../sass/nodes.scss */
   .page-node-3361 #content .block-views.even {
     float: right;
     margin-right: 0;
+    *margin-left: -1em;
+    display: inline;
   }
 }
 
@@ -2531,10 +2534,8 @@ label[for=edit-search-block-form--2] {
 .page-node-3393 button#show-button-1 {
   color: white !important;
   font-size: 1.3em;
-  -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
+  -webkit-border-radius: 6px;
   border-radius: 6px;
   background: #a39161;
   margin: 0.5em 0;
