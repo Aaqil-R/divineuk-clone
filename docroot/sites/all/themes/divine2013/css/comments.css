@@ -9,7 +9,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 /*Custom Mixins*/
 /* line 9, ../sass/comments.scss */
 .comments {
@@ -125,4 +124,8 @@
   text-transform: uppercase;
   text-align: center;
   word-wrap: break-word;
+}
+/* line 55, ../sass/_custom.scss */
+.lt-ie8 .comment-unpublished p.unpublished > * {
+  position: relative;
 }

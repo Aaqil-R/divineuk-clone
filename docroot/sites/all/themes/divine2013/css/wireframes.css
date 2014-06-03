@@ -1,26 +1,79 @@
-/**
- * @file
- * Wireframes Styling
- *
- * Add wireframes to the basic layout elements.
- */
-@font-face {
-  font-family: 'OPTISport-Script';
-  src: url("fonts/optispos.eot");
-  src: url("fonts/optispos.eot?#iefix") format("embedded-opentype"), url("fonts/optispos.woff") format("woff"), url("fonts/optispos.ttf") format("truetype"), url("fonts/optispos.svg#optisport-scriptscript") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
+/*
+Syntax error: Undefined variable: "$legacy-support-for-ie6".
+        on line 22 of C:/Users/admin/Sites/devdesktop/divineuk-dev/docroot/sites/all/themes/divine2013/sass/wireframes.scss
 
-/*Custom Mixins*/
-/* line 19, ../sass/wireframes.scss */
-.with-wireframes #header,
-.with-wireframes #main,
-.with-wireframes #content,
-.with-wireframes #navigation,
-.with-wireframes .region-sidebar-first,
-.with-wireframes .region-sidebar-second,
-.with-wireframes #footer,
-.with-wireframes .region-bottom {
-  outline: 1px solid #ccc;
-}
+Backtrace:
+C:/Users/admin/Sites/devdesktop/divineuk-dev/docroot/sites/all/themes/divine2013/sass/wireframes.scss:22
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/script/tree/operation.rb:64:in `_perform'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:270:in `visit_if'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/stack.rb:121:in `with_frame'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:152:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:389:in `block (2 levels) in visit_rule'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:389:in `map'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:389:in `block in visit_rule'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:387:in `visit_rule'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/stack.rb:121:in `with_frame'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:152:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:389:in `block (2 levels) in visit_rule'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:389:in `map'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:389:in `block in visit_rule'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:387:in `visit_rule'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/stack.rb:121:in `with_frame'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:152:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:161:in `block in visit_children'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:160:in `visit_children'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:180:in `visit_root'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:151:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/root_node.rb:20:in `render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/engine.rb:274:in `render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:171:in `block (2 levels) in compile'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:153:in `timed'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:166:in `block in compile'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.0.alpha.19/lib/compass/logger.rb:46:in `red'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:165:in `compile'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:144:in `compile_if_required'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:129:in `block (2 levels) in run'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:127:in `each'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:127:in `block in run'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:153:in `timed'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:126:in `run'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.0.alpha.19/lib/compass/commands/update_project.rb:49:in `perform'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.0.alpha.19/lib/compass/commands/base.rb:18:in `execute'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.0.alpha.19/lib/compass/commands/project_base.rb:19:in `execute'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.0.alpha.19/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.0.alpha.19/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.0.alpha.19/bin/compass:30:in `block in <top (required)>'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.0.alpha.19/bin/compass:44:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.0.alpha.19/bin/compass:44:in `<top (required)>'
+C:/Ruby200-x64/bin/compass:23:in `load'
+C:/Ruby200-x64/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined variable: \"$legacy-support-for-ie6\".\A         on line 22 of C:/Users/admin/Sites/devdesktop/divineuk-dev/docroot/sites/all/themes/divine2013/sass/wireframes.scss"; }

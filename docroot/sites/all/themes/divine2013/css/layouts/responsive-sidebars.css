@@ -15,7 +15,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 /*Custom Mixins*/
 /* line 40, ../../sass/layouts/responsive-sidebars.scss */
 body {
@@ -90,18 +89,20 @@ body.section-good-stuff #page {
 /*
  * Containers for grid items and flow items.
  */
-/* line 98, ../../sass/layouts/responsive-sidebars.scss */
+/* line 96, ../../sass/layouts/responsive-sidebars.scss */
 #header,
 #main,
 #footer {
+  *zoom: 1;
   max-width: 34em;
+  _width: 34em;
   padding-left: 1em;
   padding-right: 1em;
   margin-left: auto;
   margin-right: auto;
   min-width: 15em;
 }
-/* line 38, ../../../../../../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/utilities/general/_clearfix.scss */
 #header:after,
 #main:after,
 #footer:after {
@@ -110,17 +111,18 @@ body.section-good-stuff #page {
   clear: both;
 }
 @media (min-width: 32em) {
-  /* line 98, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 96, ../../sass/layouts/responsive-sidebars.scss */
   #header,
   #main,
   #footer {
+    *zoom: 1;
     max-width: 69em;
     padding-left: 1em;
     padding-right: 1em;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../../../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../../../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/utilities/general/_clearfix.scss */
   #header:after,
   #main:after,
   #footer:after {
@@ -130,17 +132,18 @@ body.section-good-stuff #page {
   }
 }
 @media (min-width: 49em) {
-  /* line 98, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 96, ../../sass/layouts/responsive-sidebars.scss */
   #header,
   #main,
   #footer {
+    *zoom: 1;
     max-width: 55em;
     padding-left: 1em;
     padding-right: 1em;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 38, ../../../../../../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../../../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/utilities/general/_clearfix.scss */
   #header:after,
   #main:after,
   #footer:after {
@@ -150,10 +153,11 @@ body.section-good-stuff #page {
   }
 }
 @media (min-width: 60em) {
-  /* line 98, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 96, ../../sass/layouts/responsive-sidebars.scss */
   #header,
   #main,
   #footer {
+    *zoom: 1;
     max-width: 62em;
     padding-left: 1em;
     padding-right: 1em;
@@ -161,7 +165,7 @@ body.section-good-stuff #page {
     margin-right: auto;
     padding: 0em 2.5em;
   }
-  /* line 38, ../../../../../../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../../../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/utilities/general/_clearfix.scss */
   #header:after,
   #main:after,
   #footer:after {
@@ -185,7 +189,7 @@ body.section-good-stuff #page {
 /*
  * No media query fixes
  */
-/* line 131, ../../sass/layouts/responsive-sidebars.scss */
+/* line 129, ../../sass/layouts/responsive-sidebars.scss */
 .lt-ie9 #header,
 .lt-ie9 #main,
 .lt-ie9 #footer {
@@ -202,6 +206,7 @@ body.section-good-stuff #page {
   width: 69.56522%;
   float: left;
   margin-right: 1.44928%;
+  display: inline;
 }
 /* line 144, ../../sass/layouts/responsive-sidebars.scss */
 .lt-ie9 .sidebar-first #content #block-views-frontpage-shop-window-block img {
@@ -212,6 +217,8 @@ body.section-good-stuff #page {
   width: 28.98551%;
   float: right;
   margin-right: 0;
+  *margin-left: -1em;
+  display: inline;
 }
 /* line 154, ../../sass/layouts/responsive-sidebars.scss */
 .lt-ie9 #header #block-search-form, .lt-ie9 #header #block-block-9, .lt-ie9 #header #block-block-4, .lt-ie9 #header #block-block-9, .lt-ie9 #header .region-nav {

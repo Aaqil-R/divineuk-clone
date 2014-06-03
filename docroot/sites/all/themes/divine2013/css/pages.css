@@ -13,7 +13,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 /*Custom Mixins*/
 /*
  * Body
@@ -32,7 +31,7 @@ body {
 #skip-link {
   margin: 0;
 }
-/* line 34, ../sass/pages.scss */
+/* line 33, ../sass/pages.scss */
 #skip-link a,
 #skip-link a:visited {
   display: block;
@@ -48,7 +47,7 @@ body {
  */
 /* line 47, ../sass/pages.scss */
 #swoosh {
-  background: url('../images/wrapper/swoosh-top.png?1393001658') no-repeat;
+  background: url('../images/wrapper/swoosh-top.png?1397889191') no-repeat;
   background-position: -102px;
   height: 35px;
   width: 100%;
@@ -104,6 +103,7 @@ body {
     width: 59.18367%;
     float: left;
     margin-right: 2.04082%;
+    display: inline;
   }
   /* line 93, ../sass/pages.scss */
   .front.sidebar-first #content #block-views-frontpage-shop-window-block img {
@@ -114,12 +114,14 @@ body {
     width: 38.77551%;
     float: right;
     margin-right: 0;
+    *margin-left: -1em;
+    display: inline;
   }
 }
 @media (min-width: 49em) {
   /* line 102, ../sass/pages.scss */
   .front #header {
-    background-image: url('../images/homepage-banner/spring-web-banner.jpg?1395069032');
+    background-image: url('../images/homepage-banner/Summer_USA_Home-Page.jpg?1401545549');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -166,6 +168,8 @@ body {
   width: 58.33333%;
   float: right;
   margin-right: 0;
+  *margin-left: -1em;
+  display: inline;
   margin-top: 0.5em;
 }
 /* line 139, ../sass/pages.scss */
@@ -186,6 +190,8 @@ body {
     width: 59.18367%;
     float: right;
     margin-right: 0;
+    *margin-left: -1em;
+    display: inline;
     margin-top: 1em;
   }
   /* line 153, ../sass/pages.scss */
@@ -231,12 +237,12 @@ body {
 
 /* line 197, ../sass/pages.scss */
 .view-recipes a:hover img, .view-sidebar-blocks a:hover img {
-  -webkit-box-shadow: 0px 0px 5px #58595b;
-  -moz-box-shadow: 0px 0px 5px #58595b;
-  box-shadow: 0px 0px 5px #58595b;
+  -moz-box-shadow: 0px 5px #58595b;
+  -webkit-box-shadow: 0px 5px #58595b;
+  box-shadow: 0px 5px #58595b;
 }
 
-/* line 211, ../sass/pages.scss */
+/* line 206, ../sass/pages.scss */
 h1.title,
 h2.node-title,
 h2.block-title,
@@ -277,7 +283,7 @@ div.status {
   /* Normal priority messages */
 }
 
-/* line 236, ../sass/pages.scss */
+/* line 235, ../sass/pages.scss */
 div.warning,
 tr.warning {
   /* Medium priority messages */
@@ -285,7 +291,7 @@ tr.warning {
   /* Drupal core uses: 1px solid #f0c020 */
 }
 
-/* line 241, ../sass/pages.scss */
+/* line 240, ../sass/pages.scss */
 div.error,
 tr.error {
   /* High priority messages. See also the .error declaration below. */
@@ -378,6 +384,8 @@ span.field-label {
   width: 100%;
   float: right;
   margin-right: 0;
+  *margin-left: -1em;
+  display: inline;
 }
 
 @media (min-width: 32em) {
@@ -386,6 +394,7 @@ span.field-label {
     width: 69.38776%;
     float: left;
     margin-right: 2.04082%;
+    display: inline;
   }
 
   /* line 308, ../sass/pages.scss */
@@ -393,6 +402,8 @@ span.field-label {
     width: 28.57143%;
     float: right;
     margin-right: 0;
+    *margin-left: -1em;
+    display: inline;
   }
 }
 @media (min-width: 49em) {
@@ -401,6 +412,7 @@ span.field-label {
     width: 79.59184%;
     float: left;
     margin-right: 2.04082%;
+    display: inline;
   }
 
   /* line 320, ../sass/pages.scss */
@@ -408,11 +420,13 @@ span.field-label {
     width: 18.36735%;
     float: right;
     margin-right: 0;
+    *margin-left: -1em;
+    display: inline;
   }
 
   /* line 324, ../sass/pages.scss */
   .adinkra-sidebar .sidebars {
-    background: url('../images/symbols/adinkra-large.png?1393001658') no-repeat;
+    background: url('../images/symbols/adinkra-large.png?1397889191') no-repeat;
     padding-bottom: 220px;
     background-position: left bottom;
   }
@@ -426,7 +440,7 @@ span.field-label {
  */
 /* line 340, ../sass/pages.scss */
 #footer {
-  background: url('../images/wrapper/swoosh-bottom.png?1393001658') black no-repeat top right;
+  background: url('../images/wrapper/swoosh-bottom.png?1397889191') black no-repeat top right;
   padding-top: 6em;
 }
 @media (min-width: 32em) {
@@ -451,6 +465,7 @@ span.field-label {
     width: 79.59184%;
     float: left;
     margin-right: 2.04082%;
+    display: inline;
   }
 }
 
