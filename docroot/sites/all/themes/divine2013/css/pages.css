@@ -467,6 +467,9 @@ span.field-label {
     margin-right: 2.04082%;
     display: inline;
   }
+  .region-content-bottom {
+	  width:100%;
+	  margin:0;}
 }
 
 /*
