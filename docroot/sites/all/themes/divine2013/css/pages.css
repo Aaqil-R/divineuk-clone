@@ -47,7 +47,7 @@ body {
  */
 /* line 47, ../sass/pages.scss */
 #swoosh {
-  background: url('../images/wrapper/swoosh-top.png?1397889191') no-repeat;
+  background: url('../images/wrapper/swoosh-top.png?1402841816') no-repeat;
   background-position: -102px;
   height: 35px;
   width: 100%;
@@ -121,7 +121,7 @@ body {
 @media (min-width: 49em) {
   /* line 102, ../sass/pages.scss */
   .front #header {
-    background-image: url('../images/homepage-banner/Summer_UK_Home-Page.jpg?1401807023');
+    background-image: url('../images/homepage-banner/Summer_UK_Home-Page.jpg?1402841816');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -426,7 +426,7 @@ span.field-label {
 
   /* line 324, ../sass/pages.scss */
   .adinkra-sidebar .sidebars {
-    background: url('../images/symbols/adinkra-large.png?1397889191') no-repeat;
+    background: url('../images/symbols/adinkra-large.png?1402841816') no-repeat;
     padding-bottom: 220px;
     background-position: left bottom;
   }
@@ -440,7 +440,7 @@ span.field-label {
  */
 /* line 340, ../sass/pages.scss */
 #footer {
-  background: url('../images/wrapper/swoosh-bottom.png?1397889191') black no-repeat top right;
+  background: url('../images/wrapper/swoosh-bottom.png?1402841816') black no-repeat top right;
   padding-top: 6em;
 }
 @media (min-width: 32em) {
@@ -467,9 +467,12 @@ span.field-label {
     margin-right: 2.04082%;
     display: inline;
   }
-  .region-content-bottom {
-	  width:100%;
-	  margin:0;}
+}
+
+/* line 361, ../sass/pages.scss */
+.region-content-bottom {
+  width: 100%;
+  margin: 0;
 }
 
 /*
