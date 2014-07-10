@@ -1373,6 +1373,7 @@
           margin-bottom: 0.5em;
           @include span-columns(5 omega, 5);
         }
+        &.last {@include omega;}
       }
   }
 }
