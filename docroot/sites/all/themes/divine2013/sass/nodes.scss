@@ -1366,15 +1366,14 @@
     form {
       @include span-columns(4 omega,10);
     }
-    .region-content-bottom {
-      .block-views, .block-block {
+    .region-content-bottom .block-views {
         @include span-columns(5,10);
         h2.block-title {margin-bottom: 1em;}
-        .views-row {margin-bottom: 0.5em;}
+        .views-row {
+          margin-bottom: 0.5em;
+          @include span-columns(5 omega, 5);
+        }
       }
-      #block-views-media-block-1, .last {@include omega;}
-      
-    }
   }
 }
 .view-media {
