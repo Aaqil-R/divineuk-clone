@@ -1600,10 +1600,59 @@ display:none !important;
    
     p {
 		font-size: 1.2em;
+		color:$white;
 		}
-   
+	
+	#softspot-1,
+	#softspot-form {
+		padding:0 3em;}
+	
+	#softspot-form {
+		border-top:9px solid #b59660;
+		background:#f6f2ee;
+		h2 {
+			width:501px;
+			height:57px;
+			margin:40px 0 0;
+			text-indent:-9999px;
+			background:image-url('wrapper/divulge-your-details.png') no-repeat;}
+		}
+		
+	#softspot-bar-explained {
+		background:image-url('bg-softspot.png') #72562b repeat-x;}
+	
+	#bar-explained,
+	#store-location {
+		display:block;
+		margin:0 auto;}
+	
+	#store-location {
+		padding:26px 0;}
+	
+	#softspot-available {
+		background:#f6f2ee;
+		height:162px;
+		border-top:9px solid #b59660;
+		border-bottom:9px solid #b59660;}
+		
+	#softspot-tell-us {
+		background:image-url('bg-softspot.png') #72562b repeat-x;}
+	
+	#softspot-separator {
+		width:1072px;
+		height:32px;
+		background: image-url('wrapper/swoosh-bottom-color.png') no-repeat;}
+	  
+	.webform-client-form {
+		background: image-url('wrapper/swoosh-bottom-color.png') no-repeat;}
+	 
     .webform-client-form .form-item {
 		 margin:0;
 		}
+	
+	.webform-client-form .form-item label {
+		font-weight:bold;
+		font-size:20pt;
+		color:#6a3406;}
    
 }

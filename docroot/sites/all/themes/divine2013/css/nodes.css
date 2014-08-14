@@ -2566,8 +2566,68 @@ label[for=edit-search-block-form--2] {
 /* line 1601, ../sass/nodes.scss */
 .page-node-3393 p {
   font-size: 1.2em;
+  color: white;
 }
-/* line 1605, ../sass/nodes.scss */
+/* line 1606, ../sass/nodes.scss */
+.page-node-3393 #softspot-1,
+.page-node-3393 #softspot-form {
+  padding: 0 3em;
+}
+/* line 1610, ../sass/nodes.scss */
+.page-node-3393 #softspot-form {
+  border-top: 9px solid #b59660;
+  background: #f6f2ee;
+}
+/* line 1613, ../sass/nodes.scss */
+.page-node-3393 #softspot-form h2 {
+  width: 501px;
+  height: 57px;
+  margin: 40px 0 0;
+  text-indent: -9999px;
+  background: url('../images/wrapper/divulge-your-details.png?1408018001') no-repeat;
+}
+/* line 1621, ../sass/nodes.scss */
+.page-node-3393 #softspot-bar-explained {
+  background: url('../images/bg-softspot.png?1408001798') #72562b repeat-x;
+}
+/* line 1624, ../sass/nodes.scss */
+.page-node-3393 #bar-explained,
+.page-node-3393 #store-location {
+  display: block;
+  margin: 0 auto;
+}
+/* line 1629, ../sass/nodes.scss */
+.page-node-3393 #store-location {
+  padding: 26px 0;
+}
+/* line 1632, ../sass/nodes.scss */
+.page-node-3393 #softspot-available {
+  background: #f6f2ee;
+  height: 162px;
+  border-top: 9px solid #b59660;
+  border-bottom: 9px solid #b59660;
+}
+/* line 1638, ../sass/nodes.scss */
+.page-node-3393 #softspot-tell-us {
+  background: url('../images/bg-softspot.png?1408001798') #72562b repeat-x;
+}
+/* line 1641, ../sass/nodes.scss */
+.page-node-3393 #softspot-separator {
+  width: 1072px;
+  height: 32px;
+  background: url('../images/wrapper/swoosh-bottom-color.png?1408015602') no-repeat;
+}
+/* line 1646, ../sass/nodes.scss */
+.page-node-3393 .webform-client-form {
+  background: url('../images/wrapper/swoosh-bottom-color.png?1408015602') no-repeat;
+}
+/* line 1649, ../sass/nodes.scss */
 .page-node-3393 .webform-client-form .form-item {
   margin: 0;
+}
+/* line 1653, ../sass/nodes.scss */
+.page-node-3393 .webform-client-form .form-item label {
+  font-weight: bold;
+  font-size: 20pt;
+  color: #6a3406;
 }

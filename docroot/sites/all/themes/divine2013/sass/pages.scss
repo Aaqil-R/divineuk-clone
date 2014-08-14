@@ -66,7 +66,8 @@ body {
       padding: 0 2.5em;
     }
 }
-
+.page-node-3393 #swoosh {
+	background: image-url('wrapper/swoosh-top-color.png') no-repeat;}
 .no-menu #swoosh {
   @include breakpoint(tablet) {
     clear: both;
@@ -171,7 +172,10 @@ body {
 #main {  
   background: $white;
 }
-
+.page-node-3393 #main {
+	max-width:1072px;
+	padding:0;
+	background:image-url('bg-softspot.png') #72562b repeat-x;}
 /*
  * Content
  */
@@ -345,7 +349,9 @@ span.field-label { /* The inline field label used by the Fences module */
       background-position-x: center;
   }
 }
-
+.page-node-3393 #footer {
+	//background: image-url('wrapper/swoosh-bottom-color.png') #000000 no-repeat top right;
+	background:#000;}
 /*
  * Page bottom
  */
@@ -365,3 +371,7 @@ margin:0;}
 /*
  * Page bottom
  */
+
+#softspot-chocolate {
+	display:block;
+	margin:0 auto;}
