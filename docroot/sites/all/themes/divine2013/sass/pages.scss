@@ -9,7 +9,17 @@
 
 @import "base";
 //@import "breakpoint";
+@font-face {
+    font-family: 'gotham-rounded';
+    src: url('fonts/GothamRounded-Book.eot');
+    src: url('fonts/GothamRounded-Book.eot?#iefix') format('embedded-opentype'),
+         url('fonts/GothamRounded-Book.woff') format('woff'),
+         url('fonts/GothamRounded-Book.ttf') format('truetype'),
+         url('fonts/GothamRounded-Book.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
 /*
  * Body
  */
