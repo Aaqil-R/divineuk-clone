@@ -1770,6 +1770,9 @@ display:none !important;
 
 .page-node-3401 {
 	
+	h1#page-title {
+		display:none;}
+	
     p {
 		font-size: 20px;
 		line-height:1.5em;
@@ -1780,18 +1783,34 @@ display:none !important;
 	#softspot-1,
 	#softspot-thankyou {
 		padding:0 3em;}
-	
+		
+	#softspot-1 {
+		padding-bottom:2em;}
+		
 	#softspot-thankyou {
+		border-top:9px solid #b59660;
+		background:#f6f3ee;
+		padding-top:2em;
+		padding-bottom:2em;
 		
 		h2 {
-			font-size:2.5em;
+			font-size:3em;
+			text-transform:capitalize;
 			color:#be7d23;
-			font-family:"OPTISport-Script", Helvetica, Arial, "Nimbus Sans L", sans-serif;}
+			padding:0 0 10px;
+			margin:0 0 20px;
+			font-family:"OPTISport-Script", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+			background: image-url('wrapper/dotted-line.png') left bottom no-repeat;}
+		
+		p {
+			font-size:24px;
+			color:#693506;}
 	}
 	
 	div#softspot-chocolate {
+		position:relative;
 		border-top:2px solid #b4975f;
-		background:image-url('softspot-chocolate.jpg') #f6f3ee no-repeat;
+		background:image-url('wrapper/softspot-chocolate.jpg') 50px 50% #f6f3ee no-repeat;
 		height:248px;
 		
 		.softspot-social {

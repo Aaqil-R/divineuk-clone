@@ -2588,7 +2588,7 @@ label[for=edit-search-block-form--2] {
   height: 57px;
   margin: 40px 0 0;
   text-indent: -9999px;
-  background: url('../images/wrapper/divulge-your-details.png?1408354999') no-repeat;
+  background: url('../images/wrapper/divulge-your-details.png?1408353092') no-repeat;
 }
 /* line 1625, ../sass/nodes.scss */
 .page-node-3393 #softspot-form .softspot-social {
@@ -2597,7 +2597,7 @@ label[for=edit-search-block-form--2] {
   bottom: -50px;
   width: 324px;
   height: 239px;
-  background: url('../images/wrapper/social-icons.png?1408354999') no-repeat;
+  background: url('../images/wrapper/social-icons.png?1408353092') no-repeat;
 }
 /* line 1633, ../sass/nodes.scss */
 .page-node-3393 #softspot-form .softspot-social span {
@@ -2605,7 +2605,7 @@ label[for=edit-search-block-form--2] {
   width: 324px;
   height: 44px;
   text-indent: -9999px;
-  background: url('../images/wrapper/social-icons.png?1408354999') 0 0 no-repeat;
+  background: url('../images/wrapper/social-icons.png?1408353092') 0 0 no-repeat;
 }
 /* line 1639, ../sass/nodes.scss */
 .page-node-3393 #softspot-form .softspot-social a#soft-fb {
@@ -2616,7 +2616,7 @@ label[for=edit-search-block-form--2] {
   bottom: 0;
   left: 19px;
   text-indent: -9999px;
-  background: url('../images/wrapper/social-icons.png?1408354999') -19px -68px no-repeat;
+  background: url('../images/wrapper/social-icons.png?1408353092') -19px -68px no-repeat;
 }
 /* line 1648, ../sass/nodes.scss */
 .page-node-3393 #softspot-form .softspot-social a#soft-twit {
@@ -2627,13 +2627,13 @@ label[for=edit-search-block-form--2] {
   bottom: 0;
   left: 175px;
   text-indent: -9999px;
-  background: url('../images/wrapper/social-icons.png?1408354999') -175px -68px no-repeat;
+  background: url('../images/wrapper/social-icons.png?1408353092') -175px -68px no-repeat;
 }
 /* line 1660, ../sass/nodes.scss */
 .page-node-3393 #softspot-bar-explained {
   padding: 70px 0;
   border-top: 9px solid #b59660;
-  background: url('../images/bg-softspot.png?1408354998') #72562b repeat-x;
+  background: url('../images/bg-softspot.png?1408353092') #72562b repeat-x;
 }
 /* line 1665, ../sass/nodes.scss */
 .page-node-3393 #bar-explained,
@@ -2655,7 +2655,7 @@ label[for=edit-search-block-form--2] {
 /* line 1679, ../sass/nodes.scss */
 .page-node-3393 #softspot-tell-us {
   position: relative;
-  background: url('../images/bg-softspot.png?1408354998') #72562b repeat-x;
+  background: url('../images/bg-softspot.png?1408353092') #72562b repeat-x;
 }
 /* line 1683, ../sass/nodes.scss */
 .page-node-3393 #softspot-tell-us #twitter-bird {
@@ -2665,19 +2665,19 @@ label[for=edit-search-block-form--2] {
   position: absolute;
   top: 350px;
   right: -50px;
-  background: url('../images/wrapper/twitter-bird.png?1408354999') no-repeat;
+  background: url('../images/wrapper/twitter-bird.png?1408353092') no-repeat;
 }
 /* line 1693, ../sass/nodes.scss */
 .page-node-3393 #softspot-separator {
   width: 1072px;
   height: 32px;
-  background: url('../images/wrapper/swoosh-bottom-color.png?1408354999') no-repeat;
+  background: url('../images/wrapper/swoosh-bottom-color.png?1408353092') no-repeat;
 }
 /* line 1698, ../sass/nodes.scss */
 .page-node-3393 #webform-client-form-3394 {
   margin: 20px 0 0;
   padding: 10px 0 0;
-  background: url('../images/wrapper/dotted-line.png?1408354999') no-repeat;
+  background: url('../images/wrapper/dotted-line.png?1408353092') no-repeat;
 }
 /* line 1703, ../sass/nodes.scss */
 .page-node-3393 #webform-client-form-3394 fieldset {
@@ -2692,7 +2692,7 @@ label[for=edit-search-block-form--2] {
   height: 60px;
   text-indent: -9999px;
   padding: 0;
-  background: url('../images/wrapper/dotted-line.png?1408354999') left 35px no-repeat;
+  background: url('../images/wrapper/dotted-line.png?1408353092') left 35px no-repeat;
 }
 /* line 1717, ../sass/nodes.scss */
 .page-node-3393 #webform-client-form-3394 #webform-component-company,
@@ -2741,54 +2741,79 @@ label[for=edit-search-block-form--2] {
   text-indent: -9999px;
   border: none;
   margin: 20px 0;
-  background: url('../images/wrapper/submit-button.jpg?1408354999') 0 0 no-repeat;
+  background: url('../images/wrapper/submit-button.jpg?1408353092') 0 0 no-repeat;
 }
 
 /*
 * Thank You Page
 */
 /* line 1773, ../sass/nodes.scss */
+.page-node-3401 h1#page-title {
+  display: none;
+}
+/* line 1776, ../sass/nodes.scss */
 .page-node-3401 p {
   font-size: 20px;
   line-height: 1.5em;
   color: white;
   font-family: 'gotham-rounded';
 }
-/* line 1780, ../sass/nodes.scss */
+/* line 1783, ../sass/nodes.scss */
 .page-node-3401 #softspot-1,
 .page-node-3401 #softspot-thankyou {
   padding: 0 3em;
 }
-/* line 1786, ../sass/nodes.scss */
-.page-node-3401 #softspot-thankyou h2 {
-  font-size: 2.5em;
-  color: #be7d23;
-  font-family: "OPTISport-Script", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+/* line 1787, ../sass/nodes.scss */
+.page-node-3401 #softspot-1 {
+  padding-bottom: 2em;
 }
-/* line 1792, ../sass/nodes.scss */
+/* line 1790, ../sass/nodes.scss */
+.page-node-3401 #softspot-thankyou {
+  border-top: 9px solid #b59660;
+  background: #f6f3ee;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+/* line 1796, ../sass/nodes.scss */
+.page-node-3401 #softspot-thankyou h2 {
+  font-size: 3em;
+  text-transform: capitalize;
+  color: #be7d23;
+  padding: 0 0 10px;
+  margin: 0 0 20px;
+  font-family: "OPTISport-Script", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+  background: url('../images/wrapper/dotted-line.png?1408353092') left bottom no-repeat;
+}
+/* line 1805, ../sass/nodes.scss */
+.page-node-3401 #softspot-thankyou p {
+  font-size: 24px;
+  color: #693506;
+}
+/* line 1810, ../sass/nodes.scss */
 .page-node-3401 div#softspot-chocolate {
+  position: relative;
   border-top: 2px solid #b4975f;
-  background: url('../images/softspot-chocolate.jpg') #f6f3ee no-repeat;
+  background: url('../images/wrapper/softspot-chocolate.jpg?1408357087') 50px 50% #f6f3ee no-repeat;
   height: 248px;
 }
-/* line 1797, ../sass/nodes.scss */
+/* line 1816, ../sass/nodes.scss */
 .page-node-3401 div#softspot-chocolate .softspot-social {
   position: absolute;
   right: 230px;
   bottom: -50px;
   width: 324px;
   height: 239px;
-  background: url('../images/wrapper/social-icons.png?1408354999') no-repeat;
+  background: url('../images/wrapper/social-icons.png?1408353092') no-repeat;
 }
-/* line 1805, ../sass/nodes.scss */
+/* line 1824, ../sass/nodes.scss */
 .page-node-3401 div#softspot-chocolate .softspot-social span {
   display: block;
   width: 324px;
   height: 44px;
   text-indent: -9999px;
-  background: url('../images/wrapper/social-icons.png?1408354999') 0 0 no-repeat;
+  background: url('../images/wrapper/social-icons.png?1408353092') 0 0 no-repeat;
 }
-/* line 1811, ../sass/nodes.scss */
+/* line 1830, ../sass/nodes.scss */
 .page-node-3401 div#softspot-chocolate .softspot-social a#soft-fb {
   display: block;
   width: 130px;
@@ -2797,9 +2822,9 @@ label[for=edit-search-block-form--2] {
   bottom: 0;
   left: 19px;
   text-indent: -9999px;
-  background: url('../images/wrapper/social-icons.png?1408354999') -19px -68px no-repeat;
+  background: url('../images/wrapper/social-icons.png?1408353092') -19px -68px no-repeat;
 }
-/* line 1820, ../sass/nodes.scss */
+/* line 1839, ../sass/nodes.scss */
 .page-node-3401 div#softspot-chocolate .softspot-social a#soft-twit {
   display: block;
   width: 130px;
@@ -2808,37 +2833,37 @@ label[for=edit-search-block-form--2] {
   bottom: 0;
   left: 175px;
   text-indent: -9999px;
-  background: url('../images/wrapper/social-icons.png?1408354999') -175px -68px no-repeat;
+  background: url('../images/wrapper/social-icons.png?1408353092') -175px -68px no-repeat;
 }
-/* line 1833, ../sass/nodes.scss */
+/* line 1852, ../sass/nodes.scss */
 .page-node-3401 #softspot-bar-explained {
   padding: 70px 0;
   border-top: 9px solid #b59660;
-  background: url('../images/bg-softspot.png?1408354998') #72562b repeat-x;
+  background: url('../images/bg-softspot.png?1408353092') #72562b repeat-x;
 }
-/* line 1838, ../sass/nodes.scss */
+/* line 1857, ../sass/nodes.scss */
 .page-node-3401 #bar-explained,
 .page-node-3401 #store-location {
   display: block;
   margin: 0 auto;
 }
-/* line 1843, ../sass/nodes.scss */
+/* line 1862, ../sass/nodes.scss */
 .page-node-3401 #store-location {
   padding: 26px 0;
 }
-/* line 1846, ../sass/nodes.scss */
+/* line 1865, ../sass/nodes.scss */
 .page-node-3401 #softspot-available {
   background: #f6f2ee;
   height: 162px;
   border-top: 9px solid #b59660;
   border-bottom: 9px solid #b59660;
 }
-/* line 1852, ../sass/nodes.scss */
+/* line 1871, ../sass/nodes.scss */
 .page-node-3401 #softspot-tell-us {
   position: relative;
-  background: url('../images/bg-softspot.png?1408354998') #72562b repeat-x;
+  background: url('../images/bg-softspot.png?1408353092') #72562b repeat-x;
 }
-/* line 1856, ../sass/nodes.scss */
+/* line 1875, ../sass/nodes.scss */
 .page-node-3401 #softspot-tell-us #twitter-bird {
   display: block;
   width: 93px;
@@ -2846,11 +2871,11 @@ label[for=edit-search-block-form--2] {
   position: absolute;
   top: 350px;
   right: -50px;
-  background: url('../images/wrapper/twitter-bird.png?1408354999') no-repeat;
+  background: url('../images/wrapper/twitter-bird.png?1408353092') no-repeat;
 }
-/* line 1866, ../sass/nodes.scss */
+/* line 1885, ../sass/nodes.scss */
 .page-node-3401 #softspot-separator {
   width: 1072px;
   height: 32px;
-  background: url('../images/wrapper/swoosh-bottom-color.png?1408354999') no-repeat;
+  background: url('../images/wrapper/swoosh-bottom-color.png?1408353092') no-repeat;
 }
