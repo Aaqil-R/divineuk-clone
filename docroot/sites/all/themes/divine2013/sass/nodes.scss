@@ -1777,9 +1777,15 @@ display:none !important;
 		font-family: 'gotham-rounded';
 		}
 	
-	#softspot-1 {
+	#softspot-1,
+	#softspot-thankyou {
 		padding:0 3em;}
-
+	
+	#softspot-chocolate {
+		border-top:2px solid #b4975f;
+		background:image-url('softspot-chocolate.jpg') #f6f3ee no-repeat;}
+		height:248px;}
+	
 	#softspot-bar-explained {
 		padding:70px 0;
 		border-top:9px solid #b59660;
