@@ -76,7 +76,8 @@ body {
       padding: 0 2.5em;
     }
 }
-.page-node-3393 #swoosh {
+.page-node-3393 #swoosh,
+.page-node-3401 #swoosh {
 	background: image-url('wrapper/swoosh-top-color.png') no-repeat;}
 .no-menu #swoosh {
   @include breakpoint(tablet) {
@@ -360,7 +361,8 @@ span.field-label { /* The inline field label used by the Fences module */
       background-position-x: center;
   }
 }
-.page-node-3393 #footer {
+.page-node-3393 #footer,
+.page-node-3401 #footer {
 	//background: image-url('wrapper/swoosh-bottom-color.png') #000000 no-repeat top right;
 	background:#000;}
 /*

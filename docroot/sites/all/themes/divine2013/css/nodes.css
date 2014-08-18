@@ -2747,3 +2747,58 @@ label[for=edit-search-block-form--2] {
 /*
 * Thank You Page
 */
+/* line 1773, ../sass/nodes.scss */
+.page-node-3401 p {
+  font-size: 20px;
+  line-height: 1.5em;
+  color: white;
+  font-family: 'gotham-rounded';
+}
+/* line 1780, ../sass/nodes.scss */
+.page-node-3401 #softspot-1 {
+  padding: 0 3em;
+}
+/* line 1783, ../sass/nodes.scss */
+.page-node-3401 #softspot-bar-explained {
+  padding: 70px 0;
+  border-top: 9px solid #b59660;
+  background: url('../images/bg-softspot.png?1408354998') #72562b repeat-x;
+}
+/* line 1788, ../sass/nodes.scss */
+.page-node-3401 #bar-explained,
+.page-node-3401 #store-location {
+  display: block;
+  margin: 0 auto;
+}
+/* line 1793, ../sass/nodes.scss */
+.page-node-3401 #store-location {
+  padding: 26px 0;
+}
+/* line 1796, ../sass/nodes.scss */
+.page-node-3401 #softspot-available {
+  background: #f6f2ee;
+  height: 162px;
+  border-top: 9px solid #b59660;
+  border-bottom: 9px solid #b59660;
+}
+/* line 1802, ../sass/nodes.scss */
+.page-node-3401 #softspot-tell-us {
+  position: relative;
+  background: url('../images/bg-softspot.png?1408354998') #72562b repeat-x;
+}
+/* line 1806, ../sass/nodes.scss */
+.page-node-3401 #softspot-tell-us #twitter-bird {
+  display: block;
+  width: 93px;
+  height: 76px;
+  position: absolute;
+  top: 350px;
+  right: -50px;
+  background: url('../images/wrapper/twitter-bird.png?1408354999') no-repeat;
+}
+/* line 1816, ../sass/nodes.scss */
+.page-node-3401 #softspot-separator {
+  width: 1072px;
+  height: 32px;
+  background: url('../images/wrapper/swoosh-bottom-color.png?1408354999') no-repeat;
+}

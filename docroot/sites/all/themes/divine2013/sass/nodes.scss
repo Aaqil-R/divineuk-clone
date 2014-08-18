@@ -1770,5 +1770,52 @@ display:none !important;
 
 .page-node-3401 {
 	
+    p {
+		font-size: 20px;
+		line-height:1.5em;
+		color:$white;
+		font-family: 'gotham-rounded';
+		}
+	
+	#softspot-1 {
+		padding:0 3em;}
+
+	#softspot-bar-explained {
+		padding:70px 0;
+		border-top:9px solid #b59660;
+		background:image-url('bg-softspot.png') #72562b repeat-x;}
+	
+	#bar-explained,
+	#store-location {
+		display:block;
+		margin:0 auto;}
+	
+	#store-location {
+		padding:26px 0;}
+	
+	#softspot-available {
+		background:#f6f2ee;
+		height:162px;
+		border-top:9px solid #b59660;
+		border-bottom:9px solid #b59660;}
+		
+	#softspot-tell-us {
+		position:relative;
+		background:image-url('bg-softspot.png') #72562b repeat-x;
+		
+		#twitter-bird {
+			display:block;
+			width:93px;
+			height:76px;
+			position:absolute;
+			top:350px;
+			right:-50px;
+			background:image-url('wrapper/twitter-bird.png') no-repeat;}
+		}
+	
+	#softspot-separator {
+		width:1072px;
+		height:32px;
+		background: image-url('wrapper/swoosh-bottom-color.png') no-repeat;}
 
 }
