@@ -1781,10 +1781,54 @@ display:none !important;
 	#softspot-thankyou {
 		padding:0 3em;}
 	
+	#softspot-thankyou {
+		
+		h2 {
+			font-size:2.5em;
+			color:#be7d23;
+			font-family:"OPTISport-Script", Helvetica, Arial, "Nimbus Sans L", sans-serif;}
+	}
+	
 	div#softspot-chocolate {
 		border-top:2px solid #b4975f;
 		background:image-url('softspot-chocolate.jpg') #f6f3ee no-repeat;
-		height:248px;}
+		height:248px;
+		
+		.softspot-social {
+			position:absolute;
+			right:230px;
+			bottom:-50px;
+			width:324px;
+			height:239px;
+			background:image-url('wrapper/social-icons.png') no-repeat;
+			
+			span {
+				display:block;
+				width:324px;
+				height:44px;
+				text-indent:-9999px;
+				background:image-url('wrapper/social-icons.png') 0 0 no-repeat;}
+			a#soft-fb {
+				display:block;
+				width:130px;
+				height:171px;
+				position:absolute;
+				bottom:0;
+				left:19px;
+				text-indent:-9999px;
+				background:image-url('wrapper/social-icons.png') -19px -68px no-repeat;}
+			a#soft-twit {
+				display:block;
+				width:130px;
+				height:171px;
+				position:absolute;
+				bottom:0;
+				left:175px;
+				text-indent:-9999px;
+				background:image-url('wrapper/social-icons.png') -175px -68px no-repeat;}
+			}
+	
+	}
 	
 	#softspot-bar-explained {
 		padding:70px 0;

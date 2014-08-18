@@ -2759,41 +2759,86 @@ label[for=edit-search-block-form--2] {
 .page-node-3401 #softspot-thankyou {
   padding: 0 3em;
 }
-/* line 1784, ../sass/nodes.scss */
+/* line 1786, ../sass/nodes.scss */
+.page-node-3401 #softspot-thankyou h2 {
+  font-size: 2.5em;
+  color: #be7d23;
+  font-family: "OPTISport-Script", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+}
+/* line 1792, ../sass/nodes.scss */
 .page-node-3401 div#softspot-chocolate {
   border-top: 2px solid #b4975f;
   background: url('../images/softspot-chocolate.jpg') #f6f3ee no-repeat;
   height: 248px;
 }
-/* line 1789, ../sass/nodes.scss */
+/* line 1797, ../sass/nodes.scss */
+.page-node-3401 div#softspot-chocolate .softspot-social {
+  position: absolute;
+  right: 230px;
+  bottom: -50px;
+  width: 324px;
+  height: 239px;
+  background: url('../images/wrapper/social-icons.png?1408354999') no-repeat;
+}
+/* line 1805, ../sass/nodes.scss */
+.page-node-3401 div#softspot-chocolate .softspot-social span {
+  display: block;
+  width: 324px;
+  height: 44px;
+  text-indent: -9999px;
+  background: url('../images/wrapper/social-icons.png?1408354999') 0 0 no-repeat;
+}
+/* line 1811, ../sass/nodes.scss */
+.page-node-3401 div#softspot-chocolate .softspot-social a#soft-fb {
+  display: block;
+  width: 130px;
+  height: 171px;
+  position: absolute;
+  bottom: 0;
+  left: 19px;
+  text-indent: -9999px;
+  background: url('../images/wrapper/social-icons.png?1408354999') -19px -68px no-repeat;
+}
+/* line 1820, ../sass/nodes.scss */
+.page-node-3401 div#softspot-chocolate .softspot-social a#soft-twit {
+  display: block;
+  width: 130px;
+  height: 171px;
+  position: absolute;
+  bottom: 0;
+  left: 175px;
+  text-indent: -9999px;
+  background: url('../images/wrapper/social-icons.png?1408354999') -175px -68px no-repeat;
+}
+/* line 1833, ../sass/nodes.scss */
 .page-node-3401 #softspot-bar-explained {
   padding: 70px 0;
   border-top: 9px solid #b59660;
   background: url('../images/bg-softspot.png?1408354998') #72562b repeat-x;
 }
-/* line 1794, ../sass/nodes.scss */
+/* line 1838, ../sass/nodes.scss */
 .page-node-3401 #bar-explained,
 .page-node-3401 #store-location {
   display: block;
   margin: 0 auto;
 }
-/* line 1799, ../sass/nodes.scss */
+/* line 1843, ../sass/nodes.scss */
 .page-node-3401 #store-location {
   padding: 26px 0;
 }
-/* line 1802, ../sass/nodes.scss */
+/* line 1846, ../sass/nodes.scss */
 .page-node-3401 #softspot-available {
   background: #f6f2ee;
   height: 162px;
   border-top: 9px solid #b59660;
   border-bottom: 9px solid #b59660;
 }
-/* line 1808, ../sass/nodes.scss */
+/* line 1852, ../sass/nodes.scss */
 .page-node-3401 #softspot-tell-us {
   position: relative;
   background: url('../images/bg-softspot.png?1408354998') #72562b repeat-x;
 }
-/* line 1812, ../sass/nodes.scss */
+/* line 1856, ../sass/nodes.scss */
 .page-node-3401 #softspot-tell-us #twitter-bird {
   display: block;
   width: 93px;
@@ -2803,7 +2848,7 @@ label[for=edit-search-block-form--2] {
   right: -50px;
   background: url('../images/wrapper/twitter-bird.png?1408354999') no-repeat;
 }
-/* line 1822, ../sass/nodes.scss */
+/* line 1866, ../sass/nodes.scss */
 .page-node-3401 #softspot-separator {
   width: 1072px;
   height: 32px;
