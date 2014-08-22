@@ -86,8 +86,8 @@ body {
 }
 
 /* line 79, ../sass/pages.scss */
-.page-node-3393 #swoosh,
-.page-node-3401 #swoosh {
+.section-softspot #swoosh,
+.section-thank-you #swoosh {
   background: url('../images/wrapper/swoosh-top-color.png?1408353092') no-repeat;
 }
 
@@ -229,8 +229,8 @@ body {
 }
 
 /* line 186, ../sass/pages.scss */
-.page-node-3393 #main,
-.page-node-3401 #main {
+.section-softspot #main,
+.section-thank-you #main {
   max-width: 1072px;
   padding: 0;
   background: url('../images/bg-softspot.png?1408353092') #72562b repeat-x;
@@ -472,8 +472,8 @@ span.field-label {
 }
 
 /* line 364, ../sass/pages.scss */
-.page-node-3393 #footer,
-.page-node-3401 #footer {
+.section-softspot #footer,
+.section-thank-you #footer {
   background: #000;
 }
 
