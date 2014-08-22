@@ -2584,7 +2584,7 @@ label[for=edit-search-block-form--2] {
 .page-node-3393 #softspot-1 #softspot-chocolate-mobile {
   display: none;
 }
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 421px) {
   /* line 1619, ../sass/nodes.scss */
   .page-node-3393 #softspot-1 #softspot-chocolate {
     display: none;
@@ -2725,7 +2725,7 @@ label[for=edit-search-block-form--2] {
     border-top: 9px solid #b59660;
   }
 }
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 421px) {
   /* line 1741, ../sass/nodes.scss */
   .page-node-3393 #softspot-tell-us #tell-us {
     display: none;
