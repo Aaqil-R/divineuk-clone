@@ -1619,7 +1619,10 @@ display:none !important;
 			#softspot-chocolate {
 				display:none;}
 			#softspot-chocolate-mobile {
-				display:block;}
+				display:block;
+				margin-right:-3em;}
+			p {
+				clear:both;}
 		}
 	}
 	#softspot-form {
@@ -1709,6 +1712,16 @@ display:none !important;
 		position:relative;
 		background:image-url('bg-softspot.png') #72562b repeat-x;
 		
+		#tell-us,
+		#tell-us-mobile {
+			padding:26px 0;
+			margin:0 auto;
+		}
+		
+		#tell-us-mobile {
+			display:none;
+		}
+		
 		#twitter-bird {
 			display:block;
 			width:93px;
@@ -1721,6 +1734,19 @@ display:none !important;
 	@media screen and (max-width: 641px) {
 		#softspot-tell-us {
 			border-top:9px solid #b59660;
+		}
+	}
+	@media screen and (max-width: 321px) {
+		#softspot-tell-us {
+			#tell-us {
+				display:none;
+			}
+			#tell-us-mobile {
+				display:block;
+			}
+			#twitter-bird {
+				display:none;
+			}
 		}
 	}
 	#softspot-separator {
