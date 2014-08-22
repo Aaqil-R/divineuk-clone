@@ -2629,35 +2629,41 @@ label[for=edit-search-block-form--2] {
   text-indent: -9999px;
   background: url('../images/wrapper/social-icons.png?1408353092') -175px -68px no-repeat;
 }
-/* line 1660, ../sass/nodes.scss */
+@media screen and (max-width: 950px) {
+  /* line 1660, ../sass/nodes.scss */
+  .page-node-3393 #softspot-form {
+    padding-bottom: 200px;
+  }
+}
+/* line 1664, ../sass/nodes.scss */
 .page-node-3393 #softspot-bar-explained {
   padding: 70px 0;
   border-top: 9px solid #b59660;
   background: url('../images/bg-softspot.png?1408353092') #72562b repeat-x;
 }
-/* line 1665, ../sass/nodes.scss */
+/* line 1669, ../sass/nodes.scss */
 .page-node-3393 #bar-explained,
 .page-node-3393 #store-location {
   display: block;
   margin: 0 auto;
 }
-/* line 1670, ../sass/nodes.scss */
+/* line 1674, ../sass/nodes.scss */
 .page-node-3393 #store-location {
   padding: 26px 0;
 }
-/* line 1673, ../sass/nodes.scss */
+/* line 1677, ../sass/nodes.scss */
 .page-node-3393 #softspot-available {
   background: #f6f2ee;
   height: 162px;
   border-top: 9px solid #b59660;
   border-bottom: 9px solid #b59660;
 }
-/* line 1679, ../sass/nodes.scss */
+/* line 1683, ../sass/nodes.scss */
 .page-node-3393 #softspot-tell-us {
   position: relative;
   background: url('../images/bg-softspot.png?1408353092') #72562b repeat-x;
 }
-/* line 1683, ../sass/nodes.scss */
+/* line 1687, ../sass/nodes.scss */
 .page-node-3393 #softspot-tell-us #twitter-bird {
   display: block;
   width: 93px;
@@ -2667,34 +2673,38 @@ label[for=edit-search-block-form--2] {
   right: -50px;
   background: url('../images/wrapper/twitter-bird.png?1408353092') no-repeat;
 }
-/* line 1693, ../sass/nodes.scss */
+/* line 1697, ../sass/nodes.scss */
 .page-node-3393 #softspot-separator {
-  width: 1072px;
   height: 32px;
   background: url('../images/wrapper/swoosh-bottom-color.png?1408353092') no-repeat;
 }
-/* line 1698, ../sass/nodes.scss */
+/* line 1701, ../sass/nodes.scss */
 .page-node-3393 #webform-client-form-3394 {
   margin: 20px 0 0;
   padding: 10px 0 0;
   background: url('../images/wrapper/dotted-line.png?1408353092') no-repeat;
 }
-/* line 1703, ../sass/nodes.scss */
+/* line 1706, ../sass/nodes.scss */
 .page-node-3393 #webform-client-form-3394 fieldset {
   margin: 0;
   padding: 0;
   border: none;
 }
-/* line 1708, ../sass/nodes.scss */
+/* line 1711, ../sass/nodes.scss */
+.page-node-3393 #webform-client-form-3394 fieldset legend {
+  display: block;
+  width: 100%;
+}
+/* line 1716, ../sass/nodes.scss */
 .page-node-3393 #webform-client-form-3394 fieldset legend span.fieldset-legend {
   display: block;
-  width: 862px;
+  width: 100%;
   height: 60px;
   text-indent: -9999px;
   padding: 0;
   background: url('../images/wrapper/dotted-line.png?1408353092') left 35px no-repeat;
 }
-/* line 1717, ../sass/nodes.scss */
+/* line 1725, ../sass/nodes.scss */
 .page-node-3393 #webform-client-form-3394 #webform-component-company,
 .page-node-3393 #webform-client-form-3394 #webform-component-contact-name,
 .page-node-3393 #webform-client-form-3394 #webform-component-role-in-company,
@@ -2702,26 +2712,50 @@ label[for=edit-search-block-form--2] {
 .page-node-3393 #webform-client-form-3394 #webform-component-delivery-address--city {
   float: left;
 }
-/* line 1724, ../sass/nodes.scss */
+/* line 1732, ../sass/nodes.scss */
 .page-node-3393 #webform-client-form-3394 #webform-component-employees,
 .page-node-3393 #webform-client-form-3394 #webform-component-phone-number,
 .page-node-3393 #webform-client-form-3394 #webform-component-email,
 .page-node-3393 #webform-client-form-3394 #webform-component-delivery-address--address-2,
 .page-node-3393 #webform-client-form-3394 #webform-component-delivery-address--postcode {
-  float: right;
-  margin: 0 10em 0 0;
+  float: left;
+  margin: 0 0 0 2em;
 }
-/* line 1732, ../sass/nodes.scss */
+@media screen and (max-width: 950px) {
+  /* line 1740, ../sass/nodes.scss */
+  .page-node-3393 #webform-client-form-3394 #webform-component-company,
+  .page-node-3393 #webform-client-form-3394 #webform-component-contact-name,
+  .page-node-3393 #webform-client-form-3394 #webform-component-role-in-company,
+  .page-node-3393 #webform-client-form-3394 #webform-component-delivery-address--address-1,
+  .page-node-3393 #webform-client-form-3394 #webform-component-delivery-address--city,
+  .page-node-3393 #webform-client-form-3394 #webform-component-employees,
+  .page-node-3393 #webform-client-form-3394 #webform-component-phone-number,
+  .page-node-3393 #webform-client-form-3394 #webform-component-email,
+  .page-node-3393 #webform-client-form-3394 #webform-component-delivery-address--address-2,
+  .page-node-3393 #webform-client-form-3394 #webform-component-delivery-address--postcode {
+    float: none;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+/* line 1756, ../sass/nodes.scss */
 .page-node-3393 #webform-client-form-3394 .form-item {
   margin: 0;
 }
-/* line 1735, ../sass/nodes.scss */
+/* line 1759, ../sass/nodes.scss */
 .page-node-3393 #webform-client-form-3394 .form-item input.form-text {
   height: 38px;
   background: #fff;
   border: 1px solid #e5ad43;
 }
-/* line 1741, ../sass/nodes.scss */
+@media screen and (max-width: 950px) {
+  /* line 1765, ../sass/nodes.scss */
+  .page-node-3393 #webform-client-form-3394 .form-item input.form-text {
+    width: 90%;
+  }
+}
+/* line 1770, ../sass/nodes.scss */
 .page-node-3393 #webform-client-form-3394 .form-item label {
   font-family: 'gotham-rounded';
   font-weight: bold;
@@ -2730,11 +2764,11 @@ label[for=edit-search-block-form--2] {
   text-transform: capitalize;
   color: #6a3406;
 }
-/* line 1749, ../sass/nodes.scss */
+/* line 1778, ../sass/nodes.scss */
 .page-node-3393 #webform-client-form-3394 .form-actions {
   margin: 0;
 }
-/* line 1752, ../sass/nodes.scss */
+/* line 1781, ../sass/nodes.scss */
 .page-node-3393 #webform-client-form-3394 .form-actions input.form-submit {
   width: 247px;
   height: 58px;
@@ -2747,34 +2781,34 @@ label[for=edit-search-block-form--2] {
 /*
 * Thank You Page
 */
-/* line 1773, ../sass/nodes.scss */
+/* line 1802, ../sass/nodes.scss */
 .page-node-3401 h1#page-title {
   display: none;
 }
-/* line 1776, ../sass/nodes.scss */
+/* line 1805, ../sass/nodes.scss */
 .page-node-3401 p {
   font-size: 20px;
   line-height: 1.5em;
   color: white;
   font-family: 'gotham-rounded';
 }
-/* line 1783, ../sass/nodes.scss */
+/* line 1812, ../sass/nodes.scss */
 .page-node-3401 #softspot-1,
 .page-node-3401 #softspot-thankyou {
   padding: 0 3em;
 }
-/* line 1787, ../sass/nodes.scss */
+/* line 1816, ../sass/nodes.scss */
 .page-node-3401 #softspot-1 {
   padding-bottom: 2em;
 }
-/* line 1790, ../sass/nodes.scss */
+/* line 1819, ../sass/nodes.scss */
 .page-node-3401 #softspot-thankyou {
   border-top: 9px solid #b59660;
   background: #f6f3ee;
   padding-top: 2em;
   padding-bottom: 2em;
 }
-/* line 1796, ../sass/nodes.scss */
+/* line 1825, ../sass/nodes.scss */
 .page-node-3401 #softspot-thankyou h2 {
   font-size: 3em;
   text-transform: capitalize;
@@ -2784,19 +2818,19 @@ label[for=edit-search-block-form--2] {
   font-family: "OPTISport-Script", Helvetica, Arial, "Nimbus Sans L", sans-serif;
   background: url('../images/wrapper/dotted-line.png?1408353092') left bottom no-repeat;
 }
-/* line 1805, ../sass/nodes.scss */
+/* line 1834, ../sass/nodes.scss */
 .page-node-3401 #softspot-thankyou p {
   font-size: 24px;
   color: #693506;
 }
-/* line 1810, ../sass/nodes.scss */
+/* line 1839, ../sass/nodes.scss */
 .page-node-3401 div#softspot-chocolate {
   position: relative;
   border-top: 2px solid #b4975f;
   background: url('../images/wrapper/softspot-chocolate.jpg?1408357087') 50px 50% #f6f3ee no-repeat;
   height: 248px;
 }
-/* line 1816, ../sass/nodes.scss */
+/* line 1845, ../sass/nodes.scss */
 .page-node-3401 div#softspot-chocolate .softspot-social {
   position: absolute;
   right: 230px;
@@ -2805,7 +2839,7 @@ label[for=edit-search-block-form--2] {
   height: 239px;
   background: url('../images/wrapper/social-icons.png?1408353092') no-repeat;
 }
-/* line 1824, ../sass/nodes.scss */
+/* line 1853, ../sass/nodes.scss */
 .page-node-3401 div#softspot-chocolate .softspot-social span {
   display: block;
   width: 324px;
@@ -2813,7 +2847,7 @@ label[for=edit-search-block-form--2] {
   text-indent: -9999px;
   background: url('../images/wrapper/social-icons.png?1408353092') 0 0 no-repeat;
 }
-/* line 1830, ../sass/nodes.scss */
+/* line 1859, ../sass/nodes.scss */
 .page-node-3401 div#softspot-chocolate .softspot-social a#soft-fb {
   display: block;
   width: 130px;
@@ -2824,7 +2858,7 @@ label[for=edit-search-block-form--2] {
   text-indent: -9999px;
   background: url('../images/wrapper/social-icons.png?1408353092') -19px -68px no-repeat;
 }
-/* line 1839, ../sass/nodes.scss */
+/* line 1868, ../sass/nodes.scss */
 .page-node-3401 div#softspot-chocolate .softspot-social a#soft-twit {
   display: block;
   width: 130px;
@@ -2835,35 +2869,35 @@ label[for=edit-search-block-form--2] {
   text-indent: -9999px;
   background: url('../images/wrapper/social-icons.png?1408353092') -175px -68px no-repeat;
 }
-/* line 1852, ../sass/nodes.scss */
+/* line 1881, ../sass/nodes.scss */
 .page-node-3401 #softspot-bar-explained {
   padding: 70px 0;
   border-top: 9px solid #b59660;
   background: url('../images/bg-softspot.png?1408353092') #72562b repeat-x;
 }
-/* line 1857, ../sass/nodes.scss */
+/* line 1886, ../sass/nodes.scss */
 .page-node-3401 #bar-explained,
 .page-node-3401 #store-location {
   display: block;
   margin: 0 auto;
 }
-/* line 1862, ../sass/nodes.scss */
+/* line 1891, ../sass/nodes.scss */
 .page-node-3401 #store-location {
   padding: 26px 0;
 }
-/* line 1865, ../sass/nodes.scss */
+/* line 1894, ../sass/nodes.scss */
 .page-node-3401 #softspot-available {
   background: #f6f2ee;
   height: 162px;
   border-top: 9px solid #b59660;
   border-bottom: 9px solid #b59660;
 }
-/* line 1871, ../sass/nodes.scss */
+/* line 1900, ../sass/nodes.scss */
 .page-node-3401 #softspot-tell-us {
   position: relative;
   background: url('../images/bg-softspot.png?1408353092') #72562b repeat-x;
 }
-/* line 1875, ../sass/nodes.scss */
+/* line 1904, ../sass/nodes.scss */
 .page-node-3401 #softspot-tell-us #twitter-bird {
   display: block;
   width: 93px;
@@ -2873,9 +2907,8 @@ label[for=edit-search-block-form--2] {
   right: -50px;
   background: url('../images/wrapper/twitter-bird.png?1408353092') no-repeat;
 }
-/* line 1885, ../sass/nodes.scss */
+/* line 1914, ../sass/nodes.scss */
 .page-node-3401 #softspot-separator {
-  width: 1072px;
   height: 32px;
   background: url('../images/wrapper/swoosh-bottom-color.png?1408353092') no-repeat;
 }
