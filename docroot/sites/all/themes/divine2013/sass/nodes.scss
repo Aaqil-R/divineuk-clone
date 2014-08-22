@@ -1724,6 +1724,13 @@ display:none !important;
 			display:none;
 		}
 		
+		a {
+			color: #fff;
+			font-weight: normal;
+			padding: 0 0 0 8.2em;
+			font-family: 'gotham-rounded';
+			font-size: 12px;
+		}
 		#twitter-bird {
 			display:block;
 			width:93px;
@@ -1731,14 +1738,8 @@ display:none !important;
 			position:absolute;
 			top:350px;
 			right:-50px;
+			padding:0;
 			background:image-url('wrapper/twitter-bird.png') no-repeat;}
-		}
-		a {
-			color: #fff;
-			font-weight: normal;
-			padding: 0 0 0 8.2em;
-			font-family: 'gotham-rounded';
-			font-size: 12px;
 		}
 	@media screen and (max-width: 641px) {
 		#softspot-tell-us {
