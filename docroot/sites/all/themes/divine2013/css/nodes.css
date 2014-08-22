@@ -2721,32 +2721,32 @@ label[for=edit-search-block-form--2] {
   right: -50px;
   background: url('../images/wrapper/twitter-bird.png?1408353092') no-repeat;
 }
+/* line 1736, ../sass/nodes.scss */
+.section-softspot a {
+  color: #fff;
+  font-weight: normal;
+  padding: 0 0 0 8.2em;
+  font-family: 'gotham-rounded';
+  font-size: 12px;
+}
 @media screen and (max-width: 641px) {
-  /* line 1737, ../sass/nodes.scss */
+  /* line 1744, ../sass/nodes.scss */
   .section-softspot #softspot-tell-us {
     border-top: 9px solid #b59660;
   }
 }
 @media screen and (max-width: 421px) {
-  /* line 1743, ../sass/nodes.scss */
+  /* line 1750, ../sass/nodes.scss */
   .section-softspot #softspot-tell-us #tell-us {
     display: none;
   }
-  /* line 1746, ../sass/nodes.scss */
+  /* line 1753, ../sass/nodes.scss */
   .section-softspot #softspot-tell-us #tell-us-mobile {
     display: block;
   }
-  /* line 1749, ../sass/nodes.scss */
+  /* line 1756, ../sass/nodes.scss */
   .section-softspot #softspot-tell-us #twitter-bird {
     display: none;
-  }
-  /* line 1752, ../sass/nodes.scss */
-  .section-softspot #softspot-tell-us a {
-    color: #fff;
-    font-weight: normal;
-    padding: 0 0 0 8.2em;
-    font-family: 'gotham-rounded';
-    font-size: 12px;
   }
 }
 /* line 1761, ../sass/nodes.scss */
