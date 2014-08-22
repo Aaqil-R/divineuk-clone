@@ -2740,31 +2740,39 @@ label[for=edit-search-block-form--2] {
   .section-softspot #softspot-tell-us #twitter-bird {
     display: none;
   }
+  /* line 1752, ../sass/nodes.scss */
+  .section-softspot #softspot-tell-us a {
+    color: #fff;
+    font-weight: normal;
+    padding: 0 0 0 8.2em;
+    font-family: 'gotham-rounded';
+    font-size: 12px;
+  }
 }
-/* line 1754, ../sass/nodes.scss */
+/* line 1761, ../sass/nodes.scss */
 .section-softspot #softspot-separator {
   height: 32px;
   background: url('../images/wrapper/swoosh-bottom-color.png?1408353092') no-repeat;
 }
-/* line 1758, ../sass/nodes.scss */
+/* line 1765, ../sass/nodes.scss */
 .section-softspot #webform-client-form-3394 {
   margin: 20px 0 0;
   padding: 10px 0 0;
   background: url('../images/wrapper/dotted-line.png?1408353092') no-repeat;
 }
-/* line 1763, ../sass/nodes.scss */
+/* line 1770, ../sass/nodes.scss */
 .section-softspot #webform-client-form-3394 fieldset {
   margin: 0;
   padding: 0;
   border: none;
   clear: both;
 }
-/* line 1769, ../sass/nodes.scss */
+/* line 1776, ../sass/nodes.scss */
 .section-softspot #webform-client-form-3394 fieldset legend {
   display: block;
   width: 100%;
 }
-/* line 1774, ../sass/nodes.scss */
+/* line 1781, ../sass/nodes.scss */
 .section-softspot #webform-client-form-3394 fieldset legend span.fieldset-legend {
   display: block;
   width: 100%;
@@ -2773,7 +2781,7 @@ label[for=edit-search-block-form--2] {
   padding: 0;
   background: url('../images/wrapper/dotted-line.png?1408353092') left 35px no-repeat;
 }
-/* line 1783, ../sass/nodes.scss */
+/* line 1790, ../sass/nodes.scss */
 .section-softspot #webform-client-form-3394 #webform-component-company,
 .section-softspot #webform-client-form-3394 #webform-component-contact-name,
 .section-softspot #webform-client-form-3394 #webform-component-role-in-company,
@@ -2781,7 +2789,7 @@ label[for=edit-search-block-form--2] {
 .section-softspot #webform-client-form-3394 #webform-component-delivery-address--city {
   float: left;
 }
-/* line 1790, ../sass/nodes.scss */
+/* line 1797, ../sass/nodes.scss */
 .section-softspot #webform-client-form-3394 #webform-component-employees,
 .section-softspot #webform-client-form-3394 #webform-component-phone-number,
 .section-softspot #webform-client-form-3394 #webform-component-email,
@@ -2791,7 +2799,7 @@ label[for=edit-search-block-form--2] {
   margin: 0 0 0 2em;
 }
 @media screen and (max-width: 950px) {
-  /* line 1798, ../sass/nodes.scss */
+  /* line 1805, ../sass/nodes.scss */
   .section-softspot #webform-client-form-3394 #webform-component-company,
   .section-softspot #webform-client-form-3394 #webform-component-contact-name,
   .section-softspot #webform-client-form-3394 #webform-component-role-in-company,
@@ -2808,12 +2816,12 @@ label[for=edit-search-block-form--2] {
     max-width: 100%;
   }
 }
-/* line 1814, ../sass/nodes.scss */
+/* line 1821, ../sass/nodes.scss */
 .section-softspot #webform-client-form-3394 .form-item {
   margin: 0;
   width: 407px;
 }
-/* line 1818, ../sass/nodes.scss */
+/* line 1825, ../sass/nodes.scss */
 .section-softspot #webform-client-form-3394 .form-item input.form-text {
   width: 391px;
   height: 38px;
@@ -2821,12 +2829,12 @@ label[for=edit-search-block-form--2] {
   border: 1px solid #e5ad43;
 }
 @media screen and (max-width: 950px) {
-  /* line 1825, ../sass/nodes.scss */
+  /* line 1832, ../sass/nodes.scss */
   .section-softspot #webform-client-form-3394 .form-item input.form-text {
     width: 90%;
   }
 }
-/* line 1830, ../sass/nodes.scss */
+/* line 1837, ../sass/nodes.scss */
 .section-softspot #webform-client-form-3394 .form-item label {
   font-family: 'gotham-rounded';
   font-weight: bold;
@@ -2835,11 +2843,11 @@ label[for=edit-search-block-form--2] {
   text-transform: capitalize;
   color: #6a3406;
 }
-/* line 1838, ../sass/nodes.scss */
+/* line 1845, ../sass/nodes.scss */
 .section-softspot #webform-client-form-3394 .form-actions {
   margin: 0;
 }
-/* line 1841, ../sass/nodes.scss */
+/* line 1848, ../sass/nodes.scss */
 .section-softspot #webform-client-form-3394 .form-actions input.form-submit {
   width: 247px;
   height: 58px;
@@ -2852,34 +2860,34 @@ label[for=edit-search-block-form--2] {
 /*
 * Thank You Page
 */
-/* line 1862, ../sass/nodes.scss */
+/* line 1869, ../sass/nodes.scss */
 .section-thank-you h1#page-title {
   display: none;
 }
-/* line 1865, ../sass/nodes.scss */
+/* line 1872, ../sass/nodes.scss */
 .section-thank-you p {
   font-size: 20px;
   line-height: 1.5em;
   color: white;
   font-family: 'gotham-rounded';
 }
-/* line 1872, ../sass/nodes.scss */
+/* line 1879, ../sass/nodes.scss */
 .section-thank-you #softspot-1,
 .section-thank-you #softspot-thankyou {
   padding: 0 3em;
 }
-/* line 1876, ../sass/nodes.scss */
+/* line 1883, ../sass/nodes.scss */
 .section-thank-you #softspot-1 {
   padding-bottom: 2em;
 }
-/* line 1879, ../sass/nodes.scss */
+/* line 1886, ../sass/nodes.scss */
 .section-thank-you #softspot-thankyou {
   border-top: 9px solid #b59660;
   background: #f6f3ee;
   padding-top: 2em;
   padding-bottom: 2em;
 }
-/* line 1885, ../sass/nodes.scss */
+/* line 1892, ../sass/nodes.scss */
 .section-thank-you #softspot-thankyou h2 {
   font-size: 3em;
   text-transform: capitalize;
@@ -2889,19 +2897,19 @@ label[for=edit-search-block-form--2] {
   font-family: "OPTISport-Script", Helvetica, Arial, "Nimbus Sans L", sans-serif;
   background: url('../images/wrapper/dotted-line.png?1408353092') left bottom no-repeat;
 }
-/* line 1894, ../sass/nodes.scss */
+/* line 1901, ../sass/nodes.scss */
 .section-thank-you #softspot-thankyou p {
   font-size: 24px;
   color: #693506;
 }
-/* line 1899, ../sass/nodes.scss */
+/* line 1906, ../sass/nodes.scss */
 .section-thank-you div#softspot-chocolate {
   position: relative;
   border-top: 2px solid #b4975f;
   background: url('../images/wrapper/softspot-chocolate.jpg?1408357087') 50px 50% #f6f3ee no-repeat;
   height: 248px;
 }
-/* line 1905, ../sass/nodes.scss */
+/* line 1912, ../sass/nodes.scss */
 .section-thank-you div#softspot-chocolate .softspot-social {
   position: absolute;
   right: 230px;
@@ -2910,7 +2918,7 @@ label[for=edit-search-block-form--2] {
   height: 239px;
   background: url('../images/wrapper/social-icons.png?1408353092') no-repeat;
 }
-/* line 1913, ../sass/nodes.scss */
+/* line 1920, ../sass/nodes.scss */
 .section-thank-you div#softspot-chocolate .softspot-social span {
   display: block;
   width: 324px;
@@ -2918,7 +2926,7 @@ label[for=edit-search-block-form--2] {
   text-indent: -9999px;
   background: url('../images/wrapper/social-icons.png?1408353092') 0 0 no-repeat;
 }
-/* line 1919, ../sass/nodes.scss */
+/* line 1926, ../sass/nodes.scss */
 .section-thank-you div#softspot-chocolate .softspot-social a#soft-fb {
   display: block;
   width: 130px;
@@ -2929,7 +2937,7 @@ label[for=edit-search-block-form--2] {
   text-indent: -9999px;
   background: url('../images/wrapper/social-icons.png?1408353092') -19px -68px no-repeat;
 }
-/* line 1928, ../sass/nodes.scss */
+/* line 1935, ../sass/nodes.scss */
 .section-thank-you div#softspot-chocolate .softspot-social a#soft-twit {
   display: block;
   width: 130px;
@@ -2940,35 +2948,35 @@ label[for=edit-search-block-form--2] {
   text-indent: -9999px;
   background: url('../images/wrapper/social-icons.png?1408353092') -175px -68px no-repeat;
 }
-/* line 1941, ../sass/nodes.scss */
+/* line 1948, ../sass/nodes.scss */
 .section-thank-you #softspot-bar-explained {
   padding: 70px 0;
   border-top: 9px solid #b59660;
   background: url('../images/bg-softspot.png?1408353092') #72562b repeat-x;
 }
-/* line 1946, ../sass/nodes.scss */
+/* line 1953, ../sass/nodes.scss */
 .section-thank-you #bar-explained,
 .section-thank-you #store-location {
   display: block;
   margin: 0 auto;
 }
-/* line 1951, ../sass/nodes.scss */
+/* line 1958, ../sass/nodes.scss */
 .section-thank-you #store-location {
   padding: 26px 0;
 }
-/* line 1954, ../sass/nodes.scss */
+/* line 1961, ../sass/nodes.scss */
 .section-thank-you #softspot-available {
   background: #f6f2ee;
   height: 162px;
   border-top: 9px solid #b59660;
   border-bottom: 9px solid #b59660;
 }
-/* line 1960, ../sass/nodes.scss */
+/* line 1967, ../sass/nodes.scss */
 .section-thank-you #softspot-tell-us {
   position: relative;
   background: url('../images/bg-softspot.png?1408353092') #72562b repeat-x;
 }
-/* line 1964, ../sass/nodes.scss */
+/* line 1971, ../sass/nodes.scss */
 .section-thank-you #softspot-tell-us #twitter-bird {
   display: block;
   width: 93px;
@@ -2978,7 +2986,7 @@ label[for=edit-search-block-form--2] {
   right: -50px;
   background: url('../images/wrapper/twitter-bird.png?1408353092') no-repeat;
 }
-/* line 1974, ../sass/nodes.scss */
+/* line 1981, ../sass/nodes.scss */
 .section-thank-you #softspot-separator {
   height: 32px;
   background: url('../images/wrapper/swoosh-bottom-color.png?1408353092') no-repeat;
