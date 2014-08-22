@@ -1608,7 +1608,20 @@ display:none !important;
 	#softspot-1,
 	#softspot-form {
 		padding:0 3em;}
-	
+	#softspot-1 {
+		
+		#softspot-chocolate {
+			display:block;
+			margin:0 auto;}
+		#softspot-chocolate-mobile {
+			display:none;}
+		@media screen and (max-width: 321px) {
+			#softspot-chocolate {
+				display:none;}
+			#softspot-chocolate-mobile {
+				display:block;}
+		}
+	}
 	#softspot-form {
 		position:relative;
 		border-top:9px solid #b59660;
@@ -1644,6 +1657,7 @@ display:none !important;
 				bottom:0;
 				left:19px;
 				text-indent:-9999px;
+				z-index:1;
 				background:image-url('wrapper/social-icons.png') -19px -68px no-repeat;}
 			a#soft-twit {
 				display:block;
@@ -1653,9 +1667,19 @@ display:none !important;
 				bottom:0;
 				left:175px;
 				text-indent:-9999px;
+				z-index:1;
 				background:image-url('wrapper/social-icons.png') -175px -68px no-repeat;}
 			}
+			
+		@media screen and (max-width: 641px) {
+			.softspot-social {
+				right:50%;
+				margin-right:-162px;
+			}
 		}
+
+	}
+	
 	@media screen and (max-width: 950px) {
 		#softspot-form {
 			padding-bottom:200px;
@@ -1679,6 +1703,11 @@ display:none !important;
 		height:162px;
 		border-top:9px solid #b59660;
 		border-bottom:9px solid #b59660;}
+	@media screen and (max-width: 641px) {
+		#softspot-bar-explained,
+		#softspot-available {
+			display:none;}
+	}
 		
 	#softspot-tell-us {
 		position:relative;
@@ -1693,7 +1722,11 @@ display:none !important;
 			right:-50px;
 			background:image-url('wrapper/twitter-bird.png') no-repeat;}
 		}
-	
+	@media screen and (max-width: 641px) {
+		#softspot-tell-us {
+			border-top:9px solid #b59660;
+		}
+	}
 	#softspot-separator {
 		height:32px;
 		background: image-url('wrapper/swoosh-bottom-color.png') no-repeat;}

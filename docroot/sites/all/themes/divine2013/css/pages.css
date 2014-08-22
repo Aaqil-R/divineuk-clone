@@ -54,7 +54,7 @@ body {
  */
 /* line 57, ../sass/pages.scss */
 #swoosh {
-  background: url('../images/wrapper/swoosh-top.png?1408354999') no-repeat;
+  background: url('../images/wrapper/swoosh-top.png?1408353092') no-repeat;
   background-position: -102px;
   height: 35px;
   width: 100%;
@@ -88,7 +88,7 @@ body {
 /* line 79, ../sass/pages.scss */
 .page-node-3393 #swoosh,
 .page-node-3401 #swoosh {
-  background: url('../images/wrapper/swoosh-top-color.png?1408354999') no-repeat;
+  background: url('../images/wrapper/swoosh-top-color.png?1408353092') no-repeat;
 }
 
 @media (min-width: 32em) {
@@ -134,7 +134,7 @@ body {
 @media (min-width: 49em) {
   /* line 114, ../sass/pages.scss */
   .front #header {
-    background-image: url('../images/homepage-banner/Summer_UK_Home-Page.jpg?1408354998');
+    background-image: url('../images/homepage-banner/Summer_UK_Home-Page.jpg?1408353092');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 100%;
@@ -233,7 +233,7 @@ body {
 .page-node-3401 #main {
   max-width: 1072px;
   padding: 0;
-  background: url('../images/bg-softspot.png?1408354998') #72562b repeat-x;
+  background: url('../images/bg-softspot.png?1408353092') #72562b repeat-x;
 }
 
 /*
@@ -447,7 +447,7 @@ span.field-label {
 
   /* line 340, ../sass/pages.scss */
   .adinkra-sidebar .sidebars {
-    background: url('../images/symbols/adinkra-large.png?1408354998') no-repeat;
+    background: url('../images/symbols/adinkra-large.png?1408353092') no-repeat;
     padding-bottom: 220px;
     background-position: left bottom;
   }
@@ -461,7 +461,7 @@ span.field-label {
  */
 /* line 356, ../sass/pages.scss */
 #footer {
-  background: url('../images/wrapper/swoosh-bottom.png?1408354999') black no-repeat top right;
+  background: url('../images/wrapper/swoosh-bottom.png?1408353092') black no-repeat top right;
   padding-top: 6em;
 }
 @media (min-width: 32em) {
@@ -505,8 +505,3 @@ span.field-label {
 /*
  * Page bottom
  */
-/* line 388, ../sass/pages.scss */
-#softspot-chocolate {
-  display: block;
-  margin: 0 auto;
-}
