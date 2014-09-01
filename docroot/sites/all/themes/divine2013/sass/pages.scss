@@ -112,15 +112,15 @@ body {
   }
   @include breakpoint(desktop) {
     #header {
-      background-image: image-url('homepage-banner/Summer_UK_Home-Page.jpg');
+      background-image: image-url('homepage-banner/love-chocolate.jpg');
       background-repeat: no-repeat;
-      background-position: top center;
+      background-position: center 151px;
       background-size: 100%;
       min-height: 477px;
-      #logo h1 {height: 118px; background: transparent;}
+      //#logo h1 {height: 118px; background: transparent;}
       #block-block-14 {
         display: block;
-        width:515px;
+        width:459px;
         height: 115px;
         position: absolute;
         top: 175px;
