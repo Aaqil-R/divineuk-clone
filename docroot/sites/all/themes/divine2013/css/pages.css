@@ -137,12 +137,12 @@ body {
     background-image: url('../images/homepage-banner/love-chocolate.jpg?1397889191');
     background-repeat: no-repeat;
     background-position: center 151px;
-    min-height: 477px;
+    min-height: 459px;
   }
   /* line 121, ../sass/pages.scss */
   .front #header #block-block-14 {
     display: block;
-    width: 459px;
+    width: 515px;
     height: 115px;
     position: absolute;
     top: 175px;
