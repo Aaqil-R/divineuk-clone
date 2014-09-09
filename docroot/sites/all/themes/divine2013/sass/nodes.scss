@@ -1841,7 +1841,12 @@ display:none !important;
 				font-size:20px;
 				margin:20px 0 5px;
 				text-transform:capitalize;
-				color:#6a3406;}
+				color:#6a3406;		
+
+			    .option {
+					font-size: 11px
+				}
+			}
 			
 			.form-actions {
 				margin:0;
@@ -1854,10 +1859,7 @@ display:none !important;
 					margin:20px 0;
 					background: image-url('wrapper/submit-button.jpg') 0 0 no-repeat;}
 				}
-		}
-		
-	 
-   
+			}   
 }
 
 
