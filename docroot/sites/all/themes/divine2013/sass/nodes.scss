@@ -1793,7 +1793,8 @@ display:none !important;
 			#webform-component-role-in-company,
 			#webform-component-delivery-address--address-1,
 			#webform-component-delivery-address--city {
-				float:left;}
+				float:left;
+			}
 			
 			#webform-component-employees,
 			#webform-component-phone-number,
@@ -1801,22 +1802,24 @@ display:none !important;
 			#webform-component-delivery-address--address-2,
 			#webform-component-delivery-address--postcode {
 				float:left;
-				margin:0 0 0 2em;}
+				margin:0 0 0 2em;
+			}
 			@media screen and (max-width: 950px) {
-			#webform-component-company,
-			#webform-component-contact-name,
-			#webform-component-role-in-company,
-			#webform-component-delivery-address--address-1,
-			#webform-component-delivery-address--city,
-			#webform-component-employees,
-			#webform-component-phone-number,
-			#webform-component-email,
-			#webform-component-delivery-address--address-2,
-			#webform-component-delivery-address--postcode {
-				float:none;
-				margin:0;
-				width:100%;
-				max-width:100%;}
+				#webform-component-company,
+				#webform-component-contact-name,
+				#webform-component-role-in-company,
+				#webform-component-delivery-address--address-1,
+				#webform-component-delivery-address--city,
+				#webform-component-employees,
+				#webform-component-phone-number,
+				#webform-component-email,
+				#webform-component-delivery-address--address-2,
+				#webform-component-delivery-address--postcode {
+					float:none;
+					margin:0;
+					width:100%;
+					max-width:100%;
+				}
 			}
 			
 			.form-item {
@@ -1837,8 +1840,8 @@ display:none !important;
 					text-transform:capitalize;
 					color:#6a3406;	
 
-					.option {
-						font-size: 11px
+					&.option {
+						font-size: 11px;
 					}	
 				}
 					 
