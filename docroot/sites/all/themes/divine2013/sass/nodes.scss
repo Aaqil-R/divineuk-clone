@@ -1823,29 +1823,29 @@ display:none !important;
 				 margin:0;
 				 width:407px;
 				 
-				 input.form-text {
+				input.form-text {
 					 width:391px;
 					 height:38px;
 					 background:#fff;
 					 border:1px solid #e5ad43;}
-					 
-				 @media screen and (max-width: 950px) {
-				 input.form-text {
-					 width:90%;}
-				 }
-			}
-			
-			.form-item label {
-				font-family: 'gotham-rounded';
-				font-weight:bold;
-				font-size:20px;
-				margin:20px 0 5px;
-				text-transform:capitalize;
-				color:#6a3406;		
+				
+				label {			
+					font-family: 'gotham-rounded';
+					font-weight:bold;
+					font-size:20px;
+					margin:20px 0 5px;
+					text-transform:capitalize;
+					color:#6a3406;	
 
-			    .option {
-					font-size: 11px
+					.option {
+						font-size: 11px
+					}	
 				}
+					 
+				@media screen and (max-width: 950px) {
+					input.form-text {
+					 width:90%;}
+				}				 
 			}
 			
 			.form-actions {

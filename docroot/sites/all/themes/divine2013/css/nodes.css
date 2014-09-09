@@ -2829,13 +2829,7 @@ label[for=edit-search-block-form--2] {
   background: #fff;
   border: 1px solid #e5ad43;
 }
-@media screen and (max-width: 950px) {
-  /* line 1833, ../sass/nodes.scss */
-  .section-softspot #webform-client-form-3394 .form-item input.form-text {
-    width: 90%;
-  }
-}
-/* line 1838, ../sass/nodes.scss */
+/* line 1832, ../sass/nodes.scss */
 .section-softspot #webform-client-form-3394 .form-item label {
   font-family: 'gotham-rounded';
   font-weight: bold;
@@ -2844,9 +2838,15 @@ label[for=edit-search-block-form--2] {
   text-transform: capitalize;
   color: #6a3406;
 }
-/* line 1846, ../sass/nodes.scss */
+/* line 1840, ../sass/nodes.scss */
 .section-softspot #webform-client-form-3394 .form-item label .option {
   font-size: 11px;
+}
+@media screen and (max-width: 950px) {
+  /* line 1846, ../sass/nodes.scss */
+  .section-softspot #webform-client-form-3394 .form-item input.form-text {
+    width: 90%;
+  }
 }
 /* line 1851, ../sass/nodes.scss */
 .section-softspot #webform-client-form-3394 .form-actions {
