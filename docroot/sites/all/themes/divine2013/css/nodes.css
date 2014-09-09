@@ -2840,7 +2840,7 @@ label[for=edit-search-block-form--2] {
 }
 /* line 1843, ../sass/nodes.scss */
 .section-softspot #webform-client-form-3394 .form-item label.option {
-  font-size: 11px;
+  font-size: 11px !important;
 }
 @media screen and (max-width: 950px) {
   /* line 1849, ../sass/nodes.scss */
