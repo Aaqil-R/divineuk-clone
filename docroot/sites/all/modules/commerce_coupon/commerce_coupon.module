@@ -265,6 +265,7 @@ function commerce_coupon_redeem_coupon($coupon, $order) {
 
   // We invoke the rule. The defined action callback methods sets then the
   // coupon value appropriate.
+  commerce_order_save($order);
   rules_invoke_event('commerce_coupon_redeem', $coupon, $order);
   commerce_order_save($order);
 }
