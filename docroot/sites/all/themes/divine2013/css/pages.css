@@ -138,7 +138,7 @@ body {
     background-repeat: no-repeat;
     background-position: center 151px;
     background-size: 100%;
-    min-height: 459px;
+    min-height: 502px;
   }
   /* line 120, ../sass/pages.scss */
   .front #header #logo h1 {
@@ -171,7 +171,7 @@ body {
   /* line 138, ../sass/pages.scss */
   .front #header #swoosh, .front #header .region-nav {
     position: relative;
-    top: 298px;
+    top: 318px;
   }
 }
 
