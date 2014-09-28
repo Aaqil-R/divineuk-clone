@@ -136,7 +136,7 @@ body {
   .front #header {
     background-image: url('../images/homepage-banner/chocweek_2014.jpg?1411931315');
     background-repeat: no-repeat;
-    background-position: center 151px;
+    background-position: top center;
     background-size: 100%;
     min-height: 502px;
   }
