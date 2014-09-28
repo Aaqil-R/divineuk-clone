@@ -140,11 +140,6 @@ body {
     background-size: 100%;
     min-height: 502px;
   }
-  /* line 120, ../sass/pages.scss */
-  .front #header #logo h1 {
-    height: 118px;
-    background: transparent;
-  }
   /* line 121, ../sass/pages.scss */
   .front #header #block-block-14 {
     display: block;
@@ -171,7 +166,7 @@ body {
   /* line 138, ../sass/pages.scss */
   .front #header #swoosh, .front #header .region-nav {
     position: relative;
-    top: 318px;
+    top: 341px;
   }
 }
 
