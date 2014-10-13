@@ -560,6 +560,7 @@ include DRUPAL_ROOT . '/sites/all/modules/context_mobile_detect/settings.inc';
 if (file_exists('/var/www/site-php')) {
   require('/var/www/site-php/divineuk/divineuk-settings.inc');
 }
+
 
 //<DDSETTINGS>
 // Please don't edit anything between <DDSETTINGS> tags.
