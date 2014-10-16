@@ -1,0 +1,8 @@
+name = Commerce Coupon Free Shipping
+description = "A coupon type for free shipping with some rules and restrictions."
+dependencies[] = commerce_coupon
+dependencies[] = commerce_shipping
+package = Commerce Coupon
+core = 7.x
+
+configure = admin/commerce/coupons/add/commerce-coupon-free-shipping/
