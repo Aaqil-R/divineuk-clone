@@ -139,11 +139,6 @@ body {
     background-position: center 125px;
     min-height: 439px;
   }
-  /* line 120, ../sass/pages.scss */
-  .front #header #logo h1 {
-    height: 118px;
-    background: transparent;
-  }
   /* line 121, ../sass/pages.scss */
   .front #header #block-block-14 {
     display: block;
@@ -170,7 +165,7 @@ body {
   /* line 138, ../sass/pages.scss */
   .front #header #swoosh, .front #header .region-nav {
     position: relative;
-    top: 269px;
+    top: 278px;
   }
 }
 
