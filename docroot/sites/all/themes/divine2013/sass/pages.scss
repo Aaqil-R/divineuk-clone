@@ -114,9 +114,9 @@ body {
     #header {
       background-image: image-url('homepage-banner/love-chocolate-newbars.jpg');
       background-repeat: no-repeat;
-      //background-position: top center;
+      background-position: center 125px;
       //background-size: 100%;
-      min-height: 502px;
+      min-height: 439px;
       #logo h1 {height: 118px; background: transparent;}
       #block-block-14 {
         display: block;
@@ -137,7 +137,7 @@ body {
       }
       #swoosh, .region-nav {
         position: relative;
-        top: 341px;
+        top: 269px;
       }
     }
   }

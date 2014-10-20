@@ -136,7 +136,8 @@ body {
   .front #header {
     background-image: url('../images/homepage-banner/love-chocolate-newbars.jpg?1412860796');
     background-repeat: no-repeat;
-    min-height: 502px;
+    background-position: center 125px;
+    min-height: 439px;
   }
   /* line 120, ../sass/pages.scss */
   .front #header #logo h1 {
@@ -169,7 +170,7 @@ body {
   /* line 138, ../sass/pages.scss */
   .front #header #swoosh, .front #header .region-nav {
     position: relative;
-    top: 341px;
+    top: 269px;
   }
 }
 
