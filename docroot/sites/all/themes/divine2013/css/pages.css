@@ -134,11 +134,14 @@ body {
 @media (min-width: 49em) {
   /* line 114, ../sass/pages.scss */
   .front #header {
-    background-image: url('../images/homepage-banner/chocweek_2014.jpg?1412860796');
+    background-image: url('../images/homepage-banner/love-chocolate-newbars.jpg?1412860796');
     background-repeat: no-repeat;
-    background-position: top center;
-    background-size: 100%;
     min-height: 502px;
+  }
+  /* line 120, ../sass/pages.scss */
+  .front #header #logo h1 {
+    height: 118px;
+    background: transparent;
   }
   /* line 121, ../sass/pages.scss */
   .front #header #block-block-14 {
