@@ -1474,6 +1474,24 @@
 .section-shop .views-field-field-new-addition .product-offer-736 {
   background-image: url("../images/symbols/shop/20-percent-off.png");
 }
+
+/* line 884, ../sass/nodes.scss */
+.section-checkout .views-field-field-offers .product-offer-741, .section-checkout .field-offers .product-offer-741, .section-checkout .views-field-field-shipping-offer .product-offer-741, .section-checkout .views-field-field-out-of-stock .product-offer-741, .section-checkout .field-out-of-stock .product-offer-741, .section-checkout .views-field-field-new-addition .product-offer-741,
+.section-cart .views-field-field-offers .product-offer-741,
+.section-cart .field-offers .product-offer-741,
+.section-cart .views-field-field-shipping-offer .product-offer-741,
+.section-cart .views-field-field-out-of-stock .product-offer-741,
+.section-cart .field-out-of-stock .product-offer-741,
+.section-cart .views-field-field-new-addition .product-offer-741,
+.section-shop .views-field-field-offers .product-offer-741,
+.section-shop .field-offers .product-offer-741,
+.section-shop .views-field-field-shipping-offer .product-offer-741,
+.section-shop .views-field-field-out-of-stock .product-offer-741,
+.section-shop .field-out-of-stock .product-offer-741,
+.section-shop .views-field-field-new-addition .product-offer-741 {
+  background-image: url("../images/symbols/shop/limited-edition.png");
+}
+
 /* line 889, ../sass/nodes.scss */
 .section-checkout .view-product-catalog table.views-view-grid, .section-checkout .product-list table.views-view-grid,
 .section-cart .view-product-catalog table.views-view-grid,
