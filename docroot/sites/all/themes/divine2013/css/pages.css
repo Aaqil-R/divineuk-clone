@@ -54,7 +54,7 @@ body {
  */
 /* line 57, ../sass/pages.scss */
 #swoosh {
-  background: url('../images/wrapper/swoosh-top.png?1412860796') no-repeat;
+  background: url('../images/wrapper/swoosh-top.png?1417079613') no-repeat;
   background-position: -102px;
   height: 35px;
   width: 100%;
@@ -88,7 +88,7 @@ body {
 /* line 79, ../sass/pages.scss */
 .section-softspot #swoosh,
 .section-thank-you #swoosh {
-  background: url('../images/wrapper/swoosh-top-color.png?1412860796') no-repeat;
+  background: url('../images/wrapper/swoosh-top-color.png?1417079613') no-repeat;
 }
 
 @media (min-width: 32em) {
@@ -120,7 +120,7 @@ body {
   }
   /* line 105, ../sass/pages.scss */
   .front.sidebar-first #content #block-views-frontpage-shop-window-block img {
-    border-bottom: 1px dashed #b39f69;
+    border-bottom: 1px dashed #B39F69;
   }
   /* line 108, ../sass/pages.scss */
   .front.sidebar-first .sidebars {
@@ -134,10 +134,15 @@ body {
 @media (min-width: 49em) {
   /* line 114, ../sass/pages.scss */
   .front #header {
-    background-image: url('../images/homepage-banner/love-chocolate-newbars.jpg?1412860796');
+    background-image: url('../images/homepage-banner/christmas-14-web-banner.jpg?1417085164');
     background-repeat: no-repeat;
-    background-position: center 125px;
-    min-height: 439px;
+    background-position: center top;
+    min-height: 455px;
+  }
+  /* line 120, ../sass/pages.scss */
+  .front #header #logo h1 {
+    height: 118px;
+    background: transparent;
   }
   /* line 121, ../sass/pages.scss */
   .front #header #block-block-14 {
@@ -181,7 +186,7 @@ body {
 }
 /* line 151, ../sass/pages.scss */
 .region-header .block {
-  background: black;
+  background: #000000;
   height: 1.6em;
   margin: 0.5em 0 0 0.5em;
   clear: both;
@@ -219,7 +224,7 @@ body {
  */
 /* line 183, ../sass/pages.scss */
 #main {
-  background: white;
+  background: #ffffff;
 }
 
 /* line 186, ../sass/pages.scss */
@@ -227,7 +232,7 @@ body {
 .section-thank-you #main {
   max-width: 1072px;
   padding: 0;
-  background: url('../images/bg-softspot.png?1412860796') #72562b repeat-x;
+  background: url('../images/bg-softspot.png?1417079612') #72562b repeat-x;
 }
 
 /*
@@ -252,9 +257,9 @@ body {
 
 /* line 213, ../sass/pages.scss */
 .view-recipes a:hover img, .view-sidebar-blocks a:hover img {
-  -moz-box-shadow: 0px 5px #58595b;
-  -webkit-box-shadow: 0px 5px #58595b;
-  box-shadow: 0px 5px #58595b;
+  -moz-box-shadow: 0px 5px #58595B;
+  -webkit-box-shadow: 0px 5px #58595B;
+  box-shadow: 0px 5px #58595B;
 }
 
 /* line 222, ../sass/pages.scss */
@@ -441,7 +446,7 @@ span.field-label {
 
   /* line 340, ../sass/pages.scss */
   .adinkra-sidebar .sidebars {
-    background: url('../images/symbols/adinkra-large.png?1412860796') no-repeat;
+    background: url('../images/symbols/adinkra-large.png?1417079612') no-repeat;
     padding-bottom: 220px;
     background-position: left bottom;
   }
@@ -455,7 +460,7 @@ span.field-label {
  */
 /* line 356, ../sass/pages.scss */
 #footer {
-  background: url('../images/wrapper/swoosh-bottom.png?1412860796') black no-repeat top right;
+  background: url('../images/wrapper/swoosh-bottom.png?1417079613') #000000 no-repeat top right;
   padding-top: 6em;
 }
 @media (min-width: 32em) {
