@@ -54,7 +54,7 @@ body {
  */
 /* line 57, ../sass/pages.scss */
 #swoosh {
-  background: url('../images/wrapper/swoosh-top.png?1417079613') no-repeat;
+  background: url('../images/wrapper/swoosh-top.png?1417490946') no-repeat;
   background-position: -102px;
   height: 35px;
   width: 100%;
@@ -88,7 +88,7 @@ body {
 /* line 79, ../sass/pages.scss */
 .section-softspot #swoosh,
 .section-thank-you #swoosh {
-  background: url('../images/wrapper/swoosh-top-color.png?1417079613') no-repeat;
+  background: url('../images/wrapper/swoosh-top-color.png?1417490946') no-repeat;
 }
 
 @media (min-width: 32em) {
@@ -134,15 +134,10 @@ body {
 @media (min-width: 49em) {
   /* line 114, ../sass/pages.scss */
   .front #header {
-    background-image: url('../images/homepage-banner/christmas-14-web-banner.jpg?1417085164');
+    background-image: url('../images/homepage-banner/love-chocolate-newbars.jpg?1417490946');
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center 130px;
     min-height: 455px;
-  }
-  /* line 120, ../sass/pages.scss */
-  .front #header #logo h1 {
-    height: 118px;
-    background: transparent;
   }
   /* line 121, ../sass/pages.scss */
   .front #header #block-block-14 {
@@ -170,7 +165,7 @@ body {
   /* line 138, ../sass/pages.scss */
   .front #header #swoosh, .front #header .region-nav {
     position: relative;
-    top: 278px;
+    top: 294px;
   }
 }
 
@@ -232,7 +227,7 @@ body {
 .section-thank-you #main {
   max-width: 1072px;
   padding: 0;
-  background: url('../images/bg-softspot.png?1417079612') #72562b repeat-x;
+  background: url('../images/bg-softspot.png?1417490946') #72562b repeat-x;
 }
 
 /*
@@ -446,7 +441,7 @@ span.field-label {
 
   /* line 340, ../sass/pages.scss */
   .adinkra-sidebar .sidebars {
-    background: url('../images/symbols/adinkra-large.png?1417079612') no-repeat;
+    background: url('../images/symbols/adinkra-large.png?1417490946') no-repeat;
     padding-bottom: 220px;
     background-position: left bottom;
   }
@@ -460,7 +455,7 @@ span.field-label {
  */
 /* line 356, ../sass/pages.scss */
 #footer {
-  background: url('../images/wrapper/swoosh-bottom.png?1417079613') #000000 no-repeat top right;
+  background: url('../images/wrapper/swoosh-bottom.png?1417490946') #000000 no-repeat top right;
   padding-top: 6em;
 }
 @media (min-width: 32em) {
