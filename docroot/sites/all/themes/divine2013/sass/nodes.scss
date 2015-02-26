@@ -921,7 +921,7 @@
           }
           
           .views-field-add-to-cart-form {
-            &.Out-of-stock, &.Out-of-season {padding-top: 3.2em;}  
+            &.Out-of-stock {padding-top: 3.2em;}  
           }
           .form-item-quantity {
             @include adjust-font-size-to(1 * $base-font-size);
