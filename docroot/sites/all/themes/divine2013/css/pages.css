@@ -134,7 +134,7 @@ body {
 @media (min-width: 49em) {
   /* line 114, ../sass/pages.scss */
   .front #header {
-    background-image: url('../images/homepage-banner/easter-2015.jpg?1425901756');
+    background-image: url('../images/homepage-banner/home-easter-2015.jpg?1425901756');
     background-repeat: no-repeat;
     background-position: center 130px;
     min-height: 455px;
