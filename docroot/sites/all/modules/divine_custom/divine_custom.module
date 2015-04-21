@@ -1,0 +1,52 @@
+<?php
+/**
+ * Implements hook_menu
+ */
+function divine_custom_menu() {
+	$items['admin/config/homepage-image'] = array(
+		'title' => 'Change home page image',
+		'page callback' => 'drupal_get_form',
+    'page arguments' => array('_divine_custom_manage_home_image'),
+    'access arguments' => array('access administration pages'),
+		'type' => MENU_NORMAL_ITEM
+	);
+  return $items;
+}
+
+/**
+ * Custom page callback function
+ */
+function _divine_custom_manage_home_image($form, $form_state) {
+  $form['file'] = array(
+    '#type' => 'file',
+    '#title' => t('Choose a picture'),
+    '#description' => t('Upload an image to set as main image in home page'),
+  );
+  $form['submit'] = array(
+    '#type' => 'submit',
+    '#value' => 'Upload',
+  );
+  return $form;
+}
+
+/**
+ * Form submit handler function
+ */
+function _divine_custom_manage_home_image_submit($form, &$form_state) {
+  $validators = array(
+    'file_validate_is_image' => array(), // Validates file is really an image.
+    'file_validate_extensions' => array('png gif jpg jpeg'), // Validate extensions.
+  );
+  $file = file_save_upload('file', $validators, 'public://');
+  if($file) {
+    // Change the status
+    $file->status = 1;
+    // Update the file status into the database
+    file_save($file);
+    variable_set('header_image', file_create_url($file->uri));
+    drupal_set_message(t('The form has been submitted and the image has been saved, filename: @filename.', array('@filename' => $file->filename)));
+  }
+  else {
+    form_set_error('file', t('No file was uploaded.'));
+  }
+}

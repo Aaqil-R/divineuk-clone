@@ -385,3 +385,10 @@ margin:0;}
  * Page bottom
  */
 
+@media (max-width: 49em) {
+  .front {
+    #header {
+      background-image: none !important;
+    }
+  }
+}

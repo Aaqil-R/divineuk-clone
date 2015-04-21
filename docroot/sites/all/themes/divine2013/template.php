@@ -236,9 +236,11 @@ function divine2013_form_alter(&$form, &$form_state, $form_id) {
 
 /* ADDING JS & CSS FOR THE ADDTHISEVENT */
 function divine2013_preprocess_page(&$variables) {
+  global $base_url;
 if (isset($variables['node']) && $variables['node']->type == 'blog_event') {
 drupal_add_js(drupal_get_path('theme', 'divine2013') . '/js/addthisevent/js/atemay.js');
 $variables['scripts'] = drupal_get_js();
+
 }
 
 /**
@@ -248,6 +250,13 @@ if (drupal_is_front_page()) {
   $variables['title']="";
   unset($variables['page']['content']['system_main']['default_message']); 
 }
+  $variables['header_image'] = '';
+  
+  if(drupal_is_front_page()) {
+    $default = $base_url . '/' .drupal_get_path('theme','divine2013') . '/images/homepage-banner/love-chocolate-newbars.jpg';
+    $background = variable_get('header_image',$default);
+    $variables['header_image'] = $background;
+  }
 }
 
 /**
