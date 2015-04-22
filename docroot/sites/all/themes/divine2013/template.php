@@ -253,9 +253,26 @@ if (drupal_is_front_page()) {
   $variables['header_image'] = '';
   
   if(drupal_is_front_page()) {
-    $default = $base_url . '/' .drupal_get_path('theme','divine2013') . '/images/homepage-banner/love-chocolate-newbars.jpg';
-    $background = variable_get('header_image',$default);
-    $variables['header_image'] = $background;
+    $fid = variable_get('header_image',0);
+    if($fid['fid'] != 0) {
+      $image_style = variable_get('image_header_style_name', '');
+      $image = file_load($fid['fid']);
+      if ($image_style == '') {
+        $imgpath = $image->uri;
+      }
+      else {
+        $imgpath = image_style_path($image_style, $image->uri);        
+        $final_image_path = drupal_realpath($imgpath);
+        if (!file_exists($final_image_path)) {
+          $style_definition = image_style_load($image_style);
+          image_style_create_derivative($style_definition, $image->uri, $imgpath);
+        }
+      }
+    }
+    else {
+      $imgpath = $base_url . '/' .drupal_get_path('theme','divine2013') . '/images/homepage-banner/love-chocolate-newbars.jpg';
+    }
+    $variables['header_image'] = file_create_url($imgpath);
   }
 }
 
