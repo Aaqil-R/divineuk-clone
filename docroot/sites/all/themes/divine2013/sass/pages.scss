@@ -125,8 +125,8 @@ body {
       //background-size: 100%;
       min-height: 465px;
       #logo h1 {
-        //height: 105px;
-        display: none;
+        height: 105px;
+        //display: none;
         //hiding the exsisting logo image which is coming as background
      
       }
@@ -152,8 +152,9 @@ body {
       }
       #swoosh, .region-nav {
         position: relative;
-        //top: 294px;
-        top: 370px;
+        top: 294px;
+        //top: 370px;
+     
       }
     }
   }
