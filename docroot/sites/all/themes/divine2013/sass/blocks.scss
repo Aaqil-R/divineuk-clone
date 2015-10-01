@@ -145,7 +145,7 @@
   h1 {
     font-size: 2em;
     line-height: 1.4em;
-    //background: url('../images/wrapper/divine-chocolate.png') no-repeat;
+    background: url("../images/wrapper/divine-chocolate.png") no-repeat;
     text-indent: -10000px;
     background-size: contain;
     height: 45px;
@@ -185,7 +185,10 @@
   }
 }
 
-.front #logo h1 {}
+//hiding the homepage logo background
+.front #logo h1 {
+  background: none;
+}
 
 .js {
   #block-search-form,
