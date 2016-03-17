@@ -1572,8 +1572,51 @@
   opacity: .7;
 }
 
+/** home page video content**/
+/* line 1186, ../sass/blocks.scss */
+.home-video-block {
+  line-height: 26px;
+  width: 92% !important;
+  font-family: "Avenir LT W01 95 Black",Helvetica,Arial,"Nimbus Sans L",sans-serif;
+  margin: auto auto;
+  display: block;
+}
+
+/* line 1193, ../sass/blocks.scss */
+.home-video-caption-title {
+  text-transform: uppercase;
+  font-family: "Avenir LT W01 95 Black", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+  font-size: 0.9em;
+  line-height: 1.25em;
+  letter-spacing: 1px;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-bottom: 0.5em;
+}
+
+/* line 1203, ../sass/blocks.scss */
+.home-video-caption {
+  font-size: 0.85em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+/* line 1208, ../sass/blocks.scss */
+.home-video-wrapper {
+  background-color: #F1AB00;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  width: 92%;
+  margin: auto auto;
+  display: block;
+  color: #ffffff;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+/** END: home page video content**/
 /* AddThisEvent */
-/* line 1188, ../sass/blocks.scss */
+/* line 1224, ../sass/blocks.scss */
 .addthisevent-drop {
   display: inline-block;
   position: relative;
@@ -1592,7 +1635,7 @@
   -webkit-border-radius: 2px;
 }
 
-/* line 1206, ../sass/blocks.scss */
+/* line 1242, ../sass/blocks.scss */
 .addthisevent-drop:hover {
   border: 1px solid #aab9d4;
   color: #555;
@@ -1601,17 +1644,17 @@
   text-decoration: none;
 }
 
-/* line 1214, ../sass/blocks.scss */
+/* line 1250, ../sass/blocks.scss */
 .addthisevent-drop:active {
   top: 1px;
 }
 
-/* line 1218, ../sass/blocks.scss */
+/* line 1254, ../sass/blocks.scss */
 .addthisevent-selected {
   background-color: #f7f7f7;
 }
 
-/* line 1222, ../sass/blocks.scss */
+/* line 1258, ../sass/blocks.scss */
 .addthisevent_dropdown {
   width: 200px;
   position: absolute;
@@ -1633,7 +1676,7 @@
   box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.15);
 }
 
-/* line 1243, ../sass/blocks.scss */
+/* line 1279, ../sass/blocks.scss */
 .addthisevent_dropdown span {
   width: 175px;
   display: block;
@@ -1645,7 +1688,7 @@
   padding: 8px 10px 9px 15px;
 }
 
-/* line 1254, ../sass/blocks.scss */
+/* line 1290, ../sass/blocks.scss */
 .addthisevent_dropdown span:hover {
   background: #f4f4f4;
   color: #6d84b4;
@@ -1653,17 +1696,17 @@
   font-size: 12px;
 }
 
-/* line 1261, ../sass/blocks.scss */
+/* line 1297, ../sass/blocks.scss */
 .addthisevent span {
   display: none !important;
 }
 
-/* line 1265, ../sass/blocks.scss */
+/* line 1301, ../sass/blocks.scss */
 .addthisevent-drop ._url, .addthisevent-drop ._start, .addthisevent-drop ._end, .addthisevent-drop ._summary, .addthisevent-drop ._description, .addthisevent-drop ._location, .addthisevent-drop ._organizer, .addthisevent-drop ._organizer_email, .addthisevent-drop ._facebook_event, .addthisevent-drop ._all_day_event {
   display: none !important;
 }
 
-/* line 1269, ../sass/blocks.scss */
+/* line 1305, ../sass/blocks.scss */
 .addthisevent_dropdown .copyx {
   width: 200px;
   height: 21px;
@@ -1672,7 +1715,7 @@
   cursor: default;
 }
 
-/* line 1277, ../sass/blocks.scss */
+/* line 1313, ../sass/blocks.scss */
 .addthisevent_dropdown .brx {
   width: 180px;
   height: 1px;
@@ -1684,7 +1727,7 @@
   top: 9px;
 }
 
-/* line 1288, ../sass/blocks.scss */
+/* line 1324, ../sass/blocks.scss */
 .addthisevent_dropdown .frs {
   position: absolute;
   top: 5px;
@@ -1702,12 +1745,12 @@
   color: #cacaca;
 }
 
-/* line 1305, ../sass/blocks.scss */
+/* line 1341, ../sass/blocks.scss */
 .addthisevent_dropdown .frs:hover {
   color: #6d84b4;
 }
 
-/* line 1309, ../sass/blocks.scss */
+/* line 1345, ../sass/blocks.scss */
 .addthisevent {
   visibility: hidden;
 }
