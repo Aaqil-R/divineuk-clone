@@ -65,6 +65,15 @@ Drupal.behaviors.trackingSettingsSummary = {
       if ($('input#edit-googleanalytics-trackfiles', context).is(':checked')) {
         vals.push(Drupal.t('Downloads'));
       }
+      if ($('input#edit-googleanalytics-trackcolorbox', context).is(':checked')) {
+        vals.push(Drupal.t('Colorbox'));
+      }
+      if ($('input#edit-googleanalytics-tracklinkid', context).is(':checked')) {
+        vals.push(Drupal.t('Link attribution'));
+      }
+      if ($('input#edit-googleanalytics-trackurlfragments', context).is(':checked')) {
+        vals.push(Drupal.t('URL fragments'));
+      }
       if (!vals.length) {
         return Drupal.t('Not tracked');
       }
@@ -87,13 +96,12 @@ Drupal.behaviors.trackingSettingsSummary = {
       if ($('input#edit-googleanalytics-site-search', context).is(':checked')) {
         vals.push(Drupal.t('Site search'));
       }
-      /* @todo: Features not yet supported by analytics.js
       if ($('input#edit-googleanalytics-trackadsense', context).is(':checked')) {
         vals.push(Drupal.t('AdSense ads'));
       }
       if ($('input#edit-googleanalytics-trackdoubleclick', context).is(':checked')) {
-        vals.push(Drupal.t('DoubleClick data'));
-      } */
+        vals.push(Drupal.t('Display features'));
+      }
       if (!vals.length) {
         return Drupal.t('Not tracked');
       }
