@@ -101,6 +101,20 @@ function hook_commerce_cart_order_convert($order_wrapper, $account) {
 }
 
 /**
+ * Allows modules to perform processing on a shopping cart order prior to the
+ * logic in commerce_cart_order_refresh() taking place.
+ *
+ * @param $order_wrapper
+ *   The entity metadata wrapper for the order about to be refreshed.
+ *
+ * @see commerce_cart_order_refresh()
+ * @see entity_metadata_wrapper()
+ */
+function hook_commerce_cart_order_pre_refresh($order_wrapper) {
+  // No example.
+}
+
+/**
  * Allows modules to perform additional processing to refresh an individual line
  * item on a shopping cart order.
  *
@@ -199,6 +213,9 @@ function hook_commerce_cart_attributes_refresh_alter(&$commands, $form, $form_st
  * @param &$comparison_properties
  *   The array of property names (including field names) that map to properties
  *   on the line item wrappers being compared to check for combination.
+ * @param $line_item
+ *   A clone of the line item being added to the cart. Since this is a clone,
+ *   changes made to it will not propagate up to the Add to Cart process.
  */
 function hook_commerce_cart_product_comparison_properties_alter(&$comparison_properties) {
   // Force separate line items when the same product is added to the cart from
