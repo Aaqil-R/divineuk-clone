@@ -1577,7 +1577,7 @@
   display: block;
 }
 
-/* line 1401, ../sass/blocks.scss */
+/* line 1402, ../sass/blocks.scss */
 .home-video-caption-title {
   text-transform: uppercase;
   font-family: "Avenir LT W01 95 Black", Helvetica, Arial, "Nimbus Sans L", sans-serif;
@@ -1589,14 +1589,14 @@
   padding-bottom: 0.5em;
 }
 
-/* line 1411, ../sass/blocks.scss */
+/* line 1413, ../sass/blocks.scss */
 .home-video-caption {
   font-size: 0.85em;
   padding-left: 1.5em;
   padding-right: 1.5em;
 }
 
-/* line 1416, ../sass/blocks.scss */
+/* line 1419, ../sass/blocks.scss */
 .home-video-wrapper {
   background-color: #F1AB00;
   border-bottom-right-radius: 4px;
@@ -1611,7 +1611,7 @@
 
 /** END: home page video content**/
 /* AddThisEvent */
-/* line 1431, ../sass/blocks.scss */
+/* line 1435, ../sass/blocks.scss */
 .addthisevent-drop {
   display: inline-block;
   position: relative;
@@ -1630,7 +1630,7 @@
   -webkit-border-radius: 2px;
 }
 
-/* line 1449, ../sass/blocks.scss */
+/* line 1453, ../sass/blocks.scss */
 .addthisevent-drop:hover {
   border: 1px solid #aab9d4;
   color: #555;
@@ -1639,17 +1639,17 @@
   text-decoration: none;
 }
 
-/* line 1457, ../sass/blocks.scss */
+/* line 1461, ../sass/blocks.scss */
 .addthisevent-drop:active {
   top: 1px;
 }
 
-/* line 1461, ../sass/blocks.scss */
+/* line 1465, ../sass/blocks.scss */
 .addthisevent-selected {
   background-color: #f7f7f7;
 }
 
-/* line 1465, ../sass/blocks.scss */
+/* line 1469, ../sass/blocks.scss */
 .addthisevent_dropdown {
   width: 200px;
   position: absolute;
@@ -1671,7 +1671,7 @@
   box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.15);
 }
 
-/* line 1486, ../sass/blocks.scss */
+/* line 1490, ../sass/blocks.scss */
 .addthisevent_dropdown span {
   width: 175px;
   display: block;
@@ -1683,7 +1683,7 @@
   padding: 8px 10px 9px 15px;
 }
 
-/* line 1497, ../sass/blocks.scss */
+/* line 1501, ../sass/blocks.scss */
 .addthisevent_dropdown span:hover {
   background: #f4f4f4;
   color: #6d84b4;
@@ -1691,17 +1691,17 @@
   font-size: 12px;
 }
 
-/* line 1504, ../sass/blocks.scss */
+/* line 1508, ../sass/blocks.scss */
 .addthisevent span {
   display: none !important;
 }
 
-/* line 1508, ../sass/blocks.scss */
+/* line 1512, ../sass/blocks.scss */
 .addthisevent-drop ._url, .addthisevent-drop ._start, .addthisevent-drop ._end, .addthisevent-drop ._summary, .addthisevent-drop ._description, .addthisevent-drop ._location, .addthisevent-drop ._organizer, .addthisevent-drop ._organizer_email, .addthisevent-drop ._facebook_event, .addthisevent-drop ._all_day_event {
   display: none !important;
 }
 
-/* line 1512, ../sass/blocks.scss */
+/* line 1516, ../sass/blocks.scss */
 .addthisevent_dropdown .copyx {
   width: 200px;
   height: 21px;
@@ -1710,7 +1710,7 @@
   cursor: default;
 }
 
-/* line 1520, ../sass/blocks.scss */
+/* line 1524, ../sass/blocks.scss */
 .addthisevent_dropdown .brx {
   width: 180px;
   height: 1px;
@@ -1722,7 +1722,7 @@
   top: 9px;
 }
 
-/* line 1531, ../sass/blocks.scss */
+/* line 1535, ../sass/blocks.scss */
 .addthisevent_dropdown .frs {
   position: absolute;
   top: 5px;
@@ -1740,12 +1740,18 @@
   color: #cacaca;
 }
 
-/* line 1548, ../sass/blocks.scss */
+/* line 1552, ../sass/blocks.scss */
 .addthisevent_dropdown .frs:hover {
   color: #6d84b4;
 }
 
-/* line 1552, ../sass/blocks.scss */
+/* line 1556, ../sass/blocks.scss */
 .addthisevent {
   visibility: hidden;
+}
+
+/** google map*/
+/* line 1562, ../sass/blocks.scss */
+.store .address {
+  word-spacing: 2px;
 }
