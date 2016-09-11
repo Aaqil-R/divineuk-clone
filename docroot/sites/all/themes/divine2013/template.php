@@ -232,11 +232,6 @@ function divine2013_form_alter(&$form, &$form_state, $form_id) {
     $form['actions']['submit']['#value'] = t('Search'); // Change the text on the submit button
    // $form['actions']['submit'] = array('#type' => 'image_button', '#src' => base_path() . path_to_theme() . '/images/search-button.png');
   }
-     if (preg_match("/^webform_client_form_[0-9]+$/",$form_id) && user_is_logged_in() == FALSE) {
-    $form['my_captcha_element'] = array(
-      '#type' => 'captcha',
-    );
-  }
 } 
 
 /* ADDING JS & CSS FOR THE ADDTHISEVENT */

@@ -1,0 +1,215 @@
+<?php
+/**
+ * @file
+ * Module file for GATJ custom module.
+ */
+ 
+/**
+ * Implements hook_webform_submission_presave().
+ *
+ * visit http://www.drupalcontrib.org/api/drupal/contributions!webform!webform.api.php/function/hook_webform_submission_presave/7
+ */
+function gatj_custom_webform_submission_presave($node, &$submission) {
+  global $user;
+  $nid = $node->nid;
+  // Check if it the node is add new event webform.
+  if ($nid == 581) {
+    $com_id_title = 1;
+    $com_id_date = 4;
+    $com_id_place = 3;
+    $com_id_website = 9;
+    $com_id_description = 10;
+    $com_id_image = 11;
+    $com_id_time = 12;
+    $defaults = array(
+      'type' => 'event_calendar',
+      'uid' => $user->uid,
+      'status' => 0,
+      'comment' => 0,
+      'promote' => 0,
+    );
+    $title = isset($submission->data[$com_id_title]['value'][0]) ?
+      $submission->data[$com_id_title]['value'][0] : '';
+    $place = isset($submission->data[$com_id_place]['value'][0]) ?
+      $submission->data[$com_id_place]['value'][0] : '';
+    $date = isset($submission->data[$com_id_date]['value'][0]) ?
+      $submission->data[$com_id_date]['value'][0] : '';
+    $temp_date = new DateTime($date);
+    $website = isset($submission->data[$com_id_website]['value'][0]) ?
+      $submission->data[$com_id_website]['value'][0] : '';
+    // Storing event description as body
+    $body = isset($submission->data[$com_id_description]['value'][0]) ?
+    $submission->data[$com_id_description]['value'][0] : '';
+     //dpm($body);
+   // $date = isset($submission->data[$com_id_date]['value'][0]) ?
+     // $submission->data[$com_id_date]['value'][0] : '';
+    $time = isset($submission->data[$com_id_time]['value'][0]) ?
+      $submission->data[$com_id_time]['value'][0] : '';
+
+   
+    $image_fid = isset($submission->data[$com_id_image]['value'][0]) ?
+    $submission->data[$com_id_image]['value'][0] : 0;
+
+    //  $...[11]['value']
+      
+    $values = array(
+      'defaults' => $defaults,
+      'title' => $title,
+      'body' => $body,
+      'language' => 'en',
+      'custom_fields' => array(
+        'field_place' => $place,
+        'field_website' => $website,
+      ),
+
+      'date_values' => array(
+        'event_calendar_date' => date_format($temp_date, 'Y-m-d'),
+        'event_time' => $time,
+      ),
+      'files' => array(
+        'field_featured_image' => $image_fid,
+      ),
+    );
+
+
+
+    _gatj_custom_create_node($values);
+  }
+}
+
+/**
+ * Custom function to create a node.
+ *
+ */
+function _gatj_custom_create_node($values) {
+  // // entity_create replaces the procedural steps in node_save.
+  // $entity = entity_create('node', $values['defaults']);
+  // // Now create an entity_metadata_wrapper around the new node entity
+  // // to make getting and setting values easier.
+  // $ewrapper = entity_metadata_wrapper('node', $entity);
+  // // Using the wrapper, we do not have to worry about telling Drupal
+  // // what language we are using. The Entity API handles that for us.
+  // $ewrapper->title->set($values['title']);
+  // // $ewrapper->body->set(array('value' => $values['body']));
+  
+  // foreach ($values['custom_fields'] as $field => $value) {
+  //   if ($value != '')
+  //     $ewrapper->{$field}->set($value);
+  // }
+  // foreach ($values['date_values'] as $field => $value) {
+  //   // Entity API cannot set date field values so the 'old' method must
+  //   // be used.
+  //   $entity->{$field}[LANGUAGE_NONE][0] = array(
+  //     'value' => $value,
+  //     'timezone' => 'UTC',
+  //     'timezone_db' => 'UTC',
+  //   );
+  // }
+  // // Now we deal with the files.
+  // foreach ($values['files'] as $field => $fid) {
+  //   if ($fid != 0) 
+  //     $ewrapper->{$field}->set(array('fid' => $fid));
+  // }
+  // // Now just save the wrapper and the entity.
+  // $ewrapper->save();
+
+  //amalan codes to create the new events on webform submission
+  //creating the node to save the share your stories    
+  $newnode = new stdClass();
+  $newnode->title = $values['title'];
+  $newnode->type = 'event_calendar';
+  node_object_prepare($newnode); // Sets some defaults. Invokes hook_prepare() and hook_node_prepare().
+  $newnode->language = LANGUAGE_NONE; // Or e.g. 'en' if locale is enabled
+  $newnode->uid = $user->uid; 
+  //saving the user as anonymous
+  $newnode->uid = 0;
+  $newnode->uid = $values['defaults']['uid']; 
+  $newnode->status = 0; //(1 or 0): published or not
+  $newnode->promote = 0; //(1 or 0): promoted to front page
+  $newnode->comment = 0; // 0 = comments disabled, 1 = read only, 2 = read/write
+
+  //adding the custom fields
+  $newnode->field_website[$newnode->language][0]['value'] = $values['custom_fields']['field_website'];
+
+  //$newnode->body = $values['body'];
+  //dpm($values);
+  $newnode->body[$newnode->language][0]['value']   = $values['body'];
+   //$newnode->body[$newnode->language][0]['summary'] = text_summary($values['body']);
+   $newnode->body[$newnode->language][0]['format']  = filter_default_format();
+
+ // dpm($newnode);
+
+  $newnode->field_place[$newnode->language][0]['value'] = $values['custom_fields']['field_place'];
+
+
+  $image_fid = $values['files']['field_featured_image'];
+  //dpm($image_fid);
+
+  if($image_fid != 0){
+    $file = file_load($image_fid);
+    if (isset($file->filename))
+    {
+      //file_usage_add($file, 'file', 'node', $newnode->nid); // Don't forget to add this line.
+      $newnode->field_featured_image[LANGUAGE_NONE][] = array(
+        'fid' => $file->fid,
+        'filename' => $file->filename,
+        'filemime' => $file->filemime,
+        'uid' => 0,
+        'uri' => $file->uri,
+        'status' => 1
+      );
+    }
+  }
+
+  //dpm($image_fid);
+  $newnode->event_calendar_date[LANGUAGE_NONE][0] = array(
+    'value' => format_date(strtotime($values['date_values']['event_calendar_date'] . ' ' . $values['date_values']['event_time']), 'custom', 'Y-m-d H:i:s'),
+  );
+
+$newnode = node_submit($newnode); // Prepare node for saving
+node_save($newnode);
+
+}
+
+/**
+ * Implements hook_node_view_alter(&$build).
+ *
+ * Adds a newsletter sign up box to the body of the node.
+ * 
+ * @param $build A renderable array representing the node content.
+ * @var $title The title of the currently viewing node.
+ * @var $block The block object.
+ * @return
+ */
+function gatj_custom_node_view_alter(&$build) {
+$title = strtolower($build['#node']->title);
+    //var_dump($build);
+    if($title == "join the circle"){
+        $block = module_invoke('webform', 'block_view', 'client-block-111');
+        $build["field_featured_image"]['#suffix'] = $block['content'];
+    }    
+    
+}
+
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+//function gatj_custom_form_alter(&$form, &$form_state, $form_id) {
+  // Add a required textfield to collect
+  // event time.
+ // watchdog("node ob", '<pre>' . print_r($form_id, true) . '</pre>');
+//if($form_id == 'webform_client_form_581'){
+   //$form['timex'] = array(
+ // '#type' => 'textfield',
+ // '#title' => t('test'),
+  //'#default_value' => ($node->date ? $node->date : arg(4)),
+  //'#options' => book_toc($node->nid),
+ // '#weight' => -15,
+  //'#description' => t('The parent that this page belongs in. Note that pages whose parent is &lt;top-level&gt; are regarded as independent, top-level books.'),
+//);
+//}
+
+//return $form;
+//}
+

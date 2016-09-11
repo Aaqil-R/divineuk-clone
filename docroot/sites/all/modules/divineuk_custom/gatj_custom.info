@@ -1,0 +1,4 @@
+name = GATJ custom
+desription = Global aliance for tax justice custom functionalities
+version = 7.x-0.0
+core = 7.x
