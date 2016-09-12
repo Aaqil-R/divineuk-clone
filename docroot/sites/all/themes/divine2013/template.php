@@ -232,6 +232,7 @@ function divine2013_form_alter(&$form, &$form_state, $form_id) {
     $form['actions']['submit']['#value'] = t('Search'); // Change the text on the submit button
    // $form['actions']['submit'] = array('#type' => 'image_button', '#src' => base_path() . path_to_theme() . '/images/search-button.png');
   }
+
 } 
 
 /* ADDING JS & CSS FOR THE ADDTHISEVENT */
@@ -360,5 +361,35 @@ if (module_exists('path')) {
         $vars['theme_hook_suggestions'][] = $template_filename;
       }
     }
+  }
+}
+
+/**
+ * Implements hook_entity_insert().
+ */
+function divine2013_entity_insert($entity, $type) {
+  _divine2013__set_webform_captcha('default', $entity, $type);
+}
+/**
+ * Implements hook_entity_update();
+ */
+function divine2013_entity_update($entity, $type) {
+  _divine2013__set_webform_captcha('default', $entity, $type);
+}
+/**
+ * Implements hook_entity_delete().
+ */
+function divine2013_entity_delete($entity, $type) {
+  _divine2013__set_webform_captcha(NULL, $entity, $type);
+}
+/**
+ * Helper function to set (or unset) a captcha whenever any webform is changed.
+ */
+function _divine2013__set_webform_captcha($captcha_type, $entity, $entity_type) {
+  if (module_exists('webform') && module_exists('captcha') && !empty($entity->webform)) {
+    list($webform_id) = entity_extract_ids($entity_type, $entity);
+    module_load_include('inc', 'captcha');
+    $form_id = 'webform_client_form_' . $webform_id;
+    captcha_set_form_id_setting($form_id, $captcha_type);
   }
 }
