@@ -18,12 +18,12 @@
  * pages. If your sub-theme isn't used for admin pages, you can remove this
  * entire section.
  */
-/* line 18, ../sass/views-styles.scss */
+/* line 17, ../sass/views-styles.scss */
 .views-displays .secondary li {
   float: none;
   margin: 0 6px 0;
 }
-/* line 23, ../sass/views-styles.scss */
+/* line 22, ../sass/views-styles.scss */
 .views-displays .secondary a:link,
 .views-displays .secondary a:visited {
   text-shadow: none;
@@ -35,23 +35,29 @@
   -webkit-border-radius: 7px;
   border-radius: 7px 7px 0 0;
 }
-/* line 31, ../sass/views-styles.scss */
+/* line 32, ../sass/views-styles.scss */
 .views-displays .secondary .open > a:hover {
   color: #333;
 }
-/* line 36, ../sass/views-styles.scss */
+/* line 37, ../sass/views-styles.scss */
 .views-displays .secondary .action-list li {
   margin: 0;
 }
-/* line 38, ../sass/views-styles.scss */
+/* line 40, ../sass/views-styles.scss */
 .views-displays .secondary .action-list li:first-child {
   -moz-border-radius: 0 7px 0 0;
   -webkit-border-radius: 0;
   border-radius: 0 7px 0 0;
 }
-/* line 41, ../sass/views-styles.scss */
+/* line 44, ../sass/views-styles.scss */
 .views-displays .secondary .action-list li:last-child {
   -moz-border-radius: 0 0 7px 7px;
   -webkit-border-radius: 0;
   border-radius: 0 0 7px 7px;
+}
+
+/* line 52, ../sass/views-styles.scss */
+.front .views-field-field-image-front-shop img {
+  margin-bottom: 0.45em;
+  border-radius: 6px;
 }
