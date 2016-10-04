@@ -52,6 +52,13 @@
     img {
       margin-bottom: 0.45em;
       border-radius: 6px;
+
+      &:hover {
+        -moz-box-shadow: 0px 5px 4px rgba(88, 89, 91, 0.3);
+        -webkit-box-shadow: 0px 5px 4px rgba(88, 89, 91, 0.3);
+        box-shadow: 0px 5px 4px rgba(88, 89, 91, 0.3);
+        transition: all 0.5s linear;
+      }
     }
   }
 }
