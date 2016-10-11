@@ -5,7 +5,6 @@
 
 @import "base";
 
-
 /*
  * Views' admin tabs
  *
@@ -23,11 +22,13 @@
   a:link,
   a:visited {
     @include single-text-shadow(none);
+
     padding: 2px 7px 3px;
   }
 
   .open > a {
     @include border-radius(7px 7px 0 0);
+
     &:hover {
       color: #333;
     }
@@ -35,11 +36,29 @@
 
   .action-list li {
     margin: 0;
+
     &:first-child {
       @include border-radius(0 7px 0 0);
     }
+
     &:last-child {
       @include border-radius(0 0 7px 7px);
+    }
+  }
+}
+
+.front {
+  .views-field-field-image-front-shop {
+    img {
+      margin-bottom: 0.45em;
+      border-radius: 6px;
+
+      &:hover {
+        -moz-box-shadow: 0px 5px 4px rgba(88, 89, 91, 0.3);
+        -webkit-box-shadow: 0px 5px 4px rgba(88, 89, 91, 0.3);
+        box-shadow: 0px 5px 4px rgba(88, 89, 91, 0.3);
+        transition: all 0.5s linear;
+      }
     }
   }
 }
