@@ -61,7 +61,7 @@ body {
  */
 /* line 63, ../sass/pages.scss */
 #swoosh {
-  background: url('../images/wrapper/swoosh-top.png?1475491461') no-repeat;
+  background: url('../images/wrapper/swoosh-top.png?1461662806') no-repeat;
   background-position: -102px;
   height: 35px;
   width: 100%;
@@ -95,7 +95,7 @@ body {
 /* line 91, ../sass/pages.scss */
 .section-softspot #swoosh,
 .section-thank-you #swoosh {
-  background: url('../images/wrapper/swoosh-top-color.png?1475491461') no-repeat;
+  background: url('../images/wrapper/swoosh-top-color.png?1461662806') no-repeat;
 }
 
 @media (min-width: 32em) {
@@ -137,7 +137,7 @@ body {
 @media (min-width: 49em) {
   /* line 136, ../sass/pages.scss */
   .front #header {
-    background-image: url('../images/homepage-banner/love-chocolate-newbars.jpg?1475491461');
+    background-image: url('../images/homepage-banner/love-chocolate-newbars.jpg?1461662806');
     background-repeat: no-repeat;
     background-position: center;
     min-height: 465px;
@@ -234,7 +234,7 @@ body {
 .section-thank-you #main {
   max-width: 1072px;
   padding: 0;
-  background: url('../images/bg-softspot.png?1475491461') #72562b repeat-x;
+  background: url('../images/bg-softspot.png?1461662806') #72562b repeat-x;
 }
 
 /*
@@ -448,7 +448,7 @@ span.field-label {
 
   /* line 421, ../sass/pages.scss */
   .adinkra-sidebar .sidebars {
-    background: url('../images/symbols/adinkra-large.png?1475491461') no-repeat;
+    background: url('../images/symbols/adinkra-large.png?1461662806') no-repeat;
     padding-bottom: 220px;
     background-position: left bottom;
   }
@@ -462,7 +462,7 @@ span.field-label {
  */
 /* line 438, ../sass/pages.scss */
 #footer {
-  background: url('../images/wrapper/swoosh-bottom.png?1475491461') #000000 no-repeat top right;
+  background: url('../images/wrapper/swoosh-bottom.png?1461662806') #000000 no-repeat top right;
   padding-top: 6em;
 }
 @media (min-width: 32em) {
@@ -511,13 +511,34 @@ span.field-label {
   .front #header {
     background-image: none !important;
   }
+  /* line 483, ../sass/pages.scss */
+  .front #logo h1 {
+    background: url("../images/wrapper/divine-chocolate.png") no-repeat !important;
+    background-size: contain !important;
+  }
+
+  /* line 490, ../sass/pages.scss */
+  .home-video-block, .home-video-wrapper {
+    width: 100% !important;
+  }
+
+  /* line 496, ../sass/pages.scss */
+  #block-menu-menu-footer ul li:nth-child(even) {
+    float: left !important;
+  }
 }
 /** press release page heading text change **/
-/* line 485, ../sass/pages.scss */
+/* line 504, ../sass/pages.scss */
 body.node-type-press-release h1#page-title {
   font-family: 'Gotham';
   font-weight: bold;
   font-style: normal;
   font-size: 1.625em;
   width: 72%;
+}
+
+/** hide logo from home page **/
+/* line 515, ../sass/pages.scss */
+.front #logo h1 {
+  background: transparent;
 }

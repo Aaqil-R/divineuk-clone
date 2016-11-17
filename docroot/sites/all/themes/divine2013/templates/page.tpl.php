@@ -72,7 +72,7 @@
 
 <div id="page">
 
-  <header id="header" role="banner" style='background-image:url(<?php echo $header_image; ?>)'>
+  <header id="header" role="banner" style='background-image:url(<?php echo $header_image; ?>)' onclick="window.open('http://divineukdev.devcloud.acquia-sites.com/','_self');">
    <div id="logo"><h1><a href="/uk/">Divine Chocolate</a></h1></div>
    
    <?php print render($page['header']); ?>

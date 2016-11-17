@@ -478,6 +478,25 @@ span.field-label {
     #header {
       background-image: none !important;
     }
+
+    #logo {
+      h1 {
+        background: url("../images/wrapper/divine-chocolate.png") no-repeat !important;
+        background-size: contain !important;
+      }
+    }
+  }
+
+  .home-video-block, .home-video-wrapper {
+    width: 100% !important;
+  }
+
+  #block-menu-menu-footer {
+    ul {
+      li:nth-child(even) {
+        float: left !important;
+      }
+    }
   }
 }
 
@@ -488,4 +507,13 @@ body.node-type-press-release h1#page-title {
   font-style: normal;
   font-size: 1.625em;
   width: 72%;
+}
+
+/** hide logo from home page **/
+.front {
+  #logo {
+    h1 {
+      background: transparent;
+    }
+  }
 }
