@@ -464,6 +464,7 @@ span.field-label {
 #footer {
   background: url('../images/wrapper/swoosh-bottom.png?1461662806') #000000 no-repeat top right;
   padding-top: 6em;
+  margin-top: -2px;
 }
 @media (min-width: 32em) {
   /* line 438, ../sass/pages.scss */
@@ -472,7 +473,7 @@ span.field-label {
   }
 }
 
-/* line 447, ../sass/pages.scss */
+/* line 448, ../sass/pages.scss */
 .section-softspot #footer,
 .section-thank-you #footer {
   background: #000;
@@ -481,14 +482,14 @@ span.field-label {
 /*
  * Page bottom
  */
-/* line 457, ../sass/pages.scss */
+/* line 458, ../sass/pages.scss */
 .region-content-bottom {
   /* Wrapper for any blocks placed in the content bottom region */
   clear: both;
   padding: 2em 0;
 }
 @media (min-width: 32em) {
-  /* line 457, ../sass/pages.scss */
+  /* line 458, ../sass/pages.scss */
   .region-content-bottom {
     width: 79.59184%;
     float: left;
@@ -497,7 +498,7 @@ span.field-label {
   }
 }
 
-/* line 467, ../sass/pages.scss */
+/* line 468, ../sass/pages.scss */
 .region-content-bottom {
   width: 100%;
   margin: 0;
@@ -507,28 +508,28 @@ span.field-label {
  * Page bottom
  */
 @media (max-width: 49em) {
-  /* line 478, ../sass/pages.scss */
+  /* line 479, ../sass/pages.scss */
   .front #header {
     background-image: none !important;
   }
-  /* line 483, ../sass/pages.scss */
+  /* line 484, ../sass/pages.scss */
   .front #logo h1 {
     background: url("../images/wrapper/divine-chocolate.png") no-repeat !important;
     background-size: contain !important;
   }
 
-  /* line 490, ../sass/pages.scss */
+  /* line 491, ../sass/pages.scss */
   .home-video-block, .home-video-wrapper {
     width: 100% !important;
   }
 
-  /* line 496, ../sass/pages.scss */
+  /* line 497, ../sass/pages.scss */
   #block-menu-menu-footer ul li:nth-child(even) {
     float: left !important;
   }
 }
 /** press release page heading text change **/
-/* line 504, ../sass/pages.scss */
+/* line 505, ../sass/pages.scss */
 body.node-type-press-release h1#page-title {
   font-family: 'Gotham';
   font-weight: bold;
@@ -538,7 +539,7 @@ body.node-type-press-release h1#page-title {
 }
 
 /** hide logo from home page **/
-/* line 515, ../sass/pages.scss */
+/* line 516, ../sass/pages.scss */
 .front #logo h1 {
   background: transparent;
 }
