@@ -1393,7 +1393,7 @@
   line-height: 1em;
 }
 @media (min-width: 32em) {
-  /* line 1241, ../sass/blocks.scss */
+  /* line 1240, ../sass/blocks.scss */
   #block-webform-client-block-25 .webform-component-email {
     display: inline-block;
     max-width: 16em;
@@ -1403,6 +1403,8 @@
   /* line 1156, ../sass/blocks.scss */
   #block-webform-client-block-25 {
     margin: 2em 0;
+    width: 60%;
+    margin-right: 163px;
     width: 79.16667%;
     float: right;
     margin-right: 0;

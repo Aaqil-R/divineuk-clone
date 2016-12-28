@@ -1232,7 +1232,6 @@
       font-family: $optisport;
 
       @include adjust-font-size-to(1.8 * $base-font-size);
-
       line-height: 1em;
     }
   }
@@ -1247,7 +1246,8 @@
 
   @include breakpoint(desktop-wide) {
     margin: 2em 0;
-
+    width:60%;
+    margin-right: 163px;
     @include span-columns(4 omega, 5);
   }
 }
