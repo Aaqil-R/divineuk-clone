@@ -1154,6 +1154,8 @@
 
 //email sign up web-form
 #block-webform-client-block-25 {
+  width:70%;
+  display: inline-block;
   margin: 1em 0;
   clear: both;
   font-family: $avenir-bold;
@@ -1254,7 +1256,7 @@
  * Footer Roundall
  */
 
-#block-block-32, #block-block-13 {
+#block-block-32, #block-block-13{
   h2 {
     background: url("../images/wrapper/owned-by-cocoa-farmers-made-for-chocolate-lovers.gif") no-repeat center top;
     background-size: contain;
@@ -1266,6 +1268,27 @@
 
   @include breakpoint(desktop) {
     @include span-columns(2 omega, 10);
+  }
+}
+
+#block-block-57 {
+  .block__title{
+    display: none;
+  }
+
+  h2 {
+    background: url("../images/wrapper/A_BCorp_logo_POS.jpg") no-repeat center top;
+    background-size: 100px auto;
+    height: 10em;
+    width: 100%;
+    text-indent: -500%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  @include breakpoint(desktop) {
+    @include span-columns(2 omega, 10);
+    height: 4em;
   }
 }
 
