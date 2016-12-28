@@ -1243,12 +1243,15 @@
     }
   }
 
-
-  @include breakpoint(desktop-wide) {
-    margin: 2em 0;
+  @include breakpoint(desktop) {
     width:60%;
     margin-right: 163px;
+  }
+
+  @include breakpoint(desktop-wide) {
     @include span-columns(4 omega, 5);
+    width:60%;
+    margin-right: 163px;    
   }
 }
 
