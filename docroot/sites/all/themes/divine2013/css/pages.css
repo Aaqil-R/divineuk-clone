@@ -61,7 +61,7 @@ body {
  */
 /* line 63, ../sass/pages.scss */
 #swoosh {
-  background: url('../images/wrapper/swoosh-top.png?1461662806') no-repeat;
+  background: url('../images/wrapper/swoosh-top.png?1482825581') no-repeat;
   background-position: -102px;
   height: 35px;
   width: 100%;
@@ -95,7 +95,7 @@ body {
 /* line 91, ../sass/pages.scss */
 .section-softspot #swoosh,
 .section-thank-you #swoosh {
-  background: url('../images/wrapper/swoosh-top-color.png?1461662806') no-repeat;
+  background: url('../images/wrapper/swoosh-top-color.png?1482825581') no-repeat;
 }
 
 @media (min-width: 32em) {
@@ -137,7 +137,7 @@ body {
 @media (min-width: 49em) {
   /* line 136, ../sass/pages.scss */
   .front #header {
-    background-image: url('../images/homepage-banner/love-chocolate-newbars.jpg?1461662806');
+    background-image: url('../images/homepage-banner/love-chocolate-newbars.jpg?1482825580');
     background-repeat: no-repeat;
     background-position: center;
     min-height: 465px;
@@ -234,7 +234,7 @@ body {
 .section-thank-you #main {
   max-width: 1072px;
   padding: 0;
-  background: url('../images/bg-softspot.png?1461662806') #72562b repeat-x;
+  background: url('../images/bg-softspot.png?1482825580') #72562b repeat-x;
 }
 
 /*
@@ -448,7 +448,7 @@ span.field-label {
 
   /* line 421, ../sass/pages.scss */
   .adinkra-sidebar .sidebars {
-    background: url('../images/symbols/adinkra-large.png?1461662806') no-repeat;
+    background: url('../images/symbols/adinkra-large.png?1482825580') no-repeat;
     padding-bottom: 220px;
     background-position: left bottom;
   }
@@ -462,7 +462,7 @@ span.field-label {
  */
 /* line 438, ../sass/pages.scss */
 #footer {
-  background: url('../images/wrapper/swoosh-bottom.png?1461662806') #000000 no-repeat top right;
+  background: url('../images/wrapper/swoosh-bottom.png?1482825581') #000000 no-repeat top right;
   padding-top: 6em;
   margin-top: -2px;
 }
@@ -541,5 +541,5 @@ body.node-type-press-release h1#page-title {
 /** hide logo from home page **/
 /* line 516, ../sass/pages.scss */
 .front #logo h1 {
-  background: transparent;
+  /*background: transparent;*/
 }
