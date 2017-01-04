@@ -1456,8 +1456,8 @@
   overflow: hidden;
   position: relative;
 }
-/* line 1290, ../sass/blocks.scss */
-#block-block-61 h2 a {
+/* line 1292, ../sass/blocks.scss */
+#block-block-61 a {
   display: block;
   height: 100%;
   width: 100px;
@@ -1478,12 +1478,12 @@
 /**
  * IE<9 warning.
  */
-/* line 1311, ../sass/blocks.scss */
+/* line 1312, ../sass/blocks.scss */
 #block-webform-client-block-532 {
   display: none;
 }
 
-/* line 1315, ../sass/blocks.scss */
+/* line 1316, ../sass/blocks.scss */
 .js #block-webform-client-block-532 {
   z-index: 1000;
   display: block;
@@ -1504,7 +1504,7 @@
   -webkit-box-shadow: 0px 5px #58595B;
   box-shadow: 0px 5px #58595B;
 }
-/* line 1316, ../sass/blocks.scss */
+/* line 1317, ../sass/blocks.scss */
 .js #block-webform-client-block-532 .close {
   text-indent: -1000%;
   background: url("../images/wrapper/close.png") no-repeat;
@@ -1517,42 +1517,42 @@
   top: -0.5em;
   cursor: pointer;
 }
-/* line 1344, ../sass/blocks.scss */
+/* line 1345, ../sass/blocks.scss */
 .js #block-webform-client-block-532 .top-title {
   clear: both;
   margin-top: -2em;
 }
-/* line 1349, ../sass/blocks.scss */
+/* line 1350, ../sass/blocks.scss */
 .js #block-webform-client-block-532 h2 {
   display: inline;
 }
-/* line 1352, ../sass/blocks.scss */
+/* line 1353, ../sass/blocks.scss */
 .js #block-webform-client-block-532 h2.block-title {
   font-size: 1.7em;
   line-height: 1.17647em;
   line-height: 1em;
 }
-/* line 1358, ../sass/blocks.scss */
+/* line 1359, ../sass/blocks.scss */
 .js #block-webform-client-block-532 h2.line-two {
   padding-left: 0.25em;
 }
-/* line 1363, ../sass/blocks.scss */
+/* line 1364, ../sass/blocks.scss */
 .js #block-webform-client-block-532 .newsletter {
   margin: 0.75em 0;
 }
-/* line 1367, ../sass/blocks.scss */
+/* line 1368, ../sass/blocks.scss */
 .js #block-webform-client-block-532 .webform-component-email {
   color: #000000;
 }
-/* line 1370, ../sass/blocks.scss */
+/* line 1371, ../sass/blocks.scss */
 .js #block-webform-client-block-532 .webform-component-email label {
   padding: 0.5em;
 }
-/* line 1373, ../sass/blocks.scss */
+/* line 1374, ../sass/blocks.scss */
 .js #block-webform-client-block-532 .webform-component-email label .form-required {
   display: none;
 }
-/* line 1379, ../sass/blocks.scss */
+/* line 1380, ../sass/blocks.scss */
 .js #block-webform-client-block-532 .form-actions {
   position: relative;
 }
@@ -1570,7 +1570,7 @@
   margin-left: 0.4em;
   bottom: 0.5em;
 }
-/* line 1382, ../sass/blocks.scss */
+/* line 1383, ../sass/blocks.scss */
 .js #block-webform-client-block-532 .form-actions .form-submit {
   background: transparent;
   text-transform: none;
@@ -1586,16 +1586,16 @@
  *   Firefox fix
  */
 @-moz-document url-prefix() {
-  /* line 1401, ../sass/blocks.scss */
+  /* line 1402, ../sass/blocks.scss */
   #block-webform-client-block-25 .webform-component-email {
     padding-bottom: 8px;
   }
-  /* line 1405, ../sass/blocks.scss */
+  /* line 1406, ../sass/blocks.scss */
   #block-webform-client-block-25 #edit-actions--2 {
     top: -10px;
   }
 }
-/* line 1418, ../sass/blocks.scss */
+/* line 1419, ../sass/blocks.scss */
 .js #block-webform-client-block-25
 .webform-component-email label,
 .js #block-webform-client-block-532
@@ -1604,7 +1604,7 @@
 .form-item-search-block-form label {
   position: absolute;
 }
-/* line 1422, ../sass/blocks.scss */
+/* line 1423, ../sass/blocks.scss */
 .js #block-webform-client-block-25
 .webform-component-email label.dim,
 .js #block-webform-client-block-532
@@ -1615,7 +1615,7 @@
 }
 
 /** home page video content**/
-/* line 1431, ../sass/blocks.scss */
+/* line 1432, ../sass/blocks.scss */
 .home-video-block {
   line-height: 26px;
   width: 92%;
@@ -1624,13 +1624,13 @@
   display: block;
 }
 
-/* line 1439, ../sass/blocks.scss */
+/* line 1440, ../sass/blocks.scss */
 p.home-video-block {
   margin: 0px;
   padding: 0px;
 }
 
-/* line 1444, ../sass/blocks.scss */
+/* line 1445, ../sass/blocks.scss */
 .home-video-caption-title {
   text-transform: uppercase;
   font-family: "Avenir LT W01 95 Black", Helvetica, Arial, "Nimbus Sans L", sans-serif;
@@ -1642,14 +1642,14 @@ p.home-video-block {
   padding-bottom: 0.5em;
 }
 
-/* line 1455, ../sass/blocks.scss */
+/* line 1456, ../sass/blocks.scss */
 .home-video-caption {
   font-size: 0.85em;
   padding-left: 1.5em;
   padding-right: 1.5em;
 }
 
-/* line 1461, ../sass/blocks.scss */
+/* line 1462, ../sass/blocks.scss */
 .home-video-wrapper {
   background-color: #F1AB00;
   border-bottom-right-radius: 4px;
@@ -1663,7 +1663,7 @@ p.home-video-block {
 
 /** END: home page video content**/
 /* AddThisEvent */
-/* line 1476, ../sass/blocks.scss */
+/* line 1477, ../sass/blocks.scss */
 .addthisevent-drop {
   display: inline-block;
   position: relative;
@@ -1682,7 +1682,7 @@ p.home-video-block {
   -webkit-border-radius: 2px;
 }
 
-/* line 1494, ../sass/blocks.scss */
+/* line 1495, ../sass/blocks.scss */
 .addthisevent-drop:hover {
   border: 1px solid #aab9d4;
   color: #555;
@@ -1691,17 +1691,17 @@ p.home-video-block {
   text-decoration: none;
 }
 
-/* line 1502, ../sass/blocks.scss */
+/* line 1503, ../sass/blocks.scss */
 .addthisevent-drop:active {
   top: 1px;
 }
 
-/* line 1506, ../sass/blocks.scss */
+/* line 1507, ../sass/blocks.scss */
 .addthisevent-selected {
   background-color: #f7f7f7;
 }
 
-/* line 1510, ../sass/blocks.scss */
+/* line 1511, ../sass/blocks.scss */
 .addthisevent_dropdown {
   width: 200px;
   position: absolute;
@@ -1723,7 +1723,7 @@ p.home-video-block {
   box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.15);
 }
 
-/* line 1531, ../sass/blocks.scss */
+/* line 1532, ../sass/blocks.scss */
 .addthisevent_dropdown span {
   width: 175px;
   display: block;
@@ -1735,7 +1735,7 @@ p.home-video-block {
   padding: 8px 10px 9px 15px;
 }
 
-/* line 1542, ../sass/blocks.scss */
+/* line 1543, ../sass/blocks.scss */
 .addthisevent_dropdown span:hover {
   background: #f4f4f4;
   color: #6d84b4;
@@ -1743,17 +1743,17 @@ p.home-video-block {
   font-size: 12px;
 }
 
-/* line 1549, ../sass/blocks.scss */
+/* line 1550, ../sass/blocks.scss */
 .addthisevent span {
   display: none !important;
 }
 
-/* line 1553, ../sass/blocks.scss */
+/* line 1554, ../sass/blocks.scss */
 .addthisevent-drop ._url, .addthisevent-drop ._start, .addthisevent-drop ._end, .addthisevent-drop ._summary, .addthisevent-drop ._description, .addthisevent-drop ._location, .addthisevent-drop ._organizer, .addthisevent-drop ._organizer_email, .addthisevent-drop ._facebook_event, .addthisevent-drop ._all_day_event {
   display: none !important;
 }
 
-/* line 1557, ../sass/blocks.scss */
+/* line 1558, ../sass/blocks.scss */
 .addthisevent_dropdown .copyx {
   width: 200px;
   height: 21px;
@@ -1762,7 +1762,7 @@ p.home-video-block {
   cursor: default;
 }
 
-/* line 1565, ../sass/blocks.scss */
+/* line 1566, ../sass/blocks.scss */
 .addthisevent_dropdown .brx {
   width: 180px;
   height: 1px;
@@ -1774,7 +1774,7 @@ p.home-video-block {
   top: 9px;
 }
 
-/* line 1576, ../sass/blocks.scss */
+/* line 1577, ../sass/blocks.scss */
 .addthisevent_dropdown .frs {
   position: absolute;
   top: 5px;
@@ -1792,12 +1792,12 @@ p.home-video-block {
   color: #cacaca;
 }
 
-/* line 1593, ../sass/blocks.scss */
+/* line 1594, ../sass/blocks.scss */
 .addthisevent_dropdown .frs:hover {
   color: #6d84b4;
 }
 
-/* line 1597, ../sass/blocks.scss */
+/* line 1598, ../sass/blocks.scss */
 .addthisevent {
   visibility: hidden;
 }

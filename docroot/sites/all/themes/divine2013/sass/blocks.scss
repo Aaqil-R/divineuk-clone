@@ -1286,14 +1286,15 @@
     width: 100%;
     text-indent: -500%;
     overflow: hidden;
-    position: relative;
-    a{
-      display: block;
-      height: 100%;
-      width: 100px;
-      margin: 0 auto;    
-    }    
+    position: relative;    
   }
+
+  a{
+    display: block;
+    height: 100%;
+    width: 100px;
+    margin: 0 auto;    
+  }  
 
   @include breakpoint(desktop) {
     @include span-columns(2 omega, 10);
