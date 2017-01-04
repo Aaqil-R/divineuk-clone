@@ -1801,3 +1801,8 @@ p.home-video-block {
 .addthisevent {
   visibility: hidden;
 }
+
+/* line 1602, ../sass/blocks.scss */
+embed {
+  width: 100%;
+}
