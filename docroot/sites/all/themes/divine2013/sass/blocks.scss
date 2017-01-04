@@ -1287,6 +1287,12 @@
     text-indent: -500%;
     overflow: hidden;
     position: relative;
+    a{
+      display: block;
+      height: 100%;
+      width: 100px;
+      margin: 0 auto;    
+    }    
   }
 
   @include breakpoint(desktop) {
