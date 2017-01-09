@@ -542,5 +542,5 @@ body.node-type-press-release h1#page-title {
 /** hide logo from home page **/
 /* line 517, ../sass/pages.scss */
 .front #logo h1 {
-  /*background: transparent;*/
+  background: transparent;
 }
