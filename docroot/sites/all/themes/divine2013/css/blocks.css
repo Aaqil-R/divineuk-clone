@@ -1297,8 +1297,6 @@
 
 /* line 1156, ../sass/blocks.scss */
 #block-webform-client-block-25 {
-  margin: 1em 0;
-  clear: both;
   font-family: "Avenir LT W01 95 Black", Helvetica, Arial, "Nimbus Sans L", sans-serif;
   color: #B39F69;
 }
@@ -1400,8 +1398,20 @@
 @media (min-width: 60em) {
   /* line 1156, ../sass/blocks.scss */
   #block-webform-client-block-25 {
-    margin: 2em 0;
-    width: 79.16667%;
+    width: 37.5%;
+    float: right;
+    margin-right: 0;
+    *margin-left: -1em;
+    display: inline;
+    float: left !important;
+  }
+}
+
+/*** bcop logo***/
+@media (min-width: 49em) {
+  /* line 1256, ../sass/blocks.scss */
+  .bcop-logo-block {
+    width: 37.5%;
     float: right;
     margin-right: 0;
     *margin-left: -1em;
@@ -1412,7 +1422,7 @@
 /**
  * Footer Roundall
  */
-/* line 1258, ../sass/blocks.scss */
+/* line 1269, ../sass/blocks.scss */
 #block-block-32 h2, #block-block-13 h2 {
   background: url("../images/wrapper/owned-by-cocoa-farmers-made-for-chocolate-lovers.gif") no-repeat center top;
   background-size: contain;
@@ -1422,7 +1432,7 @@
   overflow: hidden;
 }
 @media (min-width: 49em) {
-  /* line 1257, ../sass/blocks.scss */
+  /* line 1268, ../sass/blocks.scss */
   #block-block-32, #block-block-13 {
     width: 18.36735%;
     float: right;
@@ -1435,12 +1445,12 @@
 /**
  * IE<9 warning.
  */
-/* line 1279, ../sass/blocks.scss */
+/* line 1290, ../sass/blocks.scss */
 #block-webform-client-block-532 {
   display: none;
 }
 
-/* line 1283, ../sass/blocks.scss */
+/* line 1294, ../sass/blocks.scss */
 .js #block-webform-client-block-532 {
   z-index: 1000;
   display: block;
@@ -1461,7 +1471,7 @@
   -webkit-box-shadow: 0px 5px #58595B;
   box-shadow: 0px 5px #58595B;
 }
-/* line 1284, ../sass/blocks.scss */
+/* line 1295, ../sass/blocks.scss */
 .js #block-webform-client-block-532 .close {
   text-indent: -1000%;
   background: url("../images/wrapper/close.png") no-repeat;
@@ -1474,42 +1484,42 @@
   top: -0.5em;
   cursor: pointer;
 }
-/* line 1312, ../sass/blocks.scss */
+/* line 1323, ../sass/blocks.scss */
 .js #block-webform-client-block-532 .top-title {
   clear: both;
   margin-top: -2em;
 }
-/* line 1317, ../sass/blocks.scss */
+/* line 1328, ../sass/blocks.scss */
 .js #block-webform-client-block-532 h2 {
   display: inline;
 }
-/* line 1320, ../sass/blocks.scss */
+/* line 1331, ../sass/blocks.scss */
 .js #block-webform-client-block-532 h2.block-title {
   font-size: 1.7em;
   line-height: 1.17647em;
   line-height: 1em;
 }
-/* line 1326, ../sass/blocks.scss */
+/* line 1337, ../sass/blocks.scss */
 .js #block-webform-client-block-532 h2.line-two {
   padding-left: 0.25em;
 }
-/* line 1331, ../sass/blocks.scss */
+/* line 1342, ../sass/blocks.scss */
 .js #block-webform-client-block-532 .newsletter {
   margin: 0.75em 0;
 }
-/* line 1335, ../sass/blocks.scss */
+/* line 1346, ../sass/blocks.scss */
 .js #block-webform-client-block-532 .webform-component-email {
   color: #000000;
 }
-/* line 1338, ../sass/blocks.scss */
+/* line 1349, ../sass/blocks.scss */
 .js #block-webform-client-block-532 .webform-component-email label {
   padding: 0.5em;
 }
-/* line 1341, ../sass/blocks.scss */
+/* line 1352, ../sass/blocks.scss */
 .js #block-webform-client-block-532 .webform-component-email label .form-required {
   display: none;
 }
-/* line 1347, ../sass/blocks.scss */
+/* line 1358, ../sass/blocks.scss */
 .js #block-webform-client-block-532 .form-actions {
   position: relative;
 }
@@ -1527,7 +1537,7 @@
   margin-left: 0.4em;
   bottom: 0.5em;
 }
-/* line 1350, ../sass/blocks.scss */
+/* line 1361, ../sass/blocks.scss */
 .js #block-webform-client-block-532 .form-actions .form-submit {
   background: transparent;
   text-transform: none;
@@ -1543,16 +1553,16 @@
  *   Firefox fix
  */
 @-moz-document url-prefix() {
-  /* line 1369, ../sass/blocks.scss */
+  /* line 1380, ../sass/blocks.scss */
   #block-webform-client-block-25 .webform-component-email {
     padding-bottom: 8px;
   }
-  /* line 1373, ../sass/blocks.scss */
+  /* line 1384, ../sass/blocks.scss */
   #block-webform-client-block-25 #edit-actions--2 {
     top: -10px;
   }
 }
-/* line 1386, ../sass/blocks.scss */
+/* line 1397, ../sass/blocks.scss */
 .js #block-webform-client-block-25
 .webform-component-email label,
 .js #block-webform-client-block-532
@@ -1561,7 +1571,7 @@
 .form-item-search-block-form label {
   position: absolute;
 }
-/* line 1390, ../sass/blocks.scss */
+/* line 1401, ../sass/blocks.scss */
 .js #block-webform-client-block-25
 .webform-component-email label.dim,
 .js #block-webform-client-block-532
@@ -1572,7 +1582,7 @@
 }
 
 /** home page video content**/
-/* line 1399, ../sass/blocks.scss */
+/* line 1410, ../sass/blocks.scss */
 .home-video-block {
   line-height: 26px;
   width: 92%;
@@ -1581,13 +1591,13 @@
   display: block;
 }
 
-/* line 1407, ../sass/blocks.scss */
+/* line 1418, ../sass/blocks.scss */
 p.home-video-block {
   margin: 0px;
   padding: 0px;
 }
 
-/* line 1412, ../sass/blocks.scss */
+/* line 1423, ../sass/blocks.scss */
 .home-video-caption-title {
   text-transform: uppercase;
   font-family: "Avenir LT W01 95 Black", Helvetica, Arial, "Nimbus Sans L", sans-serif;
@@ -1599,14 +1609,14 @@ p.home-video-block {
   padding-bottom: 0.5em;
 }
 
-/* line 1423, ../sass/blocks.scss */
+/* line 1434, ../sass/blocks.scss */
 .home-video-caption {
   font-size: 0.85em;
   padding-left: 1.5em;
   padding-right: 1.5em;
 }
 
-/* line 1429, ../sass/blocks.scss */
+/* line 1440, ../sass/blocks.scss */
 .home-video-wrapper {
   background-color: #F1AB00;
   border-bottom-right-radius: 4px;
@@ -1620,7 +1630,7 @@ p.home-video-block {
 
 /** END: home page video content**/
 /* AddThisEvent */
-/* line 1444, ../sass/blocks.scss */
+/* line 1455, ../sass/blocks.scss */
 .addthisevent-drop {
   display: inline-block;
   position: relative;
@@ -1639,7 +1649,7 @@ p.home-video-block {
   -webkit-border-radius: 2px;
 }
 
-/* line 1462, ../sass/blocks.scss */
+/* line 1473, ../sass/blocks.scss */
 .addthisevent-drop:hover {
   border: 1px solid #aab9d4;
   color: #555;
@@ -1648,17 +1658,17 @@ p.home-video-block {
   text-decoration: none;
 }
 
-/* line 1470, ../sass/blocks.scss */
+/* line 1481, ../sass/blocks.scss */
 .addthisevent-drop:active {
   top: 1px;
 }
 
-/* line 1474, ../sass/blocks.scss */
+/* line 1485, ../sass/blocks.scss */
 .addthisevent-selected {
   background-color: #f7f7f7;
 }
 
-/* line 1478, ../sass/blocks.scss */
+/* line 1489, ../sass/blocks.scss */
 .addthisevent_dropdown {
   width: 200px;
   position: absolute;
@@ -1680,7 +1690,7 @@ p.home-video-block {
   box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.15);
 }
 
-/* line 1499, ../sass/blocks.scss */
+/* line 1510, ../sass/blocks.scss */
 .addthisevent_dropdown span {
   width: 175px;
   display: block;
@@ -1692,7 +1702,7 @@ p.home-video-block {
   padding: 8px 10px 9px 15px;
 }
 
-/* line 1510, ../sass/blocks.scss */
+/* line 1521, ../sass/blocks.scss */
 .addthisevent_dropdown span:hover {
   background: #f4f4f4;
   color: #6d84b4;
@@ -1700,17 +1710,17 @@ p.home-video-block {
   font-size: 12px;
 }
 
-/* line 1517, ../sass/blocks.scss */
+/* line 1528, ../sass/blocks.scss */
 .addthisevent span {
   display: none !important;
 }
 
-/* line 1521, ../sass/blocks.scss */
+/* line 1532, ../sass/blocks.scss */
 .addthisevent-drop ._url, .addthisevent-drop ._start, .addthisevent-drop ._end, .addthisevent-drop ._summary, .addthisevent-drop ._description, .addthisevent-drop ._location, .addthisevent-drop ._organizer, .addthisevent-drop ._organizer_email, .addthisevent-drop ._facebook_event, .addthisevent-drop ._all_day_event {
   display: none !important;
 }
 
-/* line 1525, ../sass/blocks.scss */
+/* line 1536, ../sass/blocks.scss */
 .addthisevent_dropdown .copyx {
   width: 200px;
   height: 21px;
@@ -1719,7 +1729,7 @@ p.home-video-block {
   cursor: default;
 }
 
-/* line 1533, ../sass/blocks.scss */
+/* line 1544, ../sass/blocks.scss */
 .addthisevent_dropdown .brx {
   width: 180px;
   height: 1px;
@@ -1731,7 +1741,7 @@ p.home-video-block {
   top: 9px;
 }
 
-/* line 1544, ../sass/blocks.scss */
+/* line 1555, ../sass/blocks.scss */
 .addthisevent_dropdown .frs {
   position: absolute;
   top: 5px;
@@ -1749,12 +1759,12 @@ p.home-video-block {
   color: #cacaca;
 }
 
-/* line 1561, ../sass/blocks.scss */
+/* line 1572, ../sass/blocks.scss */
 .addthisevent_dropdown .frs:hover {
   color: #6d84b4;
 }
 
-/* line 1565, ../sass/blocks.scss */
+/* line 1576, ../sass/blocks.scss */
 .addthisevent {
   visibility: hidden;
 }

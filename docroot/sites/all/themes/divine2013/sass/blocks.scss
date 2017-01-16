@@ -1154,8 +1154,8 @@
 
 //email sign up web-form
 #block-webform-client-block-25 {
-  margin: 1em 0;
-  clear: both;
+  // margin: 1em 0;
+  // clear: both;
   font-family: $avenir-bold;
   color: $gold-on-black;
 
@@ -1244,9 +1244,20 @@
 
 
   @include breakpoint(desktop-wide) {
-    margin: 2em 0;
+    // margin: 2em 0;
 
-    @include span-columns(4 omega, 5);
+    @include span-columns(2 omega, 5);
+
+    float: left !important;
+  }
+}
+
+/*** bcop logo***/
+.bcop-logo-block {
+  @include breakpoint(desktop) {
+    // margin: 2em 0;
+
+    @include span-columns(2 omega, 5);
   }
 }
 
