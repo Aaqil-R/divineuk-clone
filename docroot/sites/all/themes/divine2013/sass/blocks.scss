@@ -1156,13 +1156,9 @@
 #block-webform-client-block-25 {
   // margin: 1em 0;
   // clear: both;
-
-  width: 70%;
-  display: inline-block;
-  margin: 1em 0;
-  clear: both;
   font-family: $avenir-bold;
   color: $gold-on-black;
+  margin-top: 101px;
 
   label.focus {
     opacity: 0.35;
@@ -1191,6 +1187,7 @@
 
   .webform-component-email {
     max-width: 96%;
+    float: left !important;
 
     @include border-radius(8px);
 
@@ -1241,16 +1238,15 @@
   }
 
   @include breakpoint(tablet) {
+    margin-top: 0px;
+
+    @include span-columns(2 omega, 5);
+
+    float: left !important;
+
     .webform-component-email {
-      display: inline-block;
-      max-width: 16em;
+      @include span-columns(3 omega, 5);
     }
-  }
-
-
-  @include breakpoint(desktop) {
-    width: 60%;
-    margin-right: 163px;
   }
 
 
@@ -1260,20 +1256,35 @@
     @include span-columns(2 omega, 5);
 
     float: left !important;
+    margin-top: 0px;
   }
 }
 
 /*** bcop logo***/
 .bcop-logo-block {
+  float: none;
+  text-align: center;
+
+  @include breakpoint(tablet) {
+    float: none;
+    text-align: center;
+  }
+
+
   @include breakpoint(desktop) {
     // margin: 2em 0;
 
     @include span-columns(2 omega, 5);
 
-    @include span-columns(4 omega, 5);
+    margin-top: -51px;
+    height: 140px;
+  }
 
-    width: 60%;
-    margin-right: 163px;
+
+  p {
+    @include breakpoint(desktop) {
+      float: right;
+    }
   }
 }
 

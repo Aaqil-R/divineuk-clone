@@ -597,8 +597,14 @@ li a.active {
     }
   }
 
+  margin-left: 88px;
+
   @include breakpoint(tablet) {
-    @include span-columns(4, 10);
+    @include span-columns(3, 10);
+
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 40px;
   }
 
 
@@ -606,6 +612,8 @@ li a.active {
     @include span-columns(2, 10);
 
     min-width: 182px;
+    margin-left: 0px;
+    margin-top: 0px;
 
     // margin-right: 0.3%;
     // margin: 2em 0;
