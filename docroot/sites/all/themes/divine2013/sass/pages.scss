@@ -439,6 +439,7 @@ span.field-label {
   background: image-url("wrapper/swoosh-bottom.png") #000000 no-repeat top right;
   padding-top: 6em;
   margin-top: -2px;
+  overflow: hidden;
 
   @include breakpoint(tablet) {
     background-position-x: center;
@@ -514,7 +515,7 @@ body.node-type-press-release h1#page-title {
 .front {
   #logo {
     h1 {
-      background: transparent;
+      /*background: transparent;*/
     }
   }
 }
