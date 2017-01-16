@@ -1154,15 +1154,13 @@
 
 //email sign up web-form
 #block-webform-client-block-25 {
-<<<<<<< HEAD
   // margin: 1em 0;
   // clear: both;
-=======
-  width:70%;
+
+  width: 70%;
   display: inline-block;
   margin: 1em 0;
   clear: both;
->>>>>>> 31685aa4c33db5f55b0d0f7e9d86b8b58ca765a6
   font-family: $avenir-bold;
   color: $gold-on-black;
 
@@ -1237,6 +1235,7 @@
       font-family: $optisport;
 
       @include adjust-font-size-to(1.8 * $base-font-size);
+
       line-height: 1em;
     }
   }
@@ -1248,13 +1247,14 @@
     }
   }
 
+
   @include breakpoint(desktop) {
-    width:60%;
+    width: 60%;
     margin-right: 163px;
   }
 
+
   @include breakpoint(desktop-wide) {
-<<<<<<< HEAD
     // margin: 2em 0;
 
     @include span-columns(2 omega, 5);
@@ -1269,11 +1269,11 @@
     // margin: 2em 0;
 
     @include span-columns(2 omega, 5);
-=======
+
     @include span-columns(4 omega, 5);
-    width:60%;
-    margin-right: 163px;    
->>>>>>> 31685aa4c33db5f55b0d0f7e9d86b8b58ca765a6
+
+    width: 60%;
+    margin-right: 163px;
   }
 }
 
@@ -1281,7 +1281,7 @@
  * Footer Roundall
  */
 
-#block-block-32, #block-block-13{
+#block-block-32, #block-block-13 {
   h2 {
     background: url("../images/wrapper/owned-by-cocoa-farmers-made-for-chocolate-lovers.gif") no-repeat center top;
     background-size: contain;
@@ -1297,7 +1297,7 @@
 }
 
 #block-block-61 {
-  .block__title{
+  .block__title {
     display: none;
   }
 
@@ -1308,18 +1308,19 @@
     width: 100%;
     text-indent: -500%;
     overflow: hidden;
-    position: relative;    
+    position: relative;
   }
 
-  a{
+  a {
     display: block;
     height: 100%;
     width: 100px;
-    margin: 0 auto;    
-  }  
+    margin: 0 auto;
+  }
 
   @include breakpoint(desktop) {
     @include span-columns(2 omega, 10);
+
     height: 4em;
   }
 }
