@@ -140,6 +140,13 @@ DirectoryIndex index.php index.html index.htm
       Header append Vary Accept-Encoding
     </FilesMatch>
   </IfModule>
+
+  RewriteRule uk/shop/christmas-gifts$ https://ukshop.divinechocolate.com/uk/shop/ethical-gifts/ [L,R=301]
+  RewriteRule uk/shop/chocolate-bars$ https://ukshop.divinechocolate.com/uk/shop/category/bars/ [L,R=301]
+  RewriteRule uk/shop/chocolate-baking$ https://ukshop.divinechocolate.com/uk/shop/category/baking/ [L,R=301]
+  RewriteRule uk/shop/all-chocolate$ https://ukshop.divinechocolate.com/uk/shop/category/chocolate/ [L,R=301]
+  RewriteRule uk/delivery-information$ https://ukshop.divinechocolate.com/uk/shop/help/ [L,R=301]
+
 </IfModule>
 
 # Add headers to all responses.
