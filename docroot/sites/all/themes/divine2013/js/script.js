@@ -14,7 +14,16 @@
 
 	jQuery(document).ready(function($) {
 	  // Code that uses jQuery's $ can follow here.
-	  	
+	  	/**
+		* Page Redirection
+		*
+	    **/
+	    if ($("#redirect_location").text().length > 0)
+	    {
+	    	window.location.replace($("#redirect_location").text());
+	    }
+	   
+
 	  	/**
 		 * Set cookie to flag first page visitors
 		 * 
