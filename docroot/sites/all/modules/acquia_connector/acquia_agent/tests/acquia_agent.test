@@ -5,6 +5,7 @@
 */
 class AcquiaAgentTestCase extends DrupalWebTestCase {
   protected $privileged_user;
+  protected $network_user;
   protected $setup_path;
   protected $credentials_path;
   protected $settings_path;
@@ -12,12 +13,14 @@ class AcquiaAgentTestCase extends DrupalWebTestCase {
   protected $cloud_free_url;
   protected $acquia_test_id;
   protected $acquia_test_key;
+  protected $migrate_path;
+  protected $status_report_url;
 
   public static function getInfo() {
     // Note: getInfo() strings are not translated with t().
     return array(
       'name' => 'Acquia Agent UI & Connection',
-      'description' => 'Test Acquia Agent UI and connecting to the Acquia Network.',
+      'description' => 'Test Acquia Agent UI and connecting to Acquia Insight.',
       'group' => 'Acquia',
     );
   }
@@ -53,21 +56,26 @@ class AcquiaAgentTestCase extends DrupalWebTestCase {
 
   /**
    * Helper function for storing UI strings.
+   *
+   * @param string $id
+   *   UI string id.
+   *
+   * @return string
    */
   private function acquiaAgentStrings($id) {
     switch ($id) {
       case 'free':
         return 'Sign up for Acquia Cloud Free, a free Drupal sandbox to experiment with new features, test your code quality, and apply continuous integration best practices.';
       case 'get-connected':
-        return 'If you have an Acquia Network subscription, connect now. Otherwise, you can turn this message off by disabling the Acquia Network modules.';
+        return 'If you have an Acquia Subscription, connect now. Otherwise, you can turn this message off by disabling the Acquia Subscription modules.';
       case 'enter-email':
-        return 'Enter the email address you use to login to the Acquia Network';
+        return 'Enter the email address you use to sign in to Acquia';
       case 'enter-password':
-        return 'Enter your Acquia Network password';
+        return 'Enter your Acquia account password';
       case 'account-not-found':
         return 'Account not found';
       case 'id-key':
-        return 'Enter your identifer and key from your subscriptions overview or log in to connect your site to the Acquia Network.';
+        return 'Enter your identifier and key from your subscriptions overview or log in to connect your site to Acquia Insight.';
       case 'enter-key':
         return 'Network key';
       case 'subscription-not-found':
@@ -89,6 +97,7 @@ class AcquiaAgentTestCase extends DrupalWebTestCase {
       case 'menu-inactive':
         return 'Subscription not active';
     }
+    return '';
   }
 
   public function testAcquiaAgentGetConnected() {
@@ -136,7 +145,6 @@ class AcquiaAgentTestCase extends DrupalWebTestCase {
     $this->drupalGet($this->settings_path);
     $this->assertText($this->acquiaAgentStrings('subscription'), 'Subscription connected with key and identifier');
     $this->assertLinkByHref($this->setup_path, 0, 'Link to change subscription exists');
-    $this->assertLinkByHref($this->help_path, 0, 'Link to help page exists');
     $this->assertText($this->acquiaAgentStrings('migrate'), 'Acquia Cloud Migrate description exists');
     // Connect via automatic setup.
     variable_del('acquia_identifier');
@@ -159,15 +167,13 @@ class AcquiaAgentTestCase extends DrupalWebTestCase {
     );
     $submit_button = 'Save settings';
     $this->drupalPost($this->settings_path, $edit_fields, $submit_button);
-    $this->assertFieldChecked('edit-acquia-dynamic-banner', '"Receive updates from Acquia Network" option stays saved');
+    $this->assertFieldChecked('edit-acquia-dynamic-banner', '"Receive updates from Acquia" option stays saved');
   }
 
   /**
    * Test Agent subscription methods.
    */
   public function testAcquiaAgentSubscription() {
-    // Set a wrapper on drupal_http_request() to record connection request counts.
-    variable_set('drupal_http_request_function', '_acquia_connector_test_http_request_wrapper');
 
     // Starts as inactive.
     $active = acquia_agent_subscription_is_active();
@@ -300,6 +306,24 @@ class AcquiaAgentTestCase extends DrupalWebTestCase {
     $this->drupalPost($this->migrate_path, $edit_fields, $submit_button);
     $this->drupalGet($this->migrate_path);
     $this->assertNoFieldChecked('edit-migrate-files', "The migrate files checkbox is not checked.");
+
+    // Test migration setup and destination.
+    variable_set('drupal_http_request_function', 'acquia_connector_test_upload');
+    variable_set('acquia_connector_test_upload_server_to_fail', TRUE);
+
+    $edit_fields = array(
+      'environment' => 'dev',
+      'migrate_files' => TRUE,
+      'reduce_db_size' => TRUE,
+    );
+
+    $this->drupalPost($this->migrate_path, $edit_fields, 'Migrate');
+    $this->assertText('Unable to connect to migration destination site (unexpected response code: 500)');
+
+    variable_del('acquia_connector_test_upload_server_to_fail');
+    $this->drupalPost($this->migrate_path, $edit_fields, 'Migrate');
+    $this->assertNoText('Unable to connect to migration destination site (unexpected response code: 500)');
+    variable_del('drupal_http_request_function');
   }
 
   /**
@@ -313,7 +337,6 @@ class AcquiaAgentTestCase extends DrupalWebTestCase {
     $variable_keys = array('maintenance_mode', 'cache', 'block_cache');
 
     $test_data = array(
-      'timestamp' => 1361434801,
       'active' => 1,
       'href' => $test_url,
     );
@@ -334,7 +357,6 @@ class AcquiaAgentTestCase extends DrupalWebTestCase {
     $query = array(
       'key' => hash('sha1', "{$key}:test"),
       'nonce' => 'test',
-      'stamp' => REQUEST_TIME,
     );
     $json = $this->drupalGetAJAX('system/acquia-connector-status', array('query' => $query));
 
@@ -358,20 +380,31 @@ class AcquiaAgentTestCase extends DrupalWebTestCase {
       $this->assertEqual($json['data'][$variable], variable_get($variable));
     }
 
-    // Test some invalid query string parameters for access.
-    $query['stamp'] = $query['stamp'] + 500;
-    // The timestamp should be too new, so access should fail.
-    $this->drupalGetAJAX('system/acquia-connector-status', array('query' => $query));
-    $this->assertResponse(403);
-    $query['stamp'] = $query['stamp'] - 2000;
-    // The timestamp should be too old, so access should fail.
-    $this->drupalGetAJAX('system/acquia-connector-status', array('query' => $query));
-    $this->assertResponse(403);
-    // A random key value should fail too.
-    $query['stamp'] = REQUEST_TIME;
+    // Test invalid query string parameters for access.
+    // A random key value should fail.
     $query['key'] = $this->randomString(16);
     $this->drupalGetAJAX('system/acquia-connector-status', array('query' => $query));
     $this->assertResponse(403);
+  }
+
+  /**
+   * Test acquia_agent_get_server_superglobal.
+   */
+  public function testServerSuperglobal() {
+    $server = array(
+      'acquia_agent_test_string'       => 'acquia_agent_test_string_value',
+      'acquia_agent_test_array'        => array(1, 2, 3),
+      'acquia_agent_test_empty_string' => '',
+      'acquia_agent_test_empty_array'  => array(),
+      'acquia_agent_test_null'         => NULL,
+    );
+
+    $this->assertIdentical(acquia_agent_get_server_superglobal(), $_SERVER, 'acquia_agent_get_server_superglobal() returns expected value');
+
+    variable_set('acquia_agent_server_superglobal', $server);
+    $this->assertIdentical(acquia_agent_get_server_superglobal(), $server, 'acquia_agent_get_server_superglobal() returns expected value');
+
+    variable_del('acquia_agent_server_superglobal');
   }
 }
 
@@ -433,5 +466,12 @@ class AquiaAgentUnitTestCase extends DrupalUnitTestCase {
     $data = array('href'=> 'http://example.com/network/uuid/test/dashboard');
     $uuid = _acquia_agent_get_id_from_sub($data);
     $this->assertIdentical('test', $uuid, 'UUID extracted from href');
+  }
+
+  /**
+   * Test acquia_agent_get_server_superglobal.
+   */
+  public function testServerSuperglobal() {
+    $this->assertIdentical(acquia_agent_get_server_superglobal(), $_SERVER, 'acquia_agent_get_server_superglobal() returns expected value');
   }
 }
