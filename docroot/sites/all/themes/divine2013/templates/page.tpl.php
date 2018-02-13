@@ -73,13 +73,16 @@
 <div id="page">
 
   <header id="header" role="banner" style='background-image:url(<?php echo $header_image; ?>);'>
-   <div id="logo"><h1><a href="/uk/">Divine Chocolate</a></h1></div>
+
+  <!-- If this is the front page then don't show the logo -->
+  <?php if (!drupal_is_front_page()): ?>    
+    <div id="logo"><h1><a href="/uk/">Divine Chocolate</a></h1></div>
+  <?php endif; ?>
    
    <?php print render($page['header']); ?>
    
    <?php print render($page['nav']); ?>
    
-
    <div id="swoosh">
    </div>
   </header>
