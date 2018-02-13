@@ -172,7 +172,7 @@ body {
   /* line 171, ../sass/pages.scss */
   .front #header #swoosh, .front #header .region-nav {
     position: relative;
-    top: 370px;
+    top: 294px;
   }
 }
 
@@ -513,9 +513,10 @@ span.field-label {
   .front #header {
     background-image: none !important;
   }
-  /* line 485, ../sass/pages.scss */
+  /* line 489, ../sass/pages.scss */
   .front #logo h1 {
-    display: none;
+    background: url("../images/wrapper/divine-chocolate.png") no-repeat !important;
+    background-size: contain !important;
   }
 
   /* line 496, ../sass/pages.scss */

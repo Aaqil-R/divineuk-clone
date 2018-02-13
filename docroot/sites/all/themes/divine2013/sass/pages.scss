@@ -170,7 +170,7 @@ body {
 
       #swoosh, .region-nav {
         position: relative;
-        top: 370px;
+        top: 294px;
       }
     }
   }
@@ -482,13 +482,13 @@ span.field-label {
     }
 
     #logo {
-      h1 {
+      @include breakpoint($mobile-landscape){
         display:none;
+      }
 
-        @include breakpoint($mobile-landscape){
-          background: url("../images/wrapper/divine-chocolate.png") no-repeat !important;
-          background-size: contain !important;
-        }
+      h1 {
+        background: url("../images/wrapper/divine-chocolate.png") no-repeat !important;
+        background-size: contain !important;
       }
     }
   }
