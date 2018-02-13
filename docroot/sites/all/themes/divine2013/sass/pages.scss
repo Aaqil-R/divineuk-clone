@@ -483,8 +483,12 @@ span.field-label {
 
     #logo {
       h1 {
-        background: url("../images/wrapper/divine-chocolate.png") no-repeat !important;
-        background-size: contain !important;
+        display:none;
+
+        @include breakpoint($mobile-landscape){
+          background: url("../images/wrapper/divine-chocolate.png") no-repeat !important;
+          background-size: contain !important;
+        }
       }
     }
   }

@@ -515,22 +515,21 @@ span.field-label {
   }
   /* line 485, ../sass/pages.scss */
   .front #logo h1 {
-    background: url("../images/wrapper/divine-chocolate.png") no-repeat !important;
-    background-size: contain !important;
+    display: none;
   }
 
-  /* line 492, ../sass/pages.scss */
+  /* line 496, ../sass/pages.scss */
   .home-video-block, .home-video-wrapper {
     width: 100% !important;
   }
 
-  /* line 498, ../sass/pages.scss */
+  /* line 502, ../sass/pages.scss */
   #block-menu-menu-footer ul li:nth-child(even) {
     float: left !important;
   }
 }
 /** press release page heading text change **/
-/* line 506, ../sass/pages.scss */
+/* line 510, ../sass/pages.scss */
 body.node-type-press-release h1#page-title {
   font-family: 'Gotham';
   font-weight: bold;
@@ -540,7 +539,7 @@ body.node-type-press-release h1#page-title {
 }
 
 /** hide logo from home page **/
-/* line 517, ../sass/pages.scss */
+/* line 521, ../sass/pages.scss */
 .front #logo h1 {
   /*background: transparent;*/
 }
