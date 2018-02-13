@@ -475,6 +475,13 @@ span.field-label {
  * Page bottom
  */
 
+/* By default hide the logo on the front page. */
+.front {
+  #logo {
+    display:none;
+  }
+}
+
 @media (max-width: 49em) {
   .front {
     #header {
@@ -482,9 +489,7 @@ span.field-label {
     }
 
     #logo {
-      @media(min-width: 20em){
-        display:none;
-      }
+      display:block;
 
       h1 {
         background: url("../images/wrapper/divine-chocolate.png") no-repeat !important;
@@ -513,13 +518,4 @@ body.node-type-press-release h1#page-title {
   font-style: normal;
   font-size: 1.625em;
   width: 72%;
-}
-
-/** hide logo from home page **/
-.front {
-  #logo {
-    h1 {
-      /*background: transparent;*/
-    }
-  }
 }
