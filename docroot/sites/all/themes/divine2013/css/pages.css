@@ -1,546 +1,69 @@
-/**
- * @file
- * Page Styling
- *
- * Style the markup found in page.tpl.php. Also includes some styling of
- * miscellaneous Drupal elements that appear in the $content variable, such as
- * ul.links, .pager, .more-link, etc.
- */
-@font-face {
-  font-family: 'OPTISport-Script';
-  src: url("fonts/optispos.eot");
-  src: url("fonts/optispos.eot?#iefix") format("embedded-opentype"), url("fonts/optispos.woff") format("woff"), url("fonts/optispos.ttf") format("truetype"), url("fonts/optispos.svg#optisport-scriptscript") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-/*Custom Mixins*/
-@font-face {
-  font-family: 'gotham-rounded';
-  src: url("../fonts/GothamRounded-Book.eot");
-  src: url("../fonts/GothamRounded-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamRounded-Book.woff") format("woff"), url("../fonts/GothamRounded-Book.ttf") format("truetype"), url("../fonts/GothamRounded-Book.svg") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Gotham';
-  src: url("../fonts/Gotham-Bold.eot");
-  src: url("../fonts/Gotham-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Bold.woff") format("woff"), url("../fonts/Gotham-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
 /*
- * Body
- */
-/* line 34, ../sass/pages.scss */
-body {
-  margin: 0;
-  padding: 0;
-}
+Error: Invalid CSS after "...point(min-width": expected comma, was ": 20em){"
+        on line 485 of D:/smallaxe/src/dd/divineuk-dev/docroot/sites/all/themes/divine2013/sass/pages.scss
 
-/*
- * The skip-link link will be completely hidden until a user tabs to the link.
- * See the element-focusable rule in system.base.css.
- */
-/* line 46, ../sass/pages.scss */
-#skip-link {
-  margin: 0;
-}
-/* line 49, ../sass/pages.scss */
-#skip-link a,
-#skip-link a:visited {
-  display: block;
-  width: 100%;
-  padding: 2px 0 3px 0;
-  text-align: center;
-  background-color: #666;
-  color: #fff;
-}
+480:     #header {
+481:       background-image: none !important;
+482:     }
+483: 
+484:     #logo {
+485:       @include breakpoint(min-width: 20em){
+486:         display:none;
+487:       }
+488: 
+489:       h1 {
+490:         background: url("../images/wrapper/divine-chocolate.png") no-repeat !important;
 
-/*
- * Header
- */
-/* line 63, ../sass/pages.scss */
-#swoosh {
-  background: url('../images/wrapper/swoosh-top.png?1417079613') no-repeat;
-  background-position: -102px;
-  height: 35px;
-  width: 100%;
-  position: relative;
-  margin: 0 -1em;
-  padding: 0 1em;
-  clear: both;
-}
-@media (min-width: 20em) {
-  /* line 63, ../sass/pages.scss */
-  #swoosh {
-    background-position: right;
-  }
-}
-@media (min-width: 32em) {
-  /* line 63, ../sass/pages.scss */
-  #swoosh {
-    background-position: center;
-    clear: none;
-    margin-bottom: -13px;
-  }
-}
-@media (min-width: 60em) {
-  /* line 63, ../sass/pages.scss */
-  #swoosh {
-    margin: 2px -2.5em 0 -2.5em;
-    padding: 0 2.5em;
-  }
-}
-
-/* line 91, ../sass/pages.scss */
-.section-softspot #swoosh,
-.section-thank-you #swoosh {
-  background: url('../images/wrapper/swoosh-top-color.png?1417079613') no-repeat;
-}
-
-@media (min-width: 32em) {
-  /* line 96, ../sass/pages.scss */
-  .no-menu #swoosh {
-    clear: both;
-    margin-bottom: 0;
-  }
-}
-
-/* line 103, ../sass/pages.scss */
-#header {
-  background: #000000;
-  color: #fff;
-  margin-bottom: -1px;
-}
-
-/* line 111, ../sass/pages.scss */
-.front #block-block-14 {
-  display: none;
-}
-@media (min-width: 32em) {
-  /* line 117, ../sass/pages.scss */
-  .front.sidebar-first #content {
-    width: 59.18367%;
-    float: left;
-    margin-right: 2.04082%;
-    display: inline;
-  }
-  /* line 128, ../sass/pages.scss */
-  .front.sidebar-first .sidebars {
-    width: 38.77551%;
-    float: right;
-    margin-right: 0;
-    *margin-left: -1em;
-    display: inline;
-  }
-}
-@media (min-width: 49em) {
-  /* line 136, ../sass/pages.scss */
-  .front #header {
-    background-image: url('../images/homepage-banner/love-chocolate-newbars.jpg?1417079612');
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 465px;
-  }
-  /* line 144, ../sass/pages.scss */
-  .front #header #logo h1 {
-    height: 105px;
-  }
-  /* line 148, ../sass/pages.scss */
-  .front #header #block-block-14 {
-    display: block;
-    width: 515px;
-    height: 115px;
-    position: absolute;
-    top: 175px;
-    margin-left: -348px;
-    background: transparent;
-  }
-  /* line 157, ../sass/pages.scss */
-  .front #header #block-block-14 p {
-    display: block;
-    height: 100%;
-  }
-  /* line 162, ../sass/pages.scss */
-  .front #header #block-block-14 a {
-    text-indent: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-    display: block;
-    height: 100%;
-  }
-  /* line 171, ../sass/pages.scss */
-  .front #header #swoosh, .front #header .region-nav {
-    position: relative;
-    top: 294px;
-  }
-}
-
-/* line 179, ../sass/pages.scss */
-.region-header {
-  /* Wrapper for any blocks placed in the header region */
-  width: 58.33333%;
-  float: right;
-  margin-right: 0;
-  *margin-left: -1em;
-  display: inline;
-  margin-top: 0.5em;
-}
-/* line 185, ../sass/pages.scss */
-.region-header .block {
-  background: #000000;
-  height: 1.6em;
-  margin: 0.5em 0 0 0.5em;
-  clear: both;
-  width: 100%;
-  font-family: "Avenir LT W01 95 Black", Helvetica, Arial, "Nimbus Sans L", sans-serif;
-  padding: 0.4em 0;
-  font-size: 0.6em;
-  line-height: 1.66667em;
-}
-@media (min-width: 32em) {
-  /* line 179, ../sass/pages.scss */
-  .region-header {
-    width: 59.18367%;
-    float: right;
-    margin-right: 0;
-    *margin-left: -1em;
-    display: inline;
-    margin-top: 1em;
-  }
-  /* line 202, ../sass/pages.scss */
-  .region-header .block {
-    clear: none;
-    width: 8em;
-    float: right;
-    margin-top: 1em;
-    margin-left: 1em;
-    font-size: 0.8em;
-    line-height: 1.5625em;
-    line-height: 1.5em;
-  }
-}
-
-/*
- * Main (container for everything else)
- */
-/* line 223, ../sass/pages.scss */
-#main {
-  background: #ffffff;
-}
-
-/* line 227, ../sass/pages.scss */
-.section-softspot #main,
-.section-thank-you #main {
-  max-width: 1072px;
-  padding: 0;
-  background: url('../images/bg-softspot.png?1417079612') #72562b repeat-x;
-}
-
-/*
- * Content
- */
-/* line 240, ../sass/pages.scss */
-.breadcrumb {
-  /* The path to the current page in the form of a list of links */
-}
-/* line 242, ../sass/pages.scss */
-.breadcrumb ol {
-  margin: 0;
-  padding: 0;
-}
-/* line 247, ../sass/pages.scss */
-.breadcrumb li {
-  display: inline;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-/* line 256, ../sass/pages.scss */
-.view-recipes a:hover img, .view-sidebar-blocks a:hover img {
-  -moz-box-shadow: 0px 5px #58595B;
-  -webkit-box-shadow: 0px 5px #58595B;
-  box-shadow: 0px 5px #58595B;
-}
-
-/* line 265, ../sass/pages.scss */
-h1.title,
-h2.node-title,
-h2.block-title,
-h2.title,
-h2.comment-form,
-h3.title {
-  /* Comment title */
-  margin: 0;
-}
-
-/* line 275, ../sass/pages.scss */
-tr.even {
-  /* Some tables have rows marked even or odd. */
-  /* background-color: #eee; */
-  /* Drupal core uses a #eee background */
-}
-
-/* line 282, ../sass/pages.scss */
-tr.odd {
-  /* background-color: #eee; */
-  /* Drupal core uses a #eee background */
-}
-
-/* line 288, ../sass/pages.scss */
-div.messages {
-  /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */
-  margin: 0;
-  /* Drupal core uses "6px 0" margin */
-}
-/* line 294, ../sass/pages.scss */
-div.messages ul {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-/* line 300, ../sass/pages.scss */
-div.status {
-  /* Normal priority messages */
-}
-
-/* line 304, ../sass/pages.scss */
-div.warning,
-tr.warning {
-  /* Medium priority messages */
-  /* border: 1px solid #f0c020; */
-  /* Drupal core uses: 1px solid #f0c020 */
-}
-
-/* line 312, ../sass/pages.scss */
-div.error,
-tr.error {
-  /* High priority messages. See also the .error declaration below. */
-}
-
-/* line 317, ../sass/pages.scss */
-.error {
-  /* Errors that are separate from div.messages status messages. */
-  /* color: #e55; */
-  /* Drupal core uses a #e55 background */
-}
-
-/* line 324, ../sass/pages.scss */
-.warning {
-  /* Warnings that are separate from div.messages status messages. */
-  /* color: #e09010; */
-  /* Drupal core uses a #e09010 background */
-}
-
-/* line 331, ../sass/pages.scss */
-.tabs {
-  /* See also the tabs.css file. */
-}
-
-/* line 335, ../sass/pages.scss */
-.region-help {
-  /* Help text on a page */
-}
-
-/* line 339, ../sass/pages.scss */
-.more-help-link {
-  /* Link to more help */
-}
-
-/* line 343, ../sass/pages.scss */
-#content {
-  /* Wrapper for the actual page content */
-}
-
-/* line 347, ../sass/pages.scss */
-ul.inline {
-  /* List of links generated by theme_links() */
-  display: inline;
-  padding: 0;
-}
-/* line 352, ../sass/pages.scss */
-ul.inline li {
-  display: inline;
-  list-style-type: none;
-  padding: 0 1em 0 0;
-  /* LTR */
-}
-
-/* line 361, ../sass/pages.scss */
-span.field-label {
-  /* The inline field label used by the Fences module */
-  padding: 0 1em 0 0;
-  /* LTR */
-}
-
-/* line 368, ../sass/pages.scss */
-.item-list .pager {
-  /* A list of page numbers when more than 1 page of content is available */
-  padding: 0;
-}
-/* line 372, ../sass/pages.scss */
-.item-list .pager li {
-  /* Each page number in the pager list */
-  padding: 0 0.5em;
-}
-
-/* line 378, ../sass/pages.scss */
-.feed-icon {
-  /* The link to the RSS or Atom feed for the current list of content */
-}
-
-/* line 382, ../sass/pages.scss */
-.more-link {
-  /* Aggregator, blog, and forum more link */
-}
-
-/*
- * Sidebar (on left in LTR languages, on right in RTL)
- *
- * Remember to NOT add padding or margin to your .region-sidebar-first
- * (see the layout.css file.)
- */
-/* line 392, ../sass/pages.scss */
-.sidebars {
-  width: 100%;
-  float: right;
-  margin-right: 0;
-  *margin-left: -1em;
-  display: inline;
-}
-
-@media (min-width: 32em) {
-  /* line 398, ../sass/pages.scss */
-  .sidebar-first #content {
-    width: 69.38776%;
-    float: left;
-    margin-right: 2.04082%;
-    display: inline;
-  }
-
-  /* line 403, ../sass/pages.scss */
-  .sidebars {
-    width: 28.57143%;
-    float: right;
-    margin-right: 0;
-    *margin-left: -1em;
-    display: inline;
-  }
-}
-@media (min-width: 49em) {
-  /* line 411, ../sass/pages.scss */
-  .sidebar-first #content {
-    width: 79.59184%;
-    float: left;
-    margin-right: 2.04082%;
-    display: inline;
-  }
-
-  /* line 416, ../sass/pages.scss */
-  .sidebars {
-    width: 18.36735%;
-    float: right;
-    margin-right: 0;
-    *margin-left: -1em;
-    display: inline;
-  }
-
-  /* line 421, ../sass/pages.scss */
-  .adinkra-sidebar .sidebars {
-    background: url('../images/symbols/adinkra-large.png?1417079612') no-repeat;
-    padding-bottom: 220px;
-    background-position: left bottom;
-  }
-  /* line 427, ../sass/pages.scss */
-  .adinkra-sidebar.good-stuff .sidebars {
-    background-position: -200px bottom;
-  }
-}
-/*
- * Footer
- */
-/* line 438, ../sass/pages.scss */
-#footer {
-  background: url('../images/wrapper/swoosh-bottom.png?1417079613') #000000 no-repeat top right;
-  padding-top: 6em;
-  margin-top: -2px;
-  overflow: hidden;
-}
-@media (min-width: 32em) {
-  /* line 438, ../sass/pages.scss */
-  #footer {
-    background-position-x: center;
-  }
-}
-
-/* line 449, ../sass/pages.scss */
-.section-softspot #footer,
-.section-thank-you #footer {
-  background: #000;
-}
-
-/*
- * Page bottom
- */
-/* line 459, ../sass/pages.scss */
-.region-content-bottom {
-  /* Wrapper for any blocks placed in the content bottom region */
-  clear: both;
-  padding: 2em 0;
-}
-@media (min-width: 32em) {
-  /* line 459, ../sass/pages.scss */
-  .region-content-bottom {
-    width: 79.59184%;
-    float: left;
-    margin-right: 2.04082%;
-    display: inline;
-  }
-}
-
-/* line 469, ../sass/pages.scss */
-.region-content-bottom {
-  width: 100%;
-  margin: 0;
-}
-
-/*
- * Page bottom
- */
-@media (max-width: 49em) {
-  /* line 480, ../sass/pages.scss */
-  .front #header {
-    background-image: none !important;
-  }
-  /* line 489, ../sass/pages.scss */
-  .front #logo h1 {
-    background: url("../images/wrapper/divine-chocolate.png") no-repeat !important;
-    background-size: contain !important;
-  }
-
-  /* line 496, ../sass/pages.scss */
-  .home-video-block, .home-video-wrapper {
-    width: 100% !important;
-  }
-
-  /* line 502, ../sass/pages.scss */
-  #block-menu-menu-footer ul li:nth-child(even) {
-    float: left !important;
-  }
-}
-/** press release page heading text change **/
-/* line 510, ../sass/pages.scss */
-body.node-type-press-release h1#page-title {
-  font-family: 'Gotham';
-  font-weight: bold;
-  font-style: normal;
-  font-size: 1.625em;
-  width: 72%;
-}
-
-/** hide logo from home page **/
-/* line 521, ../sass/pages.scss */
-.front #logo h1 {
-  /*background: transparent;*/
-}
+Backtrace:
+D:/smallaxe/src/dd/divineuk-dev/docroot/sites/all/themes/divine2013/sass/pages.scss:485
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:1181:in `expected'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/script/lexer.rb:228:in `expected!'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/script/parser.rb:564:in `block in arglist'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/script/parser.rb:561:in `loop'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/script/parser.rb:561:in `arglist'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/script/parser.rb:550:in `mixin_arglist'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/script/parser.rb:103:in `parse_mixin_include_arglist'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:1041:in `sass_script'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:240:in `include_directive'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:223:in `special_directive'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:198:in `directive'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:675:in `block_child'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:664:in `block_contents'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:656:in `block'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:726:in `declaration_or_ruleset'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:675:in `block_child'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:667:in `block_contents'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:656:in `block'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:726:in `declaration_or_ruleset'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:675:in `block_child'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:664:in `block_contents'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:656:in `block'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:409:in `media_directive'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:223:in `special_directive'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:198:in `directive'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:674:in `block_child'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:667:in `block_contents'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:126:in `stylesheet'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/scss/parser.rb:42:in `parse'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/engine.rb:403:in `_to_tree'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/engine.rb:278:in `render'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/compass-1.0.3/lib/compass/sass_compiler.rb:40:in `compile!'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/compass-1.0.3/lib/compass/commands/update_project.rb:49:in `perform'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/compass-1.0.3/bin/compass:44:in `call'
+C:/Compilers/Ruby193/lib/ruby/gems/1.9.1/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
+C:/Compilers/Ruby193/bin/compass:23:in `load'
+C:/Compilers/Ruby193/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...point(min-width\": expected comma, was \": 20em){\"\A         on line 485 of D:/smallaxe/src/dd/divineuk-dev/docroot/sites/all/themes/divine2013/sass/pages.scss\A \A 480:     #header {\A 481:       background-image: none !important;\A 482:     }\A 483: \A 484:     #logo {\A 485:       @include breakpoint(min-width: 20em){\A 486:         display:none;\A 487:       }\A 488: \A 489:       h1 {\A 490:         background: url(\"../images/wrapper/divine-chocolate.png\") no-repeat !important;"; }
