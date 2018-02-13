@@ -482,7 +482,7 @@ span.field-label {
     }
 
     #logo {
-      @include breakpoint(min-width: 20em){
+      @media(min-width: 20em){
         display:none;
       }
 
