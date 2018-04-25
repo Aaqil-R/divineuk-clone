@@ -591,7 +591,10 @@ li a.active {
         @include omega;
 
         a {
-          background-position: center -237px;
+          // background-position: center -237px;
+          background: url("../images/wrapper/Instagram-logo.png") no-repeat center 0px;
+          background-position: center 0;
+          background-size: contain;
         }
       }
     }
