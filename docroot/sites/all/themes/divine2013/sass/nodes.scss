@@ -1613,7 +1613,7 @@ label[for=edit-search-block-form--2] {
     @include arrow($white, 0.4em, 0.17em);
   }
   .block-views {
-    margin-top: 0;
+    margin-top: 0;    
   }
   .view-good-stuff-new {
     margin-bottom: 2em;
@@ -1630,6 +1630,9 @@ label[for=edit-search-block-form--2] {
       .block-views {
         margin-bottom: 1em;
         @include span-columns(4, 8);
+        &.first {
+          @include span-columns(10 omega, 10);
+        }
         &.even {
           @include omega;
         }

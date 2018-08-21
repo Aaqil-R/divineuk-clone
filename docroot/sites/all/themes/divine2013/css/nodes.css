@@ -2430,6 +2430,14 @@ label[for=edit-search-block-form--2] {
     display: inline;
   }
   /* line 1633, ../sass/nodes.scss */
+  .page-node-3361 #content .block-views.first {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+    *margin-left: -1em;
+    display: inline;
+  }
+  /* line 1636, ../sass/nodes.scss */
   .page-node-3361 #content .block-views.even {
     float: right;
     margin-right: 0;
@@ -2441,16 +2449,16 @@ label[for=edit-search-block-form--2] {
 /*
 * Chocolateers
 */
-/* line 1646, ../sass/nodes.scss */
+/* line 1649, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column.first {
   margin-right: 2.5641%;
 }
-/* line 1649, ../sass/nodes.scss */
+/* line 1652, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column {
   width: 47.8%;
   float: left;
 }
-/* line 1652, ../sass/nodes.scss */
+/* line 1655, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box {
   background: #000;
   -moz-border-radius: 8px;
@@ -2459,64 +2467,64 @@ label[for=edit-search-block-form--2] {
   padding: 1em;
   color: #bfbfbf;
 }
-/* line 1657, ../sass/nodes.scss */
+/* line 1660, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box h3 {
   font-size: 1.1em;
   margin: 0.7em 0 0 0;
   padding: 0;
 }
-/* line 1662, ../sass/nodes.scss */
+/* line 1665, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box ol {
   padding: 0 2em;
 }
-/* line 1665, ../sass/nodes.scss */
+/* line 1668, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box li {
   padding-bottom: 1.3em;
 }
-/* line 1668, ../sass/nodes.scss */
+/* line 1671, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box a {
   color: #fff;
 }
-/* line 1671, ../sass/nodes.scss */
+/* line 1674, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box a:hover {
   text-decoration: none;
 }
-/* line 1674, ../sass/nodes.scss */
+/* line 1677, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box p {
   margin: 0 0 1em 0;
 }
-/* line 1677, ../sass/nodes.scss */
+/* line 1680, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box .highlighted {
   color: #f1ab00;
   font-weight: bold;
 }
-/* line 1681, ../sass/nodes.scss */
+/* line 1684, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .box #indent {
   padding: 0 0 0 2em;
 }
-/* line 1685, ../sass/nodes.scss */
+/* line 1688, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile.odd {
   margin-right: 6%;
 }
-/* line 1688, ../sass/nodes.scss */
+/* line 1691, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile {
   float: left;
   line-height: 0;
   width: 45%;
   clear: none;
 }
-/* line 1693, ../sass/nodes.scss */
+/* line 1696, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile img {
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
   border-radius: 0px;
 }
-/* line 1696, ../sass/nodes.scss */
+/* line 1699, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile a {
   color: #fff;
   font-weight: normal;
 }
-/* line 1700, ../sass/nodes.scss */
+/* line 1703, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile .name {
   background: #a39161;
   color: #ffffff;
@@ -2543,7 +2551,7 @@ label[for=edit-search-block-form--2] {
   margin-left: 0.4em;
   bottom: 0.66em;
 }
-/* line 1710, ../sass/nodes.scss */
+/* line 1713, ../sass/nodes.scss */
 .page-node-3368 .chocolateers.column .profile .biography {
   font-style: italic;
   line-height: 1.2em;
@@ -2553,7 +2561,7 @@ label[for=edit-search-block-form--2] {
 /*
 * Gallery
 */
-/* line 1723, ../sass/nodes.scss */
+/* line 1726, ../sass/nodes.scss */
 .node-gallery .field-item {
   float: left;
   padding-right: 20px;
@@ -2563,7 +2571,7 @@ label[for=edit-search-block-form--2] {
 /*
 * Caramel Page
 */
-/* line 1734, ../sass/nodes.scss */
+/* line 1737, ../sass/nodes.scss */
 .section-softspot button#show-button-1 {
   color: #ffffff !important;
   font-size: 1.3em;
@@ -2575,88 +2583,88 @@ label[for=edit-search-block-form--2] {
   padding: 0.3em;
   width: 210px;
 }
-/* line 1743, ../sass/nodes.scss */
+/* line 1746, ../sass/nodes.scss */
 .section-softspot .show-button {
   width: 210px;
   margin: 0 auto;
 }
-/* line 1747, ../sass/nodes.scss */
+/* line 1750, ../sass/nodes.scss */
 .section-softspot h1#page-title {
   position: absolute;
   top: -9999px;
   left: -9999px;
 }
-/* line 1752, ../sass/nodes.scss */
+/* line 1755, ../sass/nodes.scss */
 .section-softspot h3 {
   text-transform: none;
   font-size: 2.3em;
 }
-/* line 1756, ../sass/nodes.scss */
+/* line 1759, ../sass/nodes.scss */
 .section-softspot p {
   font-size: 20px;
   line-height: 1.5em;
   color: #ffffff;
   font-family: 'gotham-rounded';
 }
-/* line 1762, ../sass/nodes.scss */
+/* line 1765, ../sass/nodes.scss */
 .section-softspot #softspot-1,
 .section-softspot #softspot-form {
   padding: 0 3em;
 }
-/* line 1767, ../sass/nodes.scss */
+/* line 1770, ../sass/nodes.scss */
 .section-softspot #softspot-1 #softspot-chocolate {
   display: block;
   margin: 0 auto;
 }
-/* line 1771, ../sass/nodes.scss */
+/* line 1774, ../sass/nodes.scss */
 .section-softspot #softspot-1 #softspot-chocolate-mobile {
   display: none;
 }
 @media screen and (max-width: 421px) {
-  /* line 1775, ../sass/nodes.scss */
+  /* line 1778, ../sass/nodes.scss */
   .section-softspot #softspot-1 #softspot-chocolate {
     display: none;
   }
-  /* line 1778, ../sass/nodes.scss */
+  /* line 1781, ../sass/nodes.scss */
   .section-softspot #softspot-1 #softspot-chocolate-mobile {
     display: block;
     float: right;
     margin: 20px -2.5em 0 0;
   }
-  /* line 1783, ../sass/nodes.scss */
+  /* line 1786, ../sass/nodes.scss */
   .section-softspot #softspot-1 p {
     clear: both;
   }
 }
-/* line 1788, ../sass/nodes.scss */
+/* line 1791, ../sass/nodes.scss */
 .section-softspot #softspot-form {
   position: relative;
   border-top: 9px solid #b59660;
   background: #f6f2ee;
   padding-bottom: 150px;
 }
-/* line 1793, ../sass/nodes.scss */
+/* line 1796, ../sass/nodes.scss */
 .section-softspot #softspot-form #divulge-details {
   margin: 40px 0 0;
 }
-/* line 1796, ../sass/nodes.scss */
+/* line 1799, ../sass/nodes.scss */
 .section-softspot #softspot-form .softspot-social {
   position: absolute;
   right: 230px;
   bottom: -50px;
   width: 324px;
   height: 239px;
-  background: url('../images/wrapper/social-icons.png?1437725247') no-repeat;
+  background: url('../images/wrapper/social-icons.png?1534849167') no-repeat;
 }
-/* line 1803, ../sass/nodes.scss */
+/* line 1806, ../sass/nodes.scss */
 .section-softspot #softspot-form .softspot-social span {
   display: block;
   width: 324px;
   height: 44px;
   text-indent: -9999px;
-  background: url('../images/wrapper/social-icons.png?1437725247') 0 0 no-repeat;
+  background: url('../images/wrapper/social-icons.png?1534849167') 0 0 no-repeat;
 }
-/* line 1810, ../sass/nodes.scss */
+/* line 1813, ../sass/nodes.scss */
 .section-softspot #softspot-form .softspot-social a#soft-fb {
   display: block;
   width: 130px;
@@ -2666,9 +2674,9 @@ label[for=edit-search-block-form--2] {
   left: 19px;
   text-indent: -9999px;
   z-index: 1;
-  background: url('../images/wrapper/social-icons.png?1437725247') -19px -68px no-repeat;
+  background: url('../images/wrapper/social-icons.png?1534849167') -19px -68px no-repeat;
 }
-/* line 1821, ../sass/nodes.scss */
+/* line 1824, ../sass/nodes.scss */
 .section-softspot #softspot-form .softspot-social a#soft-twit {
   display: block;
   width: 130px;
@@ -2678,38 +2686,38 @@ label[for=edit-search-block-form--2] {
   left: 175px;
   text-indent: -9999px;
   z-index: 1;
-  background: url('../images/wrapper/social-icons.png?1437725247') -175px -68px no-repeat;
+  background: url('../images/wrapper/social-icons.png?1534849167') -175px -68px no-repeat;
 }
 @media screen and (max-width: 641px) {
-  /* line 1834, ../sass/nodes.scss */
+  /* line 1837, ../sass/nodes.scss */
   .section-softspot #softspot-form .softspot-social {
     right: 50%;
     margin-right: -162px;
   }
 }
 @media screen and (max-width: 950px) {
-  /* line 1841, ../sass/nodes.scss */
+  /* line 1844, ../sass/nodes.scss */
   .section-softspot #softspot-form {
     padding-bottom: 200px;
   }
 }
-/* line 1845, ../sass/nodes.scss */
+/* line 1848, ../sass/nodes.scss */
 .section-softspot #softspot-bar-explained {
   padding: 70px 0;
   border-top: 9px solid #b59660;
-  background: url('../images/bg-softspot.png?1437725247') #72562b repeat-x;
+  background: url('../images/bg-softspot.png?1534849167') #72562b repeat-x;
 }
-/* line 1850, ../sass/nodes.scss */
+/* line 1853, ../sass/nodes.scss */
 .section-softspot #bar-explained,
 .section-softspot #store-location {
   display: block;
   margin: 0 auto;
 }
-/* line 1855, ../sass/nodes.scss */
+/* line 1858, ../sass/nodes.scss */
 .section-softspot #store-location {
   padding: 26px 0;
 }
-/* line 1858, ../sass/nodes.scss */
+/* line 1861, ../sass/nodes.scss */
 .section-softspot #softspot-available {
   background: #f6f2ee;
   height: 162px;
@@ -2717,29 +2725,29 @@ label[for=edit-search-block-form--2] {
   border-bottom: 9px solid #b59660;
 }
 @media screen and (max-width: 641px) {
-  /* line 1865, ../sass/nodes.scss */
+  /* line 1868, ../sass/nodes.scss */
   .section-softspot #softspot-bar-explained,
   .section-softspot #softspot-available {
     display: none;
   }
 }
-/* line 1870, ../sass/nodes.scss */
+/* line 1873, ../sass/nodes.scss */
 .section-softspot #softspot-tell-us {
   position: relative;
-  background: url('../images/bg-softspot.png?1437725247') #72562b repeat-x;
+  background: url('../images/bg-softspot.png?1534849167') #72562b repeat-x;
 }
-/* line 1873, ../sass/nodes.scss */
+/* line 1876, ../sass/nodes.scss */
 .section-softspot #softspot-tell-us #tell-us,
 .section-softspot #softspot-tell-us #tell-us-mobile {
   padding: 26px 0;
   margin: 0 auto;
   display: block;
 }
-/* line 1879, ../sass/nodes.scss */
+/* line 1882, ../sass/nodes.scss */
 .section-softspot #softspot-tell-us #tell-us-mobile {
   display: none;
 }
-/* line 1882, ../sass/nodes.scss */
+/* line 1885, ../sass/nodes.scss */
 .section-softspot #softspot-tell-us a {
   color: #fff;
   font-weight: normal;
@@ -2747,7 +2755,7 @@ label[for=edit-search-block-form--2] {
   font-family: 'gotham-rounded';
   font-size: 12px;
 }
-/* line 1889, ../sass/nodes.scss */
+/* line 1892, ../sass/nodes.scss */
 .section-softspot #softspot-tell-us #twitter-bird {
   display: block;
   width: 93px;
@@ -2756,61 +2764,61 @@ label[for=edit-search-block-form--2] {
   top: 350px;
   right: -50px;
   padding: 0;
-  background: url('../images/wrapper/twitter-bird.png?1437725247') no-repeat;
+  background: url('../images/wrapper/twitter-bird.png?1534849167') no-repeat;
 }
 @media screen and (max-width: 641px) {
-  /* line 1901, ../sass/nodes.scss */
+  /* line 1904, ../sass/nodes.scss */
   .section-softspot #softspot-tell-us {
     border-top: 9px solid #b59660;
   }
 }
 @media screen and (max-width: 421px) {
-  /* line 1907, ../sass/nodes.scss */
+  /* line 1910, ../sass/nodes.scss */
   .section-softspot #softspot-tell-us #tell-us {
     display: none;
   }
-  /* line 1910, ../sass/nodes.scss */
+  /* line 1913, ../sass/nodes.scss */
   .section-softspot #softspot-tell-us #tell-us-mobile {
     display: block;
   }
-  /* line 1913, ../sass/nodes.scss */
+  /* line 1916, ../sass/nodes.scss */
   .section-softspot #softspot-tell-us #twitter-bird {
     display: none;
   }
 }
-/* line 1918, ../sass/nodes.scss */
+/* line 1921, ../sass/nodes.scss */
 .section-softspot #softspot-separator {
   height: 32px;
-  background: url('../images/wrapper/swoosh-bottom-color.png?1437725247') no-repeat;
+  background: url('../images/wrapper/swoosh-bottom-color.png?1534849167') no-repeat;
 }
-/* line 1922, ../sass/nodes.scss */
+/* line 1925, ../sass/nodes.scss */
 .section-softspot #webform-client-form-3394 {
   margin: 20px 0 0;
   padding: 10px 0 0;
-  background: url('../images/wrapper/dotted-line.png?1437725247') no-repeat;
+  background: url('../images/wrapper/dotted-line.png?1534849167') no-repeat;
 }
-/* line 1926, ../sass/nodes.scss */
+/* line 1929, ../sass/nodes.scss */
 .section-softspot #webform-client-form-3394 fieldset {
   margin: 0;
   padding: 0;
   border: none;
   clear: both;
 }
-/* line 1931, ../sass/nodes.scss */
+/* line 1934, ../sass/nodes.scss */
 .section-softspot #webform-client-form-3394 fieldset legend {
   display: block;
   width: 100%;
 }
-/* line 1935, ../sass/nodes.scss */
+/* line 1938, ../sass/nodes.scss */
 .section-softspot #webform-client-form-3394 fieldset legend span.fieldset-legend {
   display: block;
   width: 100%;
   height: 60px;
   text-indent: -9999px;
   padding: 0;
-  background: url('../images/wrapper/dotted-line.png?1437725247') left 35px no-repeat;
+  background: url('../images/wrapper/dotted-line.png?1534849167') left 35px no-repeat;
 }
-/* line 1944, ../sass/nodes.scss */
+/* line 1947, ../sass/nodes.scss */
 .section-softspot #webform-client-form-3394 #webform-component-company,
 .section-softspot #webform-client-form-3394 #webform-component-contact-name,
 .section-softspot #webform-client-form-3394 #webform-component-role-in-company,
@@ -2818,7 +2826,7 @@ label[for=edit-search-block-form--2] {
 .section-softspot #webform-client-form-3394 #webform-component-delivery-address--city {
   float: left;
 }
-/* line 1951, ../sass/nodes.scss */
+/* line 1954, ../sass/nodes.scss */
 .section-softspot #webform-client-form-3394 #webform-component-employees,
 .section-softspot #webform-client-form-3394 #webform-component-phone-number,
 .section-softspot #webform-client-form-3394 #webform-component-email,
@@ -2828,7 +2836,7 @@ label[for=edit-search-block-form--2] {
   margin: 0 0 0 2em;
 }
 @media screen and (max-width: 950px) {
-  /* line 1960, ../sass/nodes.scss */
+  /* line 1963, ../sass/nodes.scss */
   .section-softspot #webform-client-form-3394 #webform-component-company,
   .section-softspot #webform-client-form-3394 #webform-component-contact-name,
   .section-softspot #webform-client-form-3394 #webform-component-role-in-company,
@@ -2845,19 +2853,19 @@ label[for=edit-search-block-form--2] {
     max-width: 100%;
   }
 }
-/* line 1976, ../sass/nodes.scss */
+/* line 1979, ../sass/nodes.scss */
 .section-softspot #webform-client-form-3394 .form-item {
   margin: 0;
   width: 407px;
 }
-/* line 1979, ../sass/nodes.scss */
+/* line 1982, ../sass/nodes.scss */
 .section-softspot #webform-client-form-3394 .form-item input.form-text {
   width: 391px;
   height: 38px;
   background: #fff;
   border: 1px solid #e5ad43;
 }
-/* line 1985, ../sass/nodes.scss */
+/* line 1988, ../sass/nodes.scss */
 .section-softspot #webform-client-form-3394 .form-item label {
   font-family: 'gotham-rounded';
   font-weight: bold;
@@ -2866,61 +2874,61 @@ label[for=edit-search-block-form--2] {
   text-transform: capitalize;
   color: #6a3406;
 }
-/* line 1992, ../sass/nodes.scss */
+/* line 1995, ../sass/nodes.scss */
 .section-softspot #webform-client-form-3394 .form-item label.option {
   font-size: 11px !important;
 }
 @media screen and (max-width: 950px) {
-  /* line 1997, ../sass/nodes.scss */
+  /* line 2000, ../sass/nodes.scss */
   .section-softspot #webform-client-form-3394 .form-item input.form-text {
     width: 90%;
   }
 }
-/* line 2002, ../sass/nodes.scss */
+/* line 2005, ../sass/nodes.scss */
 .section-softspot #webform-client-form-3394 .form-actions {
   margin: 0;
 }
-/* line 2004, ../sass/nodes.scss */
+/* line 2007, ../sass/nodes.scss */
 .section-softspot #webform-client-form-3394 .form-actions input.form-submit {
   width: 247px;
   height: 58px;
   text-indent: -9999px;
   border: none;
   margin: 20px 0;
-  background: url('../images/wrapper/submit-button.jpg?1437725247') 0 0 no-repeat;
+  background: url('../images/wrapper/submit-button.jpg?1534849167') 0 0 no-repeat;
 }
 
 /*
 * Thank You Page
 */
-/* line 2021, ../sass/nodes.scss */
+/* line 2024, ../sass/nodes.scss */
 .section-thank-you h1#page-title {
   display: none;
 }
-/* line 2024, ../sass/nodes.scss */
+/* line 2027, ../sass/nodes.scss */
 .section-thank-you p {
   font-size: 20px;
   line-height: 1.5em;
   color: #ffffff;
   font-family: 'gotham-rounded';
 }
-/* line 2030, ../sass/nodes.scss */
+/* line 2033, ../sass/nodes.scss */
 .section-thank-you #softspot-1,
 .section-thank-you #softspot-thankyou {
   padding: 0 3em;
 }
-/* line 2034, ../sass/nodes.scss */
+/* line 2037, ../sass/nodes.scss */
 .section-thank-you #softspot-1 {
   padding-bottom: 2em;
 }
-/* line 2037, ../sass/nodes.scss */
+/* line 2040, ../sass/nodes.scss */
 .section-thank-you #softspot-thankyou {
   border-top: 9px solid #b59660;
   background: #f6f3ee;
   padding-top: 2em;
   padding-bottom: 2em;
 }
-/* line 2042, ../sass/nodes.scss */
+/* line 2045, ../sass/nodes.scss */
 .section-thank-you #softspot-thankyou h2 {
   font-size: 3em;
   text-transform: capitalize;
@@ -2928,38 +2936,38 @@ label[for=edit-search-block-form--2] {
   padding: 0 0 10px;
   margin: 0 0 20px;
   font-family: "OPTISport-Script", Helvetica, Arial, "Nimbus Sans L", sans-serif;
-  background: url('../images/wrapper/dotted-line.png?1437725247') left bottom no-repeat;
+  background: url('../images/wrapper/dotted-line.png?1534849167') left bottom no-repeat;
 }
-/* line 2051, ../sass/nodes.scss */
+/* line 2054, ../sass/nodes.scss */
 .section-thank-you #softspot-thankyou p {
   font-size: 24px;
   color: #693506;
 }
-/* line 2056, ../sass/nodes.scss */
+/* line 2059, ../sass/nodes.scss */
 .section-thank-you div#softspot-chocolate {
   position: relative;
   border-top: 2px solid #b4975f;
-  background: url('../images/wrapper/softspot-chocolate.jpg?1437725247') 50px 50% #f6f3ee no-repeat;
+  background: url('../images/wrapper/softspot-chocolate.jpg?1534849167') 50px 50% #f6f3ee no-repeat;
   height: 248px;
 }
-/* line 2061, ../sass/nodes.scss */
+/* line 2064, ../sass/nodes.scss */
 .section-thank-you div#softspot-chocolate .softspot-social {
   position: absolute;
   right: 230px;
   bottom: -50px;
   width: 324px;
   height: 239px;
-  background: url('../images/wrapper/social-icons.png?1437725247') no-repeat;
+  background: url('../images/wrapper/social-icons.png?1534849167') no-repeat;
 }
-/* line 2068, ../sass/nodes.scss */
+/* line 2071, ../sass/nodes.scss */
 .section-thank-you div#softspot-chocolate .softspot-social span {
   display: block;
   width: 324px;
   height: 44px;
   text-indent: -9999px;
-  background: url('../images/wrapper/social-icons.png?1437725247') 0 0 no-repeat;
+  background: url('../images/wrapper/social-icons.png?1534849167') 0 0 no-repeat;
 }
-/* line 2075, ../sass/nodes.scss */
+/* line 2078, ../sass/nodes.scss */
 .section-thank-you div#softspot-chocolate .softspot-social a#soft-fb {
   display: block;
   width: 130px;
@@ -2968,9 +2976,9 @@ label[for=edit-search-block-form--2] {
   bottom: 0;
   left: 19px;
   text-indent: -9999px;
-  background: url('../images/wrapper/social-icons.png?1437725247') -19px -68px no-repeat;
+  background: url('../images/wrapper/social-icons.png?1534849167') -19px -68px no-repeat;
 }
-/* line 2085, ../sass/nodes.scss */
+/* line 2088, ../sass/nodes.scss */
 .section-thank-you div#softspot-chocolate .softspot-social a#soft-twit {
   display: block;
   width: 130px;
@@ -2979,37 +2987,37 @@ label[for=edit-search-block-form--2] {
   bottom: 0;
   left: 175px;
   text-indent: -9999px;
-  background: url('../images/wrapper/social-icons.png?1437725247') -175px -68px no-repeat;
+  background: url('../images/wrapper/social-icons.png?1534849167') -175px -68px no-repeat;
 }
-/* line 2097, ../sass/nodes.scss */
+/* line 2100, ../sass/nodes.scss */
 .section-thank-you #softspot-bar-explained {
   padding: 70px 0;
   border-top: 9px solid #b59660;
-  background: url('../images/bg-softspot.png?1437725247') #72562b repeat-x;
+  background: url('../images/bg-softspot.png?1534849167') #72562b repeat-x;
 }
-/* line 2102, ../sass/nodes.scss */
+/* line 2105, ../sass/nodes.scss */
 .section-thank-you #bar-explained,
 .section-thank-you #store-location {
   display: block;
   margin: 0 auto;
 }
-/* line 2107, ../sass/nodes.scss */
+/* line 2110, ../sass/nodes.scss */
 .section-thank-you #store-location {
   padding: 26px 0;
 }
-/* line 2110, ../sass/nodes.scss */
+/* line 2113, ../sass/nodes.scss */
 .section-thank-you #softspot-available {
   background: #f6f2ee;
   height: 162px;
   border-top: 9px solid #b59660;
   border-bottom: 9px solid #b59660;
 }
-/* line 2116, ../sass/nodes.scss */
+/* line 2119, ../sass/nodes.scss */
 .section-thank-you #softspot-tell-us {
   position: relative;
-  background: url('../images/bg-softspot.png?1437725247') #72562b repeat-x;
+  background: url('../images/bg-softspot.png?1534849167') #72562b repeat-x;
 }
-/* line 2119, ../sass/nodes.scss */
+/* line 2122, ../sass/nodes.scss */
 .section-thank-you #softspot-tell-us #twitter-bird {
   display: block;
   width: 93px;
@@ -3017,10 +3025,10 @@ label[for=edit-search-block-form--2] {
   position: absolute;
   top: 350px;
   right: -50px;
-  background: url('../images/wrapper/twitter-bird.png?1437725247') no-repeat;
+  background: url('../images/wrapper/twitter-bird.png?1534849167') no-repeat;
 }
-/* line 2129, ../sass/nodes.scss */
+/* line 2132, ../sass/nodes.scss */
 .section-thank-you #softspot-separator {
   height: 32px;
-  background: url('../images/wrapper/swoosh-bottom-color.png?1437725247') no-repeat;
+  background: url('../images/wrapper/swoosh-bottom-color.png?1534849167') no-repeat;
 }
