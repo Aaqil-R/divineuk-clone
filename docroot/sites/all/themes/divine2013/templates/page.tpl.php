@@ -77,17 +77,19 @@
       <div class="banner" role="banner" style='background-image:url(<?php echo $header_image; ?>);'></div>
     </a>
 
-    <div id="logo"><h1><a href="/uk/">Divine Chocolate</a></h1></div>
+    <div id="logo">
+      <h1><a href="/uk/">Divine Chocolate</a></h1>
+    </div>
    
-   <?php print render($page['header']); ?>
+    <?php if (!drupal_is_front_page()): ?>
+      <?php print render($page['header']); ?>
+    <?php endif; ?>
+    <?php print render($page['nav']); ?>
    
-   <?php print render($page['nav']); ?>
-   
-   <div id="swoosh">
-   </div>
+    <div id="swoosh"></div>
   </header>
-  <div id="main">
-  	
+
+  <div id="main">  	
   	<?php print render($page['highlighted']); ?>
   	
     <?php print $messages; ?>
@@ -98,8 +100,6 @@
     <?php endif; ?>
     
     <?php print $breadcrumb; ?>
-    
-    
     
 	<?php print render($title_prefix); 
 	if (isset($node->type)) $nodetype = $node->type; else $nodetype = 'none';
