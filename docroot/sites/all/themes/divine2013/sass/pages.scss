@@ -529,3 +529,128 @@ body.node-type-press-release h1#page-title {
   font-size: 1.625em;
   width: 72%;
 }
+
+// Campaign Page Styles
+.campaign {
+  display: block;
+
+  * {
+    color: $black;
+  }
+
+  h1,
+  h2 {
+    color: $blue;
+  }
+
+  img {
+    padding-bottom: 3em;    
+  }
+
+  section {
+    @include clearfix;
+
+    margin-bottom: 4em;
+  }
+
+  .campaign-col-full-width {
+    @include clearfix;
+
+    max-width: 380px;
+    margin-bottom: 3em;
+  }
+
+  .campaign-col-left,
+  .campaign-col-right {
+    box-sizing: border-box;
+
+    @include breakpoint(tablet) {
+      padding: 0 4em;
+    }
+  }
+
+  .campaign-col-left {
+    @include breakpoint(desktop) {
+      @include span-columns(5, 10);
+    }
+  }
+
+  .campaign-col-right {
+    @include breakpoint(desktop) {
+      @include span-columns(5 omega, 10);
+    }
+  }
+
+  // CTA Button
+  .cta {
+    a {
+      @include adjust-font-size-to(1.3 * $base-font-size);
+
+      border: 1px solid $gold;
+      border-radius: $default-border-radius;
+      letter-spacing: 1px;
+      padding: .5em 1.5em;
+      transition: all .3s ease;
+
+      &:hover,
+      &:focus {
+        background: $brown;
+        border-color: $brown;
+        color: $gold;
+        text-decoration: none;
+      }
+    }
+  }
+
+  // Flavours List
+  .flavours-list {
+    > div {
+      display: flex;
+      font-weight: bold;
+      margin-bottom: 2em;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      &:before {
+        background-size: contain !important;
+        content: '';
+        flex: 1 0 60px;
+        height: 60px;
+        padding-right: 2em;
+        width: 60px;
+      }
+
+      &.icon-lemon {
+        &:before {
+          background: image-url("symbols/flavours/lemon.png") no-repeat;
+        }
+      }
+
+      &.icon-cocoa {
+        &:before {
+          background: image-url("symbols/flavours/nibs.png") no-repeat;
+        }
+      }
+
+      &.icon-ginger {
+        &:before {
+          background: image-url("symbols/flavours/ginger.png") no-repeat;
+        }
+      }
+
+      &.icon-blueberry {
+        &:before {
+          background: image-url("symbols/flavours/blueberry.png") no-repeat;
+        }
+      }
+
+      &.icon-dark {
+        &:before {
+          background: image-url("symbols/flavours/dark.png") no-repeat;
+        }
+      }
+    }
+  }
+}
