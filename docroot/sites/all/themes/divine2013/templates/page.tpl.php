@@ -72,7 +72,10 @@
 
 <div id="page">
 
-  <header id="header" role="banner" style='background-image:url(<?php echo $header_image; ?>);'>
+  <header id="header">
+    <a href="http://www.divinechocolate.com/uk/organic">
+      <div class="banner" role="banner" style='background-image:url(<?php echo $header_image; ?>);'></div>
+    </a>
 
     <div id="logo"><h1><a href="/uk/">Divine Chocolate</a></h1></div>
    

@@ -68,3 +68,8 @@
   box-shadow: 0px 5px 4px rgba(88, 89, 91, 0.3);
   transition: all 0.5s linear;
 }
+/* line 65, ../sass/views-styles.scss */
+.front .single-column-full-height {
+  max-height: 728px;
+  overflow-y: hidden;
+}
