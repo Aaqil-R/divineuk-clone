@@ -544,13 +544,14 @@ body.node-type-press-release h1#page-title {
   }
 
   img {
-    padding-bottom: 3em;    
+    padding-bottom: 3em;  
+    margin: 0;  
   }
 
   section {
     @include clearfix;
 
-    margin-bottom: 4em;
+    margin-bottom: 2em;
   }
 
   .campaign-col-full-width {
@@ -609,6 +610,8 @@ body.node-type-press-release h1#page-title {
 
   // Flavours List
   .flavours-list {
+    margin-bottom: 3em;
+
     > div {
       display: flex;
       font-weight: bold;

@@ -574,34 +574,35 @@ body.node-type-press-release h1#page-title {
 /* line 546, ../sass/pages.scss */
 .campaign img {
   padding-bottom: 3em;
+  margin: 0;
 }
-/* line 550, ../sass/pages.scss */
+/* line 551, ../sass/pages.scss */
 .campaign section {
   overflow: hidden;
   *zoom: 1;
-  margin-bottom: 4em;
+  margin-bottom: 2em;
 }
-/* line 556, ../sass/pages.scss */
+/* line 557, ../sass/pages.scss */
 .campaign .campaign-col-full-width {
   overflow: hidden;
   *zoom: 1;
   max-width: 380px;
   margin-bottom: 3em;
 }
-/* line 563, ../sass/pages.scss */
+/* line 564, ../sass/pages.scss */
 .campaign .campaign-col-left,
 .campaign .campaign-col-right {
   box-sizing: border-box;
 }
 @media (min-width: 32em) {
-  /* line 563, ../sass/pages.scss */
+  /* line 564, ../sass/pages.scss */
   .campaign .campaign-col-left,
   .campaign .campaign-col-right {
     padding: 0 4em;
   }
 }
 @media (min-width: 49em) {
-  /* line 572, ../sass/pages.scss */
+  /* line 573, ../sass/pages.scss */
   .campaign .campaign-col-left {
     width: 48.97959%;
     float: left;
@@ -610,7 +611,7 @@ body.node-type-press-release h1#page-title {
   }
 }
 @media (min-width: 49em) {
-  /* line 578, ../sass/pages.scss */
+  /* line 579, ../sass/pages.scss */
   .campaign .campaign-col-right {
     width: 48.97959%;
     float: right;
@@ -619,13 +620,13 @@ body.node-type-press-release h1#page-title {
     display: inline;
   }
 }
-/* line 585, ../sass/pages.scss */
+/* line 586, ../sass/pages.scss */
 .campaign .cta {
   overflow: hidden;
   *zoom: 1;
   margin: 2em 0 3em;
 }
-/* line 590, ../sass/pages.scss */
+/* line 591, ../sass/pages.scss */
 .campaign .cta a {
   font-size: 1.3em;
   line-height: 1.34615em;
@@ -636,7 +637,7 @@ body.node-type-press-release h1#page-title {
   padding: .5em 1.5em;
   transition: all .3s ease;
 }
-/* line 600, ../sass/pages.scss */
+/* line 601, ../sass/pages.scss */
 .campaign .cta a:hover, .campaign .cta a:focus {
   background: #793F0D;
   border-color: #793F0D;
@@ -644,16 +645,20 @@ body.node-type-press-release h1#page-title {
   text-decoration: none;
 }
 /* line 612, ../sass/pages.scss */
+.campaign .flavours-list {
+  margin-bottom: 3em;
+}
+/* line 615, ../sass/pages.scss */
 .campaign .flavours-list > div {
   display: flex;
   font-weight: bold;
   margin-bottom: 2em;
 }
-/* line 617, ../sass/pages.scss */
+/* line 620, ../sass/pages.scss */
 .campaign .flavours-list > div:last-child {
   margin-bottom: 0;
 }
-/* line 621, ../sass/pages.scss */
+/* line 624, ../sass/pages.scss */
 .campaign .flavours-list > div:before {
   background-size: contain !important;
   content: '';
@@ -662,35 +667,35 @@ body.node-type-press-release h1#page-title {
   padding-right: 2em;
   width: 60px;
 }
-/* line 631, ../sass/pages.scss */
+/* line 634, ../sass/pages.scss */
 .campaign .flavours-list > div.icon-lemon:before {
   background: url('../images/symbols/flavours/lemon.png?1535536337') no-repeat;
 }
-/* line 637, ../sass/pages.scss */
+/* line 640, ../sass/pages.scss */
 .campaign .flavours-list > div.icon-cocoa:before {
   background: url('../images/symbols/flavours/nibs.png?1535536337') no-repeat;
 }
-/* line 643, ../sass/pages.scss */
+/* line 646, ../sass/pages.scss */
 .campaign .flavours-list > div.icon-ginger:before {
   background: url('../images/symbols/flavours/ginger.png?1535536337') no-repeat;
 }
-/* line 649, ../sass/pages.scss */
+/* line 652, ../sass/pages.scss */
 .campaign .flavours-list > div.icon-blueberry:before {
   background: url('../images/symbols/flavours/blueberry.png?1535536337') no-repeat;
 }
-/* line 655, ../sass/pages.scss */
+/* line 658, ../sass/pages.scss */
 .campaign .flavours-list > div.icon-dark:before {
   background: url('../images/symbols/flavours/dark.png?1535536337') no-repeat;
 }
 
-/* line 664, ../sass/pages.scss */
+/* line 667, ../sass/pages.scss */
 .gstuff-banner {
   background: #2c2b2b;
   float: left;
   margin-bottom: 4em;
   position: relative;
 }
-/* line 670, ../sass/pages.scss */
+/* line 673, ../sass/pages.scss */
 .gstuff-banner .gstuff-banner__left,
 .gstuff-banner .gstuff-banner__right {
   width: 100%;
@@ -699,13 +704,13 @@ body.node-type-press-release h1#page-title {
   display: inline;
   box-sizing: border-box;
 }
-/* line 677, ../sass/pages.scss */
+/* line 680, ../sass/pages.scss */
 .gstuff-banner .gstuff-banner__left {
   height: 360px;
   position: relative;
 }
 @media (min-width: 49em) {
-  /* line 677, ../sass/pages.scss */
+  /* line 680, ../sass/pages.scss */
   .gstuff-banner .gstuff-banner__left {
     width: 59.18367%;
     float: left;
@@ -713,19 +718,19 @@ body.node-type-press-release h1#page-title {
     display: inline;
   }
 }
-/* line 686, ../sass/pages.scss */
+/* line 689, ../sass/pages.scss */
 .gstuff-banner .gstuff-banner__right {
   padding: 0 2em;
   text-align: center;
 }
-/* line 690, ../sass/pages.scss */
+/* line 693, ../sass/pages.scss */
 .gstuff-banner .gstuff-banner__right * {
   color: #ffffff;
   font-family: "Avenir LT W01 65 Medium", Helvetica, Arial, "Nimbus Sans L", sans-serif;
   text-transform: none;
 }
 @media (min-width: 49em) {
-  /* line 686, ../sass/pages.scss */
+  /* line 689, ../sass/pages.scss */
   .gstuff-banner .gstuff-banner__right {
     width: 38.77551%;
     float: right;
@@ -736,7 +741,7 @@ body.node-type-press-release h1#page-title {
     text-align: left;
   }
 }
-/* line 703, ../sass/pages.scss */
+/* line 706, ../sass/pages.scss */
 .gstuff-banner .gstuff-banner__bg {
   background: url('../images/goodstuff-banner/gstuff-banner-bg.png?1535536337') no-repeat top right;
   background-size: contain;
@@ -747,7 +752,7 @@ body.node-type-press-release h1#page-title {
   top: 0;
   width: 100%;
 }
-/* line 714, ../sass/pages.scss */
+/* line 717, ../sass/pages.scss */
 .gstuff-banner .gstuff-banner__img {
   background: url('../images/goodstuff-banner/gstuff-banner-img.png?1535536337') no-repeat center center;
   background-size: contain;
@@ -757,7 +762,7 @@ body.node-type-press-release h1#page-title {
   top: 0;
   width: 100%;
 }
-/* line 724, ../sass/pages.scss */
+/* line 727, ../sass/pages.scss */
 .gstuff-banner .readmore-btn {
   font-size: 1.3em;
   line-height: 1.34615em;
@@ -771,7 +776,7 @@ body.node-type-press-release h1#page-title {
   text-align: center;
   transition: all .3s ease;
 }
-/* line 737, ../sass/pages.scss */
+/* line 740, ../sass/pages.scss */
 .gstuff-banner .readmore-btn:hover, .gstuff-banner .readmore-btn:focus {
   background: #ffffff;
   border-color: #4d3fb5;
