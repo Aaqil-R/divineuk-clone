@@ -623,7 +623,7 @@ body.node-type-press-release h1#page-title {
 .campaign .cta {
   overflow: hidden;
   *zoom: 1;
-  margin: 2em 0 4em;
+  margin: 2em 0 3em;
 }
 /* line 590, ../sass/pages.scss */
 .campaign .cta a {

@@ -585,7 +585,7 @@ body.node-type-press-release h1#page-title {
   .cta {
     @include clearfix;
 
-    margin: 2em 0 4em;
+    margin: 2em 0 3em;
 
     a {
       @include adjust-font-size-to(1.3 * $base-font-size);
