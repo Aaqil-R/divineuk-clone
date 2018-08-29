@@ -583,6 +583,10 @@ body.node-type-press-release h1#page-title {
 
   // CTA Button
   .cta {
+    @include clearfix;
+
+    margin: 2em 0 4em;
+
     a {
       @include adjust-font-size-to(1.3 * $base-font-size);
 
@@ -651,6 +655,90 @@ body.node-type-press-release h1#page-title {
           background: image-url("symbols/flavours/dark.png") no-repeat;
         }
       }
+    }
+  }
+}
+
+// Good Stuff banner
+.gstuff-banner {
+  background: $dark-grey;
+  float: left;
+  margin-bottom: 4em;
+  position: relative;
+
+  .gstuff-banner__left,
+  .gstuff-banner__right {
+    @include span-columns(10, 10);
+
+    box-sizing: border-box;
+  }
+
+  .gstuff-banner__left {
+    height: 360px;
+    position: relative;
+
+    @include breakpoint(desktop) {
+      @include span-columns(6, 10);
+    }
+  }
+
+  .gstuff-banner__right {
+    padding: 0 2em;
+    text-align: center;
+
+    * {
+      color: $white;
+      font-family: $font-body;
+      text-transform: none;
+    }
+
+    @include breakpoint(desktop) {
+      @include span-columns(4 omega, 10);
+      padding: 3em 2em 0 0;
+      text-align: left;
+    }
+  }
+
+  .gstuff-banner__bg {
+    background: image-url("goodstuff-banner/gstuff-banner-bg.png") no-repeat top right;
+    background-size: contain;
+    height: 100%;
+    left: 3em;
+    opacity: 0.16;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  .gstuff-banner__img {
+    background: image-url("goodstuff-banner/gstuff-banner-img.png") no-repeat center center;
+    background-size: contain;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  .readmore-btn {
+    @include adjust-font-size-to(1.3 * $base-font-size);
+
+    background: $purple1;
+    border: 1px solid $white;
+    border-radius: $default-border-radius;
+    display: block;
+    letter-spacing: 1px;
+    margin: 2em 0;
+    padding: .5em 1.5em;
+    text-align: center;
+    transition: all .3s ease;
+
+    &:hover,
+    &:focus {
+      background: $white;
+      border-color: $purple1;
+      color: $purple1;
+      text-decoration: none;
     }
   }
 }

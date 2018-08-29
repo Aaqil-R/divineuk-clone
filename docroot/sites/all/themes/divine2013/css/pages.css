@@ -619,7 +619,13 @@ body.node-type-press-release h1#page-title {
     display: inline;
   }
 }
-/* line 586, ../sass/pages.scss */
+/* line 585, ../sass/pages.scss */
+.campaign .cta {
+  overflow: hidden;
+  *zoom: 1;
+  margin: 2em 0 4em;
+}
+/* line 590, ../sass/pages.scss */
 .campaign .cta a {
   font-size: 1.3em;
   line-height: 1.34615em;
@@ -629,24 +635,24 @@ body.node-type-press-release h1#page-title {
   padding: .5em 1.5em;
   transition: all .3s ease;
 }
-/* line 595, ../sass/pages.scss */
+/* line 599, ../sass/pages.scss */
 .campaign .cta a:hover, .campaign .cta a:focus {
   background: #793F0D;
   border-color: #793F0D;
   color: #A39161;
   text-decoration: none;
 }
-/* line 607, ../sass/pages.scss */
+/* line 611, ../sass/pages.scss */
 .campaign .flavours-list > div {
   display: flex;
   font-weight: bold;
   margin-bottom: 2em;
 }
-/* line 612, ../sass/pages.scss */
+/* line 616, ../sass/pages.scss */
 .campaign .flavours-list > div:last-child {
   margin-bottom: 0;
 }
-/* line 616, ../sass/pages.scss */
+/* line 620, ../sass/pages.scss */
 .campaign .flavours-list > div:before {
   background-size: contain !important;
   content: '';
@@ -655,23 +661,119 @@ body.node-type-press-release h1#page-title {
   padding-right: 2em;
   width: 60px;
 }
-/* line 626, ../sass/pages.scss */
+/* line 630, ../sass/pages.scss */
 .campaign .flavours-list > div.icon-lemon:before {
   background: url('../images/symbols/flavours/lemon.png?1535125869') no-repeat;
 }
-/* line 632, ../sass/pages.scss */
+/* line 636, ../sass/pages.scss */
 .campaign .flavours-list > div.icon-cocoa:before {
   background: url('../images/symbols/flavours/nibs.png?1535125886') no-repeat;
 }
-/* line 638, ../sass/pages.scss */
+/* line 642, ../sass/pages.scss */
 .campaign .flavours-list > div.icon-ginger:before {
   background: url('../images/symbols/flavours/ginger.png?1535125878') no-repeat;
 }
-/* line 644, ../sass/pages.scss */
+/* line 648, ../sass/pages.scss */
 .campaign .flavours-list > div.icon-blueberry:before {
   background: url('../images/symbols/flavours/blueberry.png?1535125897') no-repeat;
 }
-/* line 650, ../sass/pages.scss */
+/* line 654, ../sass/pages.scss */
 .campaign .flavours-list > div.icon-dark:before {
   background: url('../images/symbols/flavours/dark.png?1535125908') no-repeat;
+}
+
+/* line 663, ../sass/pages.scss */
+.gstuff-banner {
+  background: #2c2b2b;
+  float: left;
+  margin-bottom: 4em;
+  position: relative;
+}
+/* line 669, ../sass/pages.scss */
+.gstuff-banner .gstuff-banner__left,
+.gstuff-banner .gstuff-banner__right {
+  width: 100%;
+  float: left;
+  margin-right: 2.04082%;
+  display: inline;
+  box-sizing: border-box;
+}
+/* line 676, ../sass/pages.scss */
+.gstuff-banner .gstuff-banner__left {
+  height: 360px;
+  position: relative;
+}
+@media (min-width: 49em) {
+  /* line 676, ../sass/pages.scss */
+  .gstuff-banner .gstuff-banner__left {
+    width: 59.18367%;
+    float: left;
+    margin-right: 2.04082%;
+    display: inline;
+  }
+}
+/* line 685, ../sass/pages.scss */
+.gstuff-banner .gstuff-banner__right {
+  padding: 0 2em;
+  text-align: center;
+}
+/* line 689, ../sass/pages.scss */
+.gstuff-banner .gstuff-banner__right * {
+  color: #ffffff;
+  font-family: "Avenir LT W01 65 Medium", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+  text-transform: none;
+}
+@media (min-width: 49em) {
+  /* line 685, ../sass/pages.scss */
+  .gstuff-banner .gstuff-banner__right {
+    width: 38.77551%;
+    float: right;
+    margin-right: 0;
+    *margin-left: -1em;
+    display: inline;
+    padding: 3em 2em 0 0;
+    text-align: left;
+  }
+}
+/* line 702, ../sass/pages.scss */
+.gstuff-banner .gstuff-banner__bg {
+  background: url('../images/goodstuff-banner/gstuff-banner-bg.png?1535527281') no-repeat top right;
+  background-size: contain;
+  height: 100%;
+  left: 3em;
+  opacity: 0.16;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+/* line 713, ../sass/pages.scss */
+.gstuff-banner .gstuff-banner__img {
+  background: url('../images/goodstuff-banner/gstuff-banner-img.png?1535526626') no-repeat center center;
+  background-size: contain;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+/* line 723, ../sass/pages.scss */
+.gstuff-banner .readmore-btn {
+  font-size: 1.3em;
+  line-height: 1.34615em;
+  background: #4d3fb5;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  display: block;
+  letter-spacing: 1px;
+  margin: 2em 0;
+  padding: .5em 1.5em;
+  text-align: center;
+  transition: all .3s ease;
+}
+/* line 736, ../sass/pages.scss */
+.gstuff-banner .readmore-btn:hover, .gstuff-banner .readmore-btn:focus {
+  background: #ffffff;
+  border-color: #4d3fb5;
+  color: #4d3fb5;
+  text-decoration: none;
 }
