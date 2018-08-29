@@ -746,3 +746,47 @@ body.node-type-press-release h1#page-title {
     }
   }
 }
+
+// Home page change
+.home-bg-3 {
+  @include breakpoint(desktop) {
+    background-image: image-url("homepage-banner/TakeoverWallpaper.png");
+    background-color: $white;
+    background-position: top center;
+    background-repeat: repeat-x;
+    background-size: 130%;
+  }
+
+  #header,
+  #page {
+    background: none;
+  }
+
+  #swoosh {
+    @include breakpoint(desktop) {
+      top: 290px !important;
+    }
+  }
+
+  .banner {
+    background-image: image-url("homepage-banner/TakeoverWallpaper.png");
+    top: 2.35em !important;
+    z-index: -1;
+
+    @include breakpoint(desktop) {
+      background-size: 85%;
+    }
+  }
+
+  #main {
+    padding-top: 1.5em;
+  }
+
+  #header,
+  #main,
+  #footer {
+    @include breakpoint(desktop) {
+      box-shadow: 0 9px 0 0 $white, 0 -9px 0 0 $white, 8px 0 15px -4px rgba(0, 0, 0, 0.15), -8px 0 15px -4px rgba(0, 0, 0, 0.15);
+    }
+  }
+}

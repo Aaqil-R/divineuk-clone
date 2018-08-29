@@ -783,3 +783,49 @@ body.node-type-press-release h1#page-title {
   color: #4d3fb5;
   text-decoration: none;
 }
+
+@media (min-width: 49em) {
+  /* line 751, ../sass/pages.scss */
+  .home-bg-3 {
+    background-image: url('../images/homepage-banner/TakeoverWallpaper.png?1535122847');
+    background-color: #ffffff;
+    background-position: top center;
+    background-repeat: repeat-x;
+    background-size: 130%;
+  }
+}
+/* line 760, ../sass/pages.scss */
+.home-bg-3 #header,
+.home-bg-3 #page {
+  background: none;
+}
+@media (min-width: 49em) {
+  /* line 765, ../sass/pages.scss */
+  .home-bg-3 #swoosh {
+    top: 290px !important;
+  }
+}
+/* line 771, ../sass/pages.scss */
+.home-bg-3 .banner {
+  background-image: url('../images/homepage-banner/TakeoverWallpaper.png?1535122847');
+  top: 2.35em !important;
+  z-index: -1;
+}
+@media (min-width: 49em) {
+  /* line 771, ../sass/pages.scss */
+  .home-bg-3 .banner {
+    background-size: 85%;
+  }
+}
+/* line 781, ../sass/pages.scss */
+.home-bg-3 #main {
+  padding-top: 1.5em;
+}
+@media (min-width: 49em) {
+  /* line 785, ../sass/pages.scss */
+  .home-bg-3 #header,
+  .home-bg-3 #main,
+  .home-bg-3 #footer {
+    box-shadow: 0 9px 0 0 #ffffff, 0 -9px 0 0 #ffffff, 8px 0 15px -4px rgba(0, 0, 0, 0.15), -8px 0 15px -4px rgba(0, 0, 0, 0.15);
+  }
+}
