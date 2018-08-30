@@ -535,6 +535,10 @@ body.node-type-press-release h1#page-title {
   h1.title {
     display: none;
   }
+
+  .region-nav #block-system-main-menu ul li:nth-of-type(2) {
+    background: $blue;
+  }
 }
 
 .campaign {
