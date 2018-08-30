@@ -531,6 +531,12 @@ body.node-type-press-release h1#page-title {
 }
 
 // Campaign Page Styles
+.bg-organic {
+  h1.title {
+    display: none;
+  }
+}
+
 .campaign {
   display: block;
 

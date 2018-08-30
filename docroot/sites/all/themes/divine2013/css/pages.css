@@ -558,51 +558,56 @@ body.node-type-press-release h1#page-title {
   width: 72%;
 }
 
-/* line 534, ../sass/pages.scss */
+/* line 535, ../sass/pages.scss */
+.bg-organic h1.title {
+  display: none;
+}
+
+/* line 540, ../sass/pages.scss */
 .campaign {
   display: block;
 }
-/* line 537, ../sass/pages.scss */
+/* line 543, ../sass/pages.scss */
 .campaign * {
   color: #000000;
 }
-/* line 541, ../sass/pages.scss */
+/* line 547, ../sass/pages.scss */
 .campaign h1,
 .campaign h2 {
   color: #00AEEF;
 }
-/* line 546, ../sass/pages.scss */
+/* line 552, ../sass/pages.scss */
 .campaign img {
   padding-bottom: 3em;
   margin: 0;
 }
-/* line 551, ../sass/pages.scss */
+/* line 557, ../sass/pages.scss */
 .campaign section {
   overflow: hidden;
   *zoom: 1;
   margin-bottom: 2em;
 }
-/* line 557, ../sass/pages.scss */
+/* line 563, ../sass/pages.scss */
 .campaign .campaign-col-full-width {
   overflow: hidden;
   *zoom: 1;
   max-width: 380px;
   margin-bottom: 3em;
 }
-/* line 564, ../sass/pages.scss */
+/* line 570, ../sass/pages.scss */
 .campaign .campaign-col-left,
 .campaign .campaign-col-right {
   box-sizing: border-box;
 }
 @media (min-width: 32em) {
-  /* line 564, ../sass/pages.scss */
+  /* line 570, ../sass/pages.scss */
   .campaign .campaign-col-left,
   .campaign .campaign-col-right {
     padding: 0 4em;
   }
 }
 @media (min-width: 49em) {
-  /* line 573, ../sass/pages.scss */
+  /* line 579, ../sass/pages.scss */
   .campaign .campaign-col-left {
     width: 48.97959%;
     float: left;
@@ -611,7 +616,7 @@ body.node-type-press-release h1#page-title {
   }
 }
 @media (min-width: 49em) {
-  /* line 579, ../sass/pages.scss */
+  /* line 585, ../sass/pages.scss */
   .campaign .campaign-col-right {
     width: 48.97959%;
     float: right;
@@ -620,13 +625,13 @@ body.node-type-press-release h1#page-title {
     display: inline;
   }
 }
-/* line 586, ../sass/pages.scss */
+/* line 592, ../sass/pages.scss */
 .campaign .cta {
   overflow: hidden;
   *zoom: 1;
   margin: 2em 0 3em;
 }
-/* line 591, ../sass/pages.scss */
+/* line 597, ../sass/pages.scss */
 .campaign .cta a {
   font-size: 1.3em;
   line-height: 1.34615em;
@@ -637,28 +642,28 @@ body.node-type-press-release h1#page-title {
   padding: .5em 1.5em;
   transition: all .3s ease;
 }
-/* line 601, ../sass/pages.scss */
+/* line 607, ../sass/pages.scss */
 .campaign .cta a:hover, .campaign .cta a:focus {
   background: #793F0D;
   border-color: #793F0D;
   color: #A39161;
   text-decoration: none;
 }
-/* line 612, ../sass/pages.scss */
+/* line 618, ../sass/pages.scss */
 .campaign .flavours-list {
   margin-bottom: 3em;
 }
-/* line 615, ../sass/pages.scss */
+/* line 621, ../sass/pages.scss */
 .campaign .flavours-list > div {
   display: flex;
   font-weight: bold;
   margin-bottom: 2em;
 }
-/* line 620, ../sass/pages.scss */
+/* line 626, ../sass/pages.scss */
 .campaign .flavours-list > div:last-child {
   margin-bottom: 0;
 }
-/* line 624, ../sass/pages.scss */
+/* line 630, ../sass/pages.scss */
 .campaign .flavours-list > div:before {
   background-size: contain !important;
   content: '';
@@ -667,35 +672,35 @@ body.node-type-press-release h1#page-title {
   padding-right: 2em;
   width: 60px;
 }
-/* line 634, ../sass/pages.scss */
+/* line 640, ../sass/pages.scss */
 .campaign .flavours-list > div.icon-lemon:before {
   background: url('../images/symbols/flavours/lemon.png?1535536337') no-repeat;
 }
-/* line 640, ../sass/pages.scss */
+/* line 646, ../sass/pages.scss */
 .campaign .flavours-list > div.icon-cocoa:before {
   background: url('../images/symbols/flavours/nibs.png?1535536337') no-repeat;
 }
-/* line 646, ../sass/pages.scss */
+/* line 652, ../sass/pages.scss */
 .campaign .flavours-list > div.icon-ginger:before {
   background: url('../images/symbols/flavours/ginger.png?1535536337') no-repeat;
 }
-/* line 652, ../sass/pages.scss */
+/* line 658, ../sass/pages.scss */
 .campaign .flavours-list > div.icon-blueberry:before {
   background: url('../images/symbols/flavours/blueberry.png?1535536337') no-repeat;
 }
-/* line 658, ../sass/pages.scss */
+/* line 664, ../sass/pages.scss */
 .campaign .flavours-list > div.icon-dark:before {
   background: url('../images/symbols/flavours/dark.png?1535536337') no-repeat;
 }
 
-/* line 667, ../sass/pages.scss */
+/* line 673, ../sass/pages.scss */
 .gstuff-banner {
   background: #2c2b2b;
   float: left;
   margin-bottom: 4em;
   position: relative;
 }
-/* line 673, ../sass/pages.scss */
+/* line 679, ../sass/pages.scss */
 .gstuff-banner .gstuff-banner__left,
 .gstuff-banner .gstuff-banner__right {
   width: 100%;
@@ -704,13 +709,13 @@ body.node-type-press-release h1#page-title {
   display: inline;
   box-sizing: border-box;
 }
-/* line 680, ../sass/pages.scss */
+/* line 686, ../sass/pages.scss */
 .gstuff-banner .gstuff-banner__left {
   height: 360px;
   position: relative;
 }
 @media (min-width: 49em) {
-  /* line 680, ../sass/pages.scss */
+  /* line 686, ../sass/pages.scss */
   .gstuff-banner .gstuff-banner__left {
     width: 59.18367%;
     float: left;
@@ -718,19 +723,19 @@ body.node-type-press-release h1#page-title {
     display: inline;
   }
 }
-/* line 689, ../sass/pages.scss */
+/* line 695, ../sass/pages.scss */
 .gstuff-banner .gstuff-banner__right {
   padding: 0 2em;
   text-align: center;
 }
-/* line 693, ../sass/pages.scss */
+/* line 699, ../sass/pages.scss */
 .gstuff-banner .gstuff-banner__right * {
   color: #ffffff;
   font-family: "Avenir LT W01 65 Medium", Helvetica, Arial, "Nimbus Sans L", sans-serif;
   text-transform: none;
 }
 @media (min-width: 49em) {
-  /* line 689, ../sass/pages.scss */
+  /* line 695, ../sass/pages.scss */
   .gstuff-banner .gstuff-banner__right {
     width: 38.77551%;
     float: right;
@@ -741,7 +746,7 @@ body.node-type-press-release h1#page-title {
     text-align: left;
   }
 }
-/* line 706, ../sass/pages.scss */
+/* line 712, ../sass/pages.scss */
 .gstuff-banner .gstuff-banner__bg {
   background: url('../images/goodstuff-banner/gstuff-banner-bg.png?1535536337') no-repeat top right;
   background-size: contain;
@@ -752,7 +757,7 @@ body.node-type-press-release h1#page-title {
   top: 0;
   width: 100%;
 }
-/* line 717, ../sass/pages.scss */
+/* line 723, ../sass/pages.scss */
 .gstuff-banner .gstuff-banner__img {
   background: url('../images/goodstuff-banner/gstuff-banner-img.png?1535536337') no-repeat center center;
   background-size: contain;
@@ -762,7 +767,7 @@ body.node-type-press-release h1#page-title {
   top: 0;
   width: 100%;
 }
-/* line 727, ../sass/pages.scss */
+/* line 733, ../sass/pages.scss */
 .gstuff-banner .readmore-btn {
   font-size: 1.3em;
   line-height: 1.34615em;
@@ -776,7 +781,7 @@ body.node-type-press-release h1#page-title {
   text-align: center;
   transition: all .3s ease;
 }
-/* line 740, ../sass/pages.scss */
+/* line 746, ../sass/pages.scss */
 .gstuff-banner .readmore-btn:hover, .gstuff-banner .readmore-btn:focus {
   background: #ffffff;
   border-color: #4d3fb5;
@@ -785,44 +790,44 @@ body.node-type-press-release h1#page-title {
 }
 
 @media (min-width: 49em) {
-  /* line 751, ../sass/pages.scss */
+  /* line 757, ../sass/pages.scss */
   .home-bg-3 {
-    background-image: url('../images/homepage-banner/TakeoverWallpaper.png?1535122847');
+    background-image: url('../images/homepage-banner/TakeoverWallpaper.png?1535544538');
     background-color: #ffffff;
     background-position: top center;
     background-repeat: repeat-x;
     background-size: 130%;
   }
 }
-/* line 760, ../sass/pages.scss */
+/* line 766, ../sass/pages.scss */
 .home-bg-3 #header,
 .home-bg-3 #page {
   background: none;
 }
 @media (min-width: 49em) {
-  /* line 765, ../sass/pages.scss */
+  /* line 771, ../sass/pages.scss */
   .home-bg-3 #swoosh {
     top: 290px !important;
   }
 }
-/* line 771, ../sass/pages.scss */
+/* line 777, ../sass/pages.scss */
 .home-bg-3 .banner {
-  background-image: url('../images/homepage-banner/TakeoverWallpaper.png?1535122847');
+  background-image: url('../images/homepage-banner/TakeoverWallpaper.png?1535544538');
   top: 2.35em !important;
   z-index: -1;
 }
 @media (min-width: 49em) {
-  /* line 771, ../sass/pages.scss */
+  /* line 777, ../sass/pages.scss */
   .home-bg-3 .banner {
     background-size: 85%;
   }
 }
-/* line 781, ../sass/pages.scss */
+/* line 787, ../sass/pages.scss */
 .home-bg-3 #main {
   padding-top: 1.5em;
 }
 @media (min-width: 49em) {
-  /* line 785, ../sass/pages.scss */
+  /* line 791, ../sass/pages.scss */
   .home-bg-3 #header,
   .home-bg-3 #main,
   .home-bg-3 #footer {
