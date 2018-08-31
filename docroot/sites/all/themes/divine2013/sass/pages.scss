@@ -800,3 +800,13 @@ body.node-type-press-release h1#page-title {
     }
   }
 }
+
+// Hide inputs on header only for home
+.front {
+  .header__region {
+    #block-search-form,
+    #block-block-4 {
+      display: none !important;
+    }
+  }
+}

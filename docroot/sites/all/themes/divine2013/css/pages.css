@@ -678,23 +678,23 @@ body.node-type-press-release h1#page-title {
 }
 /* line 644, ../sass/pages.scss */
 .campaign .flavours-list > div.icon-lemon:before {
-  background: url('../images/symbols/flavours/lemon.png?1535536337') no-repeat;
+  background: url('../images/symbols/flavours/lemon.png?1535706719') no-repeat;
 }
 /* line 650, ../sass/pages.scss */
 .campaign .flavours-list > div.icon-cocoa:before {
-  background: url('../images/symbols/flavours/nibs.png?1535536337') no-repeat;
+  background: url('../images/symbols/flavours/nibs.png?1535706719') no-repeat;
 }
 /* line 656, ../sass/pages.scss */
 .campaign .flavours-list > div.icon-ginger:before {
-  background: url('../images/symbols/flavours/ginger.png?1535536337') no-repeat;
+  background: url('../images/symbols/flavours/ginger.png?1535706719') no-repeat;
 }
 /* line 662, ../sass/pages.scss */
 .campaign .flavours-list > div.icon-blueberry:before {
-  background: url('../images/symbols/flavours/blueberry.png?1535536337') no-repeat;
+  background: url('../images/symbols/flavours/blueberry.png?1535706719') no-repeat;
 }
 /* line 668, ../sass/pages.scss */
 .campaign .flavours-list > div.icon-dark:before {
-  background: url('../images/symbols/flavours/dark.png?1535536337') no-repeat;
+  background: url('../images/symbols/flavours/dark.png?1535706719') no-repeat;
 }
 
 /* line 677, ../sass/pages.scss */
@@ -752,7 +752,7 @@ body.node-type-press-release h1#page-title {
 }
 /* line 716, ../sass/pages.scss */
 .gstuff-banner .gstuff-banner__bg {
-  background: url('../images/goodstuff-banner/gstuff-banner-bg.png?1535536337') no-repeat top right;
+  background: url('../images/goodstuff-banner/gstuff-banner-bg.png?1535706719') no-repeat top right;
   background-size: contain;
   height: 100%;
   left: 3em;
@@ -763,7 +763,7 @@ body.node-type-press-release h1#page-title {
 }
 /* line 727, ../sass/pages.scss */
 .gstuff-banner .gstuff-banner__img {
-  background: url('../images/goodstuff-banner/gstuff-banner-img.png?1535536337') no-repeat center center;
+  background: url('../images/goodstuff-banner/gstuff-banner-img.png?1535706719') no-repeat center center;
   background-size: contain;
   height: 100%;
   left: 0;
@@ -796,7 +796,7 @@ body.node-type-press-release h1#page-title {
 @media (min-width: 49em) {
   /* line 761, ../sass/pages.scss */
   .home-bg-3 {
-    background-image: url('../images/homepage-banner/TakeoverWallpaper.png?1535544538');
+    background-image: url('../images/homepage-banner/TakeoverWallpaper.png?1535706719');
     background-color: #ffffff;
     background-position: top center;
     background-repeat: repeat-x;
@@ -816,7 +816,7 @@ body.node-type-press-release h1#page-title {
 }
 /* line 781, ../sass/pages.scss */
 .home-bg-3 .banner {
-  background-image: url('../images/homepage-banner/TakeoverWallpaper.png?1535544538');
+  background-image: url('../images/homepage-banner/TakeoverWallpaper.png?1535706719');
   top: 2.35em !important;
   z-index: -1;
 }
@@ -837,4 +837,10 @@ body.node-type-press-release h1#page-title {
   .home-bg-3 #footer {
     box-shadow: 0 9px 0 0 #ffffff, 0 -9px 0 0 #ffffff, 8px 0 15px -4px rgba(0, 0, 0, 0.15), -8px 0 15px -4px rgba(0, 0, 0, 0.15);
   }
+}
+
+/* line 807, ../sass/pages.scss */
+.front .header__region #block-search-form,
+.front .header__region #block-block-4 {
+  display: none !important;
 }

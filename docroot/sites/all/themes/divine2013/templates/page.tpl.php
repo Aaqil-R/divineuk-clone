@@ -81,9 +81,7 @@
       <h1><a href="/uk/">Divine Chocolate</a></h1>
     </div>
    
-    <?php if (!drupal_is_front_page()): ?>
-      <?php print render($page['header']); ?>
-    <?php endif; ?>
+    <?php print render($page['header']); ?>
     <?php print render($page['nav']); ?>
    
     <div id="swoosh"></div>
