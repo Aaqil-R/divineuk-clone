@@ -10,11 +10,11 @@
 function google_store_locator_requirements($phase) {
   $requirements = array();
   $t = get_t();
-  // Verify that Google's Store Locator library is present.
   if ($phase == 'runtime') {
     drupal_load('module', 'libraries');
 
     if (!is_dir(libraries_get_path('storelocator'))) {
+      // Verify that Google's Store Locator library is present.
       $requirements['google_store_locator'] = array(
         'title' => $t('Google Store Locator'),
         'description' => $t(
@@ -22,7 +22,7 @@ function google_store_locator_requirements($phase) {
         The library can be found at <a href="@url">@url</a>. Please add it to
         your library directory.',
         array(
-          '@url' => 'http://code.google.com/p/storelocator/source/checkout')
+          '@url' => 'https://github.com/googlemaps/js-store-locator.git')
         ),
         'severity' => REQUIREMENT_ERROR,
       );
@@ -34,25 +34,52 @@ function google_store_locator_requirements($phase) {
         'value' => $t('Google Store Locator library Installed'),
       );
     }
+    if (!is_dir(libraries_get_path('markerclusterer'))) {
+      // Verify that the Marker Clusterer library is present.
+      $requirements['marker_clusterer'] = array(
+        'title' => $t('Marker Clusterer'),
+        'description' => $t(
+        'The Marker Clusterer library is missing, and is required to enable
+          the marker clustering option.
+        The library can be found at <a href="@url">@url</a>. Please add it to
+        your library directory.',
+        array(
+          '@url' => 'https://github.com/googlemaps/js-marker-clusterer.git')
+        ),
+        'severity' => REQUIREMENT_ERROR,
+      );
+    }
+    else {
+      $requirements['marker_clusterer'] = array(
+        'title' => $t('Marker Clusterer'),
+        'severity' => REQUIREMENT_OK,
+        'value' => $t('Marker Clusterer library Installed'),
+      );
+    }
+    if (!module_exists('contextual_range_filter')) {
+      // Verify that the Views Contextual Range Filter module is present.
+      $requirements['contextual_range_filter'] = array(
+        'title' => $t('Views Contextual Range Filter'),
+        'description' => $t(
+        'The Views Contextual Range Filter is required to enable Viewport Marker
+          Management. The module can be found at <a href="@url">@url</a>. Please
+          download and enable it.',
+        array(
+          '@url' => 'https://drupal.org/project/contextual_range_filter')
+        ),
+        'severity' => REQUIREMENT_ERROR,
+      );
+    }
+    else {
+      $requirements['contextual_range_filter'] = array(
+        'title' => $t('Views Contextual Range Filter'),
+        'severity' => REQUIREMENT_OK,
+        'value' => $t('Views Contextual Range Filter Module Installed'),
+      );
+    }
+
   }
   return $requirements;
-}
-
-/**
- * Implements hook_enable().
- */
-function google_store_locator_enable() {
-  $t = get_t();
-  drupal_load('module', 'libraries');
-
-  if (!is_dir(libraries_get_path('storelocator'))) {
-    drupal_set_message($t('The required Google Store Locator library is missing.
-    The library can be found at <a href="@url">@url</a>. Please add it to
-    your library directory.',
-    array(
-      '@url' => 'http://code.google.com/p/storelocator/source/checkout',
-    )), 'error');
-  }
 }
 
 /**
@@ -427,7 +454,7 @@ function google_store_locator_installed_fields() {
         ),
       ),
       'required' => 0,
-      'description' => 'Enter website as a comma separated value i.e. Text, URL. Example: Website, http://www.mywebsite.com',
+      'description' => 'Enter website as a comma separated value (note: do not include white space and use a fully qualified URL) e.g. Some Store,http://www.some-store.com',
       'default_value' => NULL,
       'field_name' => 'gsl_props_web',
       'entity_type' => 'node',
@@ -443,7 +470,7 @@ function google_store_locator_installed_fields() {
 function google_store_locator_install() {
 
   $fields = google_store_locator_installed_fields();
-
+  // Add all fields and their instances.
   foreach ($fields as $field) {
     // Look for existing field.
     $field_config = field_info_field($field['field_config']['field_name']);
@@ -456,6 +483,15 @@ function google_store_locator_install() {
       field_create_instance($field['field_instance']);
     }
   }
+
+  // Set variables.
+  $contextual_range_filter_numeric = variable_get('contextual_range_filter_numeric_field_names', array());
+  $contextual_range_filter_numeric += array(
+    'field_data_gsl_geofield:gsl_geofield_lat' => 'field_data_gsl_geofield:gsl_geofield_lat',
+    'field_data_gsl_geofield:gsl_geofield_lon' => 'field_data_gsl_geofield:gsl_geofield_lon',
+  );
+  variable_set('contextual_range_filter_numeric_field_names', $contextual_range_filter_numeric);
+
 }
 
 /**
@@ -463,6 +499,8 @@ function google_store_locator_install() {
  */
 function google_store_locator_uninstall() {
   // Delete all the variables we set with system_settings_form().
+  variable_del('gsl_noresults');
+  variable_del('gsl_noresults_in_view');
   variable_del('gsl_search_label');
   variable_del('gsl_title');
   variable_del('gsl_json_path');
@@ -470,10 +508,46 @@ function google_store_locator_uninstall() {
   variable_del('gsl_map_long');
   variable_del('gsl_map_lat');
   variable_del('gsl_map_zoom');
+  variable_del('gsl_map_cluster');
+  variable_del('gsl_cluster_zoom_limit');
+  variable_del('gsl_map_cluster_grid');
+  variable_del('gsl_viewport');
+  variable_del('gsl_marker_zoom_limit');
   variable_del('gsl_marker_icon');
   variable_del('gsl_items_per_panel');
   variable_del('gsl_loc_aware');
   variable_del('gsl_loc_aware_zoom');
+  variable_del('gsl_map_style');
+  variable_del('gsl_google_api_key');
+
+  // Collect all store nodes that were created when this module was enabled.
+  $query = db_select('node', 'n');
+  $query->fields('n', array('nid'));
+  $query->condition('type', 'store_location', '=');
+  $results = $query->execute()->fetchAllAssoc('nid');
+
+  // ...and delete them all.
+  node_delete_multiple(array_keys($results));
+
+  // Delete the field bases, and instances, and their data that this module
+  // creates.
+  $fields = google_store_locator_installed_fields();
+  foreach($fields as $field) {
+    field_delete_field($field['field_config']['field_name']);
+  }
+
+  // Loop over any remaining field instances attached to the 'store_location'
+  // bundle and delete them individually.
+  $instances = field_info_instances('node', 'store_location');
+  foreach ($instances as $instance_name => $instance) {
+    field_delete_instance($instance);
+  }
+
+  // Delete the content type
+  node_type_delete('store_location');
+
+  // Purge all field information.
+  field_purge_batch(1000);
 }
 
 /**
@@ -524,4 +598,29 @@ function google_store_locator_update_7102() {
   }
 
   return t('Phone, web, and misc. fields have been added to the Store Location content type.');
+}
+
+/**
+ * Set contextual range filter variables.
+ */
+function google_store_locator_update_7103() {
+  $contextual_range_filter_numeric = variable_get('contextual_range_filter_numeric_field_names', array());
+  $contextual_range_filter_numeric += array(
+    'field_data_gsl_geofield:gsl_geofield_lat' => 'field_data_gsl_geofield:gsl_geofield_lat',
+    'field_data_gsl_geofield:gsl_geofield_lon' => 'field_data_gsl_geofield:gsl_geofield_lon',
+  );
+  variable_set('contextual_range_filter_numeric_field_names', $contextual_range_filter_numeric);
+  return t('Contextual Range filter variables set.');
+}
+
+/**
+ * Updated variable names for naming consistency.
+ */
+function google_store_locator_update_7104() {
+  // If gsl_noresults is set - "rename" it to gsl_noresults_in_view and remove
+  // it to allow default to take over.
+  if (($label = variable_get('gsl_noresults', NULL)) && !is_null($label)) {
+    variable_set('gsl_noresults_in_view', $label);
+    variable_del('gsl_noresults');
+  }
 }

@@ -20,26 +20,17 @@ because the installation process is so light.
 *******************************************************************************
 
 HOW IT WORKS:
-Google Store Locator creates a data feed View called 'Location Export' that
+Google Store Locator (GSL) creates a data feed View called 'Location Export' that
 generates a JSON file of all the location nodes you create. It provides a
 content type called 'Store Location' that is composed of addressfield and
 geofield fields. Current workflow is to add your locations as nodes of type
 'Store Location' and then navigate to [site_name/store_locator] to see the map.
 Configuration settings can be changed at:
 
-  admin/Configuration/Google Store Locator
+  [admin/config/search/google_store_locator]
 
-under the 'Search' heading. Note: giving the map and panel displays the full
-Content region (no sidebar blocks) produces better visual results.
-
-Some map items you can change by editing the view 'Location Export':
-
- Map sidebar: Title - GeoJSON Feed Settings, currently set to the node title
- Map sidebar: Description - GeoJSON Feed Settings, currently set to the address
-              field but you could create a combined views field that had both
-              in a rewrite.
- Map location callout: any remaining views field that is not set to GeoJSON
-                       Feed Settings title or description.
+Note: giving the map and panel displays the full Content region (no sidebar
+blocks) produces better visual results.
 
 
 ADD STORE FEATURE FILTER LIST:
@@ -54,20 +45,49 @@ filter for each feature you've added. When your customers use your locator they
 will be able to filter the stores displayed based on the features each one has.
 
 
+IMPROVING PERFORMANCE WITH LARGE NUMBER OF LOCATIONS
+Out of the box, the GSL will perform reasonably well with < 1k
+locations. With greater than 1k locations the performance tends to degrade
+exponentially. There are a variety of solutions to combat this poor performance,
+a number of which are detailed here:
+https://developers.google.com/maps/articles/toomanymarkers
+The GSL implements a couple of these options, namely Viewport Marker Management
+and Marker Clustering. Instructions for enabling these options are provided in
+the Installation section below.
+
 *******************************************************************************
 
 INSTALLATION:
-1) Use git to clone the 'storelocator' library into /sites/all/libraries. Path
-   should read /sites/all/libraries/storelocator.
-(http://code.google.com/p/storelocator/source/checkout)
+1) Use git to clone the 'storelocator' library into /sites/all/libraries.
+   Path should read /sites/all/libraries/storelocator.
+(https://github.com/googlemaps/js-store-locator.git)
 
 2) Download and enable the module and all dependencies. Required modules are:
     -addressfield
-    -geocoder
-    -geofield
+    -geocoder (requires entity)
+    -geofield (requires geoPHP)
     -libraries
     -views
-    -views_geojson
+    -views_geojson (>=7.x-1.0-beta2)
+
+3) Get a Google Maps API key in
+https://developers.google.com/maps/documentation/javascript/get-api-key?hl=en
+and set the value in Google Store Locator administration page
+(admin/config/search/google_store_locator)
+
+OPTIONAL:
+Config settings for both options are under the 'Advanced' section on the main
+config page.
+
+a. Viewport Marker Management
+  i) Download and enable the Views Contextual Range filter module
+     [contextual_range_filter].
+  ii) Run updates.
+
+b. Marker Clustering
+  i) Use git to clone 'markerclusterer' library into /sites/all/libraries
+   Path should read /sites/all/libraries/markerclusterer.
+(https://github.com/googlemaps/js-marker-clusterer.git)
 
 
 *******************************************************************************
@@ -84,6 +104,9 @@ CREDITS:
 *******************************************************************************
 
 RESOURCES:
-Google Store Locator ref: http://storelocator.googlecode.com/git/index.html
+Google Store Locator
+  https://github.com/googlemaps/js-store-locator
 
+Marker Clusterer
+  https://github.com/googlemaps/js-marker-clusterer
 *******************************************************************************
