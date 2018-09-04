@@ -844,3 +844,29 @@ body.node-type-press-release h1#page-title {
 .front .header__region #block-block-4 {
   display: none !important;
 }
+
+/* line 815, ../sass/pages.scss */
+.google-store-locator-map {
+  float: left;
+  margin-top: 25px;
+  width: 100%;
+}
+@media (min-width: 49em) {
+  /* line 815, ../sass/pages.scss */
+  .google-store-locator-map {
+    float: none;
+    margin-top: 0;
+    width: auto;
+  }
+}
+
+/* line 827, ../sass/pages.scss */
+.google-store-locator-panel {
+  width: 100%;
+}
+@media (min-width: 49em) {
+  /* line 827, ../sass/pages.scss */
+  .google-store-locator-panel {
+    width: 300px;
+  }
+}

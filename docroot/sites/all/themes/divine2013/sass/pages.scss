@@ -810,3 +810,24 @@ body.node-type-press-release h1#page-title {
     }
   }
 }
+
+// Google store locator map responsive fixes
+.google-store-locator-map {
+  float: left;
+  margin-top: 25px;
+  width: 100%;
+
+  @include breakpoint(desktop) {
+    float: none;
+    margin-top: 0;
+    width: auto;
+  } 
+}
+
+.google-store-locator-panel {
+  width: 100%;
+
+  @include breakpoint(desktop) {
+    width: 300px;
+  }
+}
