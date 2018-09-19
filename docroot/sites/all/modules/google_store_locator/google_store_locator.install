@@ -22,7 +22,7 @@ function google_store_locator_requirements($phase) {
         The library can be found at <a href="@url">@url</a>. Please add it to
         your library directory.',
         array(
-          '@url' => 'https://github.com/googlemaps/js-store-locator.git')
+          '@url' => 'http://code.google.com/p/storelocator/source/checkout')
         ),
         'severity' => REQUIREMENT_ERROR,
       );
@@ -44,7 +44,7 @@ function google_store_locator_requirements($phase) {
         The library can be found at <a href="@url">@url</a>. Please add it to
         your library directory.',
         array(
-          '@url' => 'https://github.com/googlemaps/js-marker-clusterer.git')
+          '@url' => 'http://google-maps-utility-library-v3.googlecode.com/svn/trunk/markerclusterer')
         ),
         'severity' => REQUIREMENT_ERROR,
       );
@@ -499,8 +499,6 @@ function google_store_locator_install() {
  */
 function google_store_locator_uninstall() {
   // Delete all the variables we set with system_settings_form().
-  variable_del('gsl_noresults');
-  variable_del('gsl_noresults_in_view');
   variable_del('gsl_search_label');
   variable_del('gsl_title');
   variable_del('gsl_json_path');
@@ -517,8 +515,6 @@ function google_store_locator_uninstall() {
   variable_del('gsl_items_per_panel');
   variable_del('gsl_loc_aware');
   variable_del('gsl_loc_aware_zoom');
-  variable_del('gsl_map_style');
-  variable_del('gsl_google_api_key');
 
   // Collect all store nodes that were created when this module was enabled.
   $query = db_select('node', 'n');
@@ -611,16 +607,4 @@ function google_store_locator_update_7103() {
   );
   variable_set('contextual_range_filter_numeric_field_names', $contextual_range_filter_numeric);
   return t('Contextual Range filter variables set.');
-}
-
-/**
- * Updated variable names for naming consistency.
- */
-function google_store_locator_update_7104() {
-  // If gsl_noresults is set - "rename" it to gsl_noresults_in_view and remove
-  // it to allow default to take over.
-  if (($label = variable_get('gsl_noresults', NULL)) && !is_null($label)) {
-    variable_set('gsl_noresults_in_view', $label);
-    variable_del('gsl_noresults');
-  }
 }

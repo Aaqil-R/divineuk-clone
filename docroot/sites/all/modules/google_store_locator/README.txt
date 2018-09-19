@@ -60,20 +60,15 @@ the Installation section below.
 INSTALLATION:
 1) Use git to clone the 'storelocator' library into /sites/all/libraries.
    Path should read /sites/all/libraries/storelocator.
-(https://github.com/googlemaps/js-store-locator.git)
+(http://code.google.com/p/storelocator/source/checkout)
 
 2) Download and enable the module and all dependencies. Required modules are:
     -addressfield
-    -geocoder (requires entity)
-    -geofield (requires geoPHP)
+    -geocoder
+    -geofield
     -libraries
     -views
-    -views_geojson (>=7.x-1.0-beta2)
-
-3) Get a Google Maps API key in
-https://developers.google.com/maps/documentation/javascript/get-api-key?hl=en
-and set the value in Google Store Locator administration page
-(admin/config/search/google_store_locator)
+    -views_geojson
 
 OPTIONAL:
 Config settings for both options are under the 'Advanced' section on the main
@@ -85,9 +80,9 @@ a. Viewport Marker Management
   ii) Run updates.
 
 b. Marker Clustering
-  i) Use git to clone 'markerclusterer' library into /sites/all/libraries
+  i) Use svn checkout to clone 'markerclusterer' library into /sites/all/libraries
    Path should read /sites/all/libraries/markerclusterer.
-(https://github.com/googlemaps/js-marker-clusterer.git)
+(https://code.google.com/p/google-maps-utility-library-v3/wiki/Libraries)
 
 
 *******************************************************************************
@@ -105,8 +100,8 @@ CREDITS:
 
 RESOURCES:
 Google Store Locator
-  https://github.com/googlemaps/js-store-locator
+  http://storelocator.googlecode.com/git/index.html
 
 Marker Clusterer
-  https://github.com/googlemaps/js-marker-clusterer
+  http://google-maps-utility-library-v3.googlecode.com/svn/trunk/markerclusterer
 *******************************************************************************
