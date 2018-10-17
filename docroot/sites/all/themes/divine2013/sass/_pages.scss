@@ -542,8 +542,14 @@ body.node-type-press-release h1#page-title {
     margin-bottom: 2em;
   }
 
+  img {
+    height: auto;
+    max-width: 100%;
+  }
+
   ul {
     list-style: none;
+    padding: 0;
   }
 
   #page-title {
@@ -562,7 +568,9 @@ body.node-type-press-release h1#page-title {
   }
 
   .space-both-sides {
-    padding: 0 4em;
+    @include breakpoint(desktop) {
+      padding: 0 4em;
+    }
   }
 
   .campaign-img {
@@ -632,9 +640,11 @@ body.node-type-press-release h1#page-title {
 
 
     .flavours-list {
-      columns: 2;
-      column-gap: 50px;
-      margin-bottom: 0;
+      @include breakpoint(desktop) {
+        columns: 2;
+        column-gap: 50px;
+        margin-bottom: 0;
+      }
     }
   }
 
@@ -696,8 +706,18 @@ body.node-type-press-release h1#page-title {
 // User List
 .user-list {
   ul {
-    columns: 2;
-    column-gap: 50px;
+    > li {
+      padding-bottom: 2em;
+    }
+
+    @include breakpoint(desktop) {
+      columns: 2;
+      column-gap: 50px;
+
+      > li {
+        padding-bottom: 0;
+      }
+    }
   }
 }
 
