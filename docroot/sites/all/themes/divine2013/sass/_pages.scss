@@ -536,15 +536,38 @@ body.node-type-press-release h1#page-title {
     color: $blue;
   }
 
-  img {
-    padding-bottom: 3em;  
-    margin: 0;  
-  }
-
   section {
     @include clearfix;
 
     margin-bottom: 2em;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  #page-title {
+    display: none;
+  }
+
+  .heading-center {
+    border-bottom: 3px solid #f3f3f3;
+    padding-bottom: 2em;
+    margin-bottom: 2.5em;
+  }
+
+  .text-center,
+  .image-center {
+    text-align: center;
+  }
+
+  .space-both-sides {
+    padding: 0 4em;
+  }
+
+  .campaign-img {
+    margin: 0;
+    padding-bottom: 2em;
   }
 
   .campaign-col-full-width {
@@ -602,10 +625,24 @@ body.node-type-press-release h1#page-title {
   }
 
   // Flavours List
+  .flavourslist-2-column {
+    border-bottom: 3px solid #f3f3f3;
+    padding-bottom: 3em;
+    margin-bottom: 2.5em;
+
+
+    .flavours-list {
+      columns: 2;
+      column-gap: 50px;
+      margin-bottom: 0;
+    }
+  }
+
   .flavours-list {
     margin-bottom: 3em;
 
-    > div {
+    > div,
+    > li {
       display: flex;
       font-weight: bold;
       margin-bottom: 2em;
@@ -653,6 +690,14 @@ body.node-type-press-release h1#page-title {
         }
       }
     }
+  }
+}
+
+// User List
+.user-list {
+  ul {
+    columns: 2;
+    column-gap: 50px;
   }
 }
 
