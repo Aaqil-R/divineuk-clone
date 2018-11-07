@@ -598,8 +598,6 @@ li a.active {
     }
   }
 
-  margin-left: 88px;
-
   @include breakpoint(tablet) {
     @include span-columns(3, 10);
 
