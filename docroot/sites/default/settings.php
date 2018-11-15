@@ -335,6 +335,38 @@ if (isset($_ENV['AH_SITE_ENVIRONMENT']) && $_ENV['AH_SITE_ENVIRONMENT'] === 'pro
 $cookie_domain = '.divinechocolate.com';
 }
 
+if (isset($_ENV['AH_SITE_ENVIRONMENT'])) {
+  // if ($_ENV['AH_SITE_ENVIRONMENT'] == 'prod') {
+  //   $conf['search_api_acquia_overrides']['acquia_search'] = array(
+  //     'path' => '/solr/[core_ID]',
+  //     'host' => '[colony].acquia-search.com',
+  //     'derived_key' => '[derived_key]',
+  //     );
+  //   }
+  // elseif ($_ENV['AH_SITE_ENVIRONMENT'] == 'test') {
+  //   $conf['search_api_acquia_overrides']['acquia_search'] = array(
+  //     'path' => '/solr/[core_ID]',
+  //     'host' => '[colony].acquia-search.com',
+  //     'derived_key' => '[derived_key]',
+  //     );
+  //   }
+  // else
+  if ($_ENV['AH_SITE_ENVIRONMENT'] == 'dev') {
+    $conf['search_api_acquia_overrides']['acquia_search'] = array(
+      'path' => '/solr/ALMQ-43796',
+      'host' => 'useast1-c26.acquia-search.com',
+      'derived_key' => '7f4e3932ef7a3dabb8f3415c9398c92afdcde6e3',
+      );
+     }
+  } else {
+    // Local or other non-acquia-hosted Drupal environment
+    // $conf['search_api_acquia_overrides']['acquia_search'] = array(
+    //   'path' => '/solr/[core_ID]',
+    //   'host' => '[colony].acquia-search.com',
+    //   'derived_key' => '[derived_key]',
+    //   );
+ }
+
 /**
  * Variable overrides:
  *
@@ -560,7 +592,8 @@ include DRUPAL_ROOT . '/sites/all/modules/context_mobile_detect/settings.inc';
 if (file_exists('/var/www/site-php')) {
   require('/var/www/site-php/divineuk/divineuk-settings.inc');
 }
-
+
+
 
 // <DDSETTINGS>
 // Please don't edit anything between <DDSETTINGS> tags.
