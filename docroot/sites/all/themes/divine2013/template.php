@@ -255,9 +255,9 @@ if (drupal_is_front_page()) {
   
   if(drupal_is_front_page()) {
     $fid = variable_get('header_image',0);
-    if($fid['fid'] != 0) {
+    if($fid != 0) {
       $image_style = variable_get('image_header_style_name', '');
-      $image = file_load($fid['fid']);
+      $image = file_load($fid);
       if ($image_style == '') {
         $imgpath = $image->uri;
       }
