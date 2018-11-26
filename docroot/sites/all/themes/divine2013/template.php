@@ -271,7 +271,7 @@ if (drupal_is_front_page()) {
       }
     }
     else {
-      $imgpath = $base_url . '/' .drupal_get_path('theme','divine2013') . '/images/homepage-banner/love-chocolate-newbars.jpg';
+      $imgpath = $base_url . '/' .drupal_get_path('theme','divine2013') . '/images/homepage-banner/Divine-sharing-bars-black.jpg';
     }
     $variables['header_image'] = file_create_url($imgpath);
   }
