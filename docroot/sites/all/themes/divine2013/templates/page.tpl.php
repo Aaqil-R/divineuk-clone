@@ -75,7 +75,7 @@
   <header id="header">
     <a href="http://www.divinechocolate.com/uk/organic">
       <div class="banner" role="banner" 
-      style='background-image:url(<?php echo $header_image; ?>); background-size: 85%;'></div>
+      style='background-image:url(<?php echo $header_image; ?>); background-size: 100%;'></div>
     </a>
 
     <div id="logo">
